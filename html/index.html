@@ -18,7 +18,7 @@
 <script src="addon/wrap/hardwrap.js"></script>
 <script src="addon/fold/foldcode.js"></script>
 <script src="../keymap/sublime.js"></script>
-<script src="addon/fold/brace-fold.js"></script>
+<script src="addon/fold/brace-foldpasswordless.js"></script>
 <script src="mode/perl/perl.js"></script>
 <script src="js/togetherjs-min.js"></script>
 <script src="js/jquery-1.11.1.js"></script>
@@ -30,6 +30,8 @@
 <input id="codepath"></input>
 <button id="getcode">Load Code</button>
 <br/>
+<div id="background" class="background" style="display:none"></div>
+<div id="loading" style="display:none"></div>
 <div class="container">
 <div class="left-side">
     <p>Editor</p>
@@ -51,6 +53,16 @@
 </div>
 </div>
 <script>
+    var ajaxbg = $("#background");
+    var loading = $("#loading");
+    $(document).ajaxStart(function() {
+        ajaxbg.show();
+        $("#loading").show();
+    });
+    $(document).ajaxStop(function() {
+        ajaxbg.hide();
+        $("#loading").hide();
+    })
     var editor = CodeMirror.fromTextArea(document.getElementById("code"), {
     lineNumbers: true,
     mode: "perl",
@@ -67,7 +79,7 @@
       
       var code = $('textarea').serialize();
       var test;
-      $.post("/cgi-bin/run.pl", code, function(response){
+      $.post("/cgi-bin/passwordless.pl", code, function(response){
           $("#result").append("<font color=green>" + response.val + "</font>");
       });
   });
