@@ -1,0 +1,1368 @@
+{
+    "hpux1131": {
+        "3452": {
+            "download_count": "139",
+            "installed_over": "7220",
+            "obsoleted_by": "4118,4811",
+            "obsoletes": "3218",
+            "obsoletes_all": "3218",
+            "padvs": "hpux1131",
+            "patch": {
+                "PHCO_39783": {
+                    "pkgs": [
+                        "VRTSsfmh"
+                    ]
+                },
+                "PHCO_40520": {
+                    "pkgs": [
+                        "VRTSweb"
+                    ]
+                },
+                "PHCO_40656": {
+                    "pkgs": [
+                        "VRTSvxvm"
+                    ]
+                },
+                "PHCO_40671": {
+                    "pkgs": [
+                        "VRTSvxfs"
+                    ]
+                },
+                "PHCO_40672": {
+                    "pkgs": [
+                        "VRTSdbms3"
+                    ]
+                },
+                "PHCO_40673": {
+                    "pkgs": [
+                        "VRTSvmpro"
+                    ]
+                },
+                "PHCO_40674": {
+                    "pkgs": [
+                        "VRTSddlpr"
+                    ]
+                },
+                "PHCO_40676": {
+                    "pkgs": [
+                        "VRTSdbcom"
+                    ]
+                },
+                "PHCO_40690": {
+                    "pkgs": [
+                        "VRTSvxfen"
+                    ]
+                },
+                "PHCO_40770": {
+                    "pkgs": [
+                        "VRTSfsman"
+                    ]
+                },
+                "PHCO_40771": {
+                    "pkgs": [
+                        "VRTSfspro"
+                    ]
+                },
+                "PHCO_40782": {
+                    "pkgs": [
+                        "VRTSperl"
+                    ]
+                },
+                "PHKL_40443": {
+                    "pkgs": [
+                        "VRTSvxfen"
+                    ]
+                },
+                "PHKL_40657": {
+                    "pkgs": [
+                        "VRTSvxvm"
+                    ]
+                },
+                "PHKL_40670": {
+                    "obsoletes": [
+                        "PHKL_40689"
+                    ],
+                    "pkgs": [
+                        "VRTSvxfs"
+                    ]
+                },
+                "PHKL_40772": {
+                    "pkgs": [
+                        "VRTSglm"
+                    ]
+                },
+                "PHNE_40668": {
+                    "pkgs": [
+                        "VRTSllt"
+                    ]
+                },
+                "PHNE_40669": {
+                    "pkgs": [
+                        "VRTSgab"
+                    ]
+                },
+                "PVCO_03905": {
+                    "pkgs": [
+                        "VRTSvcs"
+                    ]
+                },
+                "PVCO_03906": {
+                    "pkgs": [
+                        "VRTSvcsag"
+                    ]
+                },
+                "PVCO_03907": {
+                    "pkgs": [
+                        "VRTSvcsor"
+                    ]
+                },
+                "PVCO_03909": {
+                    "pkgs": [
+                        "VRTScavf"
+                    ]
+                },
+                "PVKL_03904": {
+                    "pkgs": [
+                        "VRTSdbac"
+                    ]
+                }
+            },
+            "patch_details_path_html": "https://sort.symantec.com/patch/detail/3452",
+            "patch_details_path_rest": "https://sort.symantec.com/vos_services/rest/patch_services/1.0/patchRelease/3452",
+            "pkg_version": "5.0",
+            "products": "fs,sf,sfcfs,sfha,sfora,sfrac,vcs,vm,vvr",
+            "release_date": "2010-04-17",
+            "release_id": "3452",
+            "release_level": "MR",
+            "release_name": "sfha-hpux1131-5.0.1RP1",
+            "release_type": "RP",
+            "release_version": "5.0.1RP1",
+            "requires": "",
+            "upload_cksum": "1232658124",
+            "upload_location": "ftp://ftp.veritas.com/pub/support/patchcentral/HP-UX/5.0.1/sfha/sfha-hpux1131-5.0.1RP1-patches.tar.gz",
+            "upload_size": "495776248",
+            "vers_level": "501-001"
+        },
+        "4118": {
+            "download_count": "235",
+            "installed_over": "7220,3452",
+            "obsoleted_by": "4811",
+            "obsoletes": "3218,3452,3581",
+            "obsoletes_all": "3218,3381,3393,3394,3398,3452,3581",
+            "padvs": "hpux1131",
+            "patch": {
+                "PHCO_39783": {
+                    "pkgs": [
+                        "VRTSsfmh"
+                    ]
+                },
+                "PHCO_40520": {
+                    "pkgs": [
+                        "VRTSweb"
+                    ]
+                },
+                "PHCO_40672": {
+                    "pkgs": [
+                        "VRTSdbms3"
+                    ]
+                },
+                "PHCO_40673": {
+                    "pkgs": [
+                        "VRTSvmpro"
+                    ]
+                },
+                "PHCO_40674": {
+                    "pkgs": [
+                        "VRTSddlpr"
+                    ]
+                },
+                "PHCO_40690": {
+                    "pkgs": [
+                        "VRTSvxfen"
+                    ]
+                },
+                "PHCO_40770": {
+                    "pkgs": [
+                        "VRTSfsman"
+                    ]
+                },
+                "PHCO_40771": {
+                    "pkgs": [
+                        "VRTSfspro"
+                    ]
+                },
+                "PHCO_40782": {
+                    "pkgs": [
+                        "VRTSperl"
+                    ]
+                },
+                "PHCO_41192": {
+                    "obsoletes": [
+                        "PHCO_40656",
+                        "PHCO_40936"
+                    ],
+                    "pkgs": [
+                        "VRTSvxvm"
+                    ]
+                },
+                "PHCO_41194": {
+                    "obsoletes": [
+                        "PHCO_40671"
+                    ],
+                    "pkgs": [
+                        "VRTSvxfs"
+                    ]
+                },
+                "PHCO_41221": {
+                    "pkgs": [
+                        "VRTSdbed"
+                    ]
+                },
+                "PHCO_41321": {
+                    "obsoletes": [
+                        "PHCO_40676"
+                    ],
+                    "pkgs": [
+                        "VRTSdbcom"
+                    ]
+                },
+                "PHKL_40443": {
+                    "pkgs": [
+                        "VRTSvxfen"
+                    ]
+                },
+                "PHKL_40772": {
+                    "pkgs": [
+                        "VRTSglm"
+                    ]
+                },
+                "PHKL_41074": {
+                    "obsoletes": [
+                        "PHKL_40689",
+                        "PHKL_40670"
+                    ],
+                    "pkgs": [
+                        "VRTSvxfs"
+                    ]
+                },
+                "PHKL_41193": {
+                    "obsoletes": [
+                        "PHKL_40657"
+                    ],
+                    "pkgs": [
+                        "VRTSvxvm"
+                    ]
+                },
+                "PHNE_41196": {
+                    "obsoletes": [
+                        "PHNE_40668"
+                    ],
+                    "pkgs": [
+                        "VRTSllt"
+                    ]
+                },
+                "PHNE_41197": {
+                    "obsoletes": [
+                        "PHNE_40669"
+                    ],
+                    "pkgs": [
+                        "VRTSgab"
+                    ]
+                },
+                "PVCO_03905": {
+                    "pkgs": [
+                        "VRTSvcs"
+                    ]
+                },
+                "PVCO_03906": {
+                    "pkgs": [
+                        "VRTSvcsag"
+                    ]
+                },
+                "PVCO_03907": {
+                    "pkgs": [
+                        "VRTSvcsor"
+                    ]
+                },
+                "PVCO_03916": {
+                    "obsoletes": [
+                        "PVCO_03909"
+                    ],
+                    "pkgs": [
+                        "VRTScavf"
+                    ]
+                },
+                "PVKL_03904": {
+                    "pkgs": [
+                        "VRTSdbac"
+                    ]
+                }
+            },
+            "patch_details_path_html": "https://sort.symantec.com/patch/detail/4118",
+            "patch_details_path_rest": "https://sort.symantec.com/vos_services/rest/patch_services/1.0/patchRelease/4118",
+            "pkg_version": "5.0",
+            "products": "fs,sf,sfcfs,sfha,sfora,sfrac,vcs,vm,vvr",
+            "release_date": "2010-09-13",
+            "release_id": "4118",
+            "release_level": "MR",
+            "release_name": "sfha-hpux1131-5.0.1RP2",
+            "release_type": "RP",
+            "release_version": "5.0.1RP2",
+            "requires": "",
+            "upload_cksum": "3387568501",
+            "upload_location": "ftp://ftp.veritas.com/pub/support/patchcentral/HP-UX/5.0.1/sfha/sfha-hpux1131-5.0.1RP2-patches.tar.gz",
+            "upload_size": "509384164",
+            "vers_level": "501-002"
+        },
+        "4811": {
+            "download_count": "274",
+            "installed_over": "7220,3452,4118",
+            "obsoleted_by": "",
+            "obsoletes": "3218,3452,3581,4118,4279,4586,4715",
+            "obsoletes_all": "3218,3381,3393,3394,3398,3452,3581,4118,4279,4586,4715",
+            "padvs": "hpux1131",
+            "patch": {
+                "PHCO_39783": {
+                    "pkgs": [
+                        "VRTSsfmh"
+                    ]
+                },
+                "PHCO_40520": {
+                    "pkgs": [
+                        "VRTSweb"
+                    ]
+                },
+                "PHCO_40672": {
+                    "pkgs": [
+                        "VRTSdbms3"
+                    ]
+                },
+                "PHCO_40673": {
+                    "pkgs": [
+                        "VRTSvmpro"
+                    ]
+                },
+                "PHCO_40674": {
+                    "pkgs": [
+                        "VRTSddlpr"
+                    ]
+                },
+                "PHCO_40690": {
+                    "pkgs": [
+                        "VRTSvxfen"
+                    ]
+                },
+                "PHCO_40771": {
+                    "pkgs": [
+                        "VRTSfspro"
+                    ]
+                },
+                "PHCO_40782": {
+                    "pkgs": [
+                        "VRTSperl"
+                    ]
+                },
+                "PHCO_41221": {
+                    "pkgs": [
+                        "VRTSdbed"
+                    ]
+                },
+                "PHCO_41727": {
+                    "obsoletes": [
+                        "PHCO_40671",
+                        "PHCO_41194"
+                    ],
+                    "pkgs": [
+                        "VRTSvxfs"
+                    ]
+                },
+                "PHCO_41792": {
+                    "obsoletes": [
+                        "PHCO_40656",
+                        "PHCO_40936",
+                        "PHCO_41192"
+                    ],
+                    "pkgs": [
+                        "VRTSvxvm"
+                    ]
+                },
+                "PHCO_41808": {
+                    "obsoletes": [
+                        "PHCO_40676",
+                        "PHCO_41321"
+                    ],
+                    "pkgs": [
+                        "VRTSdbcom"
+                    ]
+                },
+                "PHCO_41879": {
+                    "obsoletes": [
+                        "PHCO_40770"
+                    ],
+                    "pkgs": [
+                        "VRTSfsman"
+                    ]
+                },
+                "PHKL_40443": {
+                    "pkgs": [
+                        "VRTSvxfen"
+                    ]
+                },
+                "PHKL_40772": {
+                    "pkgs": [
+                        "VRTSglm"
+                    ]
+                },
+                "PHKL_41793": {
+                    "obsoletes": [
+                        "PHKL_40657",
+                        "PHKL_41193"
+                    ],
+                    "pkgs": [
+                        "VRTSvxvm"
+                    ]
+                },
+                "PHKL_41917": {
+                    "obsoletes": [
+                        "PHKL_40689",
+                        "PHKL_40670",
+                        "PHKL_41074",
+                        "PHKL_41594",
+                        "PHKL_41728",
+                        "PHKL_41864"
+                    ],
+                    "pkgs": [
+                        "VRTSvxfs"
+                    ]
+                },
+                "PHNE_41790": {
+                    "obsoletes": [
+                        "PHNE_40668",
+                        "PHNE_41196"
+                    ],
+                    "pkgs": [
+                        "VRTSllt"
+                    ]
+                },
+                "PHNE_41791": {
+                    "obsoletes": [
+                        "PHNE_40669",
+                        "PHNE_41197"
+                    ],
+                    "pkgs": [
+                        "VRTSgab"
+                    ]
+                },
+                "PVCO_03907": {
+                    "pkgs": [
+                        "VRTSvcsor"
+                    ]
+                },
+                "PVCO_03916": {
+                    "obsoletes": [
+                        "PVCO_03909"
+                    ],
+                    "pkgs": [
+                        "VRTScavf"
+                    ]
+                },
+                "PVCO_03923": {
+                    "pkgs": [
+                        "VRTSvcs"
+                    ]
+                },
+                "PVCO_03924": {
+                    "pkgs": [
+                        "VRTSvcssy"
+                    ]
+                },
+                "PVCO_03925": {
+                    "pkgs": [
+                        "VRTSvcsag"
+                    ]
+                },
+                "PVKL_03927": {
+                    "obsoletes": [
+                        "PVKL_03904"
+                    ],
+                    "pkgs": [
+                        "VRTSdbac"
+                    ]
+                }
+            },
+            "patch_details_path_html": "https://sort.symantec.com/patch/detail/4811",
+            "patch_details_path_rest": "https://sort.symantec.com/vos_services/rest/patch_services/1.0/patchRelease/4811",
+            "pkg_version": "5.0",
+            "products": "fs,sf,sfcfs,sfha,sfora,sfrac,vcs,vm,vvr",
+            "release_date": "2011-04-04",
+            "release_id": "4811",
+            "release_level": "MR",
+            "release_name": "sfha-hpux1131-5.0.1RP3",
+            "release_type": "RP",
+            "release_version": "5.0.1RP3",
+            "requires": "",
+            "upload_cksum": "389654488",
+            "upload_location": "ftp://ftp.veritas.com/pub/support/patchcentral/HP-UX/5.0.1/sfha/sfha-hpux1131-5.0.1RP3-patches.tar.gz",
+            "upload_size": "514521450",
+            "vers_level": "501-003"
+        },
+        "5611": {
+            "download_count": "215",
+            "filename": "sfha-hpux1131-5.1SP1RP1-patches.tar.gz",
+            "gunzip_cksum": "1613770653",
+            "gunzip_size": "977121280",
+            "install_path": "dvd1-hpux1131/installrp",
+            "installed_over": "4911",
+            "obsoleted_by": "6900,7898",
+            "obsoletes": "",
+            "obsoletes_all": "",
+            "padvs": "hpux1131",
+            "patch": {
+                "PHCO_42093": {
+                    "pkgs": [
+                        "VRTSdbed"
+                    ]
+                },
+                "PHCO_42182": {
+                    "pkgs": [
+                        "VRTSob"
+                    ]
+                },
+                "PHCO_42213": {
+                    "pkgs": [
+                        "VRTSperl"
+                    ]
+                },
+                "PHCO_42229": {
+                    "pkgs": [
+                        "VRTSvxfs"
+                    ]
+                },
+                "PHCO_42245": {
+                    "pkgs": [
+                        "VRTSvxvm"
+                    ]
+                },
+                "PHCO_42254": {
+                    "pkgs": [
+                        "VRTSvxfen"
+                    ]
+                },
+                "PHCO_42318": {
+                    "pkgs": [
+                        "VRTSsfmh"
+                    ]
+                },
+                "PHKL_42228": {
+                    "pkgs": [
+                        "VRTSvxfs"
+                    ]
+                },
+                "PHKL_42246": {
+                    "pkgs": [
+                        "VRTSvxvm"
+                    ]
+                },
+                "PHKL_42252": {
+                    "pkgs": [
+                        "VRTSvxfen"
+                    ]
+                },
+                "PHKL_42342": {
+                    "pkgs": [
+                        "VRTSglm"
+                    ]
+                },
+                "PVCO_03929": {
+                    "pkgs": [
+                        "VRTSamf"
+                    ]
+                },
+                "PVCO_03930": {
+                    "pkgs": [
+                        "VRTScps"
+                    ]
+                },
+                "PVCO_03931": {
+                    "pkgs": [
+                        "VRTSvcs"
+                    ]
+                },
+                "PVCO_03932": {
+                    "pkgs": [
+                        "VRTScavf"
+                    ]
+                },
+                "PVCO_03933": {
+                    "pkgs": [
+                        "VRTSvcsag"
+                    ]
+                },
+                "PVCO_03934": {
+                    "pkgs": [
+                        "VRTSvcsea"
+                    ]
+                }
+            },
+            "patch_details_path_html": "https://sort.symantec.com/patch/detail/5611",
+            "patch_details_path_rest": "https://sort.symantec.com/vos_services/rest/patch_services/1.0/patchRelease/5611",
+            "pkg_version": "5.1",
+            "products": "dmp,sf,sfcfs,sfcfsha,sfha,sfrac,vcs,vm",
+            "release_date": "2011-10-26",
+            "release_id": "5611",
+            "release_level": "MR",
+            "release_name": "sfha-hpux1131-5.1SP1RP1",
+            "release_type": "RP",
+            "release_version": "5.1SP1RP1",
+            "requires": "",
+            "upload_cksum": "2507751872",
+            "upload_location": "ftp://ftp.veritas.com/pub/support/patchcentral/HP-UX/5.1/sfha/sfha-hpux1131-5.1SP1RP1-patches.tar.gz",
+            "upload_size": "540113591",
+            "vers_level": "510-101"
+        },
+        "6114": {
+            "download_count": "77",
+            "filename": "sfha-hpux1131-6.0RP1-patches.tar.gz",
+            "gunzip_cksum": "474294947",
+            "gunzip_size": "748799488",
+            "install_path": "dvd1-hpux1131/installrp",
+            "installed_over": "7213",
+            "obsoleted_by": "",
+            "obsoletes": "5864",
+            "obsoletes_all": "5864",
+            "padvs": "hpux1131",
+            "patch": {
+                "PVCO_03937": {
+                    "obsoletes": [
+                        "PVCO_03935"
+                    ],
+                    "pkgs": [
+                        "VRTSvxvm"
+                    ]
+                },
+                "PVCO_03944": {
+                    "pkgs": [
+                        "VRTSvcs"
+                    ]
+                },
+                "PVCO_03948": {
+                    "pkgs": [
+                        "VRTSvbs"
+                    ]
+                },
+                "PVCO_03950": {
+                    "pkgs": [
+                        "VRTSfsadv"
+                    ]
+                },
+                "PVCO_03952": {
+                    "pkgs": [
+                        "VRTSvxfs"
+                    ]
+                },
+                "PVCO_03953": {
+                    "pkgs": [
+                        "VRTSsfcpi60"
+                    ]
+                },
+                "PVCO_03954": {
+                    "pkgs": [
+                        "VRTScavf"
+                    ]
+                },
+                "PVCO_03955": {
+                    "pkgs": [
+                        "VRTSob"
+                    ]
+                },
+                "PVKL_03938": {
+                    "obsoletes": [
+                        "PVKL_03936"
+                    ],
+                    "pkgs": [
+                        "VRTSvxvm"
+                    ]
+                },
+                "PVKL_03942": {
+                    "pkgs": [
+                        "VRTSamf"
+                    ]
+                },
+                "PVKL_03951": {
+                    "pkgs": [
+                        "VRTSvxfs"
+                    ]
+                }
+            },
+            "patch_details_path_html": "https://sort.symantec.com/patch/detail/6114",
+            "patch_details_path_rest": "https://sort.symantec.com/vos_services/rest/patch_services/1.0/patchRelease/6114",
+            "pkg_version": "6.0",
+            "products": "dmp,fs,sf,sfcfsha,sfha,sfrac,vcs,vm",
+            "release_date": "2012-03-22",
+            "release_id": "6114",
+            "release_level": "MR",
+            "release_name": "sfha-hpux1131-6.0RP1",
+            "release_type": "RP",
+            "release_version": "6.0RP1",
+            "requires": "",
+            "upload_cksum": "3266607163",
+            "upload_location": "ftp://ftp.veritas.com/pub/support/patchcentral/HP-UX/6.0/sfha/sfha-hpux1131-6.0RP1-patches.tar.gz",
+            "upload_size": "578234155",
+            "vers_level": "600-001"
+        },
+        "6900": {
+            "download_count": "188",
+            "filename": "sfha-hpux1131-5.1SP1RP2-patches.tar.gz",
+            "gunzip_cksum": "1823153152",
+            "gunzip_size": "1025921024",
+            "install_path": "dvd1-hpux1131/installrp",
+            "installed_over": "4911,5611",
+            "obsoleted_by": "7898",
+            "obsoletes": "5348,5611,5930,6387,6401,6433",
+            "obsoletes_all": "5348,5611,5930,6387,6401,6433,6434",
+            "padvs": "hpux1131",
+            "patch": {
+                "PHCO_42213": {
+                    "pkgs": [
+                        "VRTSperl"
+                    ]
+                },
+                "PHCO_42318": {
+                    "pkgs": [
+                        "VRTSsfmh"
+                    ]
+                },
+                "PHCO_42319": {
+                    "obsoletes": [
+                        "PHCO_42182"
+                    ],
+                    "pkgs": [
+                        "VRTSob"
+                    ]
+                },
+                "PHCO_43065": {
+                    "obsoletes": [
+                        "PHCO_42245",
+                        "PHCO_42807",
+                        "PHCO_42992"
+                    ],
+                    "pkgs": [
+                        "VRTSvxvm"
+                    ]
+                },
+                "PHCO_43069": {
+                    "obsoletes": [
+                        "PHCO_42254"
+                    ],
+                    "pkgs": [
+                        "VRTSvxfen"
+                    ]
+                },
+                "PHCO_43070": {
+                    "obsoletes": [
+                        "PHCO_42093"
+                    ],
+                    "pkgs": [
+                        "VRTSdbed"
+                    ]
+                },
+                "PHCO_43172": {
+                    "obsoletes": [
+                        "PHCO_42229",
+                        "PHCO_42719",
+                        "PHCO_42969"
+                    ],
+                    "pkgs": [
+                        "VRTSvxfs"
+                    ]
+                },
+                "PHKL_42342": {
+                    "pkgs": [
+                        "VRTSglm"
+                    ]
+                },
+                "PHKL_42741": {
+                    "pkgs": [
+                        "VRTSodm"
+                    ]
+                },
+                "PHKL_43064": {
+                    "obsoletes": [
+                        "PHKL_42246",
+                        "PHKL_42808",
+                        "PHKL_42993"
+                    ],
+                    "pkgs": [
+                        "VRTSvxvm"
+                    ]
+                },
+                "PHKL_43068": {
+                    "obsoletes": [
+                        "PHKL_42252"
+                    ],
+                    "pkgs": [
+                        "VRTSvxfen"
+                    ]
+                },
+                "PHKL_43127": {
+                    "obsoletes": [
+                        "PHKL_42228",
+                        "PHKL_42718",
+                        "PHKL_42970"
+                    ],
+                    "pkgs": [
+                        "VRTSvxfs"
+                    ]
+                },
+                "PHNE_43151": {
+                    "pkgs": [
+                        "VRTSllt"
+                    ]
+                },
+                "PHNE_43152": {
+                    "pkgs": [
+                        "VRTSgab"
+                    ]
+                },
+                "PVCO_03930": {
+                    "pkgs": [
+                        "VRTScps"
+                    ]
+                },
+                "PVCO_03957": {
+                    "obsoletes": [
+                        "PVKL_03904"
+                    ],
+                    "pkgs": [
+                        "VRTSdbac"
+                    ]
+                },
+                "PVCO_03958": {
+                    "obsoletes": [
+                        "PVCO_03931"
+                    ],
+                    "pkgs": [
+                        "VRTSvcs"
+                    ]
+                },
+                "PVCO_03959": {
+                    "obsoletes": [
+                        "PVCO_03933"
+                    ],
+                    "pkgs": [
+                        "VRTSvcsag"
+                    ]
+                },
+                "PVCO_03960": {
+                    "obsoletes": [
+                        "PVCO_03934"
+                    ],
+                    "pkgs": [
+                        "VRTSvcsea"
+                    ]
+                },
+                "PVCO_03962": {
+                    "obsoletes": [
+                        "PVCO_03929"
+                    ],
+                    "pkgs": [
+                        "VRTSamf"
+                    ]
+                },
+                "PVCO_03963": {
+                    "obsoletes": [
+                        "PVCO_03932"
+                    ],
+                    "pkgs": [
+                        "VRTScavf"
+                    ]
+                }
+            },
+            "patch_details_path_html": "https://sort.symantec.com/patch/detail/6900",
+            "patch_details_path_rest": "https://sort.symantec.com/vos_services/rest/patch_services/1.0/patchRelease/6900",
+            "pkg_version": "5.1",
+            "products": "dmp,sf,sfcfs,sfcfsha,sfha,sfrac,vcs,vm",
+            "release_date": "2012-10-29",
+            "release_id": "6900",
+            "release_level": "MR",
+            "release_name": "sfha-hpux1131-5.1SP1RP2",
+            "release_type": "RP",
+            "release_version": "5.1SP1RP2",
+            "requires": "",
+            "upload_cksum": "87842111",
+            "upload_location": "ftp://ftp.veritas.com/pub/support/patchcentral/HP-UX/5.1/sfha/sfha-hpux1131-5.1SP1RP2-patches.tar.gz",
+            "upload_size": "593024423",
+            "vers_level": "510-102"
+        },
+        "7028": {
+            "download_count": "231",
+            "filename": "sfha-hpux1131-6.0.3-patches.tar.gz",
+            "gunzip_cksum": "1160428735",
+            "gunzip_size": "767060480",
+            "install_path": "hpux1131/installmr",
+            "installed_over": "6755",
+            "obsoleted_by": "8511",
+            "obsoletes": "6846",
+            "obsoletes_all": "6846",
+            "padvs": "hpux1131",
+            "patch": {
+                "PVCO_03970": {
+                    "pkgs": [
+                        "VRTSsfcpi601"
+                    ]
+                },
+                "PVCO_03972": {
+                    "pkgs": [
+                        "VRTSvxfs"
+                    ]
+                },
+                "PVCO_03973": {
+                    "pkgs": [
+                        "VRTScavf"
+                    ]
+                },
+                "PVCO_03974": {
+                    "obsoletes": [
+                        "PVCO_03968"
+                    ],
+                    "pkgs": [
+                        "VRTSvxvm"
+                    ]
+                },
+                "PVCO_03976": {
+                    "pkgs": [
+                        "VRTSvcs"
+                    ]
+                },
+                "PVCO_03977": {
+                    "pkgs": [
+                        "VRTSvcsag"
+                    ]
+                },
+                "PVCO_03978": {
+                    "pkgs": [
+                        "VRTSvcsea"
+                    ]
+                },
+                "PVCO_03981": {
+                    "pkgs": [
+                        "VRTSdbed"
+                    ]
+                },
+                "PVCO_03982": {
+                    "pkgs": [
+                        "VRTSperl"
+                    ]
+                },
+                "PVKL_03971": {
+                    "pkgs": [
+                        "VRTSvxfs"
+                    ]
+                },
+                "PVKL_03975": {
+                    "obsoletes": [
+                        "PVKL_03969"
+                    ],
+                    "pkgs": [
+                        "VRTSvxvm"
+                    ]
+                },
+                "PVKL_03979": {
+                    "pkgs": [
+                        "VRTSvxfen"
+                    ]
+                },
+                "PVKL_03980": {
+                    "pkgs": [
+                        "VRTSamf"
+                    ]
+                }
+            },
+            "patch_details_path_html": "https://sort.symantec.com/patch/detail/7028",
+            "patch_details_path_rest": "https://sort.symantec.com/vos_services/rest/patch_services/1.0/patchRelease/7028",
+            "pkg_version": "6.0.300",
+            "products": "dmp,fs,sf,sfcfsha,sfha,sfrac,vcs,vm",
+            "release_date": "2013-02-01",
+            "release_id": "7028",
+            "release_level": "MR",
+            "release_name": "sfha-hpux1131-6.0.3",
+            "release_type": "MR",
+            "release_version": "6.0.3",
+            "requires": "",
+            "upload_cksum": "769189514",
+            "upload_location": "ftp://ftp.veritas.com/pub/support/patchcentral/HP-UX/6.0.3/sfha/sfha-hpux1131-6.0.3-patches.tar.gz",
+            "upload_size": "572981360",
+            "vers_level": "603-000"
+        },
+        "7898": {
+            "download_count": "144",
+            "filename": "sfha-hpux1131-5.1SP1RP3-patches.tar.gz",
+            "gunzip_cksum": "550171833",
+            "gunzip_size": "1202292736",
+            "install_path": "dvd1-hpux1131/installrp",
+            "installed_over": "4911,5611,6900",
+            "obsoleted_by": "8608,8658",
+            "obsoletes": "5348,5611,5930,5944,6387,6401,6433,6900,7377",
+            "obsoletes_all": "5348,5611,5930,5944,6387,6401,6433,6434,6900,7377",
+            "padvs": "hpux1131",
+            "patch": {
+                "PHCO_42318": {
+                    "pkgs": [
+                        "VRTSsfmh"
+                    ]
+                },
+                "PHCO_42320": {
+                    "obsoletes": [
+                        "PHCO_42182",
+                        "PHCO_42319"
+                    ],
+                    "pkgs": [
+                        "VRTSob"
+                    ]
+                },
+                "PHCO_43526": {
+                    "obsoletes": [
+                        "PHCO_42245",
+                        "PHCO_42807",
+                        "PHCO_42992",
+                        "PHCO_43065",
+                        "PHCO_43295"
+                    ],
+                    "pkgs": [
+                        "VRTSvxvm"
+                    ]
+                },
+                "PHCO_43528": {
+                    "obsoletes": [
+                        "PHCO_42093",
+                        "PHCO_43070"
+                    ],
+                    "pkgs": [
+                        "VRTSdbed"
+                    ]
+                },
+                "PHCO_43531": {
+                    "obsoletes": [
+                        "PHCO_42254",
+                        "PHCO_43069"
+                    ],
+                    "pkgs": [
+                        "VRTSvxfen"
+                    ]
+                },
+                "PHCO_43540": {
+                    "obsoletes": [
+                        "PHCO_42229",
+                        "PHCO_42719",
+                        "PHCO_42969",
+                        "PHCO_43172",
+                        "PHCO_43435"
+                    ],
+                    "pkgs": [
+                        "VRTSvxfs"
+                    ]
+                },
+                "PHCO_43669": {
+                    "obsoletes": [
+                        "PHCO_42213"
+                    ],
+                    "pkgs": [
+                        "VRTSperl"
+                    ]
+                },
+                "PHKL_42342": {
+                    "pkgs": [
+                        "VRTSglm"
+                    ]
+                },
+                "PHKL_43527": {
+                    "obsoletes": [
+                        "PHKL_42246",
+                        "PHKL_42808",
+                        "PHKL_42993",
+                        "PHKL_43064",
+                        "PHKL_43296"
+                    ],
+                    "pkgs": [
+                        "VRTSvxvm"
+                    ]
+                },
+                "PHKL_43532": {
+                    "obsoletes": [
+                        "PHKL_42252",
+                        "PHKL_43068"
+                    ],
+                    "pkgs": [
+                        "VRTSvxfen"
+                    ]
+                },
+                "PHKL_43538": {
+                    "obsoletes": [
+                        "PHKL_42741"
+                    ],
+                    "pkgs": [
+                        "VRTSodm"
+                    ]
+                },
+                "PHKL_43539": {
+                    "obsoletes": [
+                        "PHKL_42228",
+                        "PHKL_42718",
+                        "PHKL_42970",
+                        "PHKL_43127",
+                        "PHKL_43432"
+                    ],
+                    "pkgs": [
+                        "VRTSvxfs"
+                    ]
+                },
+                "PHNE_43152": {
+                    "pkgs": [
+                        "VRTSgab"
+                    ]
+                },
+                "PHNE_43529": {
+                    "obsoletes": [
+                        "PHNE_43151"
+                    ],
+                    "pkgs": [
+                        "VRTSllt"
+                    ]
+                },
+                "PVCO_03930": {
+                    "pkgs": [
+                        "VRTScps"
+                    ]
+                },
+                "PVCO_03990": {
+                    "obsoletes": [
+                        "PVKL_03904"
+                    ],
+                    "pkgs": [
+                        "VRTSdbac"
+                    ]
+                },
+                "PVCO_03991": {
+                    "obsoletes": [
+                        "PVCO_03931",
+                        "PVCO_03958"
+                    ],
+                    "pkgs": [
+                        "VRTSvcs"
+                    ]
+                },
+                "PVCO_03992": {
+                    "obsoletes": [
+                        "PVCO_03934",
+                        "PVCO_03960"
+                    ],
+                    "pkgs": [
+                        "VRTSvcsea"
+                    ]
+                },
+                "PVCO_03993": {
+                    "obsoletes": [
+                        "PVCO_03933",
+                        "PVCO_03959"
+                    ],
+                    "pkgs": [
+                        "VRTSvcsag"
+                    ]
+                },
+                "PVCO_03994": {
+                    "obsoletes": [
+                        "PVCO_03929",
+                        "PVCO_03962"
+                    ],
+                    "pkgs": [
+                        "VRTSamf"
+                    ]
+                },
+                "PVCO_03997": {
+                    "pkgs": [
+                        "VRTScavf"
+                    ]
+                }
+            },
+            "patch_details_path_html": "https://sort.symantec.com/patch/detail/7898",
+            "patch_details_path_rest": "https://sort.symantec.com/vos_services/rest/patch_services/1.0/patchRelease/7898",
+            "pkg_version": "5.1",
+            "products": "dmp,sf,sfcfs,sfcfsha,sfha,sfrac,vcs,vm",
+            "release_date": "2013-10-15",
+            "release_id": "7898",
+            "release_level": "MR",
+            "release_name": "sfha-hpux1131-5.1SP1RP3",
+            "release_type": "RP",
+            "release_version": "5.1SP1RP3",
+            "requires": "",
+            "upload_cksum": "871479858",
+            "upload_location": "ftp://ftp.veritas.com/pub/support/patchcentral/HP-UX/5.1/sfha/sfha-hpux1131-5.1SP1RP3-patches.tar.gz",
+            "upload_size": "691608353",
+            "vers_level": "510-103"
+        },
+        "8511": {
+            "download_count": "141",
+            "filename": "sfha-hpux1131-6.0.5-patches.tar.gz",
+            "gunzip_cksum": "1635068007",
+            "gunzip_size": "1323636736",
+            "install_path": "dvd1-hpux1131/installmr",
+            "installed_over": "6755,7028",
+            "obsoleted_by": "8991",
+            "obsoletes": "6774,6846,7028,7955,8266",
+            "obsoletes_all": "6774,6846,7028,7955,8265,8266",
+            "padvs": "hpux1131",
+            "patch": {
+                "PVCO_03982": {
+                    "pkgs": [
+                        "VRTSperl"
+                    ]
+                },
+                "PVCO_04004": {
+                    "obsoletes": [
+                        "PVCO_03965",
+                        "PVCO_03972"
+                    ],
+                    "pkgs": [
+                        "VRTSvxfs"
+                    ]
+                },
+                "PVCO_04005": {
+                    "obsoletes": [
+                        "PVCO_03968",
+                        "PVCO_03974",
+                        "PVCO_04001",
+                        "PVCO_04027",
+                        "PVCO_04029"
+                    ],
+                    "pkgs": [
+                        "VRTSvxvm"
+                    ]
+                },
+                "PVCO_04007": {
+                    "obsoletes": [
+                        "PVCO_03976"
+                    ],
+                    "pkgs": [
+                        "VRTSvcs"
+                    ]
+                },
+                "PVCO_04008": {
+                    "obsoletes": [
+                        "PVCO_03977"
+                    ],
+                    "pkgs": [
+                        "VRTSvcsag"
+                    ]
+                },
+                "PVCO_04009": {
+                    "obsoletes": [
+                        "PVCO_03978"
+                    ],
+                    "pkgs": [
+                        "VRTSvcsea"
+                    ]
+                },
+                "PVCO_04020": {
+                    "pkgs": [
+                        "VRTSdbac"
+                    ]
+                },
+                "PVCO_04023": {
+                    "obsoletes": [
+                        "PVCO_03981"
+                    ],
+                    "pkgs": [
+                        "VRTSdbed"
+                    ]
+                },
+                "PVCO_04024": {
+                    "obsoletes": [
+                        "PVCO_03970"
+                    ],
+                    "pkgs": [
+                        "VRTSsfcpi601"
+                    ]
+                },
+                "PVCO_04032": {
+                    "obsoletes": [
+                        "PVCO_03973"
+                    ],
+                    "pkgs": [
+                        "VRTScavf"
+                    ]
+                },
+                "PVCO_04033": {
+                    "pkgs": [
+                        "VRTSfsadv"
+                    ]
+                },
+                "PVKL_04003": {
+                    "obsoletes": [
+                        "PVKL_03964",
+                        "PVKL_03971"
+                    ],
+                    "pkgs": [
+                        "VRTSvxfs"
+                    ]
+                },
+                "PVKL_04006": {
+                    "obsoletes": [
+                        "PVKL_03969",
+                        "PVKL_03975",
+                        "PVKL_04002",
+                        "PVKL_04030"
+                    ],
+                    "pkgs": [
+                        "VRTSvxvm"
+                    ]
+                },
+                "PVKL_04031": {
+                    "pkgs": [
+                        "VRTSodm"
+                    ]
+                },
+                "PVNE_04016": {
+                    "obsoletes": [
+                        "PVKL_03979"
+                    ],
+                    "pkgs": [
+                        "VRTSvxfen"
+                    ]
+                },
+                "PVNE_04017": {
+                    "obsoletes": [
+                        "PVKL_03980"
+                    ],
+                    "pkgs": [
+                        "VRTSamf"
+                    ]
+                },
+                "PVNE_04021": {
+                    "pkgs": [
+                        "VRTSgab"
+                    ]
+                },
+                "PVNE_04022": {
+                    "pkgs": [
+                        "VRTSllt"
+                    ]
+                }
+            },
+            "patch_details_path_html": "https://sort.symantec.com/patch/detail/8511",
+            "patch_details_path_rest": "https://sort.symantec.com/vos_services/rest/patch_services/1.0/patchRelease/8511",
+            "pkg_version": "6.0.500",
+            "products": "dmp,fs,sf,sfcfsha,sfha,sfrac,vcs,vm",
+            "release_date": "2014-04-15",
+            "release_id": "8511",
+            "release_level": "MR",
+            "release_name": "sfha-hpux1131-6.0.5",
+            "release_type": "MR",
+            "release_version": "6.0.5",
+            "requires": "",
+            "upload_cksum": "280393288",
+            "upload_location": "ftp://ftp.veritas.com/pub/support/patchcentral/HP-UX/6.0.1/sfha/sfha-hpux1131-6.0.5-patches.tar.gz",
+            "upload_size": "811941906",
+            "vers_level": "605-000"
+        }
+    }
+}

@@ -1,0 +1,2439 @@
+{
+    "aix71": {
+        "4554": {
+            "download_count": "39",
+            "hotfix_core_prod": "vm",
+            "hotfix_prod": "vm",
+            "installed_over": "4546",
+            "obsoleted_by": "5503,6807,7887",
+            "obsoletes": "",
+            "padvs": "aix71",
+            "patch": {
+                "VRTSvxvm-05.01.0110.0100": {
+                    "pkgs": [
+                        "VRTSvxvm"
+                    ],
+                    "version": "05.01.0110.0100"
+                }
+            },
+            "patch_details_path_html": "https://sort.symantec.com/patch/detail/4554",
+            "patch_details_path_rest": "https://sort.symantec.com/vos_services/rest/patch_services/1.0/patchRelease/4554",
+            "products": "sf,vm,sfha,dmp,sfrac,sfcfsha,sfcfs",
+            "release_date": "2011-01-07",
+            "release_id": "4554",
+            "release_level": "HF",
+            "release_name": "vm-aix71-5.1SP1PR1P1",
+            "release_type": "P",
+            "release_version": "5.1SP1PR1P1-vm",
+            "requires": "",
+            "upload_cksum": "3821926294",
+            "upload_location": "ftp://ftp.veritas.com/pub/support/patchcentral/AIX/5.1/vm/vm-aix71-5.1SP1PR1P1-patches.tar.gz",
+            "upload_size": "6238169",
+            "vers_level": "510-110-100-vm"
+        },
+        "5336": {
+            "download_count": 0,
+            "hotfix_core_prod": "fs",
+            "hotfix_prod": "fs",
+            "installed_over": "4546",
+            "obsoleted_by": "5503,6807,7887",
+            "obsoletes": "",
+            "padvs": "aix71",
+            "patch": {
+                "VRTSvxfs-05.01.0110.0001": {
+                    "pkgs": [
+                        "VRTSvxfs"
+                    ],
+                    "version": "05.01.0110.0001"
+                }
+            },
+            "products": "sf,fs,sfha,sfrac,sfcfsha,sfcfs",
+            "release_date": "2011-08-10",
+            "release_id": "5336",
+            "release_level": "HF",
+            "release_name": "fs-aix71-5.1SP1PR1HF1",
+            "release_type": "HF",
+            "release_version": "5.1SP1PR1HF1-fs",
+            "requires": "",
+            "vers_level": "510-110-001-fs"
+        },
+        "5867": {
+            "download_count": "23",
+            "hotfix_core_prod": "vm",
+            "hotfix_prod": "vm",
+            "installed_over": "7212",
+            "obsoleted_by": "6113,6749",
+            "obsoletes": "",
+            "padvs": "aix71,aix61",
+            "patch": {
+                "VRTSvxvm-06.00.0000.0100": {
+                    "pkgs": [
+                        "VRTSvxvm"
+                    ],
+                    "version": "06.00.0000.0100"
+                }
+            },
+            "patch_details_path_html": "https://sort.symantec.com/patch/detail/5867",
+            "patch_details_path_rest": "https://sort.symantec.com/vos_services/rest/patch_services/1.0/patchRelease/5867",
+            "products": "dmp,sfha,sfrac,sf,vm,sfcfsha",
+            "release_date": "2012-01-23",
+            "release_id": "5867",
+            "release_level": "HF",
+            "release_name": "vm-aix-6.0P1",
+            "release_type": "P",
+            "release_version": "6.0P1-vm",
+            "requires": "",
+            "upload_cksum": "2275663827",
+            "upload_location": "ftp://ftp.veritas.com/pub/support/patchcentral/AIX/6.0/vm/vm-6.0P1-patches.tar.gz",
+            "upload_size": "16615815",
+            "vers_level": "600-000-100-vm"
+        },
+        "6352": {
+            "download_count": 0,
+            "hotfix_core_prod": "vcs",
+            "hotfix_prod": "vcs-VRTSvcs",
+            "installed_over": "6113",
+            "obsoleted_by": "6749",
+            "obsoletes": "",
+            "padvs": "aix71,aix61",
+            "patch": {
+                "VRTSvcs-06.00.0001.0001": {
+                    "pkgs": [
+                        "VRTSvcs"
+                    ],
+                    "version": "06.00.0001.0001"
+                }
+            },
+            "products": "sfha,sfrac,vcs,sfcfsha",
+            "release_date": "2012-05-31",
+            "release_id": "6352",
+            "release_level": "HF",
+            "release_name": "vcs-aix-VRTSvcs-6.0RP1HF1",
+            "release_type": "HF",
+            "release_version": "6.0RP1HF1-vcs-VRTSvcs",
+            "requires": "6113",
+            "vers_level": "600-001-001-vcs-VRTSvcs"
+        },
+        "6353": {
+            "download_count": 0,
+            "hotfix_core_prod": "vcs",
+            "hotfix_prod": "vcs-VRTSvcsag",
+            "installed_over": "7212",
+            "obsoleted_by": "6749",
+            "obsoletes": "",
+            "padvs": "aix71,aix61",
+            "patch": {
+                "VRTSvcsag-06.00.0000.0001": {
+                    "pkgs": [
+                        "VRTSvcsag"
+                    ],
+                    "version": "06.00.0000.0001"
+                }
+            },
+            "products": "sfha,sfrac,vcs,sfcfsha",
+            "release_date": "2012-05-31",
+            "release_id": "6353",
+            "release_level": "HF",
+            "release_name": "vcs-aix-VRTSvcsag-6.0HF1",
+            "release_type": "HF",
+            "release_version": "6.0HF1-vcs-VRTSvcsag",
+            "requires": "",
+            "vers_level": "600-000-001-vcs-VRTSvcsag"
+        },
+        "6400": {
+            "download_count": 0,
+            "hotfix_core_prod": "vcs",
+            "hotfix_prod": "vcs-VRTSvcsag",
+            "installed_over": "7212",
+            "obsoleted_by": "6749",
+            "obsoletes": "",
+            "padvs": "aix71,aix61",
+            "patch": {
+                "VRTSvcsag-06.00.0000.0002": {
+                    "pkgs": [
+                        "VRTSvcsag"
+                    ],
+                    "version": "06.00.0000.0002"
+                }
+            },
+            "products": "sfha,sfrac,vcs,sfcfsha",
+            "release_date": "2012-06-18",
+            "release_id": "6400",
+            "release_level": "HF",
+            "release_name": "vcs-aix-VRTSvcsag-6.0HF2",
+            "release_type": "HF",
+            "release_version": "6.0HF2-vcs-VRTSvcsag",
+            "requires": "",
+            "vers_level": "600-000-002-vcs-VRTSvcsag"
+        },
+        "6778": {
+            "download_count": "72",
+            "extended_prop": {
+                "criticality": "critical",
+                "have_kernel_component": "1",
+                "manifest": "",
+                "require_application_downtime": "0",
+                "require_system_reboot": "1",
+                "vom_deployment": "0",
+                "vom_id": "",
+                "vom_installer_id": ""
+            },
+            "filename": "fs-aix61-6.0.1.200-patches.tar.gz",
+            "gunzip_cksum": "2989102932",
+            "gunzip_size": "42989568",
+            "hotfix_core_prod": "fs",
+            "hotfix_prod": "fs",
+            "install_path": "installFS601P2",
+            "installed_over": "6749",
+            "obsoleted_by": "6996,8506",
+            "obsoletes": "",
+            "padvs": "aix71,aix61",
+            "patch": {
+                "VRTSvxfs-06.00.0100.0200": {
+                    "pkgs": [
+                        "VRTSvxfs"
+                    ],
+                    "version": "06.00.0100.0200"
+                }
+            },
+            "patch_details_path_html": "https://sort.symantec.com/patch/detail/6778",
+            "patch_details_path_rest": "https://sort.symantec.com/vos_services/rest/patch_services/1.0/patchRelease/6778",
+            "products": "sfha,sfrac,sf,sfcfsha,fs",
+            "release_date": "2012-09-20",
+            "release_id": "6778",
+            "release_level": "HF",
+            "release_name": "fs-aix61-6.0.1.200",
+            "release_type": "pHF",
+            "release_version": "6.0.1.200-fs",
+            "requires": "",
+            "upload_cksum": "4083355767",
+            "upload_location": "ftp://ftp.veritas.com/pub/support/patchcentral/AIX/6.0.1/fs/fs-aix61-6.0.1.200-patches.tar.gz",
+            "upload_size": "15644339",
+            "vers_level": "601-000-200-fs"
+        },
+        "6845": {
+            "download_count": "98",
+            "extended_prop": {
+                "criticality": "recommended",
+                "have_kernel_component": "1",
+                "manifest": "",
+                "require_application_downtime": "0",
+                "require_system_reboot": "1",
+                "vom_deployment": "0",
+                "vom_id": "",
+                "vom_installer_id": ""
+            },
+            "filename": "vm-aix-6.0.1.200-patches.tar.gz",
+            "gunzip_cksum": "184558332",
+            "gunzip_size": "285198336",
+            "hotfix_core_prod": "vm",
+            "hotfix_prod": "vm",
+            "install_path": "installVM601P2",
+            "installed_over": "6749",
+            "obsoleted_by": "6996,7956,8254,8506",
+            "obsoletes": "",
+            "padvs": "aix71,aix61",
+            "patch": {
+                "VRTSvxvm-06.00.0100.0200": {
+                    "pkgs": [
+                        "VRTSvxvm"
+                    ],
+                    "version": "06.00.0100.0200"
+                }
+            },
+            "patch_details_path_html": "https://sort.symantec.com/patch/detail/6845",
+            "patch_details_path_rest": "https://sort.symantec.com/vos_services/rest/patch_services/1.0/patchRelease/6845",
+            "products": "dmp,sfha,sfrac,sf,vm,sfcfsha",
+            "release_date": "2012-10-10",
+            "release_id": "6845",
+            "release_level": "HF",
+            "release_name": "vm-aix-6.0.1.200",
+            "release_type": "pHF",
+            "release_version": "6.0.1.200-vm",
+            "requires": "",
+            "upload_cksum": "436257761",
+            "upload_location": "ftp://ftp.veritas.com/pub/support/patchcentral/AIX/6.0.1/vm/vm-aix-6.0.1.200-patches.tar.gz",
+            "upload_size": "83213921",
+            "vers_level": "601-000-200-vm"
+        },
+        "7278": {
+            "download_count": 0,
+            "hotfix_core_prod": "fs",
+            "hotfix_prod": "fs",
+            "installed_over": "6996",
+            "obsoleted_by": "8506",
+            "obsoletes": "6778",
+            "padvs": "aix71,aix61",
+            "patch": {
+                "VRTSvxfs-06.00.0300.0001": {
+                    "pkgs": [
+                        "VRTSvxfs"
+                    ],
+                    "version": "06.00.0300.0001"
+                }
+            },
+            "products": "sfha,sfrac,sf,sfcfsha,fs",
+            "release_date": "2013-06-25",
+            "release_id": "7278",
+            "release_level": "HF",
+            "release_name": "fs-aix-6.0.3.1",
+            "release_type": "HF",
+            "release_version": "6.0.3.001-fs",
+            "requires": "6996",
+            "vers_level": "603-000-001-fs"
+        },
+        "7303": {
+            "download_count": "1",
+            "extended_prop": {
+                "criticality": "recommended",
+                "have_kernel_component": "0",
+                "manifest": "",
+                "require_application_downtime": "0",
+                "require_system_reboot": "0",
+                "vom_deployment": "0",
+                "vom_id": "",
+                "vom_installer_id": ""
+            },
+            "hotfix_core_prod": "sf",
+            "hotfix_prod": "dbed-VRTSdbed",
+            "installed_over": "7212",
+            "obsoleted_by": "6749",
+            "obsoletes": "",
+            "padvs": "aix71,aix61",
+            "patch": {
+                "VRTSdbed-06.00.0000.0200": {
+                    "pkgs": [
+                        "VRTSdbed"
+                    ],
+                    "version": "06.00.0000.0200"
+                }
+            },
+            "patch_details_path_html": "https://sort.symantec.com/patch/detail/7303",
+            "patch_details_path_rest": "https://sort.symantec.com/vos_services/rest/patch_services/1.0/patchRelease/7303",
+            "products": "sfha,sfrac,sf,sfcfsha",
+            "release_date": "2013-02-12",
+            "release_id": "7303",
+            "release_level": "HF",
+            "release_name": "dbed-VRTSdbed-6.0P2",
+            "release_type": "P",
+            "release_version": "6.0P2-dbed-VRTSdbed",
+            "requires": "",
+            "upload_cksum": "1680638106",
+            "upload_location": "ftp://ftp.veritas.com/pub/support/patchcentral/AIX/6.0/dbed/dbed-VRTSdbed-6.0P2-patches.tar.gz",
+            "upload_size": "56719",
+            "vers_level": "600-000-200-dbed-VRTSdbed"
+        },
+        "7332": {
+            "download_count": 0,
+            "hotfix_core_prod": "fs",
+            "hotfix_prod": "fs",
+            "installed_over": "6996",
+            "obsoleted_by": "8506",
+            "obsoletes": "6778",
+            "padvs": "aix71,aix61",
+            "patch": {
+                "VRTSvxfs-06.00.0300.0002": {
+                    "pkgs": [
+                        "VRTSvxfs"
+                    ],
+                    "version": "06.00.0300.0002"
+                }
+            },
+            "products": "sfha,sfrac,sf,sfcfsha,fs",
+            "release_date": "2013-06-25",
+            "release_id": "7332",
+            "release_level": "HF",
+            "release_name": "fs-aix-6.0.3.2",
+            "release_type": "HF",
+            "release_version": "6.0.3.002-fs",
+            "requires": "6996",
+            "vers_level": "603-000-002-fs"
+        },
+        "7348": {
+            "download_count": 0,
+            "hotfix_core_prod": "vm",
+            "hotfix_prod": "vm",
+            "installed_over": "6996",
+            "obsoleted_by": "7956,8254,8506",
+            "obsoletes": "6845",
+            "padvs": "aix71,aix61",
+            "patch": {
+                "VRTSvxvm-06.00.0300.0001": {
+                    "pkgs": [
+                        "VRTSvxvm"
+                    ],
+                    "version": "06.00.0300.0001"
+                }
+            },
+            "products": "dmp,sfha,sfrac,sf,vm,sfcfsha",
+            "release_date": "2013-03-04",
+            "release_id": "7348",
+            "release_level": "HF",
+            "release_name": "vm-aix-6.0.3.001",
+            "release_type": "HF",
+            "release_version": "6.0.3.001-vm",
+            "requires": "6996",
+            "vers_level": "603-000-001-vm"
+        },
+        "7371": {
+            "download_count": "1",
+            "hotfix_core_prod": "perl",
+            "hotfix_prod": "perl",
+            "installed_over": "7212",
+            "obsoleted_by": "6749",
+            "obsoletes": "",
+            "padvs": "aix71,aix61",
+            "patch": {
+                "VRTSperl-05.12.0002.0010": {
+                    "pkgs": [
+                        "VRTSperl"
+                    ],
+                    "version": "05.12.0002.0010"
+                }
+            },
+            "patch_details_path_html": "https://sort.symantec.com/patch/detail/7371",
+            "patch_details_path_rest": "https://sort.symantec.com/vos_services/rest/patch_services/1.0/patchRelease/7371",
+            "products": "dmp,sfha,sfrac,vcs,sf,vm,sfcfsha,fs",
+            "release_date": "2013-02-26",
+            "release_id": "7371",
+            "release_level": "HF",
+            "release_name": "perl-aix-6.0P2",
+            "release_type": "P",
+            "release_version": "6.0P2-perl",
+            "requires": "7303",
+            "upload_cksum": "3335636402",
+            "upload_location": "ftp://ftp.veritas.com/pub/support/patchcentral/AIX/6.0/perl/perl-aix-6.0P2-patches.tar.gz",
+            "upload_size": "11577945",
+            "vers_level": "600-000-200-perl"
+        },
+        "7391": {
+            "download_count": "58",
+            "extended_prop": {
+                "criticality": "optional",
+                "have_kernel_component": "0",
+                "manifest": "",
+                "require_application_downtime": "0",
+                "require_system_reboot": "0",
+                "vom_deployment": "0",
+                "vom_id": "",
+                "vom_installer_id": ""
+            },
+            "hotfix_core_prod": "sfrac",
+            "hotfix_prod": "sfrac-VRTSdbac",
+            "installed_over": "6749",
+            "obsoleted_by": "8506",
+            "obsoletes": "",
+            "padvs": "aix71,aix61",
+            "patch": {
+                "VRTSdbac-06.00.0100.0100": {
+                    "pkgs": [
+                        "VRTSdbac"
+                    ],
+                    "version": "06.00.0100.0100"
+                }
+            },
+            "patch_details_path_html": "https://sort.symantec.com/patch/detail/7391",
+            "patch_details_path_rest": "https://sort.symantec.com/vos_services/rest/patch_services/1.0/patchRelease/7391",
+            "products": "sfrac",
+            "release_date": "2013-03-04",
+            "release_id": "7391",
+            "release_level": "HF",
+            "release_name": "sfrac-aix-VRTSdbac_6.0.1.100",
+            "release_type": "pHF",
+            "release_version": "6.0.1.100-sfrac-VRTSdbac",
+            "requires": "",
+            "upload_cksum": "3779748005",
+            "upload_location": "ftp://ftp.veritas.com/pub/support/patchcentral/AIX/VRTSdbac_6.0.100/sfrac/sfrac-aix-VRTSdbac_6.0.100.100-patches.tar.gz",
+            "upload_size": "6416",
+            "vers_level": "601-000-100-sfrac"
+        },
+        "7420": {
+            "download_count": "170",
+            "extended_prop": {
+                "criticality": "optional",
+                "have_kernel_component": "0",
+                "manifest": "",
+                "require_application_downtime": "0",
+                "require_system_reboot": "0",
+                "vom_deployment": "0",
+                "vom_id": "",
+                "vom_installer_id": ""
+            },
+            "filename": "vcs-aix-VRTSvcsea-6.0.300.100-patches.tar.gz",
+            "gunzip_cksum": "3413956079",
+            "gunzip_size": "6583808",
+            "hotfix_core_prod": "vcs",
+            "hotfix_prod": "vcs-VRTSvcsea",
+            "install_path": "installVCSEA603P1",
+            "installed_over": "6996",
+            "obsoleted_by": "8506",
+            "obsoletes": "",
+            "padvs": "aix71,aix61",
+            "patch": {
+                "VRTSvcsea-06.00.0300.0100": {
+                    "pkgs": [
+                        "VRTSvcsea"
+                    ],
+                    "version": "06.00.0300.0100"
+                }
+            },
+            "patch_details_path_html": "https://sort.symantec.com/patch/detail/7420",
+            "patch_details_path_rest": "https://sort.symantec.com/vos_services/rest/patch_services/1.0/patchRelease/7420",
+            "products": "sfha,sfrac,vcs,sfcfsha",
+            "release_date": "2013-03-12",
+            "release_id": "7420",
+            "release_level": "HF",
+            "release_name": "vcs-aix-VRTSvcsea-6.0.3.100",
+            "release_type": "pHF",
+            "release_version": "6.0.3.100-vcs-VRTSvcsea",
+            "requires": "6996",
+            "upload_cksum": "3927871862",
+            "upload_location": "ftp://ftp.veritas.com/pub/support/patchcentral/AIX/6.0.300/vcs/vcs-aix-VRTSvcsea-6.0.300.100-patches.tar.gz",
+            "upload_size": "2153429",
+            "vers_level": "603-000-100-vcs"
+        },
+        "7539": {
+            "download_count": 0,
+            "extended_prop": {
+                "criticality": "optional",
+                "have_kernel_component": "0",
+                "manifest": "",
+                "require_application_downtime": "0",
+                "require_system_reboot": "0",
+                "vom_deployment": "0",
+                "vom_id": "",
+                "vom_installer_id": ""
+            },
+            "hotfix_core_prod": "fs",
+            "hotfix_prod": "fs",
+            "installed_over": "6113",
+            "obsoleted_by": "6749",
+            "obsoletes": "",
+            "padvs": "aix61",
+            "patch": {
+                "VRTSvxfs-06.00.0001.0001": {
+                    "pkgs": [
+                        "VRTSvxfs"
+                    ],
+                    "version": "06.00.0001.0001"
+                }
+            },
+            "products": "sfha,sfrac,sf,sfcfsha,fs",
+            "release_date": "2013-12-10",
+            "release_id": "7539",
+            "release_level": "HF",
+            "release_name": "fs-aix61-6.0RP1HF1",
+            "release_type": "HF",
+            "release_version": "6.0RP1HF1-fs",
+            "requires": "",
+            "vers_level": "600-001-001-fs"
+        },
+        "7723": {
+            "download_count": 0,
+            "extended_prop": {
+                "criticality": "critical",
+                "have_kernel_component": "1",
+                "manifest": "",
+                "require_application_downtime": "1",
+                "require_system_reboot": "1",
+                "vom_deployment": "0",
+                "vom_id": "",
+                "vom_installer_id": ""
+            },
+            "hotfix_core_prod": "vm",
+            "hotfix_prod": "vm",
+            "installed_over": "6996",
+            "obsoleted_by": "7956,8254,8506",
+            "obsoletes": "6845",
+            "padvs": "aix71,aix61",
+            "patch": {
+                "VRTSvxvm-06.00.0300.0003": {
+                    "pkgs": [
+                        "VRTSvxvm"
+                    ],
+                    "version": "06.00.0300.0003"
+                }
+            },
+            "products": "dmp,sfha,sfrac,sf,vm,sfcfsha",
+            "release_date": "2013-06-06",
+            "release_id": "7723",
+            "release_level": "HF",
+            "release_name": "vm-aix-6.0.3.003",
+            "release_type": "HF",
+            "release_version": "6.0.3.003-vm",
+            "requires": "6996",
+            "vers_level": "603-000-003-vm"
+        },
+        "7726": {
+            "download_count": 0,
+            "extended_prop": {
+                "criticality": "critical",
+                "have_kernel_component": "1",
+                "manifest": "",
+                "require_application_downtime": "1",
+                "require_system_reboot": "1",
+                "vom_deployment": "0",
+                "vom_id": "",
+                "vom_installer_id": ""
+            },
+            "hotfix_core_prod": "vm",
+            "hotfix_prod": "vm",
+            "installed_over": "6996",
+            "obsoleted_by": "7956,8254,8506",
+            "obsoletes": "6845",
+            "padvs": "aix71,aix61",
+            "patch": {
+                "VRTSvxvm-06.00.0300.0004": {
+                    "pkgs": [
+                        "VRTSvxvm"
+                    ],
+                    "version": "06.00.0300.0004"
+                }
+            },
+            "products": "dmp,sfha,sfrac,sf,vm,sfcfsha",
+            "release_date": "2013-06-11",
+            "release_id": "7726",
+            "release_level": "HF",
+            "release_name": "vm-aix-6.0.3.004",
+            "release_type": "HF",
+            "release_version": "6.0.3.004-vm",
+            "requires": "6996",
+            "upload_cksum": "3002672003",
+            "upload_location": "ftp://ftpvault.veritas.com/release_train/aix/6.0.1/patch_central/HF/vm/aix/6.0.300.4/TEST_TARBALLS/vm-aix-6.0.300.4-patches.tar.gz",
+            "upload_size": "83270980",
+            "vers_level": "603-000-004-vm"
+        },
+        "7764": {
+            "download_count": 0,
+            "extended_prop": {
+                "criticality": "optional",
+                "have_kernel_component": "1",
+                "manifest": "",
+                "require_application_downtime": "1",
+                "require_system_reboot": "1",
+                "vom_deployment": "0",
+                "vom_id": "",
+                "vom_installer_id": ""
+            },
+            "hotfix_core_prod": "fs",
+            "hotfix_prod": "fs",
+            "installed_over": "6996",
+            "obsoleted_by": "8506",
+            "obsoletes": "6778",
+            "padvs": "aix71,aix61",
+            "patch": {
+                "VRTSvxfs-06.00.0300.0003": {
+                    "pkgs": [
+                        "VRTSvxfs"
+                    ],
+                    "version": "06.00.0300.0003"
+                }
+            },
+            "products": "sfha,sfrac,sf,sfcfsha,fs",
+            "release_date": "2013-06-25",
+            "release_id": "7764",
+            "release_level": "HF",
+            "release_name": "fs-aix-6.0.3.003",
+            "release_type": "HF",
+            "release_version": "6.0.3.003-fs",
+            "requires": "6996",
+            "upload_cksum": "740833200",
+            "upload_location": "ftp://ftpvault.veritas.com/release_train/aix/6.0.1/patch_central/HF/fs/aix/6.0.300.003/TEST_TARBALLS/fs-aix-6.0.3.003-patches.tar.gz",
+            "upload_size": "15628943",
+            "vers_level": "603-000-003-fs"
+        },
+        "7775": {
+            "download_count": 0,
+            "extended_prop": {
+                "criticality": "optional",
+                "have_kernel_component": "0",
+                "manifest": "",
+                "require_application_downtime": "0",
+                "require_system_reboot": "1",
+                "vom_deployment": "0",
+                "vom_id": "",
+                "vom_installer_id": ""
+            },
+            "hotfix_core_prod": "vm",
+            "hotfix_prod": "vm",
+            "installed_over": "6996",
+            "obsoleted_by": "7956,8254,8506",
+            "obsoletes": "6845",
+            "padvs": "aix71,aix61",
+            "patch": {
+                "VRTSvxvm-06.00.0300.0005": {
+                    "pkgs": [
+                        "VRTSvxvm"
+                    ],
+                    "version": "06.00.0300.0005"
+                }
+            },
+            "products": "dmp,sfha,sfrac,sf,vm,sfcfsha",
+            "release_date": "2013-07-05",
+            "release_id": "7775",
+            "release_level": "HF",
+            "release_name": "vm-aix-6.0.3.005",
+            "release_type": "HF",
+            "release_version": "6.0.3.005-vm",
+            "requires": "6996",
+            "upload_cksum": "2532418839",
+            "upload_location": "ftp://ftpvault.veritas.com/release_train/aix/6.0.1/patch_central/HF/vm/aix/6.0.300.5/TEST_TARBALLS/vm-aix-6.0.300.5-patches.tar.gz",
+            "upload_size": "83238829",
+            "vers_level": "603-000-005-vm"
+        },
+        "7807": {
+            "download_count": 0,
+            "extended_prop": {
+                "criticality": "critical",
+                "have_kernel_component": "1",
+                "manifest": "",
+                "require_application_downtime": "1",
+                "require_system_reboot": "1",
+                "vom_deployment": "0",
+                "vom_id": "",
+                "vom_installer_id": ""
+            },
+            "hotfix_core_prod": "vm",
+            "hotfix_prod": "vm",
+            "installed_over": "6996",
+            "obsoleted_by": "7956,8254,8506",
+            "obsoletes": "6845",
+            "padvs": "aix71,aix61",
+            "patch": {
+                "VRTSvxvm-06.00.0300.0006": {
+                    "pkgs": [
+                        "VRTSvxvm"
+                    ],
+                    "version": "06.00.0300.0006"
+                }
+            },
+            "products": "dmp,sfha,sfrac,sf,vm,sfcfsha",
+            "release_date": "2013-07-22",
+            "release_id": "7807",
+            "release_level": "HF",
+            "release_name": "vm-aix-6.0.3.006",
+            "release_type": "HF",
+            "release_version": "6.0.3.006-vm",
+            "requires": "6996",
+            "upload_cksum": "3381586538",
+            "upload_location": "ftp://ftpvault.veritas.com/release_train/aix/6.0.1/patch_central/HF/vm/aix/6.0.300.6/TEST_TARBALLS/vm-aix-6.0.300.6-patches.tar.gz",
+            "upload_size": "83284364",
+            "vers_level": "603-000-006-vm"
+        },
+        "7943": {
+            "download_count": 0,
+            "extended_prop": {
+                "criticality": "optional",
+                "have_kernel_component": "1",
+                "manifest": "",
+                "require_application_downtime": "1",
+                "require_system_reboot": "1",
+                "vom_deployment": "0",
+                "vom_id": "",
+                "vom_installer_id": ""
+            },
+            "hotfix_core_prod": "fs",
+            "hotfix_prod": "fs",
+            "installed_over": "6996",
+            "obsoleted_by": "8506",
+            "obsoletes": "6778",
+            "padvs": "aix71,aix61",
+            "patch": {
+                "VRTSvxfs-06.00.0300.0004": {
+                    "pkgs": [
+                        "VRTSvxfs"
+                    ],
+                    "version": "06.00.0300.0004"
+                }
+            },
+            "products": "sfha,sfrac,sf,sfcfsha,fs",
+            "release_date": "2013-09-13",
+            "release_id": "7943",
+            "release_level": "HF",
+            "release_name": "fs-aix-6.0.3.004",
+            "release_type": "HF",
+            "release_version": "6.0.3.004-fs",
+            "requires": "",
+            "upload_cksum": "1562752347",
+            "upload_location": "ftp://ftpvault.veritas.com/release_train/aix/6.0.1/patch_central/HF/fs/aix/6.0.300.004/TEST_TARBALLS/fs-aix-6.0.3.004-patches.tar.gz",
+            "upload_size": "15636003",
+            "vers_level": "603-000-004-fs"
+        },
+        "7956": {
+            "download_count": "119",
+            "extended_prop": {
+                "criticality": "critical",
+                "have_kernel_component": "1",
+                "manifest": "",
+                "require_application_downtime": "1",
+                "require_system_reboot": "1",
+                "vom_deployment": "0",
+                "vom_id": "",
+                "vom_installer_id": ""
+            },
+            "filename": "vm-aix-6.0.3.100-patches.tar.gz",
+            "gunzip_cksum": "425465175",
+            "gunzip_size": "285488640",
+            "hotfix_core_prod": "vm",
+            "hotfix_prod": "vm",
+            "install_path": "installVM603P1",
+            "installed_over": "6996",
+            "obsoleted_by": "8254,8506",
+            "obsoletes": "6845",
+            "padvs": "aix71,aix61",
+            "patch": {
+                "VRTSvxvm-06.00.0300.0100": {
+                    "pkgs": [
+                        "VRTSvxvm"
+                    ],
+                    "version": "06.00.0300.0100"
+                }
+            },
+            "patch_details_path_html": "https://sort.symantec.com/patch/detail/7956",
+            "patch_details_path_rest": "https://sort.symantec.com/vos_services/rest/patch_services/1.0/patchRelease/7956",
+            "products": "dmp,sfha,sfrac,sf,vm,sfcfsha",
+            "release_date": "2013-09-13",
+            "release_id": "7956",
+            "release_level": "HF",
+            "release_name": "vm-aix-6.0.3.100",
+            "release_type": "pHF",
+            "release_version": "6.0.3.100-vm",
+            "requires": "6996",
+            "upload_cksum": "3421177139",
+            "upload_location": "ftp://ftp.veritas.com/pub/support/patchcentral/AIX/6.0.3/vm/vm-aix-6.0.3.100-patches.tar.gz",
+            "upload_size": "83345512",
+            "vers_level": "603-000-100-vm"
+        },
+        "7978": {
+            "download_count": 0,
+            "extended_prop": {
+                "criticality": "critical",
+                "have_kernel_component": "0",
+                "manifest": "",
+                "require_application_downtime": "0",
+                "require_system_reboot": "0",
+                "vom_deployment": "0",
+                "vom_id": "",
+                "vom_installer_id": ""
+            },
+            "hotfix_core_prod": "vcs",
+            "hotfix_prod": "vcs-VRTSvcsag",
+            "installed_over": "6996",
+            "obsoleted_by": "8506",
+            "obsoletes": "",
+            "padvs": "aix71,aix61",
+            "patch": {
+                "VRTSvcsag-06.00.0300.0001": {
+                    "pkgs": [
+                        "VRTSvcsag"
+                    ],
+                    "version": "06.00.0300.0001"
+                }
+            },
+            "products": "sfha,sfrac,vcs,sfcfsha",
+            "release_date": "2013-09-20",
+            "release_id": "7978",
+            "release_level": "HF",
+            "release_name": "vcs-aix-VRTSvcsag-6.0.3.1",
+            "release_type": "HF",
+            "release_version": "6.0.3.001-vcs-VRTSvcsag",
+            "requires": "6996",
+            "upload_cksum": "547264016",
+            "upload_location": "ftp://ftpvault.veritas.com/release_train/aix/6.0.1/patch_central/HF/vcs/aix/VRTSvcsag-6.0.300.1/TEST_TARBALLS/vcs-aix-VRTSvcsag-6.0.300.1-patches.tar.gz",
+            "upload_size": "53807",
+            "vers_level": "603-000-001-vcs-VRTSvcsag"
+        },
+        "7979": {
+            "download_count": 0,
+            "extended_prop": {
+                "criticality": "optional",
+                "have_kernel_component": "1",
+                "manifest": "",
+                "require_application_downtime": "1",
+                "require_system_reboot": "1",
+                "vom_deployment": "0",
+                "vom_id": "",
+                "vom_installer_id": ""
+            },
+            "hotfix_core_prod": "fs",
+            "hotfix_prod": "fs",
+            "installed_over": "6996",
+            "obsoleted_by": "8506",
+            "obsoletes": "6778",
+            "padvs": "aix71,aix61",
+            "patch": {
+                "VRTSvxfs-06.00.0300.0005": {
+                    "pkgs": [
+                        "VRTSvxfs"
+                    ],
+                    "version": "06.00.0300.0005"
+                }
+            },
+            "products": "sfha,sfrac,sf,sfcfsha,fs",
+            "release_date": "2013-09-23",
+            "release_id": "7979",
+            "release_level": "HF",
+            "release_name": "fs-aix-6.0.3.005",
+            "release_type": "HF",
+            "release_version": "6.0.3.005-fs",
+            "requires": "",
+            "upload_cksum": "193587141",
+            "upload_location": "ftp://ftpvault.veritas.com/release_train/aix/6.0.1/patch_central/HF/fs/aix/6.0.300.005/TEST_TARBALLS/fs-aix-6.0.3.005-patches.tar.gz",
+            "upload_size": "15632043",
+            "vers_level": "603-000-005-fs"
+        },
+        "7996": {
+            "download_count": 0,
+            "extended_prop": {
+                "criticality": "optional",
+                "have_kernel_component": "1",
+                "manifest": "",
+                "require_application_downtime": "1",
+                "require_system_reboot": "1",
+                "vom_deployment": "0",
+                "vom_id": "",
+                "vom_installer_id": ""
+            },
+            "hotfix_core_prod": "fs",
+            "hotfix_prod": "fs",
+            "installed_over": "6996",
+            "obsoleted_by": "8506",
+            "obsoletes": "6778",
+            "padvs": "aix71,aix61",
+            "patch": {
+                "VRTSvxfs-06.00.0300.0006": {
+                    "pkgs": [
+                        "VRTSvxfs"
+                    ],
+                    "version": "06.00.0300.0006"
+                }
+            },
+            "products": "sfha,sfrac,sf,sfcfsha,fs",
+            "release_date": "2013-12-10",
+            "release_id": "7996",
+            "release_level": "HF",
+            "release_name": "fs-aix-6.0.3.006",
+            "release_type": "HF",
+            "release_version": "6.0.3.006-fs",
+            "requires": "",
+            "upload_cksum": "522508666",
+            "upload_location": "ftp://ftpvault.veritas.com/release_train/aix/6.0.1/patch_central/HF/fs/aix/6.0.300.006/TEST_TARBALLS/fs-aix-6.0.3.006-patches.tar.gz",
+            "upload_size": "15634329",
+            "vers_level": "603-000-006-fs"
+        },
+        "8073": {
+            "download_count": 0,
+            "extended_prop": {
+                "criticality": "critical",
+                "have_kernel_component": "1",
+                "manifest": "",
+                "require_application_downtime": "1",
+                "require_system_reboot": "1",
+                "vom_deployment": "0",
+                "vom_id": "",
+                "vom_installer_id": ""
+            },
+            "hotfix_core_prod": "vm",
+            "hotfix_prod": "vm",
+            "installed_over": "6996",
+            "obsoleted_by": "8254,8506",
+            "obsoletes": "6845,7956",
+            "padvs": "aix71,aix61",
+            "patch": {
+                "VRTSvxvm-06.00.0300.0101": {
+                    "pkgs": [
+                        "VRTSvxvm"
+                    ],
+                    "version": "06.00.0300.0101"
+                }
+            },
+            "products": "dmp,sfha,sfrac,sf,vm,sfcfsha",
+            "release_date": "2013-10-15",
+            "release_id": "8073",
+            "release_level": "HF",
+            "release_name": "vm-aix-6.0.3.101",
+            "release_type": "HF",
+            "release_version": "6.0.3.101-vm",
+            "requires": "6996",
+            "vers_level": "603-000-101-vm"
+        },
+        "8095": {
+            "download_count": 0,
+            "extended_prop": {
+                "criticality": "critical",
+                "have_kernel_component": "1",
+                "manifest": "",
+                "require_application_downtime": "1",
+                "require_system_reboot": "1",
+                "vom_deployment": "0",
+                "vom_id": "",
+                "vom_installer_id": ""
+            },
+            "hotfix_core_prod": "fs",
+            "hotfix_prod": "fs",
+            "installed_over": "6749",
+            "obsoleted_by": "6778,6996,8506",
+            "obsoletes": "",
+            "padvs": "aix71,aix61",
+            "patch": {
+                "VRTSvxfs-06.00.0100.0001": {
+                    "pkgs": [
+                        "VRTSvxfs"
+                    ],
+                    "version": "06.00.0100.0001"
+                }
+            },
+            "products": "sfha,sfrac,sf,sfcfsha,fs",
+            "release_date": "2013-10-21",
+            "release_id": "8095",
+            "release_level": "HF",
+            "release_name": "fs-aix-6.0.1.001",
+            "release_type": "HF",
+            "release_version": "6.0.1.001-fs",
+            "requires": "",
+            "upload_cksum": "1511724125",
+            "upload_location": "ftp://ftpvault.veritas.com/release_train/aix/6.0.1/patch_central/HF/fs/aix/6.0.100.001/TEST_TARBALLS/fs-aix-6.0.1.001-patches.tar.gz",
+            "upload_size": "15622376",
+            "vers_level": "601-000-001-fs"
+        },
+        "8141": {
+            "download_count": 0,
+            "extended_prop": {
+                "criticality": "critical",
+                "have_kernel_component": "1",
+                "manifest": "",
+                "require_application_downtime": "1",
+                "require_system_reboot": "1",
+                "vom_deployment": "0",
+                "vom_id": "",
+                "vom_installer_id": ""
+            },
+            "hotfix_core_prod": "vm",
+            "hotfix_prod": "vm",
+            "installed_over": "6996",
+            "obsoleted_by": "8254,8506",
+            "obsoletes": "6845,7956",
+            "padvs": "aix71,aix61",
+            "patch": {
+                "VRTSvxvm-06.00.0300.0103": {
+                    "pkgs": [
+                        "VRTSvxvm"
+                    ],
+                    "version": "06.00.0300.0103"
+                }
+            },
+            "products": "dmp,sfha,sfrac,sf,vm,sfcfsha",
+            "release_date": "2013-10-31",
+            "release_id": "8141",
+            "release_level": "HF",
+            "release_name": "vm-aix-6.0.3.103",
+            "release_type": "HF",
+            "release_version": "6.0.3.103-vm",
+            "requires": "6996",
+            "vers_level": "603-000-103-vm"
+        },
+        "8162": {
+            "download_count": 0,
+            "extended_prop": {
+                "criticality": "critical",
+                "have_kernel_component": "1",
+                "manifest": "",
+                "require_application_downtime": "1",
+                "require_system_reboot": "1",
+                "vom_deployment": "0",
+                "vom_id": "",
+                "vom_installer_id": ""
+            },
+            "hotfix_core_prod": "vm",
+            "hotfix_prod": "vm",
+            "installed_over": "6996",
+            "obsoleted_by": "8254,8506",
+            "obsoletes": "6845,7956",
+            "padvs": "aix71,aix61",
+            "patch": {
+                "VRTSaslapm-AIX_6.0.100.202.tar.gz": {
+                    "pkgs": [
+                        "Unknown"
+                    ]
+                },
+                "VRTSvxvm-06.00.0300.0104": {
+                    "pkgs": [
+                        "VRTSvxvm"
+                    ],
+                    "version": "06.00.0300.0104"
+                }
+            },
+            "products": "",
+            "release_date": "2013-11-12",
+            "release_id": "8162",
+            "release_level": "HF",
+            "release_name": "vm-aix-6.0.3.104",
+            "release_type": "HF",
+            "release_version": "6.0.3.104-vm",
+            "requires": "6996",
+            "vers_level": "603-000-104-vm"
+        },
+        "8186": {
+            "download_count": 0,
+            "extended_prop": {
+                "criticality": "recommended",
+                "have_kernel_component": "1",
+                "manifest": "",
+                "require_application_downtime": "1",
+                "require_system_reboot": "1",
+                "vom_deployment": "0",
+                "vom_id": "",
+                "vom_installer_id": ""
+            },
+            "hotfix_core_prod": "fs",
+            "hotfix_prod": "fs",
+            "installed_over": "6996",
+            "obsoleted_by": "8506",
+            "obsoletes": "6778",
+            "padvs": "aix71,aix61",
+            "patch": {
+                "VRTSvxfs-06.00.0300.0007": {
+                    "pkgs": [
+                        "VRTSvxfs"
+                    ],
+                    "version": "06.00.0300.0007"
+                }
+            },
+            "products": "sfha,sfrac,sf,sfcfsha,fs",
+            "release_date": "2013-11-20",
+            "release_id": "8186",
+            "release_level": "HF",
+            "release_name": "fs-aix-6.0.3.007",
+            "release_type": "HF",
+            "release_version": "6.0.3.007-fs",
+            "requires": "6996",
+            "vers_level": "603-000-007-fs"
+        },
+        "8189": {
+            "download_count": 0,
+            "extended_prop": {
+                "criticality": "recommended",
+                "have_kernel_component": "1",
+                "manifest": "",
+                "require_application_downtime": "1",
+                "require_system_reboot": "1",
+                "vom_deployment": "0",
+                "vom_id": "",
+                "vom_installer_id": ""
+            },
+            "hotfix_core_prod": "fs",
+            "hotfix_prod": "fs",
+            "installed_over": "6749",
+            "obsoleted_by": "6778,6996,8506",
+            "obsoletes": "",
+            "padvs": "aix71,aix61",
+            "patch": {
+                "VRTSvxfs-06.00.0100.0002": {
+                    "pkgs": [
+                        "VRTSvxfs"
+                    ],
+                    "version": "06.00.0100.0002"
+                }
+            },
+            "products": "sfha,sfrac,sf,sfcfsha,fs",
+            "release_date": "2013-11-21",
+            "release_id": "8189",
+            "release_level": "HF",
+            "release_name": "fs-aix-6.0.1.002",
+            "release_type": "HF",
+            "release_version": "6.0.1.002-fs",
+            "requires": "",
+            "vers_level": "601-000-002-fs"
+        },
+        "8199": {
+            "download_count": 0,
+            "extended_prop": {
+                "criticality": "critical",
+                "have_kernel_component": "1",
+                "manifest": "",
+                "require_application_downtime": "1",
+                "require_system_reboot": "1",
+                "vom_deployment": "0",
+                "vom_id": "",
+                "vom_installer_id": ""
+            },
+            "hotfix_core_prod": "vm",
+            "hotfix_prod": "vm",
+            "installed_over": "6996",
+            "obsoleted_by": "8254,8506",
+            "obsoletes": "6845,7956",
+            "padvs": "aix71,aix61",
+            "patch": {
+                "VRTSvxvm-06.00.0300.0105": {
+                    "pkgs": [
+                        "VRTSvxvm"
+                    ],
+                    "version": "06.00.0300.0105"
+                }
+            },
+            "products": "dmp,sfha,sfrac,sf,vm,sfcfsha",
+            "release_date": "2013-12-10",
+            "release_id": "8199",
+            "release_level": "HF",
+            "release_name": "vm-aix-6.0.3.105",
+            "release_type": "HF",
+            "release_version": "6.0.3.105-vm",
+            "requires": "6996",
+            "vers_level": "603-000-105-vm"
+        },
+        "8254": {
+            "download_count": "125",
+            "extended_prop": {
+                "criticality": "critical",
+                "have_kernel_component": "1",
+                "manifest": "",
+                "require_application_downtime": "1",
+                "require_system_reboot": "1",
+                "vom_deployment": "0",
+                "vom_id": "",
+                "vom_installer_id": ""
+            },
+            "filename": "vm-aix-6.0.3.200-patches.tar.gz",
+            "gunzip_cksum": "3329642402",
+            "gunzip_size": "284402688",
+            "hotfix_core_prod": "vm",
+            "hotfix_prod": "vm",
+            "install_path": "installVM603P2",
+            "installed_over": "6996",
+            "obsoleted_by": "8506",
+            "obsoletes": "6845,7956",
+            "padvs": "aix71,aix61",
+            "patch": {
+                "VRTSvxvm-06.00.0300.0200": {
+                    "pkgs": [
+                        "VRTSvxvm"
+                    ],
+                    "version": "06.00.0300.0200"
+                }
+            },
+            "patch_details_path_html": "https://sort.symantec.com/patch/detail/8254",
+            "patch_details_path_rest": "https://sort.symantec.com/vos_services/rest/patch_services/1.0/patchRelease/8254",
+            "products": "dmp,sfha,sfrac,sf,vm,sfcfsha",
+            "release_date": "2013-12-18",
+            "release_id": "8254",
+            "release_level": "HF",
+            "release_name": "vm-aix-6.0.3.200",
+            "release_type": "pHF",
+            "release_version": "6.0.3.200-vm",
+            "requires": "6996",
+            "upload_cksum": "3139906125",
+            "upload_location": "ftp://ftp.veritas.com/pub/support/patchcentral/AIX/6.0.3/vm/vm-aix-6.0.3.200-patches.tar.gz",
+            "upload_size": "83048364",
+            "vers_level": "603-000-200-vm"
+        },
+        "8264": {
+            "download_count": 0,
+            "extended_prop": {
+                "criticality": "optional",
+                "have_kernel_component": "1",
+                "manifest": "",
+                "require_application_downtime": "1",
+                "require_system_reboot": "1",
+                "vom_deployment": "0",
+                "vom_id": "",
+                "vom_installer_id": ""
+            },
+            "hotfix_core_prod": "fs",
+            "hotfix_prod": "fs",
+            "installed_over": "6996",
+            "obsoleted_by": "8506",
+            "obsoletes": "6778",
+            "padvs": "aix71,aix61",
+            "patch": {
+                "VRTSvxfs-06.00.0300.0008": {
+                    "pkgs": [
+                        "VRTSvxfs"
+                    ],
+                    "version": "06.00.0300.0008"
+                }
+            },
+            "products": "sfha,sfrac,sf,sfcfsha,fs",
+            "release_date": "2014-01-02",
+            "release_id": "8264",
+            "release_level": "HF",
+            "release_name": "fs-aix-6.0.3.008",
+            "release_type": "HF",
+            "release_version": "6.0.3.008-fs",
+            "requires": "6996",
+            "vers_level": "603-000-008-fs"
+        },
+        "8278": {
+            "download_count": 0,
+            "extended_prop": {
+                "criticality": "critical",
+                "have_kernel_component": "1",
+                "manifest": "",
+                "require_application_downtime": "1",
+                "require_system_reboot": "1",
+                "vom_deployment": "0",
+                "vom_id": "",
+                "vom_installer_id": ""
+            },
+            "hotfix_core_prod": "vm",
+            "hotfix_prod": "vm",
+            "installed_over": "6996",
+            "obsoleted_by": "8506",
+            "obsoletes": "6845,7956,8254",
+            "padvs": "aix71,aix61",
+            "patch": {
+                "VRTSvxvm-06.00.0300.0201": {
+                    "pkgs": [
+                        "VRTSvxvm"
+                    ],
+                    "version": "06.00.0300.0201"
+                }
+            },
+            "products": "dmp,sfha,sfrac,sf,vm,sfcfsha",
+            "release_date": "2013-12-30",
+            "release_id": "8278",
+            "release_level": "HF",
+            "release_name": "vm-aix-6.0.3.201",
+            "release_type": "HF",
+            "release_version": "6.0.3.201-vm",
+            "requires": "6996",
+            "vers_level": "603-000-201-vm"
+        },
+        "8291": {
+            "download_count": 0,
+            "extended_prop": {
+                "criticality": "recommended",
+                "have_kernel_component": "1",
+                "manifest": "",
+                "require_application_downtime": "1",
+                "require_system_reboot": "1",
+                "vom_deployment": "0",
+                "vom_id": "",
+                "vom_installer_id": ""
+            },
+            "hotfix_core_prod": "fs",
+            "hotfix_prod": "fs",
+            "installed_over": "6996",
+            "obsoleted_by": "8506",
+            "obsoletes": "6778",
+            "padvs": "aix71,aix61",
+            "patch": {
+                "VRTSvxfs-06.00.0300.0009": {
+                    "pkgs": [
+                        "VRTSvxfs"
+                    ],
+                    "version": "06.00.0300.0009"
+                }
+            },
+            "products": "sfha,sfrac,sf,sfcfsha,fs",
+            "release_date": "2014-03-27",
+            "release_id": "8291",
+            "release_level": "HF",
+            "release_name": "fs-aix-6.0.3.009",
+            "release_type": "HF",
+            "release_version": "6.0.3.009-fs",
+            "requires": "6996",
+            "vers_level": "603-000-009-fs"
+        },
+        "8304": {
+            "download_count": 0,
+            "extended_prop": {
+                "criticality": "critical",
+                "have_kernel_component": "1",
+                "manifest": "",
+                "require_application_downtime": "1",
+                "require_system_reboot": "1",
+                "vom_deployment": "0",
+                "vom_id": "",
+                "vom_installer_id": ""
+            },
+            "hotfix_core_prod": "vm",
+            "hotfix_prod": "vm",
+            "installed_over": "6996",
+            "obsoleted_by": "8506",
+            "obsoletes": "6845,7956,8254",
+            "padvs": "aix71,aix61",
+            "patch": {
+                "VRTSvxvm-06.00.0300.0202": {
+                    "pkgs": [
+                        "VRTSvxvm"
+                    ],
+                    "version": "06.00.0300.0202"
+                }
+            },
+            "products": "dmp,sfha,sfrac,sf,vm,sfcfsha",
+            "release_date": "2014-01-08",
+            "release_id": "8304",
+            "release_level": "HF",
+            "release_name": "vm-aix-6.0.3.202",
+            "release_type": "HF",
+            "release_version": "6.0.3.202-vm",
+            "requires": "6996",
+            "vers_level": "603-000-202-vm"
+        },
+        "8375": {
+            "download_count": 0,
+            "extended_prop": {
+                "criticality": "critical",
+                "have_kernel_component": "1",
+                "manifest": "",
+                "require_application_downtime": "1",
+                "require_system_reboot": "1",
+                "vom_deployment": "0",
+                "vom_id": "",
+                "vom_installer_id": ""
+            },
+            "hotfix_core_prod": "vm",
+            "hotfix_prod": "vm",
+            "installed_over": "6996",
+            "obsoleted_by": "8506",
+            "obsoletes": "6845,7956,8254",
+            "padvs": "aix71,aix61",
+            "patch": {
+                "VRTSvxvm-06.00.0300.0203": {
+                    "pkgs": [
+                        "VRTSvxvm"
+                    ],
+                    "version": "06.00.0300.0203"
+                }
+            },
+            "products": "dmp,sfha,sfrac,sf,vm,sfcfsha",
+            "release_date": "2014-02-07",
+            "release_id": "8375",
+            "release_level": "HF",
+            "release_name": "vm-aix-6.0.3.203",
+            "release_type": "HF",
+            "release_version": "6.0.3.203-vm",
+            "requires": "6996",
+            "vers_level": "603-000-203-vm"
+        },
+        "8415": {
+            "download_count": 0,
+            "extended_prop": {
+                "criticality": "critical",
+                "have_kernel_component": "1",
+                "manifest": "",
+                "require_application_downtime": "1",
+                "require_system_reboot": "1",
+                "vom_deployment": "0",
+                "vom_id": "",
+                "vom_installer_id": ""
+            },
+            "hotfix_core_prod": "vm",
+            "hotfix_prod": "vm",
+            "installed_over": "6996",
+            "obsoleted_by": "8506",
+            "obsoletes": "6845,7956,8254",
+            "padvs": "aix71,aix61",
+            "patch": {
+                "VRTSvxvm-06.00.0300.0204": {
+                    "pkgs": [
+                        "VRTSvxvm"
+                    ],
+                    "version": "06.00.0300.0204"
+                }
+            },
+            "products": "dmp,sfha,sfrac,sf,vm,sfcfsha",
+            "release_date": "2014-02-25",
+            "release_id": "8415",
+            "release_level": "HF",
+            "release_name": "vm-aix-6.0.3.204",
+            "release_type": "HF",
+            "release_version": "6.0.3.204-vm",
+            "requires": "",
+            "vers_level": "603-000-204-vm"
+        },
+        "8427": {
+            "download_count": 0,
+            "extended_prop": {
+                "criticality": "critical",
+                "have_kernel_component": "1",
+                "manifest": "",
+                "require_application_downtime": "1",
+                "require_system_reboot": "1",
+                "vom_deployment": "0",
+                "vom_id": "",
+                "vom_installer_id": ""
+            },
+            "hotfix_core_prod": "vm",
+            "hotfix_prod": "vm",
+            "installed_over": "7221",
+            "obsoleted_by": "8570,8694",
+            "obsoletes": "",
+            "padvs": "aix71,aix61",
+            "patch": {
+                "VRTSvxvm-06.01.0000.0001": {
+                    "pkgs": [
+                        "VRTSvxvm"
+                    ],
+                    "version": "06.01.0000.0001"
+                }
+            },
+            "products": "sf,vm,sfha,dmp,sfrac,sfcfsha",
+            "release_date": "2014-03-03",
+            "release_id": "8427",
+            "release_level": "HF",
+            "release_name": "vm-aix-6.1.0.001",
+            "release_type": "HF",
+            "release_version": "6.1.0.001-vm",
+            "requires": "",
+            "vers_level": "610-000-001-vm"
+        },
+        "8454": {
+            "download_count": 0,
+            "extended_prop": {
+                "criticality": "critical",
+                "have_kernel_component": "1",
+                "manifest": "",
+                "require_application_downtime": "1",
+                "require_system_reboot": "1",
+                "vom_deployment": "0",
+                "vom_id": "",
+                "vom_installer_id": ""
+            },
+            "hotfix_core_prod": "vm",
+            "hotfix_prod": "vm",
+            "installed_over": "6996",
+            "obsoleted_by": "8506",
+            "obsoletes": "6845,7956,8254",
+            "padvs": "aix71,aix61",
+            "patch": {
+                "VRTSvxvm-06.00.0300.0205": {
+                    "pkgs": [
+                        "VRTSvxvm"
+                    ],
+                    "version": "06.00.0300.0205"
+                }
+            },
+            "products": "dmp,sfha,sfrac,sf,vm,sfcfsha",
+            "release_date": "2014-03-20",
+            "release_id": "8454",
+            "release_level": "HF",
+            "release_name": "vm-aix-6.0.3.205",
+            "release_type": "HF",
+            "release_version": "6.0.3.205-vm",
+            "requires": "6996",
+            "vers_level": "603-000-205-vm"
+        },
+        "8465": {
+            "download_count": 0,
+            "extended_prop": {
+                "criticality": "critical",
+                "have_kernel_component": "1",
+                "manifest": "",
+                "require_application_downtime": "1",
+                "require_system_reboot": "1",
+                "vom_deployment": "0",
+                "vom_id": "",
+                "vom_installer_id": ""
+            },
+            "hotfix_core_prod": "fs",
+            "hotfix_prod": "fs",
+            "installed_over": "6996",
+            "obsoleted_by": "8506",
+            "obsoletes": "6778",
+            "padvs": "aix71,aix61",
+            "patch": {
+                "VRTSvxfs-06.00.0300.0010": {
+                    "pkgs": [
+                        "VRTSvxfs"
+                    ],
+                    "version": "06.00.0300.0010"
+                }
+            },
+            "products": "sfha,sfrac,sf,sfcfsha,fs",
+            "release_date": "2014-03-31",
+            "release_id": "8465",
+            "release_level": "HF",
+            "release_name": "fs-aix-6.0.3.010",
+            "release_type": "HF",
+            "release_version": "6.0.3.010-fs",
+            "requires": "6996",
+            "vers_level": "603-000-010-fs"
+        },
+        "8470": {
+            "download_count": 0,
+            "extended_prop": {
+                "criticality": "critical",
+                "have_kernel_component": "1",
+                "manifest": "",
+                "require_application_downtime": "1",
+                "require_system_reboot": "1",
+                "vom_deployment": "0",
+                "vom_id": "",
+                "vom_installer_id": ""
+            },
+            "hotfix_core_prod": "vm",
+            "hotfix_prod": "vm",
+            "installed_over": "6996",
+            "obsoleted_by": "8506",
+            "obsoletes": "6845,7956,8254",
+            "padvs": "aix71,aix61",
+            "patch": {
+                "VRTSvxvm-06.00.0300.0206": {
+                    "pkgs": [
+                        "VRTSvxvm"
+                    ],
+                    "version": "06.00.0300.0206"
+                }
+            },
+            "products": "dmp,sfha,sfrac,sf,vm,sfcfsha",
+            "release_date": "2014-03-27",
+            "release_id": "8470",
+            "release_level": "HF",
+            "release_name": "vm-aix-6.0.3.206",
+            "release_type": "HF",
+            "release_version": "6.0.3.206-vm",
+            "requires": "6996",
+            "vers_level": "603-000-206-vm"
+        },
+        "8486": {
+            "download_count": "42",
+            "extended_prop": {
+                "criticality": "optional",
+                "have_kernel_component": "1",
+                "manifest": "",
+                "require_application_downtime": "0",
+                "require_system_reboot": "0",
+                "vom_deployment": "0",
+                "vom_id": "",
+                "vom_installer_id": ""
+            },
+            "gunzip_cksum": "2288521968",
+            "gunzip_size": "12247040",
+            "hotfix_core_prod": "amf",
+            "hotfix_prod": "amf",
+            "installed_over": "7221",
+            "obsoleted_by": "8570",
+            "obsoletes": "",
+            "padvs": "aix71,aix61",
+            "patch": {
+                "VRTSamf-06.01.0000.0100": {
+                    "pkgs": [
+                        "VRTSamf"
+                    ],
+                    "version": "06.01.0000.0100"
+                }
+            },
+            "patch_details_path_html": "https://sort.symantec.com/patch/detail/8486",
+            "patch_details_path_rest": "https://sort.symantec.com/vos_services/rest/patch_services/1.0/patchRelease/8486",
+            "products": "sfha,vcs,sfrac,sfcfsha",
+            "release_date": "2014-04-04",
+            "release_id": "8486",
+            "release_level": "HF",
+            "release_name": "amf-aix-6.1.0.100",
+            "release_type": "pHF",
+            "release_version": "6.1.0.100-amf",
+            "requires": "",
+            "upload_cksum": "1939933427",
+            "upload_location": "ftp://ftp.veritas.com/pub/support/patchcentral/AIX/6.1/amf/amf-aix-6.1.0.100-patches.tar.gz",
+            "upload_size": "3790611",
+            "vers_level": "610-000-100-amf"
+        },
+        "8487": {
+            "download_count": "1",
+            "extended_prop": {
+                "criticality": "optional",
+                "have_kernel_component": "1",
+                "manifest": "",
+                "require_application_downtime": "0",
+                "require_system_reboot": "0",
+                "vom_deployment": "0",
+                "vom_id": "",
+                "vom_installer_id": ""
+            },
+            "gunzip_cksum": "567741316",
+            "gunzip_size": "9584640",
+            "hotfix_core_prod": "amf",
+            "hotfix_prod": "amf",
+            "installed_over": "6113",
+            "obsoleted_by": "6749",
+            "obsoletes": "",
+            "padvs": "aix71,aix61",
+            "patch": {
+                "VRTSamf-06.00.0001.0100": {
+                    "pkgs": [
+                        "VRTSamf"
+                    ],
+                    "version": "06.00.0001.0100"
+                }
+            },
+            "patch_details_path_html": "https://sort.symantec.com/patch/detail/8487",
+            "patch_details_path_rest": "https://sort.symantec.com/vos_services/rest/patch_services/1.0/patchRelease/8487",
+            "products": "sfha,sfrac,vcs,sfcfsha",
+            "release_date": "2014-04-04",
+            "release_id": "8487",
+            "release_level": "HF",
+            "release_name": "amf-aix-6.0RP1P1",
+            "release_type": "P",
+            "release_version": "6.0RP1P1-amf",
+            "requires": "6113",
+            "upload_cksum": "1115377301",
+            "upload_location": "ftp://ftp.veritas.com/pub/support/patchcentral/AIX/6.0/amf/amf-aix-6.0RP1P1-patches.tar.gz",
+            "upload_size": "2976277",
+            "vers_level": "600-001-100-amf"
+        },
+        "8530": {
+            "download_count": 0,
+            "extended_prop": {
+                "criticality": "recommended",
+                "have_kernel_component": "0",
+                "manifest": "",
+                "require_application_downtime": "0",
+                "require_system_reboot": "0",
+                "vom_deployment": "0",
+                "vom_id": "",
+                "vom_installer_id": ""
+            },
+            "hotfix_core_prod": "vcsea",
+            "hotfix_prod": "vcsea",
+            "installed_over": "7221",
+            "obsoleted_by": "",
+            "obsoletes": "",
+            "padvs": "aix71,aix61",
+            "patch": {
+                "VRTSvcsea-06.01.0000.0001": {
+                    "pkgs": [
+                        "VRTSvcsea"
+                    ],
+                    "version": "06.01.0000.0001"
+                }
+            },
+            "products": "sfha,vcs,sfrac,sfcfsha,appha",
+            "release_date": "2014-04-16",
+            "release_id": "8530",
+            "release_level": "HF",
+            "release_name": "vcsea-aix-6.1.0.1",
+            "release_type": "HF",
+            "release_version": "6.1.0.001-vcsea",
+            "requires": "",
+            "vers_level": "610-000-001-vcsea"
+        },
+        "8532": {
+            "download_count": 0,
+            "extended_prop": {
+                "criticality": "recommended",
+                "have_kernel_component": "0",
+                "manifest": "",
+                "require_application_downtime": "0",
+                "require_system_reboot": "0",
+                "vom_deployment": "0",
+                "vom_id": "",
+                "vom_installer_id": ""
+            },
+            "hotfix_core_prod": "vcsea",
+            "hotfix_prod": "vcsea",
+            "installed_over": "7221",
+            "obsoleted_by": "8570",
+            "obsoletes": "",
+            "padvs": "aix71,aix61",
+            "patch": {
+                "VRTSvcsea-06.01.0000.0001": {
+                    "pkgs": [
+                        "VRTSvcsea"
+                    ],
+                    "version": "06.01.0000.0001"
+                }
+            },
+            "products": "sfha,vcs,sfrac,sfcfsha,appha",
+            "release_date": "2014-04-17",
+            "release_id": "8532",
+            "release_level": "HF",
+            "release_name": "vcsea-aix-6.1.0.1a",
+            "release_type": "HF",
+            "release_version": "6.1.0.001-vcsea",
+            "requires": "",
+            "vers_level": "610-000-001-vcsea"
+        },
+        "8536": {
+            "download_count": "28",
+            "extended_prop": {
+                "criticality": "optional",
+                "have_kernel_component": "0",
+                "manifest": "",
+                "require_application_downtime": "0",
+                "require_system_reboot": "0",
+                "vom_deployment": "0",
+                "vom_id": "",
+                "vom_installer_id": ""
+            },
+            "gunzip_cksum": "2415063494",
+            "gunzip_size": "48907264",
+            "hotfix_core_prod": "cps",
+            "hotfix_prod": "cps",
+            "installed_over": "7221",
+            "obsoleted_by": "8570",
+            "obsoletes": "",
+            "padvs": "aix71,aix61",
+            "patch": {
+                "VRTScps-06.01.0000.0100": {
+                    "pkgs": [
+                        "VRTScps"
+                    ],
+                    "version": "06.01.0000.0100"
+                }
+            },
+            "patch_details_path_html": "https://sort.symantec.com/patch/detail/8536",
+            "patch_details_path_rest": "https://sort.symantec.com/vos_services/rest/patch_services/1.0/patchRelease/8536",
+            "products": "sfha,vcs,sfrac,sfcfsha",
+            "release_date": "2014-04-17",
+            "release_id": "8536",
+            "release_level": "HF",
+            "release_name": "cps-aix-6.1.0.100",
+            "release_type": "pHF",
+            "release_version": "6.1.0.100-cps",
+            "requires": "",
+            "upload_cksum": "1385440829",
+            "upload_location": "ftp://ftp.veritas.com/pub/support/patchcentral/AIX/6.1/cps/cps-aix-6.1.0.100-patches.tar.gz",
+            "upload_size": "14535517",
+            "vers_level": "610-000-100-cps"
+        },
+        "8562": {
+            "download_count": "55",
+            "extended_prop": {
+                "criticality": "optional",
+                "have_kernel_component": "1",
+                "manifest": "",
+                "require_application_downtime": "0",
+                "require_system_reboot": "0",
+                "vom_deployment": "0",
+                "vom_id": "",
+                "vom_installer_id": ""
+            },
+            "filename": "amf-aix-6.0.5.100-patches.tar.gz",
+            "gunzip_cksum": "3484411672",
+            "gunzip_size": "12221440",
+            "hotfix_core_prod": "amf",
+            "hotfix_prod": "amf",
+            "install_path": "installAMF605P1",
+            "installed_over": "8506",
+            "obsoleted_by": "",
+            "obsoletes": "",
+            "padvs": "aix71,aix61",
+            "patch": {
+                "VRTSamf-06.00.0500.0100": {
+                    "pkgs": [
+                        "VRTSamf"
+                    ],
+                    "version": "06.00.0500.0100"
+                }
+            },
+            "patch_details_path_html": "https://sort.symantec.com/patch/detail/8562",
+            "patch_details_path_rest": "https://sort.symantec.com/vos_services/rest/patch_services/1.0/patchRelease/8562",
+            "products": "sfha,sfrac,vcs,sfcfsha",
+            "release_date": "2014-05-05",
+            "release_id": "8562",
+            "release_level": "HF",
+            "release_name": "amf-aix-6.0.5.100",
+            "release_type": "pHF",
+            "release_version": "6.0.5.100-amf",
+            "requires": "8506",
+            "upload_cksum": "2209998953",
+            "upload_location": "ftp://ftp.veritas.com/pub/support/patchcentral/AIX/6.0/amf/amf-aix-6.0.5.100-patches.tar.gz",
+            "upload_size": "3775666",
+            "vers_level": "605-000-100-amf"
+        },
+        "8694": {
+            "download_count": "31",
+            "extended_prop": {
+                "criticality": "critical",
+                "have_kernel_component": "1",
+                "manifest": "",
+                "require_application_downtime": "1",
+                "require_system_reboot": "1",
+                "vom_deployment": "0",
+                "vom_id": "",
+                "vom_installer_id": ""
+            },
+            "filename": "vm-aix-6.1.0.100-patches.tar.gz",
+            "gunzip_cksum": "1960794881",
+            "gunzip_size": "315449344",
+            "hotfix_core_prod": "vm",
+            "hotfix_prod": "vm",
+            "install_path": "installVRTSvxvm610HF100",
+            "installed_over": "7221",
+            "obsoleted_by": "8570",
+            "obsoletes": "",
+            "padvs": "aix71,aix61",
+            "patch": {
+                "VRTSvxvm-06.01.0000.0100": {
+                    "pkgs": [
+                        "VRTSvxvm"
+                    ],
+                    "version": "06.01.0000.0100"
+                }
+            },
+            "patch_details_path_html": "https://sort.symantec.com/patch/detail/8694",
+            "patch_details_path_rest": "https://sort.symantec.com/vos_services/rest/patch_services/1.0/patchRelease/8694",
+            "products": "sf,vm,sfha,dmp,sfrac,sfcfsha",
+            "release_date": "2014-05-29",
+            "release_id": "8694",
+            "release_level": "HF",
+            "release_name": "vm-aix-6.1.0.100",
+            "release_type": "pHF",
+            "release_version": "6.1.0.100-vm",
+            "requires": "",
+            "upload_cksum": "2552842499",
+            "upload_location": "ftp://ftp.veritas.com/pub/support/patchcentral/AIX/6.1/vm/vm-aix-6.1.0.100-patches.tar.gz",
+            "upload_size": "90322104",
+            "vers_level": "610-000-100-vm"
+        },
+        "8703": {
+            "download_count": 0,
+            "extended_prop": {
+                "criticality": "optional",
+                "have_kernel_component": "0",
+                "manifest": "",
+                "require_application_downtime": "0",
+                "require_system_reboot": "0",
+                "vom_deployment": "0",
+                "vom_id": "",
+                "vom_installer_id": ""
+            },
+            "hotfix_core_prod": "vcs",
+            "hotfix_prod": "vcs",
+            "installed_over": "8506",
+            "obsoleted_by": "",
+            "obsoletes": "",
+            "padvs": "aix71,aix61",
+            "patch": {
+                "VRTSvcs-06.00.0500.0001": {
+                    "pkgs": [
+                        "VRTSvcs"
+                    ],
+                    "version": "06.00.0500.0001"
+                }
+            },
+            "products": "sfha,sfrac,vcs,sfcfsha",
+            "release_date": "2014-05-26",
+            "release_id": "8703",
+            "release_level": "HF",
+            "release_name": "vcs-aix-6.0.5.001",
+            "release_type": "HF",
+            "release_version": "6.0.5.001-vcs",
+            "requires": "8506",
+            "vers_level": "605-000-001-vcs"
+        },
+        "8704": {
+            "download_count": 0,
+            "extended_prop": {
+                "criticality": "optional",
+                "have_kernel_component": "0",
+                "manifest": "",
+                "require_application_downtime": "0",
+                "require_system_reboot": "0",
+                "vom_deployment": "0",
+                "vom_id": "",
+                "vom_installer_id": ""
+            },
+            "hotfix_core_prod": "vcs",
+            "hotfix_prod": "vcs",
+            "installed_over": "6749",
+            "obsoleted_by": "6996,8506",
+            "obsoletes": "",
+            "padvs": "aix71,aix61",
+            "patch": {
+                "VRTSvcs-06.00.0100.0001": {
+                    "pkgs": [
+                        "VRTSvcs"
+                    ],
+                    "version": "06.00.0100.0001"
+                }
+            },
+            "products": "sfha,sfrac,vcs,sfcfsha",
+            "release_date": "2014-06-09",
+            "release_id": "8704",
+            "release_level": "HF",
+            "release_name": "vcs-aix-6.0.1.001",
+            "release_type": "HF",
+            "release_version": "6.0.1.001-vcs",
+            "requires": "",
+            "vers_level": "601-000-001-vcs"
+        },
+        "8717": {
+            "download_count": 0,
+            "extended_prop": {
+                "criticality": "critical",
+                "have_kernel_component": "1",
+                "manifest": "",
+                "require_application_downtime": "1",
+                "require_system_reboot": "1",
+                "vom_deployment": "0",
+                "vom_id": "",
+                "vom_installer_id": ""
+            },
+            "hotfix_core_prod": "vm",
+            "hotfix_prod": "vm",
+            "installed_over": "8506",
+            "obsoleted_by": "",
+            "obsoletes": "",
+            "padvs": "aix71,aix61",
+            "patch": {
+                "VRTSvxvm-06.00.0500.0001": {
+                    "pkgs": [
+                        "VRTSvxvm"
+                    ],
+                    "version": "06.00.0500.0001"
+                }
+            },
+            "products": "dmp,sfha,sfrac,sf,vm,sfcfsha",
+            "release_date": "2014-05-30",
+            "release_id": "8717",
+            "release_level": "HF",
+            "release_name": "vm-aix-6.0.5.001",
+            "release_type": "HF",
+            "release_version": "6.0.5.001-vm",
+            "requires": "8506",
+            "vers_level": "605-000-001-vm"
+        },
+        "8741": {
+            "download_count": 0,
+            "extended_prop": {
+                "criticality": "critical",
+                "have_kernel_component": "1",
+                "manifest": "",
+                "require_application_downtime": "1",
+                "require_system_reboot": "1",
+                "vom_deployment": "0",
+                "vom_id": "",
+                "vom_installer_id": ""
+            },
+            "hotfix_core_prod": "vm",
+            "hotfix_prod": "vm",
+            "installed_over": "6996",
+            "obsoleted_by": "8506",
+            "obsoletes": "6845,7956,8254",
+            "padvs": "aix71,aix61",
+            "patch": {
+                "VRTSvxvm-06.00.0300.0207": {
+                    "pkgs": [
+                        "VRTSvxvm"
+                    ],
+                    "version": "06.00.0300.0207"
+                }
+            },
+            "products": "dmp,sfha,sfrac,sf,vm,sfcfsha",
+            "release_date": "2014-06-12",
+            "release_id": "8741",
+            "release_level": "HF",
+            "release_name": "vm-aix-6.0.3.207",
+            "release_type": "HF",
+            "release_version": "6.0.3.207-vm",
+            "requires": "6996",
+            "vers_level": "603-000-207-vm"
+        },
+        "8773": {
+            "download_count": 0,
+            "extended_prop": {
+                "criticality": "critical",
+                "have_kernel_component": "1",
+                "manifest": "",
+                "require_application_downtime": "1",
+                "require_system_reboot": "1",
+                "vom_deployment": "0",
+                "vom_id": "",
+                "vom_installer_id": ""
+            },
+            "hotfix_core_prod": "vm",
+            "hotfix_prod": "vm",
+            "installed_over": "8506",
+            "obsoleted_by": "",
+            "obsoletes": "",
+            "padvs": "aix71,aix61",
+            "patch": {
+                "VRTSvxvm-06.00.0500.0002": {
+                    "pkgs": [
+                        "VRTSvxvm"
+                    ],
+                    "version": "06.00.0500.0002"
+                }
+            },
+            "products": "dmp,sfha,sfrac,sf,vm,sfcfsha",
+            "release_date": "2014-06-19",
+            "release_id": "8773",
+            "release_level": "HF",
+            "release_name": "vm-aix-6.0.5.002",
+            "release_type": "HF",
+            "release_version": "6.0.5.002-vm",
+            "requires": "8506",
+            "vers_level": "605-000-002-vm"
+        },
+        "8804": {
+            "download_count": 0,
+            "extended_prop": {
+                "criticality": "recommended",
+                "have_kernel_component": "0",
+                "manifest": "",
+                "require_application_downtime": "0",
+                "require_system_reboot": "0",
+                "vom_deployment": "0",
+                "vom_id": "",
+                "vom_installer_id": ""
+            },
+            "hotfix_core_prod": "fs",
+            "hotfix_prod": "fs",
+            "installed_over": "8506",
+            "obsoleted_by": "",
+            "obsoletes": "6778",
+            "padvs": "aix71,aix61",
+            "patch": {
+                "VRTSvxfs-06.00.0500.0001": {
+                    "pkgs": [
+                        "VRTSvxfs"
+                    ],
+                    "version": "06.00.0500.0001"
+                }
+            },
+            "products": "sfha,sfrac,sf,sfcfsha,fs",
+            "release_date": "2014-06-30",
+            "release_id": "8804",
+            "release_level": "HF",
+            "release_name": "fs-aix-6.0.5.001",
+            "release_type": "HF",
+            "release_version": "6.0.5.001-fs",
+            "requires": "8506",
+            "vers_level": "605-000-001-fs"
+        },
+        "8835": {
+            "download_count": 0,
+            "extended_prop": {
+                "criticality": "optional",
+                "have_kernel_component": "0",
+                "manifest": "",
+                "require_application_downtime": "0",
+                "require_system_reboot": "0",
+                "vom_deployment": "0",
+                "vom_id": "",
+                "vom_installer_id": ""
+            },
+            "hotfix_core_prod": "vcsag",
+            "hotfix_prod": "vcsag",
+            "installed_over": "7221",
+            "obsoleted_by": "8570",
+            "obsoletes": "",
+            "padvs": "aix71,aix61",
+            "patch": {
+                "VRTSvcsag-06.01.0000.0001": {
+                    "pkgs": [
+                        "VRTSvcsag"
+                    ],
+                    "version": "06.01.0000.0001"
+                }
+            },
+            "products": "sfha,vcs,sfrac,sfcfsha,appha",
+            "release_date": "2014-07-14",
+            "release_id": "8835",
+            "release_level": "HF",
+            "release_name": "vcsag-aix-6.1.0.001",
+            "release_type": "HF",
+            "release_version": "6.1.0.001-vcsag",
+            "requires": "",
+            "vers_level": "610-000-001-vcsag"
+        },
+        "8842": {
+            "download_count": 0,
+            "extended_prop": {
+                "criticality": "optional",
+                "have_kernel_component": "1",
+                "manifest": "",
+                "require_application_downtime": "1",
+                "require_system_reboot": "1",
+                "vom_deployment": "0",
+                "vom_id": "",
+                "vom_installer_id": ""
+            },
+            "hotfix_core_prod": "vm",
+            "hotfix_prod": "vm",
+            "installed_over": "8506",
+            "obsoleted_by": "",
+            "obsoletes": "",
+            "padvs": "aix71,aix61",
+            "patch": {
+                "VRTSvxvm-06.00.0500.0003": {
+                    "pkgs": [
+                        "VRTSvxvm"
+                    ],
+                    "version": "06.00.0500.0003"
+                }
+            },
+            "products": "dmp,sfha,sfrac,sf,vm,sfcfsha",
+            "release_date": "2014-07-15",
+            "release_id": "8842",
+            "release_level": "HF",
+            "release_name": "vm-aix-6.0.5.003",
+            "release_type": "HF",
+            "release_version": "6.0.5.003-vm",
+            "requires": "8506",
+            "vers_level": "605-000-003-vm"
+        },
+        "8870": {
+            "download_count": 0,
+            "extended_prop": {
+                "criticality": "recommended",
+                "have_kernel_component": "1",
+                "manifest": "",
+                "require_application_downtime": "1",
+                "require_system_reboot": "1",
+                "vom_deployment": "0",
+                "vom_id": "",
+                "vom_installer_id": ""
+            },
+            "hotfix_core_prod": "vm",
+            "hotfix_prod": "vm",
+            "installed_over": "8506",
+            "obsoleted_by": "",
+            "obsoletes": "",
+            "padvs": "aix71,aix61",
+            "patch": {
+                "VRTSvxvm-06.00.0500.0004": {
+                    "pkgs": [
+                        "VRTSvxvm"
+                    ],
+                    "version": "06.00.0500.0004"
+                }
+            },
+            "products": "dmp,sfha,sfrac,sf,vm,sfcfsha",
+            "release_date": "2014-07-29",
+            "release_id": "8870",
+            "release_level": "HF",
+            "release_name": "vm-aix-6.0.5.004",
+            "release_type": "HF",
+            "release_version": "6.0.5.004-vm",
+            "requires": "8506",
+            "vers_level": "605-000-004-vm"
+        },
+        "8888": {
+            "download_count": 0,
+            "extended_prop": {
+                "criticality": "critical",
+                "have_kernel_component": "1",
+                "manifest": "",
+                "require_application_downtime": "1",
+                "require_system_reboot": "1",
+                "vom_deployment": "0",
+                "vom_id": "",
+                "vom_installer_id": ""
+            },
+            "hotfix_core_prod": "vm",
+            "hotfix_prod": "vm",
+            "installed_over": "8506",
+            "obsoleted_by": "",
+            "obsoletes": "",
+            "padvs": "aix71,aix61",
+            "patch": {
+                "VRTSvxvm-06.00.0500.0005": {
+                    "pkgs": [
+                        "VRTSvxvm"
+                    ],
+                    "version": "06.00.0500.0005"
+                }
+            },
+            "products": "dmp,sfha,sfrac,sf,vm,sfcfsha",
+            "release_date": "2014-08-05",
+            "release_id": "8888",
+            "release_level": "HF",
+            "release_name": "vm-aix-6.0.5.005",
+            "release_type": "HF",
+            "release_version": "6.0.5.005-vm",
+            "requires": "8506",
+            "vers_level": "605-000-005-vm"
+        },
+        "8908": {
+            "download_count": "34",
+            "extended_prop": {
+                "criticality": "critical",
+                "have_kernel_component": "1",
+                "manifest": "",
+                "require_application_downtime": "0",
+                "require_system_reboot": "0",
+                "vom_deployment": "0",
+                "vom_id": "",
+                "vom_installer_id": ""
+            },
+            "filename": "amf-aix-6.1.1.100-patches.tar.gz",
+            "gunzip_cksum": "826982965",
+            "gunzip_size": "24573440",
+            "hotfix_core_prod": "amf",
+            "hotfix_prod": "amf",
+            "install_path": "installVRTSamf611HF100",
+            "installed_over": "8570",
+            "obsoleted_by": "",
+            "obsoletes": "",
+            "padvs": "aix71,aix61",
+            "patch": {
+                "VRTSamf-06.01.0001.0100": {
+                    "pkgs": [
+                        "VRTSamf"
+                    ],
+                    "version": "06.01.0001.0100"
+                }
+            },
+            "patch_details_path_html": "https://sort.symantec.com/patch/detail/8908",
+            "patch_details_path_rest": "https://sort.symantec.com/vos_services/rest/patch_services/1.0/patchRelease/8908",
+            "products": "sfha,vcs,sfrac,sfcfsha",
+            "release_date": "2014-08-18",
+            "release_id": "8908",
+            "release_level": "HF",
+            "release_name": "amf-aix-6.1.1.100",
+            "release_type": "pHF",
+            "release_version": "6.1.1.100-amf",
+            "requires": "8570",
+            "upload_cksum": "3654636842",
+            "upload_location": "ftp://ftp.veritas.com/pub/support/patchcentral/AIX/6.1/amf/amf-aix-6.1.1.100-patches.tar.gz",
+            "upload_size": "5141514",
+            "vers_level": "611-000-100-amf"
+        },
+        "8912": {
+            "download_count": 0,
+            "extended_prop": {
+                "criticality": "recommended",
+                "have_kernel_component": "0",
+                "manifest": "",
+                "require_application_downtime": "1",
+                "require_system_reboot": "1",
+                "vom_deployment": "0",
+                "vom_id": "",
+                "vom_installer_id": ""
+            },
+            "hotfix_core_prod": "vm",
+            "hotfix_prod": "vm",
+            "installed_over": "8570",
+            "obsoleted_by": "",
+            "obsoletes": "",
+            "padvs": "aix71,aix61",
+            "patch": {
+                "VRTSvxvm-06.01.0001.0001": {
+                    "pkgs": [
+                        "VRTSvxvm"
+                    ],
+                    "version": "06.01.0001.0001"
+                }
+            },
+            "products": "sf,vm,sfha,dmp,sfrac,sfcfsha",
+            "release_date": "2014-08-12",
+            "release_id": "8912",
+            "release_level": "HF",
+            "release_name": "vm-aix-6.1.1.001",
+            "release_type": "HF",
+            "release_version": "6.1.1.001-vm",
+            "requires": "8570",
+            "vers_level": "611-000-001-vm"
+        },
+        "8915": {
+            "download_count": 0,
+            "extended_prop": {
+                "criticality": "recommended",
+                "have_kernel_component": "1",
+                "manifest": "",
+                "require_application_downtime": "1",
+                "require_system_reboot": "0",
+                "vom_deployment": "0",
+                "vom_id": "",
+                "vom_installer_id": ""
+            },
+            "hotfix_core_prod": "fs",
+            "hotfix_prod": "fs",
+            "installed_over": "8506",
+            "obsoleted_by": "",
+            "obsoletes": "",
+            "padvs": "aix71,aix61",
+            "patch": {
+                "VRTSvxfs-06.00.0500.0002": {
+                    "pkgs": [
+                        "VRTSvxfs"
+                    ],
+                    "version": "06.00.0500.0002"
+                }
+            },
+            "products": "sfha,sfrac,sf,sfcfsha,fs",
+            "release_date": "2014-08-20",
+            "release_id": "8915",
+            "release_level": "HF",
+            "release_name": "fs-aix-6.0.5.002",
+            "release_type": "HF",
+            "release_version": "6.0.5.002-fs",
+            "requires": "8506",
+            "vers_level": "605-000-002-fs"
+        },
+        "8923": {
+            "download_count": 0,
+            "extended_prop": {
+                "criticality": "critical",
+                "have_kernel_component": "1",
+                "manifest": "",
+                "require_application_downtime": "0",
+                "require_system_reboot": "0",
+                "vom_deployment": "0",
+                "vom_id": "",
+                "vom_installer_id": ""
+            },
+            "hotfix_core_prod": "amf",
+            "hotfix_prod": "amf",
+            "installed_over": "7221",
+            "obsoleted_by": "",
+            "obsoletes": "",
+            "padvs": "aix71,aix61",
+            "patch": {
+                "VRTSamf-06.01.0000.0101": {
+                    "pkgs": [
+                        "VRTSamf"
+                    ],
+                    "version": "06.01.0000.0101"
+                }
+            },
+            "products": "sfha,vcs,sfrac,sfcfsha",
+            "release_date": "2014-08-18",
+            "release_id": "8923",
+            "release_level": "HF",
+            "release_name": "amf-aix-6.1.0.101",
+            "release_type": "HF",
+            "release_version": "6.1.0.101-amf",
+            "requires": "8486",
+            "vers_level": "610-000-101-amf"
+        },
+        "8994": {
+            "download_count": "23",
+            "extended_prop": {
+                "criticality": "critical",
+                "have_kernel_component": "1",
+                "manifest": "",
+                "require_application_downtime": "1",
+                "require_system_reboot": "0",
+                "vom_deployment": "0",
+                "vom_id": "",
+                "vom_installer_id": ""
+            },
+            "filename": "fs-aix-6.0.5.100-patches.tar.gz",
+            "gunzip_cksum": "2536639355",
+            "gunzip_size": "43338752",
+            "hotfix_core_prod": "fs",
+            "hotfix_prod": "fs",
+            "install_path": "installFS605P1",
+            "installed_over": "8506",
+            "obsoleted_by": "",
+            "obsoletes": "",
+            "padvs": "aix71,aix61",
+            "patch": {
+                "VRTSvxfs-06.00.0500.0100": {
+                    "pkgs": [
+                        "VRTSvxfs"
+                    ],
+                    "version": "06.00.0500.0100"
+                }
+            },
+            "patch_details_path_html": "https://sort.symantec.com/patch/detail/8994",
+            "patch_details_path_rest": "https://sort.symantec.com/vos_services/rest/patch_services/1.0/patchRelease/8994",
+            "products": "sfha,sfrac,sf,sfcfsha,fs",
+            "release_date": "2014-09-10",
+            "release_id": "8994",
+            "release_level": "HF",
+            "release_name": "fs-aix-6.0.5.100",
+            "release_type": "pHF",
+            "release_version": "6.0.5.100-fs",
+            "requires": "8506",
+            "upload_cksum": "2110176153",
+            "upload_location": "ftp://ftp.veritas.com/pub/support/patchcentral/AIX/6.0/fs/fs-aix-6.0.5.100-patches.tar.gz",
+            "upload_size": "15753795",
+            "vers_level": "605-000-100-fs"
+        }
+    }
+}

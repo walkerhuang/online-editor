@@ -1,0 +1,2873 @@
+{
+    "sles10_x86_64": {
+        "1157": {
+            "installed_over": "773,1471,1529,2272,2751,3759,7139",
+            "obsoleted_by": "4542,6752,6895,7054,7208,7216",
+            "obsoletes": "773,1471,1529,2272,2751,3759,7139",
+            "padvs": "rhel4_i686,rhel5_i686,rhel4_x86_64,rhel5_x86_64,sles9_x86_64",
+            "patch_details_path_html": "https://sort.symantec.com/patch/detail/1157",
+            "patch_details_path_rest": "https://sort.symantec.com/vos_services/rest/patch_services/1.0/patchRelease/1157",
+            "pkg_version": "5.0.30",
+            "prod": {
+                "fs": {
+                    "level": "1",
+                    "lic_names": "Veritas File System",
+                    "mainpkgs": "VRTSvxfs-common",
+                    "name": "Veritas File System",
+                    "opkgs": [
+                        "VRTSfsman",
+                        "VRTSobgui",
+                        "VRTSfsmnd"
+                    ],
+                    "rpkgs": [
+                        "VRTSmh",
+                        "VRTSvxfs-common",
+                        "VRTSpbx",
+                        "VRTSob",
+                        "VRTSccg",
+                        "VRTSvlic",
+                        "VRTSobc33",
+                        "VRTSspt",
+                        "VRTSicsco",
+                        "VRTSdsa",
+                        "VRTSatClient",
+                        "VRTSdcli",
+                        "VRTSvxfs-platform",
+                        "VRTSatServer",
+                        "VRTSperl",
+                        "VRTSfspro",
+                        "VRTSfssdk",
+                        "VRTSaa"
+                    ]
+                },
+                "sf": {
+                    "level": "20",
+                    "lic_names": "Storage Foundation,Storage Foundation for Oracle,Storage Foundation for Sybase,Storage Foundation for DB2",
+                    "mainpkgs": "VRTSvxfs-common,VRTSvxvm-common",
+                    "name": "Veritas Storage Foundation",
+                    "opkgs": [
+                        "VRTSlvmconv",
+                        "VRTSfsman",
+                        "VRTSvmman",
+                        "VRTSobgui",
+                        "VRTSfsmnd"
+                    ],
+                    "rpkgs": [
+                        "VRTSvrw",
+                        "VRTSmh",
+                        "VRTSvxmsa",
+                        "VRTSvxfs-common",
+                        "VRTSmapro-common",
+                        "VRTSweb",
+                        "VRTSvxvm-platform",
+                        "VRTSpbx",
+                        "VRTSob",
+                        "VRTSccg",
+                        "VRTSvlic",
+                        "VRTSvdid",
+                        "VRTSobc33",
+                        "VRTSspt",
+                        "VRTSicsco",
+                        "VRTSvcsvr",
+                        "VRTSdsa",
+                        "VRTSvrpro",
+                        "VRTSatClient",
+                        "VRTSdcli",
+                        "VRTSvxvm-common",
+                        "VRTSvmpro",
+                        "VRTSddlpr",
+                        "VRTSvxfs-platform",
+                        "VRTSatServer",
+                        "VRTSperl",
+                        "VRTSalloc",
+                        "VRTSfspro",
+                        "VRTSjre15",
+                        "VRTSfssdk",
+                        "VRTSaa"
+                    ]
+                },
+                "sfcfs": {
+                    "level": "50",
+                    "lic_names": "Foundation Cluster File System,Storage Foundation for Cluster File System,SANPoint Foundation Suite",
+                    "mainpkgs": "VRTScavf,VRTSvxfs-common,VRTSvxvm-common,VRTSvcs",
+                    "name": "Veritas Storage Foundation Cluster File System",
+                    "opkgs": [
+                        "VRTSfsman",
+                        "VRTScscm",
+                        "VRTSfsmnd",
+                        "VRTSlvmconv",
+                        "VRTSvmman",
+                        "VRTScmcs",
+                        "VRTScssim",
+                        "VRTSvcsmn",
+                        "VRTScmccc"
+                    ],
+                    "rpkgs": [
+                        "VRTSvrw",
+                        "VRTSmh",
+                        "VRTSglm",
+                        "VRTSweb",
+                        "VRTSvxvm-platform",
+                        "VRTSpbx",
+                        "VRTSgab",
+                        "VRTSccg",
+                        "VRTSvdid",
+                        "VRTSllt",
+                        "VRTSspt",
+                        "VRTSicsco",
+                        "VRTSvcsdr",
+                        "VRTSvxvm-common",
+                        "VRTSvmpro",
+                        "VRTSddlpr",
+                        "VRTSvxfs-platform",
+                        "VRTSalloc",
+                        "VRTSjre15",
+                        "VRTSfssdk",
+                        "VRTSvcsag",
+                        "VRTSvxfs-common",
+                        "VRTScscw",
+                        "VRTScutil",
+                        "VRTSob",
+                        "VRTSvxfen",
+                        "VRTSvlic",
+                        "VRTSobc33",
+                        "VRTSvcsvr",
+                        "VRTSdsa",
+                        "VRTSgms",
+                        "VRTScavf",
+                        "VRTSvcsmg",
+                        "VRTSodm-common",
+                        "VRTSvrpro",
+                        "VRTSobgui",
+                        "VRTSdcli",
+                        "VRTSatClient",
+                        "VRTSatServer",
+                        "VRTSperl",
+                        "VRTSfspro",
+                        "VRTSacclib",
+                        "VRTSodm-platform",
+                        "VRTSaa",
+                        "VRTSvcs"
+                    ]
+                },
+                "sfcfsrac": {
+                    "level": "40",
+                    "lic_names": "Storage Foundation Cluster File System for Oracle RAC",
+                    "mainpkgs": "VRTScavf,VRTSvxfs-common,VRTSvxvm-common,VRTSvcs",
+                    "name": "Veritas Storage Foundation Cluster File System for Oracle RAC",
+                    "opkgs": [
+                        "VRTSfsman",
+                        "VRTScscm",
+                        "VRTSobgui",
+                        "VRTSfsmnd",
+                        "VRTSlvmconv",
+                        "VRTSvmman",
+                        "VRTSvcsmn",
+                        "VRTScmcs",
+                        "VRTScssim",
+                        "VRTScmccc"
+                    ],
+                    "rpkgs": [
+                        "VRTSvrw",
+                        "VRTSmh",
+                        "VRTSglm",
+                        "VRTSweb",
+                        "VRTSvxvm-platform",
+                        "VRTSpbx",
+                        "VRTSgab",
+                        "VRTSccg",
+                        "VRTSvdid",
+                        "VRTSllt",
+                        "VRTSspt",
+                        "VRTSicsco",
+                        "VRTSvcsdr",
+                        "VRTSvxvm-common",
+                        "VRTSvmpro",
+                        "VRTSddlpr",
+                        "VRTSvxfs-platform",
+                        "VRTSalloc",
+                        "VRTSjre15",
+                        "VRTSfssdk",
+                        "VRTSvcsag",
+                        "VRTSvxfs-common",
+                        "VRTScscw",
+                        "VRTScutil",
+                        "VRTSob",
+                        "VRTSvxfen",
+                        "VRTSvlic",
+                        "VRTSobc33",
+                        "VRTSvcsvr",
+                        "VRTSdsa",
+                        "VRTSgms",
+                        "VRTScavf",
+                        "VRTSodm-common",
+                        "VRTSvcsmg",
+                        "VRTSvrpro",
+                        "VRTSdcli",
+                        "VRTSatClient",
+                        "VRTSatServer",
+                        "VRTSperl",
+                        "VRTSfspro",
+                        "VRTSacclib",
+                        "VRTSodm-platform",
+                        "VRTSaa",
+                        "VRTSvcs"
+                    ]
+                },
+                "sfdb2": {
+                    "level": "26",
+                    "lic_names": "Storage Foundation for Sybase",
+                    "mainpkgs": "VRTSdb2ed,VRTSvxfs-common,VRTSvxvm-common",
+                    "name": "Veritas Storage Foundation for DB2",
+                    "opkgs": [
+                        "VRTSlvmconv",
+                        "VRTSfsman",
+                        "VRTSvmman",
+                        "VRTSobgui",
+                        "VRTSfsmnd"
+                    ],
+                    "rpkgs": [
+                        "VRTSvrw",
+                        "VRTSmh",
+                        "VRTSvxmsa",
+                        "VRTSweb",
+                        "VRTSvxvm-platform",
+                        "VRTSpbx",
+                        "VRTSccg",
+                        "VRTSvdid",
+                        "VRTSspt",
+                        "VRTSicsco",
+                        "VRTSvxvm-common",
+                        "VRTSvmpro",
+                        "VRTSddlpr",
+                        "VRTSvxfs-platform",
+                        "VRTSalloc",
+                        "VRTSjre15",
+                        "VRTSfssdk",
+                        "VRTSvxfs-common",
+                        "VRTSob",
+                        "VRTSobc33",
+                        "VRTSvlic",
+                        "VRTSdb2ed-common",
+                        "VRTSd2gui-common",
+                        "VRTSdsa",
+                        "VRTSvcsvr",
+                        "VRTSvrpro",
+                        "VRTSdbms3",
+                        "VRTSdcli",
+                        "VRTSatClient",
+                        "VRTSatServer",
+                        "VRTSperl",
+                        "VRTSfspro",
+                        "VRTSaa",
+                        "VRTSdbcom-common"
+                    ]
+                },
+                "sfha": {
+                    "level": "30",
+                    "lic_names": "Storage Foundation Standard HA,Storage Foundation Enterprise HA,Storage Foundation for Oracle,Storage Foundation for Sybase,Storage Foundation for DB2",
+                    "mainpkgs": "VRTSvxfs-common,VRTSvxvm-common,VRTSvcs",
+                    "name": "Veritas Storage Foundation HA",
+                    "opkgs": [
+                        "VRTSfsman",
+                        "VRTScscm",
+                        "VRTSobgui",
+                        "VRTSfsmnd",
+                        "VRTSlvmconv",
+                        "VRTSvmman",
+                        "VRTSvcsmn",
+                        "VRTScmcs",
+                        "VRTScssim",
+                        "VRTScmccc"
+                    ],
+                    "rpkgs": [
+                        "VRTSvrw",
+                        "VRTSmh",
+                        "VRTSvxmsa",
+                        "VRTSweb",
+                        "VRTSvxvm-platform",
+                        "VRTSpbx",
+                        "VRTSgab",
+                        "VRTSccg",
+                        "VRTSvdid",
+                        "VRTSllt",
+                        "VRTSspt",
+                        "VRTSicsco",
+                        "VRTSvcsdr",
+                        "VRTSvxvm-common",
+                        "VRTSvmpro",
+                        "VRTSddlpr",
+                        "VRTSvxfs-platform",
+                        "VRTSalloc",
+                        "VRTSjre15",
+                        "VRTSfssdk",
+                        "VRTSvcsag",
+                        "VRTSvxfs-common",
+                        "VRTScscw",
+                        "VRTSmapro-common",
+                        "VRTScutil",
+                        "VRTSob",
+                        "VRTSvxfen",
+                        "VRTSobc33",
+                        "VRTSvlic",
+                        "VRTSdsa",
+                        "VRTSvcsvr",
+                        "VRTSvcsmg",
+                        "VRTSvrpro",
+                        "VRTSdcli",
+                        "VRTSatClient",
+                        "VRTSatServer",
+                        "VRTSperl",
+                        "VRTSfspro",
+                        "VRTSacclib",
+                        "VRTSaa",
+                        "VRTSvcs"
+                    ]
+                },
+                "sfora": {
+                    "level": "25",
+                    "lic_names": "Storage Foundation for Oracle",
+                    "mainpkgs": "VRTSorgui,VRTSvxfs-common,VRTSvxvm-common",
+                    "name": "Veritas Storage Foundation for Oracle",
+                    "opkgs": [
+                        "VRTSlvmconv",
+                        "VRTSfsman",
+                        "VRTSvmman",
+                        "VRTSfsmnd"
+                    ],
+                    "rpkgs": [
+                        "VRTSvrw",
+                        "VRTSmh",
+                        "VRTSvxmsa",
+                        "VRTSweb",
+                        "VRTSvxvm-platform",
+                        "VRTSpbx",
+                        "VRTSccg",
+                        "VRTSvdid",
+                        "VRTSspt",
+                        "VRTSicsco",
+                        "VRTSvxvm-common",
+                        "VRTSvmpro",
+                        "VRTSddlpr",
+                        "VRTSvxfs-platform",
+                        "VRTSalloc",
+                        "VRTSjre15",
+                        "VRTSfssdk",
+                        "VRTSvxfs-common",
+                        "VRTSob",
+                        "VRTSobc33",
+                        "VRTSvlic",
+                        "VRTSorgui-common",
+                        "VRTSdsa",
+                        "VRTSvcsvr",
+                        "VRTSodm-common",
+                        "VRTSvrpro",
+                        "VRTSdbms3",
+                        "VRTSobgui",
+                        "VRTSdcli",
+                        "VRTSdbed-common",
+                        "VRTSatClient",
+                        "VRTSatServer",
+                        "VRTSperl",
+                        "VRTSfspro",
+                        "VRTSodm-platform",
+                        "VRTSaa",
+                        "VRTSdbcom-common"
+                    ]
+                },
+                "vcs": {
+                    "level": "10",
+                    "lic_names": "Veritas Cluster Server",
+                    "mainpkgs": "VRTSvcs",
+                    "name": "Veritas Cluster Server",
+                    "opkgs": [
+                        "VRTScscm",
+                        "VRTSvcsmn",
+                        "VRTScssim",
+                        "VRTScmcs",
+                        "VRTScmccc"
+                    ],
+                    "rpkgs": [
+                        "VRTScscw",
+                        "VRTSweb",
+                        "VRTScutil",
+                        "VRTSpbx",
+                        "VRTSgab",
+                        "VRTSvxfen",
+                        "VRTSvlic",
+                        "VRTSllt",
+                        "VRTSspt",
+                        "VRTSicsco",
+                        "VRTSvcsdr",
+                        "VRTSvcsmg",
+                        "VRTSatClient",
+                        "VRTSatServer",
+                        "VRTSperl",
+                        "VRTSjre15",
+                        "VRTSacclib",
+                        "VRTSvcsag",
+                        "VRTSvcs"
+                    ]
+                },
+                "vm": {
+                    "level": "4",
+                    "lic_names": "Veritas Volume Manager",
+                    "mainpkgs": "VRTSvxvm-common",
+                    "name": "Veritas Volume Manager",
+                    "opkgs": [
+                        "VRTSlvmconv",
+                        "VRTSvmman",
+                        "VRTSobgui"
+                    ],
+                    "rpkgs": [
+                        "VRTSvrw",
+                        "VRTSmh",
+                        "VRTSweb",
+                        "VRTSvxvm-platform",
+                        "VRTSpbx",
+                        "VRTSob",
+                        "VRTSccg",
+                        "VRTSvlic",
+                        "VRTSvdid",
+                        "VRTSobc33",
+                        "VRTSspt",
+                        "VRTSicsco",
+                        "VRTSvcsvr",
+                        "VRTSdsa",
+                        "VRTSvrpro",
+                        "VRTSatClient",
+                        "VRTSdcli",
+                        "VRTSvxvm-common",
+                        "VRTSvmpro",
+                        "VRTSddlpr",
+                        "VRTSatServer",
+                        "VRTSalloc",
+                        "VRTSperl",
+                        "VRTSfspro",
+                        "VRTSjre15",
+                        "VRTSaa"
+                    ]
+                },
+                "vvr": {
+                    "level": "6",
+                    "lic_names": "Veritas Volume Replicator",
+                    "mainpkgs": "VRTSvcsvr,VRTSvxvm-common",
+                    "name": "Veritas Volume Replicator",
+                    "opkgs": [
+                        "VRTSobgui"
+                    ],
+                    "rpkgs": [
+                        "VRTSvrw",
+                        "VRTSmh",
+                        "VRTSweb",
+                        "VRTSvxvm-platform",
+                        "VRTSpbx",
+                        "VRTSob",
+                        "VRTSccg",
+                        "VRTSvlic",
+                        "VRTSvdid",
+                        "VRTSobc33",
+                        "VRTSspt",
+                        "VRTSicsco",
+                        "VRTSvcsvr",
+                        "VRTSdsa",
+                        "VRTSvrpro",
+                        "VRTSatClient",
+                        "VRTSdcli",
+                        "VRTSvxvm-common",
+                        "VRTSvmpro",
+                        "VRTSddlpr",
+                        "VRTSatServer",
+                        "VRTSperl",
+                        "VRTSalloc",
+                        "VRTSfspro",
+                        "VRTSjre15",
+                        "VRTSlvmconv",
+                        "VRTSvmman",
+                        "VRTSaa"
+                    ]
+                }
+            },
+            "products": "fs,sf,sfcfs,sfcfsrac,sfdb2,sfha,sfora,vcs,vm,vvr",
+            "release_date": "2008-07-31",
+            "release_id": "1157",
+            "release_level": "Base",
+            "release_name": "5.0 MP3a",
+            "release_type": "MP",
+            "release_version": "5.0MP3",
+            "upload_location": "https://fileconnect.symantec.com",
+            "upload_size": "13171458048",
+            "vers_level": "500-300"
+        },
+        "4542": {
+            "filename": "VRTS_SF_HA_Solutions_5.1_SP1_SLES.tar.gz",
+            "gunzip_cksum": "3048866576",
+            "gunzip_size": "874598400",
+            "install_path": "dvd2-suselinux/sles10_x86_64/installer",
+            "installed_over": "773,1157,1471,1529,1720,2272,2551,2751,3308,3422,3759,4141,4943,6895,7139,7208",
+            "obsoleted_by": "6752,7054,7216",
+            "obsoletes": "773,1157,1471,1529,1720,2272,2551,2751,3308,3422,3759,4141,4943,6895,7139,7208",
+            "padvs": "sles10_x86_64",
+            "patch": {
+                "VRTSamf-5.1.100.000-SP1GA_SLES10": {
+                    "pkgs": [
+                        "VRTSamf"
+                    ],
+                    "version": "5.1.100.000"
+                },
+                "VRTSaslapm-5.1.100.000-SP1_SLES10": {
+                    "pkgs": [
+                        "VRTSaslapm"
+                    ],
+                    "version": "5.1.100.000"
+                },
+                "VRTSatClient-5.0.32.0-0": {
+                    "pkgs": [
+                        "VRTSatClient"
+                    ],
+                    "version": "5.0.32.0"
+                },
+                "VRTSatServer-5.0.32.0-0": {
+                    "pkgs": [
+                        "VRTSatServer"
+                    ],
+                    "version": "5.0.32.0"
+                },
+                "VRTScavf-5.1.100.000-SP1_GA_SLES10": {
+                    "pkgs": [
+                        "VRTScavf"
+                    ],
+                    "version": "5.1.100.000"
+                },
+                "VRTScps-5.1.100.000-SP1GA_SLES10": {
+                    "pkgs": [
+                        "VRTScps"
+                    ],
+                    "version": "5.1.100.000"
+                },
+                "VRTSdbac-5.1.100.000-SP1GA_SLES10": {
+                    "pkgs": [
+                        "VRTSdbac"
+                    ],
+                    "version": "5.1.100.000"
+                },
+                "VRTSdbed-5.1.100.000-SP1_SLES10": {
+                    "pkgs": [
+                        "VRTSdbed"
+                    ],
+                    "version": "5.1.100.000"
+                },
+                "VRTSfssdk-5.1.100.000-SP1_GA_SLES10": {
+                    "pkgs": [
+                        "VRTSfssdk"
+                    ],
+                    "version": "5.1.100.000"
+                },
+                "VRTSgab-5.1.100.000-SP1GA_SLES10": {
+                    "pkgs": [
+                        "VRTSgab"
+                    ],
+                    "version": "5.1.100.000"
+                },
+                "VRTSglm-5.1.100.000-SP1_GA_SLES10": {
+                    "pkgs": [
+                        "VRTSglm"
+                    ],
+                    "version": "5.1.100.000"
+                },
+                "VRTSgms-5.1.100.000-SP1_GA_SLES10": {
+                    "pkgs": [
+                        "VRTSgms"
+                    ],
+                    "version": "5.1.100.000"
+                },
+                "VRTSllt-5.1.100.000-SP1GA_SLES10": {
+                    "pkgs": [
+                        "VRTSllt"
+                    ],
+                    "version": "5.1.100.000"
+                },
+                "VRTSlvmconv-5.1.100.000-SP1_SLES10": {
+                    "pkgs": [
+                        "VRTSlvmconv"
+                    ],
+                    "version": "5.1.100.000"
+                },
+                "VRTSob-3.4.289-0": {
+                    "pkgs": [
+                        "VRTSob"
+                    ],
+                    "version": "3.4.289"
+                },
+                "VRTSodm-5.1.100.000-SP1_GA_SLES10": {
+                    "pkgs": [
+                        "VRTSodm"
+                    ],
+                    "version": "5.1.100.000"
+                },
+                "VRTSperl-5.10.0.7-SLES10": {
+                    "pkgs": [
+                        "VRTSperl"
+                    ],
+                    "version": "5.10.0.7"
+                },
+                "VRTSsfmh-3.1.429.0_Linux.rpm": {
+                    "pkgs": [
+                        "VRTSsfmh"
+                    ],
+                    "version": "3.1.429.0"
+                },
+                "VRTSspt-5.5.000.005-GA": {
+                    "pkgs": [
+                        "VRTSspt"
+                    ],
+                    "version": "5.5.000.005"
+                },
+                "VRTSvcs-5.1.100.000-SP1GA_SLES10": {
+                    "pkgs": [
+                        "VRTSvcs"
+                    ],
+                    "version": "5.1.100.000"
+                },
+                "VRTSvcsag-5.1.100.000-SP1GA_SLES10": {
+                    "pkgs": [
+                        "VRTSvcsag"
+                    ],
+                    "version": "5.1.100.000"
+                },
+                "VRTSvcsdr-5.1.100.000-SP1GA_SLES10": {
+                    "pkgs": [
+                        "VRTSvcsdr"
+                    ],
+                    "version": "5.1.100.000"
+                },
+                "VRTSvcsea-5.1.100.000-SP1GA_SLES10": {
+                    "pkgs": [
+                        "VRTSvcsea"
+                    ],
+                    "version": "5.1.100.000"
+                },
+                "VRTSvlic-3.02.51.010-0": {
+                    "pkgs": [
+                        "VRTSvlic"
+                    ],
+                    "version": "3.02.51.010"
+                },
+                "VRTSvxfen-5.1.100.000-SP1GA_SLES10": {
+                    "pkgs": [
+                        "VRTSvxfen"
+                    ],
+                    "version": "5.1.100.000"
+                },
+                "VRTSvxfs-5.1.100.000-SP1_GA_SLES10": {
+                    "pkgs": [
+                        "VRTSvxfs"
+                    ],
+                    "version": "5.1.100.000"
+                },
+                "VRTSvxvm-5.1.100.000-SP1_SLES10": {
+                    "pkgs": [
+                        "VRTSvxvm"
+                    ],
+                    "version": "5.1.100.000"
+                }
+            },
+            "patch_details_path_html": "https://sort.symantec.com/patch/detail/4542",
+            "patch_details_path_rest": "https://sort.symantec.com/vos_services/rest/patch_services/1.0/patchRelease/4542",
+            "pkg_version": "5.1.100",
+            "prod": {
+                "dmp": {
+                    "level": "5",
+                    "lic_names": "Veritas Dynamic Multi-Pathing",
+                    "mainpkgs": "VRTSvxvm",
+                    "name": "Veritas Dynamic Multi-Pathing",
+                    "opkgs": [
+                        "VRTSspt",
+                        "VRTSsfmh"
+                    ],
+                    "rpkgs": [
+                        "VRTSperl",
+                        "VRTSvxvm",
+                        "VRTSaslapm",
+                        "VRTSvlic"
+                    ]
+                },
+                "fs": {
+                    "level": "1",
+                    "lic_names": "Veritas File System",
+                    "mainpkgs": "VRTSvxfs",
+                    "name": "Veritas File System",
+                    "opkgs": [
+                        "VRTSspt",
+                        "VRTSfssdk",
+                        "VRTSob",
+                        "VRTSsfmh"
+                    ],
+                    "rpkgs": [
+                        "VRTSperl",
+                        "VRTSvxfs",
+                        "VRTSvlic"
+                    ]
+                },
+                "sf": {
+                    "level": "20",
+                    "lic_names": "Storage Foundation,Storage Foundation for Oracle,Storage Foundation for Sybase,Storage Foundation for DB2",
+                    "mainpkgs": "VRTSvxfs,VRTSvxvm",
+                    "name": "Veritas Storage Foundation",
+                    "opkgs": [
+                        "VRTSob",
+                        "VRTSdbed",
+                        "VRTSatClient",
+                        "VRTSatServer",
+                        "VRTSspt",
+                        "VRTSodm",
+                        "VRTSlvmconv",
+                        "VRTSfssdk",
+                        "VRTSsfmh"
+                    ],
+                    "rpkgs": [
+                        "VRTSperl",
+                        "VRTSvxvm",
+                        "VRTSaslapm",
+                        "VRTSvxfs",
+                        "VRTSvlic"
+                    ]
+                },
+                "sfcfs": {
+                    "level": "50",
+                    "lic_names": "Foundation Cluster File System,Storage Foundation for Cluster File System,SANPoint Foundation Suite",
+                    "mainpkgs": "VRTScavf,VRTSvxfs,VRTSvxvm,VRTSvcs",
+                    "name": "Veritas Storage Foundation Cluster File System",
+                    "opkgs": [
+                        "VRTSvcsea",
+                        "VRTSvcsdr",
+                        "VRTSob",
+                        "VRTSdbed",
+                        "VRTScps",
+                        "VRTSspt",
+                        "VRTSodm",
+                        "VRTSlvmconv",
+                        "VRTSfssdk",
+                        "VRTSgms",
+                        "VRTSsfmh"
+                    ],
+                    "rpkgs": [
+                        "VRTSvxvm",
+                        "VRTSglm",
+                        "VRTSgab",
+                        "VRTSatClient",
+                        "VRTSvxfs",
+                        "VRTSvxfen",
+                        "VRTSvlic",
+                        "VRTSllt",
+                        "VRTSatServer",
+                        "VRTSperl",
+                        "VRTSamf",
+                        "VRTSaslapm",
+                        "VRTSvcsag",
+                        "VRTScavf",
+                        "VRTSvcs"
+                    ]
+                },
+                "sfcfsha": {
+                    "level": "55",
+                    "lic_names": "Storage Foundation Cluster File System,Storage Foundation for Cluster File System,SANPoint Foundation Suite",
+                    "mainpkgs": "VRTScavf,VRTSvxfs,VRTSvxvm,VRTSvcs",
+                    "name": "Veritas Storage Foundation Cluster File System HA",
+                    "opkgs": [
+                        "VRTSvcsea",
+                        "VRTSvcsdr",
+                        "VRTSob",
+                        "VRTSdbed",
+                        "VRTScps",
+                        "VRTSspt",
+                        "VRTSodm",
+                        "VRTSlvmconv",
+                        "VRTSfssdk",
+                        "VRTSgms",
+                        "VRTSsfmh"
+                    ],
+                    "rpkgs": [
+                        "VRTSvxvm",
+                        "VRTSglm",
+                        "VRTSgab",
+                        "VRTSatClient",
+                        "VRTSvxfs",
+                        "VRTSvxfen",
+                        "VRTSvlic",
+                        "VRTSllt",
+                        "VRTSatServer",
+                        "VRTSperl",
+                        "VRTSamf",
+                        "VRTSaslapm",
+                        "VRTSvcsag",
+                        "VRTScavf",
+                        "VRTSvcs"
+                    ]
+                },
+                "sfcfsrac": {
+                    "level": "40",
+                    "lic_names": "Storage Foundation Cluster File System for Oracle RAC",
+                    "mainpkgs": "VRTScavf,VRTSvxfs,VRTSvxvm,VRTSvcs",
+                    "name": "Veritas Storage Foundation Cluster File System for Oracle RAC",
+                    "opkgs": [
+                        "VRTSspt",
+                        "VRTScps",
+                        "VRTSvcsdr",
+                        "VRTSlvmconv",
+                        "VRTSfssdk",
+                        "VRTSob",
+                        "VRTSsfmh"
+                    ],
+                    "rpkgs": [
+                        "VRTSglm",
+                        "VRTSgab",
+                        "VRTSvxfs",
+                        "VRTSvxfen",
+                        "VRTSvlic",
+                        "VRTSllt",
+                        "VRTSgms",
+                        "VRTScavf",
+                        "VRTSvcsea",
+                        "VRTSvxvm",
+                        "VRTSatClient",
+                        "VRTSatServer",
+                        "VRTSperl",
+                        "VRTSamf",
+                        "VRTSodm",
+                        "VRTSaslapm",
+                        "VRTSvcsag",
+                        "VRTSvcs"
+                    ]
+                },
+                "sfha": {
+                    "level": "30",
+                    "lic_names": "Storage Foundation Standard HA,Storage Foundation Enterprise HA,Storage Foundation for Oracle,Storage Foundation for Sybase,Storage Foundation for DB2",
+                    "mainpkgs": "VRTSvxfs,VRTSvxvm,VRTSvcs",
+                    "name": "Veritas Storage Foundation HA",
+                    "opkgs": [
+                        "VRTSvcsea",
+                        "VRTSvcsdr",
+                        "VRTSob",
+                        "VRTSdbed",
+                        "VRTScps",
+                        "VRTSspt",
+                        "VRTSodm",
+                        "VRTSlvmconv",
+                        "VRTSfssdk",
+                        "VRTSsfmh"
+                    ],
+                    "rpkgs": [
+                        "VRTSvxvm",
+                        "VRTSgab",
+                        "VRTSatClient",
+                        "VRTSvxfs",
+                        "VRTSvxfen",
+                        "VRTSvlic",
+                        "VRTSllt",
+                        "VRTSatServer",
+                        "VRTSperl",
+                        "VRTSamf",
+                        "VRTSaslapm",
+                        "VRTSvcsag",
+                        "VRTSvcs"
+                    ]
+                },
+                "sfrac": {
+                    "level": "70",
+                    "lic_names": "Veritas Storage Foundation for Oracle RAC",
+                    "mainpkgs": "VRTSdbac,VRTSvxfs,VRTSvxvm,VRTSvcs",
+                    "name": "Veritas Storage Foundation for Oracle RAC",
+                    "opkgs": [
+                        "VRTSspt",
+                        "VRTScps",
+                        "VRTSvcsdr",
+                        "VRTSlvmconv",
+                        "VRTSfssdk",
+                        "VRTSob",
+                        "VRTSsfmh"
+                    ],
+                    "rpkgs": [
+                        "VRTSglm",
+                        "VRTSgab",
+                        "VRTSdbed",
+                        "VRTSvxfs",
+                        "VRTSvxfen",
+                        "VRTSvlic",
+                        "VRTSllt",
+                        "VRTSdbac",
+                        "VRTSgms",
+                        "VRTScavf",
+                        "VRTSvcsea",
+                        "VRTSvxvm",
+                        "VRTSatClient",
+                        "VRTSatServer",
+                        "VRTSperl",
+                        "VRTSamf",
+                        "VRTSodm",
+                        "VRTSaslapm",
+                        "VRTSvcsag",
+                        "VRTSvcs"
+                    ]
+                },
+                "vcs": {
+                    "level": "10",
+                    "lic_names": "Veritas Cluster Server",
+                    "mainpkgs": "VRTSvcs",
+                    "name": "Veritas Cluster Server",
+                    "opkgs": [
+                        "VRTSvcsea",
+                        "VRTSspt",
+                        "VRTScps",
+                        "VRTSvcsdr"
+                    ],
+                    "rpkgs": [
+                        "VRTSgab",
+                        "VRTSatClient",
+                        "VRTSvxfen",
+                        "VRTSvlic",
+                        "VRTSllt",
+                        "VRTSatServer",
+                        "VRTSperl",
+                        "VRTSamf",
+                        "VRTSvcsag",
+                        "VRTSvcs"
+                    ]
+                },
+                "vm": {
+                    "level": "4",
+                    "lic_names": "Veritas Volume Manager",
+                    "mainpkgs": "VRTSvxvm",
+                    "name": "Veritas Volume Manager",
+                    "opkgs": [
+                        "VRTSspt",
+                        "VRTSlvmconv",
+                        "VRTSob",
+                        "VRTSsfmh"
+                    ],
+                    "rpkgs": [
+                        "VRTSperl",
+                        "VRTSvxvm",
+                        "VRTSaslapm",
+                        "VRTSvlic"
+                    ]
+                }
+            },
+            "products": "dmp,fs,sf,sfcfs,sfcfsha,sfcfsrac,sfha,sfrac,vcs,vm",
+            "release_date": "2010-11-01",
+            "release_id": "4542",
+            "release_level": "Base",
+            "release_name": "sfha-sles10_x86_64-5.1SP1",
+            "release_type": "SP",
+            "release_version": "5.1SP1",
+            "upload_cksum": "1185950033",
+            "upload_location": "https://fileconnect.symantec.com",
+            "upload_size": "360017635",
+            "vers_level": "510-100"
+        },
+        "6752": {
+            "filename": "VRTS_SF_HA_Solutions_6.0.1_SLES.tar.gz",
+            "gunzip_cksum": "995523780",
+            "gunzip_size": "1049516544",
+            "install_path": "dvd2-suselinux/sles10_x86_64/installer",
+            "installed_over": "1157,1720,2551,3308,3422,4141,4542,4656,4943,5514,6117,6811,6895,7208,7216,7892",
+            "obsoleted_by": "7054",
+            "obsoletes": "773,1157,1471,1529,1720,2272,2551,2751,3308,3422,3759,4141,4542,4656,4943,5514,6117,6811,6895,7139,7208,7216,7892",
+            "padvs": "sles10_x86_64",
+            "patch": {
+                "VRTSamf-6.0.100.000-GA_SLES10": {
+                    "pkgs": [
+                        "VRTSamf"
+                    ],
+                    "version": "6.0.100.000"
+                },
+                "VRTSaslapm-6.0.100.000-GA_SLES10": {
+                    "pkgs": [
+                        "VRTSaslapm"
+                    ],
+                    "version": "6.0.100.000"
+                },
+                "VRTScavf-6.0.100.000-GA_SLES10": {
+                    "pkgs": [
+                        "VRTScavf"
+                    ],
+                    "version": "6.0.100.000"
+                },
+                "VRTScps-6.0.100.000-GA_SLES10": {
+                    "pkgs": [
+                        "VRTScps"
+                    ],
+                    "version": "6.0.100.000"
+                },
+                "VRTSdbac-6.0.100.000-GA_SLES10": {
+                    "pkgs": [
+                        "VRTSdbac"
+                    ],
+                    "version": "6.0.100.000"
+                },
+                "VRTSdbed-6.0.100.000-GA_SLES": {
+                    "pkgs": [
+                        "VRTSdbed"
+                    ],
+                    "version": "6.0.100.000"
+                },
+                "VRTSfsadv-6.0.100.000-GA_SLES10": {
+                    "pkgs": [
+                        "VRTSfsadv"
+                    ],
+                    "version": "6.0.100.000"
+                },
+                "VRTSfssdk-6.0.100.000-GA_SLES10": {
+                    "pkgs": [
+                        "VRTSfssdk"
+                    ],
+                    "version": "6.0.100.000"
+                },
+                "VRTSgab-6.0.100.000-GA_SLES10": {
+                    "pkgs": [
+                        "VRTSgab"
+                    ],
+                    "version": "6.0.100.000"
+                },
+                "VRTSglm-6.0.100.000-GA_SLES10": {
+                    "pkgs": [
+                        "VRTSglm"
+                    ],
+                    "version": "6.0.100.000"
+                },
+                "VRTSgms-6.0.100.000-GA_SLES10": {
+                    "pkgs": [
+                        "VRTSgms"
+                    ],
+                    "version": "6.0.100.000"
+                },
+                "VRTSllt-6.0.100.000-GA_SLES10": {
+                    "pkgs": [
+                        "VRTSllt"
+                    ],
+                    "version": "6.0.100.000"
+                },
+                "VRTSlvmconv-6.0.100.000-GA_SLES10": {
+                    "pkgs": [
+                        "VRTSlvmconv"
+                    ],
+                    "version": "6.0.100.000"
+                },
+                "VRTSob-3.4.553-0": {
+                    "pkgs": [
+                        "VRTSob"
+                    ],
+                    "version": "3.4.553"
+                },
+                "VRTSodm-6.0.100.000-GA_SLES10": {
+                    "pkgs": [
+                        "VRTSodm"
+                    ],
+                    "version": "6.0.100.000"
+                },
+                "VRTSperl-5.14.2.6-SLES10": {
+                    "pkgs": [
+                        "VRTSperl"
+                    ],
+                    "version": "5.14.2.6"
+                },
+                "VRTSsfcpi601-6.0.100.000-GA_GENERIC": {
+                    "pkgs": [
+                        "VRTSsfcpi601"
+                    ],
+                    "version": "6.0.100.000"
+                },
+                "VRTSsfmh-5.0.196.0_Linux.rpm": {
+                    "pkgs": [
+                        "VRTSsfmh"
+                    ],
+                    "version": "5.0.196.0"
+                },
+                "VRTSspt-6.0.100.000-GA": {
+                    "pkgs": [
+                        "VRTSspt"
+                    ],
+                    "version": "6.0.100.000"
+                },
+                "VRTSsvs-6.0.100.000-GA_GENERIC": {
+                    "pkgs": [
+                        "VRTSsvs"
+                    ],
+                    "version": "6.0.100.000"
+                },
+                "VRTSvbs-6.0.100.000-GA_SLES10.i586.rpm": {
+                    "pkgs": [
+                        "VRTSvbs"
+                    ],
+                    "version": "6.0.100.000"
+                },
+                "VRTSvcs-6.0.100.000-GA_SLES10": {
+                    "pkgs": [
+                        "VRTSvcs"
+                    ],
+                    "version": "6.0.100.000"
+                },
+                "VRTSvcsag-6.0.100.000-GA_SLES10": {
+                    "pkgs": [
+                        "VRTSvcsag"
+                    ],
+                    "version": "6.0.100.000"
+                },
+                "VRTSvcsdr-6.0.100.000-GA_SLES10": {
+                    "pkgs": [
+                        "VRTSvcsdr"
+                    ],
+                    "version": "6.0.100.000"
+                },
+                "VRTSvcsea-6.0.100.000-GA_SLES10": {
+                    "pkgs": [
+                        "VRTSvcsea"
+                    ],
+                    "version": "6.0.100.000"
+                },
+                "VRTSvlic-3.02.61.004-0": {
+                    "pkgs": [
+                        "VRTSvlic"
+                    ],
+                    "version": "3.02.61.004"
+                },
+                "VRTSvxfen-6.0.100.000-GA_SLES10": {
+                    "pkgs": [
+                        "VRTSvxfen"
+                    ],
+                    "version": "6.0.100.000"
+                },
+                "VRTSvxfs-6.0.100.000-GA_SLES10": {
+                    "pkgs": [
+                        "VRTSvxfs"
+                    ],
+                    "version": "6.0.100.000"
+                },
+                "VRTSvxvm-6.0.100.000-GA_SLES10": {
+                    "pkgs": [
+                        "VRTSvxvm"
+                    ],
+                    "version": "6.0.100.000"
+                }
+            },
+            "patch_details_path_html": "https://sort.symantec.com/patch/detail/6752",
+            "patch_details_path_rest": "https://sort.symantec.com/vos_services/rest/patch_services/1.0/patchRelease/6752",
+            "pkg_version": "6.0.100",
+            "prod": {
+                "dmp": {
+                    "level": "5",
+                    "lic_names": "Veritas Dynamic Multi-Pathing",
+                    "mainpkgs": "VRTSvxvm",
+                    "name": "Veritas Dynamic Multi-Pathing",
+                    "opkgs": [
+                        "VRTSspt",
+                        "VRTSsfmh"
+                    ],
+                    "rpkgs": [
+                        "VRTSsfcpi601",
+                        "VRTSperl",
+                        "VRTSvxvm",
+                        "VRTSaslapm",
+                        "VRTSvlic"
+                    ]
+                },
+                "fs": {
+                    "level": "1",
+                    "lic_names": "Veritas File System",
+                    "mainpkgs": "VRTSvxfs",
+                    "name": "Veritas File System",
+                    "opkgs": [
+                        "VRTSspt",
+                        "VRTSfssdk",
+                        "VRTSob",
+                        "VRTSsfmh"
+                    ],
+                    "rpkgs": [
+                        "VRTSsfcpi601",
+                        "VRTSperl",
+                        "VRTSvxfs",
+                        "VRTSvlic",
+                        "VRTSfsadv"
+                    ]
+                },
+                "sf": {
+                    "level": "20",
+                    "lic_names": "Storage Foundation,Storage Foundation for Oracle,Storage Foundation for Sybase,Storage Foundation for DB2",
+                    "mainpkgs": "VRTSvxfs,VRTSvxvm",
+                    "name": "Veritas Storage Foundation",
+                    "opkgs": [
+                        "VRTSspt",
+                        "VRTSodm",
+                        "VRTSlvmconv",
+                        "VRTSfssdk",
+                        "VRTSob",
+                        "VRTSdbed",
+                        "VRTSsfmh"
+                    ],
+                    "rpkgs": [
+                        "VRTSsfcpi601",
+                        "VRTSperl",
+                        "VRTSvxvm",
+                        "VRTSaslapm",
+                        "VRTSvxfs",
+                        "VRTSvlic",
+                        "VRTSfsadv"
+                    ]
+                },
+                "sfcfsha": {
+                    "level": "55",
+                    "lic_names": "Storage Foundation Cluster File System,Storage Foundation for Cluster File System,SANPoint Foundation Suite",
+                    "mainpkgs": "VRTScavf,VRTSvxfs,VRTSvxvm,VRTSvcs",
+                    "name": "Veritas Storage Foundation Cluster File System HA",
+                    "opkgs": [
+                        "VRTSvcsea",
+                        "VRTSvcsdr",
+                        "VRTSob",
+                        "VRTSdbed",
+                        "VRTScps",
+                        "VRTSspt",
+                        "VRTSodm",
+                        "VRTSlvmconv",
+                        "VRTSfssdk",
+                        "VRTSvbs",
+                        "VRTSgms",
+                        "VRTSsfmh"
+                    ],
+                    "rpkgs": [
+                        "VRTSvxvm",
+                        "VRTSglm",
+                        "VRTSgab",
+                        "VRTSvxfs",
+                        "VRTSvxfen",
+                        "VRTSvlic",
+                        "VRTSllt",
+                        "VRTSperl",
+                        "VRTSsfcpi601",
+                        "VRTSamf",
+                        "VRTSaslapm",
+                        "VRTSvcsag",
+                        "VRTScavf",
+                        "VRTSfsadv",
+                        "VRTSvcs"
+                    ]
+                },
+                "sfha": {
+                    "level": "30",
+                    "lic_names": "Storage Foundation Standard HA,Storage Foundation Enterprise HA,Storage Foundation for Oracle,Storage Foundation for Sybase,Storage Foundation for DB2",
+                    "mainpkgs": "VRTSvxfs,VRTSvxvm,VRTSvcs",
+                    "name": "Veritas Storage Foundation HA",
+                    "opkgs": [
+                        "VRTSvcsea",
+                        "VRTSvcsdr",
+                        "VRTSob",
+                        "VRTSdbed",
+                        "VRTScps",
+                        "VRTSspt",
+                        "VRTSodm",
+                        "VRTSlvmconv",
+                        "VRTSfssdk",
+                        "VRTSvbs",
+                        "VRTSsfmh"
+                    ],
+                    "rpkgs": [
+                        "VRTSvxvm",
+                        "VRTSgab",
+                        "VRTSvxfs",
+                        "VRTSvxfen",
+                        "VRTSvlic",
+                        "VRTSllt",
+                        "VRTSperl",
+                        "VRTSsfcpi601",
+                        "VRTSamf",
+                        "VRTSaslapm",
+                        "VRTSvcsag",
+                        "VRTSfsadv",
+                        "VRTSvcs"
+                    ]
+                },
+                "sfrac": {
+                    "level": "70",
+                    "lic_names": "Veritas Storage Foundation for Oracle RAC",
+                    "mainpkgs": "VRTSdbac,VRTSvxfs,VRTSvxvm,VRTSvcs",
+                    "name": "Veritas Storage Foundation for Oracle RAC",
+                    "opkgs": [
+                        "VRTSvcsdr",
+                        "VRTSob",
+                        "VRTScps",
+                        "VRTSspt",
+                        "VRTSlvmconv",
+                        "VRTSfssdk",
+                        "VRTSvbs",
+                        "VRTSsfmh"
+                    ],
+                    "rpkgs": [
+                        "VRTSglm",
+                        "VRTSgab",
+                        "VRTSdbed",
+                        "VRTSvxfs",
+                        "VRTSvxfen",
+                        "VRTSvlic",
+                        "VRTSllt",
+                        "VRTSdbac",
+                        "VRTSsfcpi601",
+                        "VRTSgms",
+                        "VRTScavf",
+                        "VRTSvcsea",
+                        "VRTSvxvm",
+                        "VRTSperl",
+                        "VRTSamf",
+                        "VRTSodm",
+                        "VRTSaslapm",
+                        "VRTSvcsag",
+                        "VRTSfsadv",
+                        "VRTSvcs"
+                    ]
+                },
+                "sfsybce": {
+                    "level": "40",
+                    "lic_names": "Veritas Storage Foundation for Sybase ASE CE",
+                    "mainpkgs": "VRTScavf,VRTSvxfs,VRTSvxvm,VRTSvcs",
+                    "name": "Veritas Storage Foundation for Sybase ASE CE",
+                    "opkgs": [
+                        "VRTSvcsea",
+                        "VRTSvcsdr",
+                        "VRTSob",
+                        "VRTSspt",
+                        "VRTSlvmconv",
+                        "VRTSfssdk",
+                        "VRTSvbs",
+                        "VRTSsfmh"
+                    ],
+                    "rpkgs": [
+                        "VRTSvxvm",
+                        "VRTSglm",
+                        "VRTSgab",
+                        "VRTSvxfs",
+                        "VRTSvxfen",
+                        "VRTSvlic",
+                        "VRTSllt",
+                        "VRTSperl",
+                        "VRTSsfcpi601",
+                        "VRTSamf",
+                        "VRTSaslapm",
+                        "VRTSvcsag",
+                        "VRTScavf",
+                        "VRTSfsadv",
+                        "VRTSvcs"
+                    ]
+                },
+                "svs": {
+                    "level": "60",
+                    "lic_names": "Symantec VirtualStore",
+                    "mainpkgs": "VRTSsvs,VRTSvxfs,VRTSvxvm,VRTSvcs",
+                    "name": "Symantec VirtualStore",
+                    "opkgs": [
+                        "VRTSvcsea",
+                        "VRTSvcsdr",
+                        "VRTSob",
+                        "VRTSdbed",
+                        "VRTScps",
+                        "VRTSspt",
+                        "VRTSodm",
+                        "VRTSlvmconv",
+                        "VRTSfssdk",
+                        "VRTSvbs",
+                        "VRTSgms"
+                    ],
+                    "rpkgs": [
+                        "VRTSglm",
+                        "VRTSgab",
+                        "VRTSvxfs",
+                        "VRTSvxfen",
+                        "VRTSvlic",
+                        "VRTSllt",
+                        "VRTSsfcpi601",
+                        "VRTSsvs",
+                        "VRTScavf",
+                        "VRTSsfmh",
+                        "VRTSvxvm",
+                        "VRTSperl",
+                        "VRTSamf",
+                        "VRTSaslapm",
+                        "VRTSvcsag",
+                        "VRTSfsadv",
+                        "VRTSvcs"
+                    ]
+                },
+                "vcs": {
+                    "level": "10",
+                    "lic_names": "Veritas Cluster Server",
+                    "mainpkgs": "VRTSvcs",
+                    "name": "Veritas Cluster Server",
+                    "opkgs": [
+                        "VRTSvcsea",
+                        "VRTSspt",
+                        "VRTScps",
+                        "VRTSvcsdr",
+                        "VRTSvbs",
+                        "VRTSsfmh"
+                    ],
+                    "rpkgs": [
+                        "VRTSgab",
+                        "VRTSvxfen",
+                        "VRTSvlic",
+                        "VRTSllt",
+                        "VRTSperl",
+                        "VRTSsfcpi601",
+                        "VRTSamf",
+                        "VRTSvcsag",
+                        "VRTSvcs"
+                    ]
+                },
+                "vm": {
+                    "level": "4",
+                    "lic_names": "Veritas Volume Manager",
+                    "mainpkgs": "VRTSvxvm",
+                    "name": "Veritas Volume Manager",
+                    "opkgs": [
+                        "VRTSspt",
+                        "VRTSlvmconv",
+                        "VRTSob",
+                        "VRTSsfmh"
+                    ],
+                    "rpkgs": [
+                        "VRTSsfcpi601",
+                        "VRTSperl",
+                        "VRTSvxvm",
+                        "VRTSaslapm",
+                        "VRTSvlic"
+                    ]
+                }
+            },
+            "products": "dmp,fs,sf,sfcfsha,sfha,sfrac,sfsybce,svs,vcs,vm",
+            "release_date": "2012-09-04",
+            "release_id": "6752",
+            "release_level": "Base",
+            "release_name": "sfha-sles10_x86_64-6.0.1",
+            "release_type": "MR",
+            "release_version": "6.0.1",
+            "upload_cksum": "1768108551",
+            "upload_location": "https://fileconnect.symantec.com",
+            "upload_size": "901012156",
+            "vers_level": "601-000"
+        },
+        "6895": {
+            "filename": "VRTS_SF_HA_Solutions_5.1_PR1_RHEL5_SLES10_x64.tar.gz",
+            "gunzip_cksum": "2013389849",
+            "gunzip_size": "703318528",
+            "install_path": "dvd1-linux/sles10_x86_64/installer",
+            "installed_over": "773,1157,1471,1529,1720,2272,2551,2751,3308,3422,3759,4141,4943,7139,7208",
+            "obsoleted_by": "4542,6752,7054,7216",
+            "obsoletes": "773,1157,1471,1529,1720,2272,2551,2751,3308,3422,3759,4141,4943,7139,7208",
+            "padvs": "sles10_x86_64",
+            "patch": {
+                "VRTSaslapm-5.1.001.000-RP1_SLES10": {
+                    "pkgs": [
+                        "VRTSaslapm"
+                    ],
+                    "version": "5.1.001.000"
+                },
+                "VRTSatClient-5.0.32.0-0": {
+                    "pkgs": [
+                        "VRTSatClient"
+                    ],
+                    "version": "5.0.32.0"
+                },
+                "VRTSatServer-5.0.32.0-0": {
+                    "pkgs": [
+                        "VRTSatServer"
+                    ],
+                    "version": "5.0.32.0"
+                },
+                "VRTScavf-5.1.001.000-RP1_GENERIC": {
+                    "pkgs": [
+                        "VRTScavf"
+                    ],
+                    "version": "5.1.001.000"
+                },
+                "VRTScps-5.1.001.000-RP1_SLES10": {
+                    "pkgs": [
+                        "VRTScps"
+                    ],
+                    "version": "5.1.001.000"
+                },
+                "VRTScutil-5.1.00.00-GA_GENERIC": {
+                    "pkgs": [
+                        "VRTScutil"
+                    ],
+                    "version": "5.1.00.00"
+                },
+                "VRTSdbac-5.1.010.000-PR1_SLES10": {
+                    "pkgs": [
+                        "VRTSdbac"
+                    ],
+                    "version": "5.1.010.000"
+                },
+                "VRTSdbed-5.1.010.000-PR1_SLES10": {
+                    "pkgs": [
+                        "VRTSdbed"
+                    ],
+                    "version": "5.1.010.000"
+                },
+                "VRTSfssdk-5.1.001.000-RP1_SLES10": {
+                    "pkgs": [
+                        "VRTSfssdk"
+                    ],
+                    "version": "5.1.001.000"
+                },
+                "VRTSgab-5.1.001.000-RP1_SLES10": {
+                    "pkgs": [
+                        "VRTSgab"
+                    ],
+                    "version": "5.1.001.000"
+                },
+                "VRTSglm-5.1.001.000-RP1_SLES10": {
+                    "pkgs": [
+                        "VRTSglm"
+                    ],
+                    "version": "5.1.001.000"
+                },
+                "VRTSgms-5.1.001.000-RP1_SLES10": {
+                    "pkgs": [
+                        "VRTSgms"
+                    ],
+                    "version": "5.1.001.000"
+                },
+                "VRTSllt-5.1.001.100-RP1P1_SLES10": {
+                    "pkgs": [
+                        "VRTSllt"
+                    ],
+                    "version": "5.1.001.100"
+                },
+                "VRTSlvmconv-5.1.001.000-RP1_SLES10": {
+                    "pkgs": [
+                        "VRTSlvmconv"
+                    ],
+                    "version": "5.1.001.000"
+                },
+                "VRTSob-3.4.258-0": {
+                    "pkgs": [
+                        "VRTSob"
+                    ],
+                    "version": "3.4.258"
+                },
+                "VRTSodm-5.1.001.000-RP1_SLES10": {
+                    "pkgs": [
+                        "VRTSodm"
+                    ],
+                    "version": "5.1.001.000"
+                },
+                "VRTSperl-5.10.0.7-SLES10": {
+                    "pkgs": [
+                        "VRTSperl"
+                    ],
+                    "version": "5.10.0.7"
+                },
+                "VRTSsfmh-2.1.229.0-0": {
+                    "pkgs": [
+                        "VRTSsfmh"
+                    ],
+                    "version": "2.1.229.0"
+                },
+                "VRTSspt-5.5.00.3-GA": {
+                    "pkgs": [
+                        "VRTSspt"
+                    ],
+                    "version": "5.5.00.3"
+                },
+                "VRTSvcs-5.1.001.000-RP1_SLES10": {
+                    "pkgs": [
+                        "VRTSvcs"
+                    ],
+                    "version": "5.1.001.000"
+                },
+                "VRTSvcsag-5.1.001.000-RP1_SLES10": {
+                    "pkgs": [
+                        "VRTSvcsag"
+                    ],
+                    "version": "5.1.001.000"
+                },
+                "VRTSvcsdr-5.1.00.00-GA_SLES10": {
+                    "pkgs": [
+                        "VRTSvcsdr"
+                    ],
+                    "version": "5.1.00.00"
+                },
+                "VRTSvcsea-5.1.001.000-RP1_SLES10": {
+                    "pkgs": [
+                        "VRTSvcsea"
+                    ],
+                    "version": "5.1.001.000"
+                },
+                "VRTSvlic-3.02.51.0000-0": {
+                    "pkgs": [
+                        "VRTSvlic"
+                    ],
+                    "version": "3.02.51.0000"
+                },
+                "VRTSvradv.msi": {
+                    "pkgs": [
+                        "Unknown"
+                    ]
+                },
+                "VRTSvxfen-5.1.001.000-RP1_SLES10": {
+                    "pkgs": [
+                        "VRTSvxfen"
+                    ],
+                    "version": "5.1.001.000"
+                },
+                "VRTSvxfs-5.1.001.000-RP1_SLES10": {
+                    "pkgs": [
+                        "VRTSvxfs"
+                    ],
+                    "version": "5.1.001.000"
+                },
+                "VRTSvxvm-5.1.001.000-RP1_SLES10": {
+                    "pkgs": [
+                        "VRTSvxvm"
+                    ],
+                    "version": "5.1.001.000"
+                }
+            },
+            "pkg_version": "5.1.010",
+            "prod": {
+                "sfrac": {
+                    "level": "70",
+                    "lic_names": "Veritas Storage Foundation for Oracle RAC",
+                    "mainpkgs": "VRTSdbac,VRTSvxfs,VRTSvxvm,VRTSvcs",
+                    "name": "Veritas Storage Foundation for Oracle RAC",
+                    "opkgs": [
+                        "VRTSvcsdr",
+                        "VRTScutil",
+                        "VRTSob",
+                        "VRTScps",
+                        "VRTSspt",
+                        "VRTSlvmconv",
+                        "VRTSfssdk",
+                        "VRTSsfmh"
+                    ],
+                    "rpkgs": [
+                        "VRTSglm",
+                        "VRTSgab",
+                        "VRTSdbed",
+                        "VRTSvxfs",
+                        "VRTSvxfen",
+                        "VRTSvlic",
+                        "VRTSllt",
+                        "VRTSdbac",
+                        "VRTSgms",
+                        "VRTScavf",
+                        "VRTSvcsea",
+                        "VRTSvxvm",
+                        "VRTSatClient",
+                        "VRTSatServer",
+                        "VRTSperl",
+                        "VRTSodm",
+                        "VRTSaslapm",
+                        "VRTSvcsag",
+                        "VRTSvcs"
+                    ]
+                }
+            },
+            "products": "sfrac",
+            "release_date": "2010-05-10",
+            "release_id": "6895",
+            "release_level": "Base",
+            "release_name": "sfrac-sles10_x86_64-5.1PR1",
+            "release_type": "PR",
+            "release_version": "5.1PR1",
+            "upload_cksum": "4245732976",
+            "upload_location": "https://fileconnect.symantec.com",
+            "upload_size": "609734084",
+            "vers_level": "510-010"
+        },
+        "7054": {
+            "filename": "VRTS_SF_HA_Solutions_6.0.2_SLES.tar.gz",
+            "install_path": "dvd2-suselinux/sles10_x86_64/installer",
+            "installed_over": "773,1157,1471,1529,1720,2272,2551,2751,3308,3422,3759,4141,4542,4656,4943,5514,6117,6752,6811,6895,7139,7208,7216,7892",
+            "obsoleted_by": "",
+            "obsoletes": "773,1157,1471,1529,1720,2272,2551,2751,3308,3422,3759,4141,4542,4656,4943,5514,6117,6752,6811,6895,7139,7208,7216,7892",
+            "padvs": "sles10_x86_64",
+            "patch": {
+                "VRTSamf-6.0.100.000-GA_SLES10": {
+                    "pkgs": [
+                        "VRTSamf"
+                    ],
+                    "version": "6.0.100.000"
+                },
+                "VRTSaslapm-6.0.100.000-GA_SLES10": {
+                    "pkgs": [
+                        "VRTSaslapm"
+                    ],
+                    "version": "6.0.100.000"
+                },
+                "VRTScps-6.0.100.000-GA_SLES10": {
+                    "pkgs": [
+                        "VRTScps"
+                    ],
+                    "version": "6.0.100.000"
+                },
+                "VRTSdbed-6.0.100.000-GA_SLES": {
+                    "pkgs": [
+                        "VRTSdbed"
+                    ],
+                    "version": "6.0.100.000"
+                },
+                "VRTSfsadv-6.0.100.000-GA_SLES10": {
+                    "pkgs": [
+                        "VRTSfsadv"
+                    ],
+                    "version": "6.0.100.000"
+                },
+                "VRTSfssdk-6.0.100.000-GA_SLES10": {
+                    "pkgs": [
+                        "VRTSfssdk"
+                    ],
+                    "version": "6.0.100.000"
+                },
+                "VRTSgab-6.0.100.000-GA_SLES10": {
+                    "pkgs": [
+                        "VRTSgab"
+                    ],
+                    "version": "6.0.100.000"
+                },
+                "VRTSllt-6.0.100.000-GA_SLES10": {
+                    "pkgs": [
+                        "VRTSllt"
+                    ],
+                    "version": "6.0.100.000"
+                },
+                "VRTSlvmconv-6.0.100.000-GA_SLES10": {
+                    "pkgs": [
+                        "VRTSlvmconv"
+                    ],
+                    "version": "6.0.100.000"
+                },
+                "VRTSob-3.4.553-0": {
+                    "pkgs": [
+                        "VRTSob"
+                    ],
+                    "version": "3.4.553"
+                },
+                "VRTSodm-6.0.100.000-GA_SLES10": {
+                    "pkgs": [
+                        "VRTSodm"
+                    ],
+                    "version": "6.0.100.000"
+                },
+                "VRTSperl-5.14.2.6-SLES10": {
+                    "pkgs": [
+                        "VRTSperl"
+                    ],
+                    "version": "5.14.2.6"
+                },
+                "VRTSsfcpi602-6.0.200.000-GA_GENERIC": {
+                    "pkgs": [
+                        "VRTSsfcpi602"
+                    ],
+                    "version": "6.0.200.000"
+                },
+                "VRTSsfmh-5.0.196.0_Linux.rpm": {
+                    "pkgs": [
+                        "VRTSsfmh"
+                    ],
+                    "version": "5.0.196.0"
+                },
+                "VRTSspt.rpm": {
+                    "pkgs": [
+                        "VRTSspt.rpm"
+                    ]
+                },
+                "VRTSvbs-6.0.100.000-GA_SLES10.i586.rpm": {
+                    "pkgs": [
+                        "VRTSvbs"
+                    ],
+                    "version": "6.0.100.000"
+                },
+                "VRTSvcs-6.0.100.000-GA_SLES10": {
+                    "pkgs": [
+                        "VRTSvcs"
+                    ],
+                    "version": "6.0.100.000"
+                },
+                "VRTSvcsag-6.0.200.000-GA_SLES10": {
+                    "pkgs": [
+                        "VRTSvcsag"
+                    ],
+                    "version": "6.0.200.000"
+                },
+                "VRTSvcsdr-6.0.100.000-GA_SLES10": {
+                    "pkgs": [
+                        "VRTSvcsdr"
+                    ],
+                    "version": "6.0.100.000"
+                },
+                "VRTSvcsea-6.0.100.000-GA_SLES10": {
+                    "pkgs": [
+                        "VRTSvcsea"
+                    ],
+                    "version": "6.0.100.000"
+                },
+                "VRTSvcsvmw-6.0.200.000-GA_SLES10": {
+                    "pkgs": [
+                        "VRTSvcsvmw"
+                    ],
+                    "version": "6.0.200.000"
+                },
+                "VRTSvlic-3.02.61.004-0": {
+                    "pkgs": [
+                        "VRTSvlic"
+                    ],
+                    "version": "3.02.61.004"
+                },
+                "VRTSvxfen-6.0.100.000-GA_SLES10": {
+                    "pkgs": [
+                        "VRTSvxfen"
+                    ],
+                    "version": "6.0.100.000"
+                },
+                "VRTSvxfs-6.0.100.000-GA_SLES10": {
+                    "pkgs": [
+                        "VRTSvxfs"
+                    ],
+                    "version": "6.0.100.000"
+                },
+                "VRTSvxvm-6.0.100.000-GA_SLES10": {
+                    "pkgs": [
+                        "VRTSvxvm"
+                    ],
+                    "version": "6.0.100.000"
+                }
+            },
+            "pkg_version": "6.0.200",
+            "prod": {
+                "fs": {
+                    "level": "1",
+                    "lic_names": "Veritas File System",
+                    "mainpkgs": "VRTSvxfs",
+                    "name": "Veritas File System",
+                    "opkgs": [
+                        "VRTSspt",
+                        "VRTSfssdk",
+                        "VRTSob",
+                        "VRTSsfmh"
+                    ],
+                    "rpkgs": [
+                        "VRTSperl",
+                        "VRTSvxfs",
+                        "VRTSvlic",
+                        "VRTSfsadv",
+                        "VRTSsfcpi602"
+                    ]
+                },
+                "sfha": {
+                    "level": "30",
+                    "lic_names": "Storage Foundation Standard HA,Storage Foundation Enterprise HA,Storage Foundation for Oracle,Storage Foundation for Sybase,Storage Foundation for DB2",
+                    "mainpkgs": "VRTSvcsag,VRTSvcs,VRTSvxfs,VRTSvxvm",
+                    "mpkg_version": "6.0.100",
+                    "name": "Veritas Storage Foundation HA",
+                    "opkgs": [
+                        "VRTSvcsea",
+                        "VRTSvcsdr",
+                        "VRTSob",
+                        "VRTSdbed",
+                        "VRTScps",
+                        "VRTSspt",
+                        "VRTSodm",
+                        "VRTSsapwebas71",
+                        "VRTSlvmconv",
+                        "VRTSmq6",
+                        "VRTSfssdk",
+                        "VRTSacclib",
+                        "VRTSvbs",
+                        "VRTSvcsvmw",
+                        "VRTSsfmh"
+                    ],
+                    "rpkgs": [
+                        "VRTSvxvm",
+                        "VRTSgab",
+                        "VRTSvxfs",
+                        "VRTSvxfen",
+                        "VRTSvlic",
+                        "VRTSllt",
+                        "VRTSperl",
+                        "VRTSamf",
+                        "VRTSaslapm",
+                        "VRTSvcsag",
+                        "VRTSfsadv",
+                        "VRTSsfcpi602",
+                        "VRTSvcs"
+                    ]
+                },
+                "vcs": {
+                    "level": "10",
+                    "lic_names": "Veritas Cluster Server",
+                    "mainpkgs": "VRTSvcsag,VRTSvcs",
+                    "mpkg_version": "6.0.100",
+                    "name": "Veritas Cluster Server",
+                    "opkgs": [
+                        "VRTSvcsea",
+                        "VRTSvcsdr",
+                        "VRTScps",
+                        "VRTSspt",
+                        "VRTSsapwebas71",
+                        "VRTSmq6",
+                        "VRTSvbs",
+                        "VRTSacclib",
+                        "VRTSvcsvmw",
+                        "VRTSsfmh"
+                    ],
+                    "rpkgs": [
+                        "VRTSgab",
+                        "VRTSvxfen",
+                        "VRTSvlic",
+                        "VRTSllt",
+                        "VRTSperl",
+                        "VRTSamf",
+                        "VRTSvcsag",
+                        "VRTSsfcpi602",
+                        "VRTSvcs"
+                    ]
+                },
+                "vm": {
+                    "level": "4",
+                    "lic_names": "Veritas Volume Manager",
+                    "mainpkgs": "VRTSvxvm",
+                    "name": "Veritas Volume Manager",
+                    "opkgs": [
+                        "VRTSspt",
+                        "VRTSlvmconv",
+                        "VRTSob",
+                        "VRTSsfmh"
+                    ],
+                    "rpkgs": [
+                        "VRTSperl",
+                        "VRTSvxvm",
+                        "VRTSaslapm",
+                        "VRTSvlic",
+                        "VRTSsfcpi602"
+                    ]
+                }
+            },
+            "products": "fs,sfha,vcs,vm",
+            "release_date": "2012-10-22",
+            "release_id": "7054",
+            "release_level": "Base",
+            "release_name": "sfha-sles10_x86_64-6.0.2",
+            "release_type": "PR",
+            "release_version": "6.0.2",
+            "upload_cksum": "3133152456",
+            "upload_location": "https://fileconnect.symantec.com",
+            "upload_size": "1003654642",
+            "vers_level": "602-000"
+        },
+        "7139": {
+            "installed_over": "1471,1529,2272,2751,3759",
+            "obsoleted_by": "1157,4542,6752,6895,7054,7208,7216",
+            "obsoletes": "1471,1529,2272,2751,3759",
+            "padvs": "sles10_x86_64",
+            "patch": {
+                "VRTSacclib-5.0.34.00-RU4_GENERIC": {
+                    "pkgs": [
+                        "VRTSacclib"
+                    ],
+                    "version": "5.0.34.00"
+                },
+                "VRTSalloc-5.0.34.00-RU4_SLES10": {
+                    "pkgs": [
+                        "VRTSalloc"
+                    ],
+                    "version": "5.0.34.00"
+                },
+                "VRTSatClient-4.3.46.0-0": {
+                    "pkgs": [
+                        "VRTSatClient"
+                    ],
+                    "version": "4.3.46.0"
+                },
+                "VRTSatServer-4.3.46.0-0": {
+                    "pkgs": [
+                        "VRTSatServer"
+                    ],
+                    "version": "4.3.46.0"
+                },
+                "VRTScavf-5.0.34.00-RU4_GENERIC": {
+                    "pkgs": [
+                        "VRTScavf"
+                    ],
+                    "version": "5.0.34.00"
+                },
+                "VRTScscm-5.0.34.00-RU4_GENERIC": {
+                    "pkgs": [
+                        "VRTScscm"
+                    ],
+                    "version": "5.0.34.00"
+                },
+                "VRTScscw-5.0.34.00-RU4_GENERIC": {
+                    "pkgs": [
+                        "VRTScscw"
+                    ],
+                    "version": "5.0.34.00"
+                },
+                "VRTScsocw-5.0.34.00-RU4_GENERIC": {
+                    "pkgs": [
+                        "VRTScsocw"
+                    ],
+                    "version": "5.0.34.00"
+                },
+                "VRTScssim-5.0.34.00-RU4_SLES10": {
+                    "pkgs": [
+                        "VRTScssim"
+                    ],
+                    "version": "5.0.34.00"
+                },
+                "VRTScutil-5.0.34.00-RU4_GENERIC": {
+                    "pkgs": [
+                        "VRTScutil"
+                    ],
+                    "version": "5.0.34.00"
+                },
+                "VRTSd2gui-common-5.0.34.00-RU4_SLES10": {
+                    "pkgs": [
+                        "VRTSd2gui-common"
+                    ],
+                    "version": "5.0.34.00"
+                },
+                "VRTSdb2ed-common-5.0.34.00-RU4_SLES10": {
+                    "pkgs": [
+                        "VRTSdb2ed-common"
+                    ],
+                    "version": "5.0.34.00"
+                },
+                "VRTSdbcom-common-5.0.34.00-RU4_SLES10": {
+                    "pkgs": [
+                        "VRTSdbcom-common"
+                    ],
+                    "version": "5.0.34.00"
+                },
+                "VRTSdbed-common-5.0.34.00-RU4_SLES10": {
+                    "pkgs": [
+                        "VRTSdbed-common"
+                    ],
+                    "version": "5.0.34.00"
+                },
+                "VRTSdbms3-v3.0.119.0.x86_64.rpm": {
+                    "pkgs": [
+                        "VRTSdbms3-v3.0.119.0.x86_64.rpm"
+                    ]
+                },
+                "VRTSddlpr-5.0.34.00-RU4_SLES10": {
+                    "pkgs": [
+                        "VRTSddlpr"
+                    ],
+                    "version": "5.0.34.00"
+                },
+                "VRTSdsa-5.0.40.00-MP4_SLES": {
+                    "pkgs": [
+                        "VRTSdsa"
+                    ],
+                    "version": "5.0.40.00"
+                },
+                "VRTSfsman-5.0.34.00-RU4_GENERIC": {
+                    "pkgs": [
+                        "VRTSfsman"
+                    ],
+                    "version": "5.0.34.00"
+                },
+                "VRTSfsmnd-5.0.34.00-RU4_GENERIC": {
+                    "pkgs": [
+                        "VRTSfsmnd"
+                    ],
+                    "version": "5.0.34.00"
+                },
+                "VRTSfspro-5.0.34.00-RU4_SLES10": {
+                    "pkgs": [
+                        "VRTSfspro"
+                    ],
+                    "version": "5.0.34.00"
+                },
+                "VRTSfssdk-5.0.34.00-RU4_SLES10": {
+                    "pkgs": [
+                        "VRTSfssdk"
+                    ],
+                    "version": "5.0.34.00"
+                },
+                "VRTSgab-5.0.34.00-RU4_SLES10": {
+                    "pkgs": [
+                        "VRTSgab"
+                    ],
+                    "version": "5.0.34.00"
+                },
+                "VRTSglm-5.0.34.00-RU4_SLES10": {
+                    "pkgs": [
+                        "VRTSglm"
+                    ],
+                    "version": "5.0.34.00"
+                },
+                "VRTSgms-5.0.34.00-RU4_SLES10": {
+                    "pkgs": [
+                        "VRTSgms"
+                    ],
+                    "version": "5.0.34.00"
+                },
+                "VRTSicsco-1.3.29.4-4": {
+                    "pkgs": [
+                        "VRTSicsco"
+                    ],
+                    "version": "1.3.29.4"
+                },
+                "VRTSllt-5.0.34.00-RU4_SLES10": {
+                    "pkgs": [
+                        "VRTSllt"
+                    ],
+                    "version": "5.0.34.00"
+                },
+                "VRTSlvmconv-5.0.34.00-RU4_SLES10": {
+                    "pkgs": [
+                        "VRTSlvmconv"
+                    ],
+                    "version": "5.0.34.00"
+                },
+                "VRTSob-3.3.1223.0-0": {
+                    "pkgs": [
+                        "VRTSob"
+                    ],
+                    "version": "3.3.1223.0"
+                },
+                "VRTSobc33-3.3.1223.0-0": {
+                    "pkgs": [
+                        "VRTSobc33"
+                    ],
+                    "version": "3.3.1223.0"
+                },
+                "VRTSobgui-3.3.1223.0-0": {
+                    "pkgs": [
+                        "VRTSobgui"
+                    ],
+                    "version": "3.3.1223.0"
+                },
+                "VRTSodm-common-5.0.34.00-RU4_SLES10": {
+                    "pkgs": [
+                        "VRTSodm-common"
+                    ],
+                    "version": "5.0.34.00"
+                },
+                "VRTSodm-platform-5.0.34.00-RU4_SLES10": {
+                    "pkgs": [
+                        "VRTSodm-platform"
+                    ],
+                    "version": "5.0.34.00"
+                },
+                "VRTSpbx-1.3.29.4-4": {
+                    "pkgs": [
+                        "VRTSpbx"
+                    ],
+                    "version": "1.3.29.4"
+                },
+                "VRTSperl-5.10.0.7-SLES10": {
+                    "pkgs": [
+                        "VRTSperl"
+                    ],
+                    "version": "5.10.0.7"
+                },
+                "VRTSsfmh-2.1.198.0-0": {
+                    "pkgs": [
+                        "VRTSsfmh"
+                    ],
+                    "version": "2.1.198.0"
+                },
+                "VRTSspt-5.5.00.0-GA": {
+                    "pkgs": [
+                        "VRTSspt"
+                    ],
+                    "version": "5.5.00.0"
+                },
+                "VRTSvcs-5.0.34.00-RU4_SLES10": {
+                    "pkgs": [
+                        "VRTSvcs"
+                    ],
+                    "version": "5.0.34.00"
+                },
+                "VRTSvcsag-5.0.34.00-RU4_SLES10": {
+                    "pkgs": [
+                        "VRTSvcsag"
+                    ],
+                    "version": "5.0.34.00"
+                },
+                "VRTSvcsdb-5.0.34.00-RU4_GENERIC": {
+                    "pkgs": [
+                        "VRTSvcsdb"
+                    ],
+                    "version": "5.0.34.00"
+                },
+                "VRTSvcsdr-5.0.34.00-RU4_SLES10": {
+                    "pkgs": [
+                        "VRTSvcsdr"
+                    ],
+                    "version": "5.0.34.00"
+                },
+                "VRTSvcsmg-5.0.34.00-RU4_GENERIC": {
+                    "pkgs": [
+                        "VRTSvcsmg"
+                    ],
+                    "version": "5.0.34.00"
+                },
+                "VRTSvcsmn-5.0.34.00-RU4_GENERIC": {
+                    "pkgs": [
+                        "VRTSvcsmn"
+                    ],
+                    "version": "5.0.34.00"
+                },
+                "VRTSvcsor-5.0.34.00-RU4_SLES10": {
+                    "pkgs": [
+                        "VRTSvcsor"
+                    ],
+                    "version": "5.0.34.00"
+                },
+                "VRTSvcssy-5.0.34.00-RU4_SLES10": {
+                    "pkgs": [
+                        "VRTSvcssy"
+                    ],
+                    "version": "5.0.34.00"
+                },
+                "VRTSvcsvr-5.0.34.00-RU4_GENERIC": {
+                    "pkgs": [
+                        "VRTSvcsvr"
+                    ],
+                    "version": "5.0.34.00"
+                },
+                "VRTSvdid-1.2.313.0-313": {
+                    "pkgs": [
+                        "VRTSvdid"
+                    ],
+                    "version": "1.2.313.0"
+                },
+                "VRTSvlic-3.02.34.0-0": {
+                    "pkgs": [
+                        "VRTSvlic"
+                    ],
+                    "version": "3.02.34.0"
+                },
+                "VRTSvmman-5.0.34.00-RU4_GENERIC": {
+                    "pkgs": [
+                        "VRTSvmman"
+                    ],
+                    "version": "5.0.34.00"
+                },
+                "VRTSvmpro-5.0.34.00-RU4_SLES10": {
+                    "pkgs": [
+                        "VRTSvmpro"
+                    ],
+                    "version": "5.0.34.00"
+                },
+                "VRTSvrpro-5.0.34.00-RU4_SLES10": {
+                    "pkgs": [
+                        "VRTSvrpro"
+                    ],
+                    "version": "5.0.34.00"
+                },
+                "VRTSvxfen-5.0.34.00-RU4_SLES10": {
+                    "pkgs": [
+                        "VRTSvxfen"
+                    ],
+                    "version": "5.0.34.00"
+                },
+                "VRTSvxfs-common-5.0.34.00-RU4_SLES10": {
+                    "pkgs": [
+                        "VRTSvxfs-common"
+                    ],
+                    "version": "5.0.34.00"
+                },
+                "VRTSvxfs-platform-5.0.34.00-RU4_SLES10": {
+                    "pkgs": [
+                        "VRTSvxfs-platform"
+                    ],
+                    "version": "5.0.34.00"
+                },
+                "VRTSvxmsa-5.4.013-SUSE10.x86_64.rpm": {
+                    "pkgs": [
+                        "VRTSvxmsa"
+                    ],
+                    "version": "5.4.013"
+                },
+                "VRTSvxvm-common-5.0.34.00-RU4_SLES10": {
+                    "pkgs": [
+                        "VRTSvxvm-common"
+                    ],
+                    "version": "5.0.34.00"
+                },
+                "VRTSvxvm-platform-5.0.34.00-RU4_SLES10": {
+                    "pkgs": [
+                        "VRTSvxvm-platform"
+                    ],
+                    "version": "5.0.34.00"
+                }
+            },
+            "pkg_version": "5.0.04",
+            "products": "fs,sf,sfcfs,sfcfsrac,sfdb2,sfha,sfora,vcs,vm,vvr",
+            "release_date": "2009-12-20",
+            "release_id": "7139",
+            "release_level": "Base",
+            "release_name": "sfha-sles10_x86_64-5.0RU4",
+            "release_type": "PR",
+            "release_version": "5.0RU4RU4",
+            "upload_cksum": "717842000",
+            "upload_location": "https://fileconnect.symantec.com",
+            "upload_size": "1471415494",
+            "vers_level": "500-040"
+        },
+        "7208": {
+            "filename": "VRTS_SF_HA_Solutions_5.1_SLES.tar.gz",
+            "gunzip_cksum": "235951147",
+            "gunzip_size": "640109056",
+            "install_path": "dvd2-suselinux/sles10_x86_64/installer",
+            "installed_over": "773,1157,1471,1529,1720,2272,2551,2751,3422,3759,4943,7139",
+            "obsoleted_by": "4542,6752,6895,7054,7216",
+            "obsoletes": "773,1157,1471,1529,1720,2272,2551,2751,3422,3759,4943,7139",
+            "padvs": "sles10_x86_64",
+            "pkg_version": "5.1",
+            "prod": {
+                "fs": {
+                    "level": "1",
+                    "lic_names": "Veritas File System",
+                    "mainpkgs": "VRTSvxfs",
+                    "name": "Veritas File System",
+                    "opkgs": [
+                        "VRTSspt",
+                        "VRTSfssdk",
+                        "VRTSob",
+                        "VRTSsfmh"
+                    ],
+                    "rpkgs": [
+                        "VRTSperl",
+                        "VRTSvxfs",
+                        "VRTSvlic"
+                    ]
+                },
+                "sf": {
+                    "level": "20",
+                    "lic_names": "Storage Foundation,Storage Foundation for Oracle,Storage Foundation for Sybase,Storage Foundation for DB2",
+                    "mainpkgs": "VRTSvxfs,VRTSvxvm",
+                    "name": "Veritas Storage Foundation",
+                    "opkgs": [
+                        "VRTSob",
+                        "VRTSdbed",
+                        "VRTSatClient",
+                        "VRTSatServer",
+                        "VRTSspt",
+                        "VRTSodm",
+                        "VRTSlvmconv",
+                        "VRTSfssdk",
+                        "VRTSsfmh"
+                    ],
+                    "rpkgs": [
+                        "VRTSperl",
+                        "VRTSvxvm",
+                        "VRTSaslapm",
+                        "VRTSvxfs",
+                        "VRTSvlic"
+                    ]
+                },
+                "sfcfs": {
+                    "level": "50",
+                    "lic_names": "Foundation Cluster File System,Storage Foundation for Cluster File System,SANPoint Foundation Suite",
+                    "mainpkgs": "VRTScavf,VRTSvxfs,VRTSvxvm,VRTSvcs",
+                    "name": "Veritas Storage Foundation Cluster File System",
+                    "opkgs": [
+                        "VRTSvcsea",
+                        "VRTSvcsdr",
+                        "VRTScutil",
+                        "VRTSob",
+                        "VRTSdbed",
+                        "VRTScps",
+                        "VRTSspt",
+                        "VRTSodm",
+                        "VRTSlvmconv",
+                        "VRTSfssdk",
+                        "VRTSgms",
+                        "VRTSsfmh"
+                    ],
+                    "rpkgs": [
+                        "VRTSvxvm",
+                        "VRTSglm",
+                        "VRTSgab",
+                        "VRTSatClient",
+                        "VRTSvxfs",
+                        "VRTSvxfen",
+                        "VRTSvlic",
+                        "VRTSllt",
+                        "VRTSatServer",
+                        "VRTSperl",
+                        "VRTSaslapm",
+                        "VRTSvcsag",
+                        "VRTScavf",
+                        "VRTSvcs"
+                    ]
+                },
+                "sfcfsha": {
+                    "level": "55",
+                    "lic_names": "Storage Foundation Cluster File System,Storage Foundation for Cluster File System,SANPoint Foundation Suite",
+                    "mainpkgs": "VRTScavf,VRTSvxfs,VRTSvxvm,VRTSvcs",
+                    "name": "Veritas Storage Foundation Cluster File System HA",
+                    "opkgs": [
+                        "VRTSvcsea",
+                        "VRTSvcsdr",
+                        "VRTScutil",
+                        "VRTSob",
+                        "VRTSdbed",
+                        "VRTScps",
+                        "VRTSspt",
+                        "VRTSodm",
+                        "VRTSlvmconv",
+                        "VRTSfssdk",
+                        "VRTSgms",
+                        "VRTSsfmh"
+                    ],
+                    "rpkgs": [
+                        "VRTSvxvm",
+                        "VRTSglm",
+                        "VRTSgab",
+                        "VRTSatClient",
+                        "VRTSvxfs",
+                        "VRTSvxfen",
+                        "VRTSvlic",
+                        "VRTSllt",
+                        "VRTSatServer",
+                        "VRTSperl",
+                        "VRTSaslapm",
+                        "VRTSvcsag",
+                        "VRTScavf",
+                        "VRTSvcs"
+                    ]
+                },
+                "sfcfsrac": {
+                    "level": "40",
+                    "lic_names": "Storage Foundation Cluster File System for Oracle RAC",
+                    "mainpkgs": "VRTScavf,VRTSvxfs,VRTSvxvm,VRTSvcs",
+                    "name": "Veritas Storage Foundation Cluster File System for Oracle RAC",
+                    "opkgs": [
+                        "VRTSvcsdr",
+                        "VRTScutil",
+                        "VRTSob",
+                        "VRTScps",
+                        "VRTSspt",
+                        "VRTSlvmconv",
+                        "VRTSfssdk",
+                        "VRTSsfmh"
+                    ],
+                    "rpkgs": [
+                        "VRTSglm",
+                        "VRTSgab",
+                        "VRTSvxfs",
+                        "VRTSvxfen",
+                        "VRTSvlic",
+                        "VRTSllt",
+                        "VRTSgms",
+                        "VRTScavf",
+                        "VRTSvcsea",
+                        "VRTSvxvm",
+                        "VRTSatClient",
+                        "VRTSatServer",
+                        "VRTSperl",
+                        "VRTSodm",
+                        "VRTSaslapm",
+                        "VRTSvcsag",
+                        "VRTSvcs"
+                    ]
+                },
+                "sfha": {
+                    "level": "30",
+                    "lic_names": "Storage Foundation Standard HA,Storage Foundation Enterprise HA,Storage Foundation for Oracle,Storage Foundation for Sybase,Storage Foundation for DB2",
+                    "mainpkgs": "VRTSvxfs,VRTSvxvm,VRTSvcs",
+                    "name": "Veritas Storage Foundation HA",
+                    "opkgs": [
+                        "VRTSvcsea",
+                        "VRTSvcsdr",
+                        "VRTScutil",
+                        "VRTSob",
+                        "VRTSdbed",
+                        "VRTScps",
+                        "VRTSspt",
+                        "VRTSodm",
+                        "VRTSlvmconv",
+                        "VRTSfssdk",
+                        "VRTSsfmh"
+                    ],
+                    "rpkgs": [
+                        "VRTSvxvm",
+                        "VRTSgab",
+                        "VRTSatClient",
+                        "VRTSvxfs",
+                        "VRTSvxfen",
+                        "VRTSvlic",
+                        "VRTSllt",
+                        "VRTSatServer",
+                        "VRTSperl",
+                        "VRTSaslapm",
+                        "VRTSvcsag",
+                        "VRTSvcs"
+                    ]
+                },
+                "vcs": {
+                    "level": "10",
+                    "lic_names": "Veritas Cluster Server",
+                    "mainpkgs": "VRTSvcs",
+                    "name": "Veritas Cluster Server",
+                    "opkgs": [
+                        "VRTSvcsea",
+                        "VRTSspt",
+                        "VRTScps",
+                        "VRTSvcsdr",
+                        "VRTScutil"
+                    ],
+                    "rpkgs": [
+                        "VRTSgab",
+                        "VRTSatClient",
+                        "VRTSvxfen",
+                        "VRTSvlic",
+                        "VRTSllt",
+                        "VRTSatServer",
+                        "VRTSperl",
+                        "VRTSvcsag",
+                        "VRTSvcs"
+                    ]
+                },
+                "vm": {
+                    "level": "4",
+                    "lic_names": "Veritas Volume Manager",
+                    "mainpkgs": "VRTSvxvm",
+                    "name": "Veritas Volume Manager",
+                    "opkgs": [
+                        "VRTSspt",
+                        "VRTSlvmconv",
+                        "VRTSob",
+                        "VRTSsfmh"
+                    ],
+                    "rpkgs": [
+                        "VRTSperl",
+                        "VRTSvxvm",
+                        "VRTSaslapm",
+                        "VRTSvlic"
+                    ]
+                }
+            },
+            "release_date": "2013-01-24",
+            "release_id": "7208",
+            "release_level": "Base",
+            "release_name": "sfha-sles10_x86_64-5.1",
+            "release_type": "GA",
+            "release_version": "5.1",
+            "upload_cksum": "3460189812",
+            "upload_location": "https://fileconnect.symantec.com",
+            "upload_size": "496597826",
+            "vers_level": "510-000"
+        },
+        "7216": {
+            "filename": "VRTS_SF_HA_Solutions_6.0_SLES.tar.gz",
+            "gunzip_cksum": "4134736810",
+            "gunzip_size": "1208051712",
+            "install_path": "dvd2-suselinux/sles10_x86_64/installer",
+            "installed_over": "1157,1720,2551,3308,3422,4141,4542,4656,4943,5514,6811,6895,7208,7892",
+            "obsoleted_by": "6752,7054",
+            "obsoletes": "773,1157,1471,1529,1720,2272,2551,2751,3308,3422,3759,4141,4542,4656,4943,5514,6811,6895,7139,7208,7892",
+            "padvs": "sles10_x86_64",
+            "pkg_version": "6.0",
+            "prod": {
+                "dmp": {
+                    "level": "5",
+                    "lic_names": "Veritas Dynamic Multi-Pathing",
+                    "mainpkgs": "VRTSvxvm",
+                    "name": "Veritas Dynamic Multi-Pathing",
+                    "opkgs": [
+                        "VRTSspt",
+                        "VRTSsfmh"
+                    ],
+                    "rpkgs": [
+                        "VRTSperl",
+                        "VRTSvxvm",
+                        "VRTSaslapm",
+                        "VRTSvlic",
+                        "VRTSsfcpi60"
+                    ]
+                },
+                "fs": {
+                    "level": "1",
+                    "lic_names": "Veritas File System",
+                    "mainpkgs": "VRTSvxfs",
+                    "name": "Veritas File System",
+                    "opkgs": [
+                        "VRTSspt",
+                        "VRTSfssdk",
+                        "VRTSob",
+                        "VRTSsfmh"
+                    ],
+                    "rpkgs": [
+                        "VRTSperl",
+                        "VRTSvxfs",
+                        "VRTSvlic",
+                        "VRTSfsadv",
+                        "VRTSsfcpi60"
+                    ]
+                },
+                "sf": {
+                    "level": "20",
+                    "lic_names": "Storage Foundation,Storage Foundation for Oracle,Storage Foundation for Sybase,Storage Foundation for DB2",
+                    "mainpkgs": "VRTSvxfs,VRTSvxvm",
+                    "name": "Veritas Storage Foundation",
+                    "opkgs": [
+                        "VRTSspt",
+                        "VRTSodm",
+                        "VRTSlvmconv",
+                        "VRTSfssdk",
+                        "VRTSob",
+                        "VRTSdbed",
+                        "VRTSsfmh"
+                    ],
+                    "rpkgs": [
+                        "VRTSperl",
+                        "VRTSvxvm",
+                        "VRTSaslapm",
+                        "VRTSvxfs",
+                        "VRTSvlic",
+                        "VRTSfsadv",
+                        "VRTSsfcpi60"
+                    ]
+                },
+                "sfcfsha": {
+                    "level": "55",
+                    "lic_names": "Storage Foundation Cluster File System,Storage Foundation for Cluster File System,SANPoint Foundation Suite",
+                    "mainpkgs": "VRTScavf,VRTSvxfs,VRTSvxvm,VRTSvcs",
+                    "name": "Veritas Storage Foundation Cluster File System HA",
+                    "opkgs": [
+                        "VRTSvcsea",
+                        "VRTSvcsdr",
+                        "VRTSob",
+                        "VRTSdbed",
+                        "VRTScps",
+                        "VRTSspt",
+                        "VRTSodm",
+                        "VRTSlvmconv",
+                        "VRTSfssdk",
+                        "VRTSvbs",
+                        "VRTSgms",
+                        "VRTSsfmh"
+                    ],
+                    "rpkgs": [
+                        "VRTSvxvm",
+                        "VRTSglm",
+                        "VRTSgab",
+                        "VRTSvxfs",
+                        "VRTSvxfen",
+                        "VRTSvlic",
+                        "VRTSsfcpi60",
+                        "VRTSllt",
+                        "VRTSperl",
+                        "VRTSamf",
+                        "VRTSaslapm",
+                        "VRTSvcsag",
+                        "VRTScavf",
+                        "VRTSfsadv",
+                        "VRTSvcs"
+                    ]
+                },
+                "sfha": {
+                    "level": "30",
+                    "lic_names": "Storage Foundation Standard HA,Storage Foundation Enterprise HA,Storage Foundation for Oracle,Storage Foundation for Sybase,Storage Foundation for DB2",
+                    "mainpkgs": "VRTSvxfs,VRTSvxvm,VRTSvcs",
+                    "name": "Veritas Storage Foundation HA",
+                    "opkgs": [
+                        "VRTSvcsea",
+                        "VRTSvcsdr",
+                        "VRTSob",
+                        "VRTSdbed",
+                        "VRTScps",
+                        "VRTSspt",
+                        "VRTSodm",
+                        "VRTSlvmconv",
+                        "VRTSfssdk",
+                        "VRTSvbs",
+                        "VRTSsfmh"
+                    ],
+                    "rpkgs": [
+                        "VRTSvxvm",
+                        "VRTSgab",
+                        "VRTSvxfs",
+                        "VRTSvxfen",
+                        "VRTSvlic",
+                        "VRTSsfcpi60",
+                        "VRTSllt",
+                        "VRTSperl",
+                        "VRTSamf",
+                        "VRTSaslapm",
+                        "VRTSvcsag",
+                        "VRTSfsadv",
+                        "VRTSvcs"
+                    ]
+                },
+                "sfrac": {
+                    "level": "70",
+                    "lic_names": "Veritas Storage Foundation for Oracle RAC",
+                    "mainpkgs": "VRTSdbac,VRTSvxfs,VRTSvxvm,VRTSvcs",
+                    "name": "Veritas Storage Foundation for Oracle RAC",
+                    "opkgs": [
+                        "VRTSvcsdr",
+                        "VRTSob",
+                        "VRTScps",
+                        "VRTSspt",
+                        "VRTSlvmconv",
+                        "VRTSfssdk",
+                        "VRTSvbs",
+                        "VRTSsfmh"
+                    ],
+                    "rpkgs": [
+                        "VRTSglm",
+                        "VRTSgab",
+                        "VRTSdbed",
+                        "VRTSvxfs",
+                        "VRTSvxfen",
+                        "VRTSvlic",
+                        "VRTSllt",
+                        "VRTSdbac",
+                        "VRTSgms",
+                        "VRTScavf",
+                        "VRTSvcsea",
+                        "VRTSvxvm",
+                        "VRTSsfcpi60",
+                        "VRTSperl",
+                        "VRTSamf",
+                        "VRTSodm",
+                        "VRTSaslapm",
+                        "VRTSvcsag",
+                        "VRTSfsadv",
+                        "VRTSvcs"
+                    ]
+                },
+                "sfsybce": {
+                    "level": "40",
+                    "lic_names": "Veritas Storage Foundation for Sybase ASE CE",
+                    "mainpkgs": "VRTScavf,VRTSvxfs,VRTSvxvm,VRTSvcs",
+                    "name": "Veritas Storage Foundation for Sybase ASE CE",
+                    "opkgs": [
+                        "VRTSvcsea",
+                        "VRTSvcsdr",
+                        "VRTSob",
+                        "VRTSspt",
+                        "VRTSlvmconv",
+                        "VRTSfssdk",
+                        "VRTSvbs",
+                        "VRTSsfmh"
+                    ],
+                    "rpkgs": [
+                        "VRTSvxvm",
+                        "VRTSglm",
+                        "VRTSgab",
+                        "VRTSvxfs",
+                        "VRTSvxfen",
+                        "VRTSvlic",
+                        "VRTSsfcpi60",
+                        "VRTSllt",
+                        "VRTSperl",
+                        "VRTSamf",
+                        "VRTSaslapm",
+                        "VRTSvcsag",
+                        "VRTScavf",
+                        "VRTSfsadv",
+                        "VRTSvcs"
+                    ]
+                },
+                "svs": {
+                    "level": "60",
+                    "lic_names": "Symantec VirtualStore",
+                    "mainpkgs": "VRTSsvs,VRTSvxfs,VRTSvxvm,VRTSvcs",
+                    "name": "Symantec VirtualStore",
+                    "opkgs": [
+                        "VRTSvcsea",
+                        "VRTSvcsdr",
+                        "VRTSob",
+                        "VRTSdbed",
+                        "VRTScps",
+                        "VRTSspt",
+                        "VRTSodm",
+                        "VRTSlvmconv",
+                        "VRTSfssdk",
+                        "VRTSvbs",
+                        "VRTSgms"
+                    ],
+                    "rpkgs": [
+                        "VRTSglm",
+                        "VRTSgab",
+                        "VRTSvxfs",
+                        "VRTSvxfen",
+                        "VRTSvlic",
+                        "VRTSllt",
+                        "VRTSsvs",
+                        "VRTScavf",
+                        "VRTSsfmh",
+                        "VRTSvxvm",
+                        "VRTSsfcpi60",
+                        "VRTSperl",
+                        "VRTSamf",
+                        "VRTSaslapm",
+                        "VRTSvcsag",
+                        "VRTSfsadv",
+                        "VRTSvcs"
+                    ]
+                },
+                "vcs": {
+                    "level": "10",
+                    "lic_names": "Veritas Cluster Server",
+                    "mainpkgs": "VRTSvcs",
+                    "name": "Veritas Cluster Server",
+                    "opkgs": [
+                        "VRTSvcsea",
+                        "VRTSspt",
+                        "VRTScps",
+                        "VRTSvcsdr",
+                        "VRTSvbs",
+                        "VRTSsfmh"
+                    ],
+                    "rpkgs": [
+                        "VRTSgab",
+                        "VRTSvxfen",
+                        "VRTSvlic",
+                        "VRTSsfcpi60",
+                        "VRTSllt",
+                        "VRTSperl",
+                        "VRTSamf",
+                        "VRTSvcsag",
+                        "VRTSvcs"
+                    ]
+                },
+                "vm": {
+                    "level": "4",
+                    "lic_names": "Veritas Volume Manager",
+                    "mainpkgs": "VRTSvxvm",
+                    "name": "Veritas Volume Manager",
+                    "opkgs": [
+                        "VRTSspt",
+                        "VRTSlvmconv",
+                        "VRTSob",
+                        "VRTSsfmh"
+                    ],
+                    "rpkgs": [
+                        "VRTSperl",
+                        "VRTSvxvm",
+                        "VRTSaslapm",
+                        "VRTSvlic",
+                        "VRTSsfcpi60"
+                    ]
+                }
+            },
+            "release_date": "2011-12-20",
+            "release_id": "7216",
+            "release_level": "Base",
+            "release_name": "sfha-sles10_x86_64-6.0",
+            "release_type": "GA",
+            "release_version": "6.0",
+            "upload_cksum": "37743996",
+            "upload_location": "https://fileconnect.symantec.com",
+            "upload_size": "974885603",
+            "vers_level": "600-000"
+        }
+    }
+}

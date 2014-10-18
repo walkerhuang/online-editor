@@ -1,0 +1,505 @@
+#! /usr/bin/perl
+use IO::Socket;
+use Socket qw( getaddrinfo getnameinfo AF_INET AF_INET6 NI_NUMERICHOST );
+use Net::Domain qw(hostname hostfqdn);
+use File::Basename qw(dirname);
+use Cwd qw(getcwd abs_path);
+
+my $padv=get_padv();
+my $path=get_running_path();
+my $xprtl_top_dir=abs_path("$path/xprtl/$padv");
+#my $xprtl_top_dir="$path/xprtl";
+
+my $xprtl_bin_dir="$xprtl_top_dir/bin";
+my $xprtl_log_dir="/var/opt/coding";
+
+my $document_root=abs_path("$path/html");
+my $eat_home="$xprtl_top_dir";
+my $access_log="$xprtl_log_dir/logs/access.log";
+my $error_log="$xprtl_log_dir/logs/error.log";
+my $pid_file="$xprtl_log_dir/xprtlwid.pid";
+my $scheduler_file="$xprtl_log_dir/scheduler.conf";
+my $xprtlwid_conf_file="$xprtl_log_dir/xprtlwid.conf";
+
+my $xprtlc="$xprtl_bin_dir/xprtlc";
+my $xprtlwid="$xprtl_bin_dir/xprtlwid";
+
+# init L10N scripts
+my $vx_bmcmnem="EDR";
+my $vx_bmcorigid='9';
+my $vx_bmcdomaindir=$path."/scripts";
+my $vxgettext="$vx_bmcdomaindir/bin/$padv/vxgettext";
+
+my ($arg,$args,$mode,$port,$i);
+
+$i=0;
+while ($i<=$#ARGV) {
+    $arg=$ARGV[$i];
+    if ($arg=~/^-?help$/) {
+        usage();
+        exit 0;
+    } elsif ($arg=~/^-?start$/) {
+        $mode="start";
+    } elsif ($arg=~/^-?stop$/) {
+        $mode="stop";
+    } elsif ($arg=~/^-?status$/) {
+        $mode="status";
+    } elsif ($arg=~/^-?restart$/) {
+        $mode="restart";
+    } elsif ($arg eq "-port") {
+        $port=$ARGV[++$i];
+        $port=~s/^0*//;
+        if ($port!~/^\d+$/ || $port < 1 || $port > 65535) {
+           print _i18n_("\nError: The port argument should be a positive number between 1 and 65535\n\n");
+           exit 1;
+        }
+    } else {
+        $args=join(" ",@ARGV);
+        print _i18n_("\nError: Invalid arguments: '$args'\n");
+        usage();
+        exit 1;
+    }
+    $i++;
+}
+
+if (defined $port && $mode ne "start" && $mode ne "restart") {
+    print _i18n_("\nError: Port should be specified together with 'start' option\n");
+    usage();
+    exit 1;
+}
+
+$mode||="start";
+if ($mode eq "start" ) {
+    start_xprtlwid($port);
+} elsif ($mode eq "stop") {
+    stop_xprtlwid();
+} elsif ($mode eq "status") {
+    xprtlwid_status();
+} elsif ($mode eq "restart") {
+    restart_xprtlwid($port);
+}
+
+exit 0;
+
+sub usage {
+    print _i18n_("\nUsage:\n");
+
+    print << "_USAGE_";
+        $0 help
+        $0 start {-port <port>}
+        $0 stop
+        $0 restart {-port <port>}
+        $0 status
+_USAGE_
+}
+
+sub get_running_xprtlwid_status {
+    my ($pid,$port,$document_root);
+
+    $pid=get_running_xprtlwid_pid();
+    $port=get_running_xprtlwid_conf("listen_ports");
+    $document_root=get_running_xprtlwid_conf("document_root");
+    return ($pid,$port,$document_root);
+}
+
+sub get_running_xprtlwid_pid {
+    my ($pid,$psout);
+
+    $pid=`cat $pid_file 2>/dev/null`;
+    chomp $pid;
+    if ($pid=~/\d+/) {
+        $psout=`ps -p $pid`;
+        if ($psout=~/xprtlwid/m) {
+            return $pid;
+        }
+    }
+    return undef;
+}
+
+sub get_running_xprtlwid_conf {
+    my ($attr,$rtn);
+    $attr=shift;
+
+    $rtn=undef;
+    if (-f $xprtlwid_conf_file) {
+        $rtn=`grep $attr $xprtlwid_conf_file | awk '{print \$2}' 2>/dev/null`;
+        chomp $rtn;
+    }
+    return $rtn;
+}
+
+sub start_xprtlwid {
+    my ($port_to_start,$pid,$port,$docroot,$config,$start_scripts,$proxy);
+    $port_to_start=shift;
+
+    ($pid,$port,$docroot)=get_running_xprtlwid_status();
+    if ($pid && $port) {
+        print_xprtlwid_started_message($port,$docroot);
+        restart_xprtlwid($port_to_start,1) if(need_to_restart($port,$docroot,$port_to_start));
+        return 0;
+    } elsif (!available($port_to_start)) {
+        print _i18n_("\nError: Port '$port_to_start' is not available\n\n");
+        return 1;
+    } elsif ($pid) {
+        `kill -9 $pid`;
+    }
+
+    # Start xprtlwid
+    $port=$port_to_start || get_available_xprtl_port();
+
+    #get https_proxy and http_proxy
+    $proxy=get_proxy_variable();
+
+    $config=<<"_EOF_";
+document_root $document_root
+listen_ports $port
+eat_home $eat_home
+cgi_extensions .pl,.cgi,.py
+access_log $access_log
+error_log $error_log
+pid_file $pid_file
+scheduler_file $scheduler_file
+var_dir $xprtl_log_dir
+list_directories 0
+cgi_envvar LANG=C,SFM_INSTALL_ROOT=/opt/VRTSsfmh, $proxy
+_EOF_
+
+    if (!-d "$xprtl_log_dir/logs") {
+        `mkdir -p $xprtl_log_dir/logs; touch $access_log $error_log`;
+    }
+    open XPRTLD_CONF_FILE,"> $xprtlwid_conf_file";
+    print XPRTLD_CONF_FILE "$config\n";
+    close XPRTLD_CONF_FILE;
+
+    $start_scripts=<<"_EOF_";
+ulimit -c unlimited >/dev/null 2>&1
+$xprtlwid -X 1 $xprtlwid_conf_file >/dev/null 2>&1 &
+# Make sure it started
+for i in 1 2 3 4 5
+do
+    $xprtlc -l https://localhost:$port/world/ping > /dev/null 2>&1
+    if [ \$? = 0 ]; then
+        if [ "$padv" = "linux" ]; then
+            touch /var/lock/subsys/xprtld
+        fi
+        exit 0
+    fi
+    sleep 1
+done
+_EOF_
+    `$start_scripts`;
+
+    foreach my $i(1..20){
+        $pid=get_running_xprtlwid_pid();
+        if ($pid){
+            if(($padv eq "linux") && (!-f "/var/lock/subsys/xprtld")){
+                `touch /var/lock/subsys/xprtld`;
+            }
+            last;
+        }
+        sleep 1;
+    }
+    if ($pid) {
+        print_xprtlwid_started_message($port,$document_root,1);
+        return 0;
+    } else {
+        print _i18n_("\nxprtlwid could not start on port(s) $port\n\n");
+        return 1;
+    }
+}
+
+sub stop_xprtlwid {
+    my ($pid,$port,$docroot,$stop_scripts);
+
+    ($pid,$port,$docroot)=get_running_xprtlwid_status();
+    if (!$pid) {
+        print _i18n_("\nxprtlwid not started\n\n");
+        return 0;
+    }
+    if ($pid && $port) {
+        print _i18n_("\nxprtlwid running on port(s) $port, serving $docroot\n\n");
+    }
+
+    # Stop xprtlwid
+    print _i18n_("Stopping xprtlwid...\n");
+    if ($pid) {
+        `kill -9 $pid`;
+    } else {
+        $stop_scripts=<<"_EOF_";
+$xprtlc -l https://localhost:$port/admin/lifecycle/stop >/dev/null 2>&1
+for i in 1 2 3
+do
+    $xprtlc -l https://localhost:$port/world/ping > /dev/null 2>&1
+    if [ \$? != 0 ]; then
+         break
+    fi
+    sleep 1
+done
+rm -f /var/lock/subsys/xprtld
+sleep 1
+_EOF_
+        `$stop_scripts`;
+    }
+
+    $pid=get_running_xprtlwid_pid();
+    if ($pid) {
+        `kill -9 $pid`;
+    }
+    print _i18n_("xprtlwid stopped\n\n");
+}
+
+sub xprtlwid_status {
+    my ($pid,$port,$docroot);
+
+    ($pid,$port,$docroot)=get_running_xprtlwid_status();
+    if ($pid) {
+        print_xprtlwid_started_message($port,$docroot);
+    } else {
+        print _i18n_("\nxprtlwid not running\n\n");
+    }
+    return 0;
+}
+
+sub get_fqdn_ip {
+    my ($fqdn,$shortname,$hostname,@hostnames);
+    my (@addrinfo,$iaddr,@iaddrs,$addr,$err,$ipv4_addr,$ipv6_addr);
+
+    @hostnames=();
+    $fqdn=hostfqdn();
+    push(@hostnames, "$fqdn") if ($fqdn);
+    $shortname=hostname();
+    push(@hostnames, "$shortname") if ($shortname);
+    if (scalar @hostnames) {
+        $hostname=$fqdn || $shortname;
+        push(@addrinfo, $hostname);
+    } else {
+        $hostname=`hostname`;
+        chomp $hostname;
+        push(@hostnames, $hostname);
+        push(@addrinfo, $hostname);
+    }
+
+    foreach $hostname (@hostnames) {
+       # To get IPv4 address
+       unless ($ipv4_addr) {
+           ($err,@iaddrs)=getaddrinfo($hostname, "", {family=>AF_INET});
+           if (!$err) {
+               foreach $iaddr(@iaddrs) {
+                   ($err, $addr) = getnameinfo( $iaddr->{addr}, NI_NUMERICHOST );
+                   if ($addr && $addr ne '127.0.0.1') {
+                       $ipv4_addr=$addr;
+                       last;
+                   }
+               }
+           }
+       }
+
+       # To get IPv6 address
+       unless ($ipv6_addr) {
+           ($err,@iaddrs)=getaddrinfo($hostname, "", {family=>AF_INET6});
+           if (!$err) {
+               foreach $iaddr(@iaddrs) {
+                   ($err, $addr) = getnameinfo( $iaddr->{addr}, NI_NUMERICHOST );
+                   if ($addr && $addr ne '::1') {
+                       $ipv6_addr=$addr;
+                       last;
+                   }
+               }
+           }
+       }
+    }
+
+    push(@addrinfo, "$ipv4_addr") if ($ipv4_addr);
+    push(@addrinfo, "[$ipv6_addr]") if ($ipv6_addr);
+    push(@addrinfo, 'localhost') if (scalar(@addrinfo) == 0);
+    return \@addrinfo;
+}
+
+sub print_xprtlwid_started_message {
+    my ($port,$docroot,$starting,$addrinfo,$addr,$or,$urls,@urls,$rel);
+    ($port,$docroot,$starting)=@_;
+    if ($starting) {
+        print _i18n_("\nxprtlwid started on port(s) $port, serving $docroot\n\n");
+    } else {
+        print _i18n_("\nxprtlwid already running on port(s) $port, serving $docroot\n\n");
+    }
+    $addrinfo=get_fqdn_ip();
+    @urls=();
+    foreach $addr (@$addrinfo) {
+        push(@urls, "https://$addr:$port/");
+    }
+    $or=_i18n_(", or ");
+    $urls=join($or, @urls);
+    print _i18n_("please visit: $urls\n");
+}
+
+sub get_running_path {
+    my ($program,$path);
+
+    $program="$0";
+    if ($program!~/^\//) {
+        $program=getcwd() . "/$program";
+    }
+    $path=abs_path(dirname($program));
+    return $path;
+}
+
+sub get_padv {
+    my ($arch,$plat);
+
+    $plat=$^O;
+    if ($plat =~ /linux/) {
+        $arch=`uname -p`;
+        chomp $arch;
+        if ($arch eq 'ppc64') {
+            return 'linux_ppc64';
+        }
+        return 'linux';
+    } elsif ($plat =~ /aix/) {
+        return 'aix';
+    } elsif ($plat =~ /solaris/) {
+        $arch=`uname -p`;
+        chomp $arch;
+        if ($arch eq 'i386') {
+            return 'sol_x64';
+        } else {
+            return 'sol_sparc';
+        }
+    } elsif ($plat =~ /hpux/) {
+        return 'hpux';
+    }
+    return "";
+}
+
+sub _i18n_ {
+    my ($msg,$catid,$msgid,$arg,$lang,$tmsg,$env,$vxa);
+    $msg=shift;
+    $catid=shift;
+    $msgid=shift;
+
+    $lang=$ENV{LC_ALL} || $ENV{LANG} || "C";
+    return $msg unless ($catid && $msgid && -x $vxgettext && $lang=~/^(zh|ja)/);
+
+    $vxa="";
+    for $arg("$msg", $catid, $msgid, @_) {
+        $vxa.=" \"$arg\"";
+    }
+
+    # translate the message
+    $env="LANG=$lang; export LANG; LC_ALL=$lang; export LC_ALL; VX_BMCMNEM=$vx_bmcmnem; export VX_BMCMNEM; VX_BMCORIGID=$vx_bmcorigid; export VX_BMCORIGID; VX_BMCDOMAINDIR=$vx_bmcdomaindir; export VX_BMCDOMAINDIR;";
+    $tmsg=`$env $vxgettext $vxa 2>/dev/null`;
+    chomp $tmsg;
+    return $tmsg;
+}
+
+sub available {
+    my $port = pop(@_);
+    my $server = IO::Socket::INET->new(
+                Proto => 'tcp',
+                LocalPort => $port,
+                Listen => SOMAXCONN,
+                Reuse => 1);
+
+    if (!$server) {
+        return 0;
+    }
+    close $server;
+    return 1;
+}
+
+sub get_port {
+    my $port_array = pop(@_);
+    foreach my $x (@$port_array) {
+        if (available($x)) {
+            return $x;
+        }
+        print _i18n_("\nThe port $x is in use.\n\n");
+    }
+    return 0;
+}
+
+sub get_port_from {
+    my $st = pop(@_);
+    my $end = $st + 1000;
+    my $i;
+    for ($i = $st; $i < $end; $i++) {
+        if (available($i)) {
+            return $i;
+        }
+    }
+    return 0;
+}
+
+sub get_available_xprtl_port {
+    my $http_ports = [ 14172, 14162, 14163, 443, 8443, 8043, 8143, 8243 ];
+    my $db_port_range = 14182;
+
+    # Lets get the HTTP port
+    my $p = get_port($http_ports);
+
+    if ($p == 0) {
+        $p = get_port_from($db_port_range);
+    }
+    return $p;
+}
+
+sub get_proxy_variable {
+    my ($variable, $https_proxy, $http_proxy, $ftp_proxy);
+    #https_proxy and http_proxy will be used in EDRu::download_file1
+    $https_proxy = $ENV{https_proxy} || $ENV{HTTPS_PROXY};
+    $http_proxy = $ENV{http_proxy} || $ENV{HTTP_PROXY};
+    $ftp_proxy = $ENV{ftp_proxy} || $ENV{FTP_PROXY};
+    if ($https_proxy) {
+        $variable = "https_proxy=$https_proxy,";
+    }
+    if ($http_proxy) {
+        $variable .= "http_proxy=$http_proxy,";
+    }
+    if ($ftp_proxy) {
+        $variable .= "ftp_proxy=$ftp_proxy";
+    }
+    return $variable;
+}
+
+sub restart_xprtlwid { # port, ask question
+    my ($xprtldport,$ask,$key,$ayn);
+    ($xprtldport,$ask)=(@_);
+    
+    if ($ask) {
+        while (1) {
+            print _i18n_("\nDo you want to restart xprtlwid? [y,n] (y)");
+            $key = "";
+            $ayn = "";
+            while($key ne "\n") {
+                $key = getc(STDIN);
+                $ayn .= $key;
+                $ayn=~s/^[\x00-\x20\x7F]+//;
+                $ayn=~s/[\x00-\x20\x7F]+$//;
+            }
+            chomp($ayn);
+            # check answer
+            $ayn = "y" if ($ayn eq "");
+    
+            if (!($ayn =~ /^[yn]$/i)) {
+                print _i18n_("\nInvalid selection. Please re-enter\n\n");
+                next;
+            }
+            return 0 if ($ayn =~ /^n$/i);
+            last;
+        }
+    }
+
+    stop_xprtlwid();
+    start_xprtlwid($xprtldport);
+
+    return 0;
+}
+
+sub need_to_restart {
+    my ($old_port,$old_docroot,$new_port,$new_docroot);
+    ($old_port,$old_docroot,$new_port)=@_;
+    return 1 if ($new_port && ($old_port ne $new_port));
+    return 1 if ($old_docroot ne $document_root);
+}
+
+

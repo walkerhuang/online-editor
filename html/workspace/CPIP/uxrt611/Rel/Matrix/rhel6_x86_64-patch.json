@@ -1,0 +1,1303 @@
+{
+    "rhel6_x86_64": {
+        "5512": {
+            "download_count": "449",
+            "filename": "sfha-rhel6_x86_64-5.1SP1PR2RP2-patches.tar.gz",
+            "gunzip_cksum": "560834749",
+            "gunzip_size": "190986240",
+            "install_path": "rhel6_x86_64/installrp",
+            "installed_over": "4626",
+            "obsoleted_by": "6814,7890",
+            "obsoletes": "5186",
+            "obsoletes_all": "5186,5444,5456,5465,5492",
+            "padvs": "rhel6_x86_64",
+            "patch": {
+                "VRTSamf-5.1.132.000-SP1RP2_RHEL6": {
+                    "pkgs": [
+                        "VRTSamf"
+                    ],
+                    "version": "5.1.132.000"
+                },
+                "VRTScavf-5.1.132.000-SP1RP2_RHEL6": {
+                    "pkgs": [
+                        "VRTScavf"
+                    ],
+                    "version": "5.1.132.000"
+                },
+                "VRTScps-5.1.132.000-SP1RP2_RHEL6": {
+                    "pkgs": [
+                        "VRTScps"
+                    ],
+                    "version": "5.1.132.000"
+                },
+                "VRTSdbac-5.1.132.000-SP1RP2_RHEL6": {
+                    "pkgs": [
+                        "VRTSdbac"
+                    ],
+                    "version": "5.1.132.000"
+                },
+                "VRTSfssdk-5.1.132.000-SP1RP2_RHEL6": {
+                    "pkgs": [
+                        "VRTSfssdk"
+                    ],
+                    "version": "5.1.132.000"
+                },
+                "VRTSgab-5.1.132.000-SP1RP2_RHEL6": {
+                    "pkgs": [
+                        "VRTSgab"
+                    ],
+                    "version": "5.1.132.000"
+                },
+                "VRTSglm-5.1.132.000-SP1RP2_RHEL6": {
+                    "pkgs": [
+                        "VRTSglm"
+                    ],
+                    "version": "5.1.132.000"
+                },
+                "VRTSllt-5.1.132.000-SP1RP2_RHEL6": {
+                    "pkgs": [
+                        "VRTSllt"
+                    ],
+                    "version": "5.1.132.000"
+                },
+                "VRTSlvmconv-5.1.132.000-SP1RP2_RHEL6": {
+                    "pkgs": [
+                        "VRTSlvmconv"
+                    ],
+                    "version": "5.1.132.000"
+                },
+                "VRTSob-3.4.312-0": {
+                    "pkgs": [
+                        "VRTSob"
+                    ],
+                    "version": "3.4.312"
+                },
+                "VRTSodm-5.1.132.000-SP1RP2_RHEL6": {
+                    "pkgs": [
+                        "VRTSodm"
+                    ],
+                    "version": "5.1.132.000"
+                },
+                "VRTSsfmh-3.1.830.0_Linux.rpm": {
+                    "pkgs": [
+                        "VRTSsfmh"
+                    ],
+                    "version": "3.1.830.0"
+                },
+                "VRTSvcs-5.1.132.000-SP1RP2_RHEL6": {
+                    "pkgs": [
+                        "VRTSvcs"
+                    ],
+                    "version": "5.1.132.000"
+                },
+                "VRTSvcsag-5.1.132.000-SP1RP2_RHEL6": {
+                    "pkgs": [
+                        "VRTSvcsag"
+                    ],
+                    "version": "5.1.132.000"
+                },
+                "VRTSvcsdr-5.1.132.000-SP1RP2_RHEL6": {
+                    "pkgs": [
+                        "VRTSvcsdr"
+                    ],
+                    "version": "5.1.132.000"
+                },
+                "VRTSvcsea-5.1.132.000-SP1RP2_RHEL6": {
+                    "pkgs": [
+                        "VRTSvcsea"
+                    ],
+                    "version": "5.1.132.000"
+                },
+                "VRTSvxfen-5.1.132.000-SP1RP2_RHEL6": {
+                    "pkgs": [
+                        "VRTSvxfen"
+                    ],
+                    "version": "5.1.132.000"
+                },
+                "VRTSvxfs-5.1.132.000-SP1RP2_RHEL6": {
+                    "pkgs": [
+                        "VRTSvxfs"
+                    ],
+                    "version": "5.1.132.000"
+                },
+                "VRTSvxvm-5.1.132.000-SP1RP2_RHEL6": {
+                    "pkgs": [
+                        "VRTSvxvm"
+                    ],
+                    "version": "5.1.132.000"
+                }
+            },
+            "patch_details_path_html": "https://sort.symantec.com/patch/detail/5512",
+            "patch_details_path_rest": "https://sort.symantec.com/vos_services/rest/patch_services/1.0/patchRelease/5512",
+            "pkg_version": "5.1.122",
+            "products": "dmp,fs,sf,sfcfs,sfcfsha,sfcfsrac,sfha,sfrac,svs,vcs,vm",
+            "release_date": "2011-09-28",
+            "release_id": "5512",
+            "release_level": "MR",
+            "release_name": "sfha-rhel6_x86_64-5.1SP1PR2RP2",
+            "release_type": "RP",
+            "release_version": "5.1SP1PR2RP2",
+            "requires": "",
+            "upload_cksum": "557813101",
+            "upload_location": "ftp://ftp.veritas.com/pub/support/patchcentral/Linux/5.1/sfha/sfha-rhel6_x86_64-5.1SP1PR2RP2-patches.tar.gz",
+            "upload_size": "149106129",
+            "vers_level": "510-122"
+        },
+        "5513": {
+            "download_count": "35",
+            "filename": "sfha-rhel6_x86_64-5.1SP1PR2RP2-patches.tar.gz",
+            "gunzip_cksum": "560834749",
+            "gunzip_size": "190986240",
+            "install_path": "rhel6_x86_64/installrp",
+            "installed_over": "5017",
+            "obsoleted_by": "6815,7891",
+            "obsoletes": "",
+            "obsoletes_all": "",
+            "padvs": "rhel6_x86_64",
+            "patch": {
+                "VRTSamf-5.1.132.000-SP1RP2_RHEL6": {
+                    "pkgs": [
+                        "VRTSamf"
+                    ],
+                    "version": "5.1.132.000"
+                },
+                "VRTScavf-5.1.132.000-SP1RP2_RHEL6": {
+                    "pkgs": [
+                        "VRTScavf"
+                    ],
+                    "version": "5.1.132.000"
+                },
+                "VRTScps-5.1.132.000-SP1RP2_RHEL6": {
+                    "pkgs": [
+                        "VRTScps"
+                    ],
+                    "version": "5.1.132.000"
+                },
+                "VRTSdbac-5.1.132.000-SP1RP2_RHEL6": {
+                    "pkgs": [
+                        "VRTSdbac"
+                    ],
+                    "version": "5.1.132.000"
+                },
+                "VRTSfssdk-5.1.132.000-SP1RP2_RHEL6": {
+                    "pkgs": [
+                        "VRTSfssdk"
+                    ],
+                    "version": "5.1.132.000"
+                },
+                "VRTSgab-5.1.132.000-SP1RP2_RHEL6": {
+                    "pkgs": [
+                        "VRTSgab"
+                    ],
+                    "version": "5.1.132.000"
+                },
+                "VRTSglm-5.1.132.000-SP1RP2_RHEL6": {
+                    "pkgs": [
+                        "VRTSglm"
+                    ],
+                    "version": "5.1.132.000"
+                },
+                "VRTSllt-5.1.132.000-SP1RP2_RHEL6": {
+                    "pkgs": [
+                        "VRTSllt"
+                    ],
+                    "version": "5.1.132.000"
+                },
+                "VRTSlvmconv-5.1.132.000-SP1RP2_RHEL6": {
+                    "pkgs": [
+                        "VRTSlvmconv"
+                    ],
+                    "version": "5.1.132.000"
+                },
+                "VRTSob-3.4.312-0": {
+                    "pkgs": [
+                        "VRTSob"
+                    ],
+                    "version": "3.4.312"
+                },
+                "VRTSodm-5.1.132.000-SP1RP2_RHEL6": {
+                    "pkgs": [
+                        "VRTSodm"
+                    ],
+                    "version": "5.1.132.000"
+                },
+                "VRTSsfmh-3.1.830.0_Linux.rpm": {
+                    "pkgs": [
+                        "VRTSsfmh"
+                    ],
+                    "version": "3.1.830.0"
+                },
+                "VRTSvcs-5.1.132.000-SP1RP2_RHEL6": {
+                    "pkgs": [
+                        "VRTSvcs"
+                    ],
+                    "version": "5.1.132.000"
+                },
+                "VRTSvcsag-5.1.132.000-SP1RP2_RHEL6": {
+                    "pkgs": [
+                        "VRTSvcsag"
+                    ],
+                    "version": "5.1.132.000"
+                },
+                "VRTSvcsdr-5.1.132.000-SP1RP2_RHEL6": {
+                    "pkgs": [
+                        "VRTSvcsdr"
+                    ],
+                    "version": "5.1.132.000"
+                },
+                "VRTSvcsea-5.1.132.000-SP1RP2_RHEL6": {
+                    "pkgs": [
+                        "VRTSvcsea"
+                    ],
+                    "version": "5.1.132.000"
+                },
+                "VRTSvxfen-5.1.132.000-SP1RP2_RHEL6": {
+                    "pkgs": [
+                        "VRTSvxfen"
+                    ],
+                    "version": "5.1.132.000"
+                },
+                "VRTSvxfs-5.1.132.000-SP1RP2_RHEL6": {
+                    "pkgs": [
+                        "VRTSvxfs"
+                    ],
+                    "version": "5.1.132.000"
+                },
+                "VRTSvxvm-5.1.132.000-SP1RP2_RHEL6": {
+                    "pkgs": [
+                        "VRTSvxvm"
+                    ],
+                    "version": "5.1.132.000"
+                }
+            },
+            "patch_details_path_html": "https://sort.symantec.com/patch/detail/5513",
+            "patch_details_path_rest": "https://sort.symantec.com/vos_services/rest/patch_services/1.0/patchRelease/5513",
+            "pkg_version": "5.1.132",
+            "products": "svs",
+            "release_date": "2011-09-28",
+            "release_id": "5513",
+            "release_level": "MR",
+            "release_name": "sfha-rhel6_x86_64-5.1SP1PR3RP2",
+            "release_type": "RP",
+            "release_version": "5.1SP1PR3RP2",
+            "requires": "",
+            "upload_cksum": "557813101",
+            "upload_location": "ftp://ftp.veritas.com/pub/support/patchcentral/Linux/5.1/sfha/sfha-rhel6_x86_64-5.1SP1PR2RP2-patches.tar.gz",
+            "upload_size": "149106129",
+            "vers_level": "510-132"
+        },
+        "6116": {
+            "download_count": "593",
+            "filename": "sfha-rhel6_x86_64-6.0RP1-patches.tar.gz",
+            "gunzip_cksum": "1729428127",
+            "gunzip_size": "275032064",
+            "install_path": "rhel6_x86_64/installrp",
+            "installed_over": "7215",
+            "obsoleted_by": "",
+            "obsoletes": "5869",
+            "obsoletes_all": "5869,7494",
+            "padvs": "rhel6_x86_64",
+            "patch": {
+                "VRTSamf-6.0.001.000-RP1_RHEL6": {
+                    "pkgs": [
+                        "VRTSamf"
+                    ],
+                    "version": "6.0.001.000"
+                },
+                "VRTScavf-6.0.001.000-RP1_RHEL6": {
+                    "pkgs": [
+                        "VRTScavf"
+                    ],
+                    "version": "6.0.001.000"
+                },
+                "VRTSfsadv-6.0.001.000-RP1_RHEL6": {
+                    "pkgs": [
+                        "VRTSfsadv"
+                    ],
+                    "version": "6.0.001.000"
+                },
+                "VRTSfssdk-6.0.001.000-RP1_RHEL6": {
+                    "pkgs": [
+                        "VRTSfssdk"
+                    ],
+                    "version": "6.0.001.000"
+                },
+                "VRTSlvmconv-6.0.001.000-RP1_RHEL6": {
+                    "pkgs": [
+                        "VRTSlvmconv"
+                    ],
+                    "version": "6.0.001.000"
+                },
+                "VRTSob-3.4.530-0": {
+                    "pkgs": [
+                        "VRTSob"
+                    ],
+                    "version": "3.4.530"
+                },
+                "VRTSsfcpi60-6.0.001.000-RP1_GENERIC": {
+                    "pkgs": [
+                        "VRTSsfcpi60"
+                    ],
+                    "version": "6.0.001.000"
+                },
+                "VRTSsvs-6.0.001.000-RP1_GENERIC": {
+                    "pkgs": [
+                        "VRTSsvs"
+                    ],
+                    "version": "6.0.001.000"
+                },
+                "VRTSvbs-6.0.001.000-RP1_RHEL6.i686.rpm": {
+                    "pkgs": [
+                        "VRTSvbs"
+                    ],
+                    "version": "6.0.001.000"
+                },
+                "VRTSvcs-6.0.001.000-RP1_RHEL6": {
+                    "pkgs": [
+                        "VRTSvcs"
+                    ],
+                    "version": "6.0.001.000"
+                },
+                "VRTSvxfs-6.0.001.000-RP1_RHEL6": {
+                    "pkgs": [
+                        "VRTSvxfs"
+                    ],
+                    "version": "6.0.001.000"
+                },
+                "VRTSvxvm-6.0.001.000-RP1_RHEL6": {
+                    "pkgs": [
+                        "VRTSvxvm"
+                    ],
+                    "version": "6.0.001.000"
+                }
+            },
+            "patch_details_path_html": "https://sort.symantec.com/patch/detail/6116",
+            "patch_details_path_rest": "https://sort.symantec.com/vos_services/rest/patch_services/1.0/patchRelease/6116",
+            "pkg_version": "6.0.001",
+            "products": "dmp,fs,sf,sfcfsha,sfha,sfrac,sfsybce,svs,vcs,vm",
+            "release_date": "2012-03-22",
+            "release_id": "6116",
+            "release_level": "MR",
+            "release_name": "sfha-rhel6_x86_64-6.0RP1",
+            "release_type": "RP",
+            "release_version": "6.0RP1",
+            "requires": "",
+            "upload_cksum": "1495179908",
+            "upload_location": "ftp://ftp.veritas.com/pub/support/patchcentral/Linux/6.0/sfha/sfha-rhel6_x86_64-6.0RP1-patches.tar.gz",
+            "upload_size": "215118373",
+            "vers_level": "600-001"
+        },
+        "6814": {
+            "download_count": "355",
+            "filename": "sfha-rhel6_x86_64-5.1SP1PR2RP3-patches.tar.gz",
+            "gunzip_cksum": "2780713713",
+            "gunzip_size": "199995904",
+            "install_path": "rhel6_x86_64/installrp",
+            "installed_over": "4626,5512",
+            "obsoleted_by": "7890",
+            "obsoletes": "5186,5512,5568,5615,5950,5954,6169,6328,6372,6462",
+            "obsoletes_all": "5186,5444,5456,5465,5492,5512,5552,5568,5605,5615,5639,5663,5666,5706,5715,5719,5733,5735,5738,5745,5765,5794,5803,5827,5840,5846,5856,5950,5954,5995,6026,6029,6032,6037,6079,6155,6156,6169,6192,6202,6212,6222,6228,6270,6303,6328,6372,6396,6441,6448,6454,6462,6464,6471,6483,6499,6505,6536,6564,6577,6592,6654,6664,6683,6689,6700,6787,6823,6838,6886,6949,7398,7465,7478,7591,8841",
+            "padvs": "rhel6_x86_64",
+            "patch": {
+                "VRTSamf-5.1.133.000-SP1RP3_RHEL6": {
+                    "pkgs": [
+                        "VRTSamf"
+                    ],
+                    "version": "5.1.133.000"
+                },
+                "VRTSaslapm-5.1.100.501-SP1_RHEL6": {
+                    "pkgs": [
+                        "VRTSaslapm"
+                    ],
+                    "version": "5.1.100.501"
+                },
+                "VRTScavf-5.1.133.000-SP1RP3_RHEL6": {
+                    "pkgs": [
+                        "VRTScavf"
+                    ],
+                    "version": "5.1.133.000"
+                },
+                "VRTScps-5.1.132.000-SP1RP2_RHEL6": {
+                    "pkgs": [
+                        "VRTScps"
+                    ],
+                    "version": "5.1.132.000"
+                },
+                "VRTSdbac-5.1.133.000-SP1RP3_RHEL6": {
+                    "pkgs": [
+                        "VRTSdbac"
+                    ],
+                    "version": "5.1.133.000"
+                },
+                "VRTSdbed-5.1.133.000-SP1RP3_RHEL5": {
+                    "pkgs": [
+                        "VRTSdbed"
+                    ],
+                    "version": "5.1.133.000"
+                },
+                "VRTSfssdk-5.1.133.000-SP1RP3_RHEL6": {
+                    "pkgs": [
+                        "VRTSfssdk"
+                    ],
+                    "version": "5.1.133.000"
+                },
+                "VRTSgab-5.1.133.000-SP1RP3_RHEL6": {
+                    "pkgs": [
+                        "VRTSgab"
+                    ],
+                    "version": "5.1.133.000"
+                },
+                "VRTSglm-5.1.132.100-SP1RP2P1_RHEL6": {
+                    "pkgs": [
+                        "VRTSglm"
+                    ],
+                    "version": "5.1.132.100"
+                },
+                "VRTSllt-5.1.133.000-SP1RP3_RHEL6": {
+                    "pkgs": [
+                        "VRTSllt"
+                    ],
+                    "version": "5.1.133.000"
+                },
+                "VRTSlvmconv-5.1.133.000-SP1RP3_RHEL6": {
+                    "pkgs": [
+                        "VRTSlvmconv"
+                    ],
+                    "version": "5.1.133.000"
+                },
+                "VRTSob-3.4.312-0": {
+                    "pkgs": [
+                        "VRTSob"
+                    ],
+                    "version": "3.4.312"
+                },
+                "VRTSodm-5.1.133.000-SP1RP3_RHEL6": {
+                    "pkgs": [
+                        "VRTSodm"
+                    ],
+                    "version": "5.1.133.000"
+                },
+                "VRTSsfmh-3.1.830.0_Linux.rpm": {
+                    "pkgs": [
+                        "VRTSsfmh"
+                    ],
+                    "version": "3.1.830.0"
+                },
+                "VRTSvcs-5.1.133.000-SP1RP3_RHEL6": {
+                    "pkgs": [
+                        "VRTSvcs"
+                    ],
+                    "version": "5.1.133.000"
+                },
+                "VRTSvcsag-5.1.133.000-SP1RP3_RHEL6": {
+                    "pkgs": [
+                        "VRTSvcsag"
+                    ],
+                    "version": "5.1.133.000"
+                },
+                "VRTSvcsdr-5.1.133.000-SP1RP3_RHEL6": {
+                    "pkgs": [
+                        "VRTSvcsdr"
+                    ],
+                    "version": "5.1.133.000"
+                },
+                "VRTSvcsea-5.1.133.000-SP1RP3_RHEL6": {
+                    "pkgs": [
+                        "VRTSvcsea"
+                    ],
+                    "version": "5.1.133.000"
+                },
+                "VRTSvxfen-5.1.133.000-SP1RP3_RHEL6": {
+                    "pkgs": [
+                        "VRTSvxfen"
+                    ],
+                    "version": "5.1.133.000"
+                },
+                "VRTSvxfs-5.1.133.000-SP1RP3_RHEL6": {
+                    "pkgs": [
+                        "VRTSvxfs"
+                    ],
+                    "version": "5.1.133.000"
+                },
+                "VRTSvxvm-5.1.133.000-SP1RP3_RHEL6": {
+                    "pkgs": [
+                        "VRTSvxvm"
+                    ],
+                    "version": "5.1.133.000"
+                }
+            },
+            "patch_details_path_html": "https://sort.symantec.com/patch/detail/6814",
+            "patch_details_path_rest": "https://sort.symantec.com/vos_services/rest/patch_services/1.0/patchRelease/6814",
+            "pkg_version": "5.1.123",
+            "products": "dmp,fs,sf,sfcfs,sfcfsha,sfcfsrac,sfha,sfrac,svs,vcs,vm",
+            "release_date": "2012-10-02",
+            "release_id": "6814",
+            "release_level": "MR",
+            "release_name": "sfha-rhel6_x86_64-5.1SP1PR2RP3",
+            "release_type": "RP",
+            "release_version": "5.1SP1PR2RP3",
+            "requires": "",
+            "upload_cksum": "176050992",
+            "upload_location": "ftp://ftp.veritas.com/pub/support/patchcentral/Linux/5.1/sfha/sfha-rhel6_x86_64-5.1SP1PR2RP3-patches.tar.gz",
+            "upload_size": "157618543",
+            "vers_level": "510-123"
+        },
+        "6815": {
+            "download_count": "49",
+            "filename": "sfha-rhel6_x86_64-5.1SP1PR2RP3-patches.tar.gz",
+            "gunzip_cksum": "2780713713",
+            "gunzip_size": "199995904",
+            "install_path": "rhel6_x86_64/installrp",
+            "installed_over": "5017,5513",
+            "obsoleted_by": "7891",
+            "obsoletes": "5513,5568,5615,5950,5954",
+            "obsoletes_all": "5186,5444,5456,5465,5492,5513,5552,5568,5605,5615,5706,5715,5765,5950,5954,6032,6228,6303,6499,6505,6664,7398,7465,8841",
+            "padvs": "rhel6_x86_64",
+            "patch": {
+                "VRTSamf-5.1.133.000-SP1RP3_RHEL6": {
+                    "pkgs": [
+                        "VRTSamf"
+                    ],
+                    "version": "5.1.133.000"
+                },
+                "VRTSaslapm-5.1.100.501-SP1_RHEL6": {
+                    "pkgs": [
+                        "VRTSaslapm"
+                    ],
+                    "version": "5.1.100.501"
+                },
+                "VRTScavf-5.1.133.000-SP1RP3_RHEL6": {
+                    "pkgs": [
+                        "VRTScavf"
+                    ],
+                    "version": "5.1.133.000"
+                },
+                "VRTScps-5.1.132.000-SP1RP2_RHEL6": {
+                    "pkgs": [
+                        "VRTScps"
+                    ],
+                    "version": "5.1.132.000"
+                },
+                "VRTSdbac-5.1.133.000-SP1RP3_RHEL6": {
+                    "pkgs": [
+                        "VRTSdbac"
+                    ],
+                    "version": "5.1.133.000"
+                },
+                "VRTSdbed-5.1.133.000-SP1RP3_RHEL5": {
+                    "pkgs": [
+                        "VRTSdbed"
+                    ],
+                    "version": "5.1.133.000"
+                },
+                "VRTSfssdk-5.1.133.000-SP1RP3_RHEL6": {
+                    "pkgs": [
+                        "VRTSfssdk"
+                    ],
+                    "version": "5.1.133.000"
+                },
+                "VRTSgab-5.1.133.000-SP1RP3_RHEL6": {
+                    "pkgs": [
+                        "VRTSgab"
+                    ],
+                    "version": "5.1.133.000"
+                },
+                "VRTSglm-5.1.132.100-SP1RP2P1_RHEL6": {
+                    "pkgs": [
+                        "VRTSglm"
+                    ],
+                    "version": "5.1.132.100"
+                },
+                "VRTSllt-5.1.133.000-SP1RP3_RHEL6": {
+                    "pkgs": [
+                        "VRTSllt"
+                    ],
+                    "version": "5.1.133.000"
+                },
+                "VRTSlvmconv-5.1.133.000-SP1RP3_RHEL6": {
+                    "pkgs": [
+                        "VRTSlvmconv"
+                    ],
+                    "version": "5.1.133.000"
+                },
+                "VRTSob-3.4.312-0": {
+                    "pkgs": [
+                        "VRTSob"
+                    ],
+                    "version": "3.4.312"
+                },
+                "VRTSodm-5.1.133.000-SP1RP3_RHEL6": {
+                    "pkgs": [
+                        "VRTSodm"
+                    ],
+                    "version": "5.1.133.000"
+                },
+                "VRTSsfmh-3.1.830.0_Linux.rpm": {
+                    "pkgs": [
+                        "VRTSsfmh"
+                    ],
+                    "version": "3.1.830.0"
+                },
+                "VRTSvcs-5.1.133.000-SP1RP3_RHEL6": {
+                    "pkgs": [
+                        "VRTSvcs"
+                    ],
+                    "version": "5.1.133.000"
+                },
+                "VRTSvcsag-5.1.133.000-SP1RP3_RHEL6": {
+                    "pkgs": [
+                        "VRTSvcsag"
+                    ],
+                    "version": "5.1.133.000"
+                },
+                "VRTSvcsdr-5.1.133.000-SP1RP3_RHEL6": {
+                    "pkgs": [
+                        "VRTSvcsdr"
+                    ],
+                    "version": "5.1.133.000"
+                },
+                "VRTSvcsea-5.1.133.000-SP1RP3_RHEL6": {
+                    "pkgs": [
+                        "VRTSvcsea"
+                    ],
+                    "version": "5.1.133.000"
+                },
+                "VRTSvxfen-5.1.133.000-SP1RP3_RHEL6": {
+                    "pkgs": [
+                        "VRTSvxfen"
+                    ],
+                    "version": "5.1.133.000"
+                },
+                "VRTSvxfs-5.1.133.000-SP1RP3_RHEL6": {
+                    "pkgs": [
+                        "VRTSvxfs"
+                    ],
+                    "version": "5.1.133.000"
+                },
+                "VRTSvxvm-5.1.133.000-SP1RP3_RHEL6": {
+                    "pkgs": [
+                        "VRTSvxvm"
+                    ],
+                    "version": "5.1.133.000"
+                }
+            },
+            "patch_details_path_html": "https://sort.symantec.com/patch/detail/6815",
+            "patch_details_path_rest": "https://sort.symantec.com/vos_services/rest/patch_services/1.0/patchRelease/6815",
+            "pkg_version": "5.1.133",
+            "products": "svs",
+            "release_date": "2012-10-02",
+            "release_id": "6815",
+            "release_level": "MR",
+            "release_name": "sfha-rhel6_x86_64-5.1SP1PR3RP3",
+            "release_type": "RP",
+            "release_version": "5.1SP1PR3RP3",
+            "requires": "",
+            "upload_cksum": "176050992",
+            "upload_location": "ftp://ftp.veritas.com/pub/support/patchcentral/Linux/5.1/sfha/sfha-rhel6_x86_64-5.1SP1PR2RP3-patches.tar.gz",
+            "upload_size": "157618543",
+            "vers_level": "510-133"
+        },
+        "6998": {
+            "download_count": "2468",
+            "filename": "sfha-rhel6_x86_64-6.0.3-patches.tar.gz",
+            "gunzip_cksum": "799476516",
+            "gunzip_size": "250859520",
+            "install_path": "rhel6_x86_64/installmr",
+            "installed_over": "6751,7053",
+            "obsoleted_by": "8508",
+            "obsoletes": "6770,6848,7103",
+            "obsoletes_all": "6766,6770,6842,6848,7063,7103,7122,7126,7512,7754,7863",
+            "padvs": "rhel6_x86_64",
+            "patch": {
+                "VRTSamf-6.0.300.000-GA_RHEL6": {
+                    "pkgs": [
+                        "VRTSamf"
+                    ],
+                    "version": "6.0.300.000"
+                },
+                "VRTScavf-6.0.300.000-RHEL6": {
+                    "pkgs": [
+                        "VRTScavf"
+                    ],
+                    "version": "6.0.300.000"
+                },
+                "VRTSdbed-6.0.300.000-GA_RHEL": {
+                    "pkgs": [
+                        "VRTSdbed"
+                    ],
+                    "version": "6.0.300.000"
+                },
+                "VRTSperl-5.14.2.8-RHEL6.1": {
+                    "pkgs": [
+                        "VRTSperl"
+                    ],
+                    "version": "5.14.2.8"
+                },
+                "VRTSsfcpi601-6.0.300.000-GA_GENERIC": {
+                    "pkgs": [
+                        "VRTSsfcpi601"
+                    ],
+                    "version": "6.0.300.000"
+                },
+                "VRTSspt-6.0.300.000-GA": {
+                    "pkgs": [
+                        "VRTSspt"
+                    ],
+                    "version": "6.0.300.000"
+                },
+                "VRTSvcs-6.0.300.000-GA_RHEL6": {
+                    "pkgs": [
+                        "VRTSvcs"
+                    ],
+                    "version": "6.0.300.000"
+                },
+                "VRTSvcsag-6.0.300.000-GA_RHEL6": {
+                    "pkgs": [
+                        "VRTSvcsag"
+                    ],
+                    "version": "6.0.300.000"
+                },
+                "VRTSvcsea-6.0.300.000-GA_RHEL6": {
+                    "pkgs": [
+                        "VRTSvcsea"
+                    ],
+                    "version": "6.0.300.000"
+                },
+                "VRTSvcsvmw-6.0.300.000-GA_RHEL6": {
+                    "pkgs": [
+                        "VRTSvcsvmw"
+                    ],
+                    "version": "6.0.300.000"
+                },
+                "VRTSvxfen-6.0.300.000-GA_RHEL6": {
+                    "pkgs": [
+                        "VRTSvxfen"
+                    ],
+                    "version": "6.0.300.000"
+                },
+                "VRTSvxfs-6.0.300.000-RHEL6": {
+                    "pkgs": [
+                        "VRTSvxfs"
+                    ],
+                    "version": "6.0.300.000"
+                },
+                "VRTSvxvm-6.0.300.000-RHEL6": {
+                    "pkgs": [
+                        "VRTSvxvm"
+                    ],
+                    "version": "6.0.300.000"
+                }
+            },
+            "patch_details_path_html": "https://sort.symantec.com/patch/detail/6998",
+            "patch_details_path_rest": "https://sort.symantec.com/vos_services/rest/patch_services/1.0/patchRelease/6998",
+            "pkg_version": "6.0.300",
+            "products": "dmp,fs,sf,sfcfsha,sfha,sfrac,sfsybce,svs,vcs,vm",
+            "release_date": "2013-02-01",
+            "release_id": "6998",
+            "release_level": "MR",
+            "release_name": "sfha-rhel6_x86_64-6.0.3",
+            "release_type": "MR",
+            "release_version": "6.0.3",
+            "requires": "",
+            "upload_cksum": "3241616225",
+            "upload_location": "ftp://ftp.veritas.com/pub/support/patchcentral/Linux/6.0.3/sfha/sfha-rhel6_x86_64-6.0.3-patches.tar.gz",
+            "upload_size": "217953356",
+            "vers_level": "603-000"
+        },
+        "7890": {
+            "download_count": "342",
+            "filename": "sfha-rhel6_x86_64-5.1SP1PR2RP4-patches.tar.gz",
+            "gunzip_cksum": "4134508896",
+            "gunzip_size": "234337280",
+            "install_path": "rhel6_x86_64/installrp",
+            "installed_over": "4626,5512,6814",
+            "obsoleted_by": "",
+            "obsoletes": "5186,5512,5568,5615,5950,5954,6169,6328,6372,6462,6814,6985,7006,7013,7060,7158,7542",
+            "obsoletes_all": "5186,5444,5456,5465,5492,5512,5552,5568,5605,5615,5639,5663,5666,5706,5715,5719,5733,5735,5738,5745,5765,5794,5803,5827,5840,5846,5856,5950,5954,5995,6026,6029,6032,6037,6079,6155,6156,6169,6192,6202,6212,6222,6228,6270,6303,6328,6372,6396,6441,6448,6454,6462,6464,6471,6483,6499,6505,6536,6564,6577,6592,6654,6664,6683,6689,6700,6787,6814,6823,6838,6866,6869,6882,6886,6949,6969,6985,7006,7013,7019,7060,7158,7174,7251,7398,7465,7478,7498,7542,7562,7591,7605,7728,7753,7776,7924,8129,8549,8841",
+            "padvs": "rhel6_x86_64",
+            "patch": {
+                "VRTSamf-5.1.134.000-SP1RP4_RHEL6": {
+                    "pkgs": [
+                        "VRTSamf"
+                    ],
+                    "version": "5.1.134.000"
+                },
+                "VRTSaslapm-5.1.134.000-SP1_RHEL6": {
+                    "pkgs": [
+                        "VRTSaslapm"
+                    ],
+                    "version": "5.1.134.000"
+                },
+                "VRTScavf-5.1.134.000-SP1RP4_RHEL6": {
+                    "pkgs": [
+                        "VRTScavf"
+                    ],
+                    "version": "5.1.134.000"
+                },
+                "VRTScps-5.1.132.000-SP1RP2_RHEL6": {
+                    "pkgs": [
+                        "VRTScps"
+                    ],
+                    "version": "5.1.132.000"
+                },
+                "VRTSdbac-5.1.134.000-SP1RP4_RHEL6": {
+                    "pkgs": [
+                        "VRTSdbac"
+                    ],
+                    "version": "5.1.134.000"
+                },
+                "VRTSdbed-5.1.134.000-SP1RP4_RHEL5": {
+                    "pkgs": [
+                        "VRTSdbed"
+                    ],
+                    "version": "5.1.134.000"
+                },
+                "VRTSfssdk-5.1.133.000-SP1RP3_RHEL6": {
+                    "pkgs": [
+                        "VRTSfssdk"
+                    ],
+                    "version": "5.1.133.000"
+                },
+                "VRTSgab-5.1.133.000-SP1RP3_RHEL6": {
+                    "pkgs": [
+                        "VRTSgab"
+                    ],
+                    "version": "5.1.133.000"
+                },
+                "VRTSglm-5.1.132.100-SP1RP2P1_RHEL6": {
+                    "pkgs": [
+                        "VRTSglm"
+                    ],
+                    "version": "5.1.132.100"
+                },
+                "VRTSllt-5.1.134.000-SP1RP4_RHEL6": {
+                    "pkgs": [
+                        "VRTSllt"
+                    ],
+                    "version": "5.1.134.000"
+                },
+                "VRTSlvmconv-5.1.134.000-SP1RP4_RHEL6": {
+                    "pkgs": [
+                        "VRTSlvmconv"
+                    ],
+                    "version": "5.1.134.000"
+                },
+                "VRTSob-3.4.314-0": {
+                    "pkgs": [
+                        "VRTSob"
+                    ],
+                    "version": "3.4.314"
+                },
+                "VRTSodm-5.1.134.000-SP1RP4_RHEL6": {
+                    "pkgs": [
+                        "VRTSodm"
+                    ],
+                    "version": "5.1.134.000"
+                },
+                "VRTSperl-5.10.0.17-RHEL6.1": {
+                    "pkgs": [
+                        "VRTSperl"
+                    ],
+                    "version": "5.10.0.17"
+                },
+                "VRTSsfmh-3.1.830.0_Linux.rpm": {
+                    "pkgs": [
+                        "VRTSsfmh"
+                    ],
+                    "version": "3.1.830.0"
+                },
+                "VRTSspt-5.5.104.000-SP1RP4": {
+                    "pkgs": [
+                        "VRTSspt"
+                    ],
+                    "version": "5.5.104.000"
+                },
+                "VRTSvcs-5.1.134.000-SP1RP4_RHEL6": {
+                    "pkgs": [
+                        "VRTSvcs"
+                    ],
+                    "version": "5.1.134.000"
+                },
+                "VRTSvcsag-5.1.134.000-SP1RP4_RHEL6": {
+                    "pkgs": [
+                        "VRTSvcsag"
+                    ],
+                    "version": "5.1.134.000"
+                },
+                "VRTSvcsdr-5.1.133.000-SP1RP3_RHEL6": {
+                    "pkgs": [
+                        "VRTSvcsdr"
+                    ],
+                    "version": "5.1.133.000"
+                },
+                "VRTSvcsea-5.1.134.000-SP1RP4_RHEL6": {
+                    "pkgs": [
+                        "VRTSvcsea"
+                    ],
+                    "version": "5.1.134.000"
+                },
+                "VRTSvxfen-5.1.134.000-SP1RP4_RHEL6": {
+                    "pkgs": [
+                        "VRTSvxfen"
+                    ],
+                    "version": "5.1.134.000"
+                },
+                "VRTSvxfs-5.1.134.000-SP1RP4_RHEL6": {
+                    "pkgs": [
+                        "VRTSvxfs"
+                    ],
+                    "version": "5.1.134.000"
+                },
+                "VRTSvxvm-5.1.134.000-SP1RP4_RHEL6": {
+                    "pkgs": [
+                        "VRTSvxvm"
+                    ],
+                    "version": "5.1.134.000"
+                }
+            },
+            "patch_details_path_html": "https://sort.symantec.com/patch/detail/7890",
+            "patch_details_path_rest": "https://sort.symantec.com/vos_services/rest/patch_services/1.0/patchRelease/7890",
+            "pkg_version": "5.1.124",
+            "products": "dmp,fs,sf,sfcfs,sfcfsha,sfcfsrac,sfha,sfrac,svs,vcs,vm",
+            "release_date": "2013-08-21",
+            "release_id": "7890",
+            "release_level": "MR",
+            "release_name": "sfha-rhel6_x86_64-5.1SP1PR2RP4",
+            "release_type": "RP",
+            "release_version": "5.1SP1PR2RP4",
+            "requires": "",
+            "upload_cksum": "66749366",
+            "upload_location": "ftp://ftp.veritas.com/pub/support/patchcentral/Linux/5.1/sfha/sfha-rhel6_x86_64-5.1SP1PR2RP4-patches.tar.gz",
+            "upload_size": "191344260",
+            "vers_level": "510-124"
+        },
+        "7891": {
+            "download_count": "41",
+            "filename": "sfha-rhel6_x86_64-5.1SP1PR2RP4-patches.tar.gz",
+            "gunzip_cksum": "4134508896",
+            "gunzip_size": "234337280",
+            "install_path": "rhel6_x86_64/installrp",
+            "installed_over": "5017,5513,6815",
+            "obsoleted_by": "",
+            "obsoletes": "5513,5568,5615,5950,5954,6815",
+            "obsoletes_all": "5186,5444,5456,5465,5492,5513,5552,5568,5605,5615,5706,5715,5765,5950,5954,6032,6228,6303,6499,6505,6664,6815,6866,7351,7398,7414,7437,7465,7486,8841",
+            "padvs": "rhel6_x86_64",
+            "patch": {
+                "VRTSamf-5.1.134.000-SP1RP4_RHEL6": {
+                    "pkgs": [
+                        "VRTSamf"
+                    ],
+                    "version": "5.1.134.000"
+                },
+                "VRTSaslapm-5.1.134.000-SP1_RHEL6": {
+                    "pkgs": [
+                        "VRTSaslapm"
+                    ],
+                    "version": "5.1.134.000"
+                },
+                "VRTScavf-5.1.134.000-SP1RP4_RHEL6": {
+                    "pkgs": [
+                        "VRTScavf"
+                    ],
+                    "version": "5.1.134.000"
+                },
+                "VRTScps-5.1.132.000-SP1RP2_RHEL6": {
+                    "pkgs": [
+                        "VRTScps"
+                    ],
+                    "version": "5.1.132.000"
+                },
+                "VRTSdbac-5.1.134.000-SP1RP4_RHEL6": {
+                    "pkgs": [
+                        "VRTSdbac"
+                    ],
+                    "version": "5.1.134.000"
+                },
+                "VRTSdbed-5.1.134.000-SP1RP4_RHEL5": {
+                    "pkgs": [
+                        "VRTSdbed"
+                    ],
+                    "version": "5.1.134.000"
+                },
+                "VRTSfssdk-5.1.133.000-SP1RP3_RHEL6": {
+                    "pkgs": [
+                        "VRTSfssdk"
+                    ],
+                    "version": "5.1.133.000"
+                },
+                "VRTSgab-5.1.133.000-SP1RP3_RHEL6": {
+                    "pkgs": [
+                        "VRTSgab"
+                    ],
+                    "version": "5.1.133.000"
+                },
+                "VRTSglm-5.1.132.100-SP1RP2P1_RHEL6": {
+                    "pkgs": [
+                        "VRTSglm"
+                    ],
+                    "version": "5.1.132.100"
+                },
+                "VRTSllt-5.1.134.000-SP1RP4_RHEL6": {
+                    "pkgs": [
+                        "VRTSllt"
+                    ],
+                    "version": "5.1.134.000"
+                },
+                "VRTSlvmconv-5.1.134.000-SP1RP4_RHEL6": {
+                    "pkgs": [
+                        "VRTSlvmconv"
+                    ],
+                    "version": "5.1.134.000"
+                },
+                "VRTSob-3.4.314-0": {
+                    "pkgs": [
+                        "VRTSob"
+                    ],
+                    "version": "3.4.314"
+                },
+                "VRTSodm-5.1.134.000-SP1RP4_RHEL6": {
+                    "pkgs": [
+                        "VRTSodm"
+                    ],
+                    "version": "5.1.134.000"
+                },
+                "VRTSperl-5.10.0.17-RHEL6.1": {
+                    "pkgs": [
+                        "VRTSperl"
+                    ],
+                    "version": "5.10.0.17"
+                },
+                "VRTSsfmh-3.1.830.0_Linux.rpm": {
+                    "pkgs": [
+                        "VRTSsfmh"
+                    ],
+                    "version": "3.1.830.0"
+                },
+                "VRTSspt-5.5.104.000-SP1RP4": {
+                    "pkgs": [
+                        "VRTSspt"
+                    ],
+                    "version": "5.5.104.000"
+                },
+                "VRTSvcs-5.1.134.000-SP1RP4_RHEL6": {
+                    "pkgs": [
+                        "VRTSvcs"
+                    ],
+                    "version": "5.1.134.000"
+                },
+                "VRTSvcsag-5.1.134.000-SP1RP4_RHEL6": {
+                    "pkgs": [
+                        "VRTSvcsag"
+                    ],
+                    "version": "5.1.134.000"
+                },
+                "VRTSvcsdr-5.1.133.000-SP1RP3_RHEL6": {
+                    "pkgs": [
+                        "VRTSvcsdr"
+                    ],
+                    "version": "5.1.133.000"
+                },
+                "VRTSvcsea-5.1.134.000-SP1RP4_RHEL6": {
+                    "pkgs": [
+                        "VRTSvcsea"
+                    ],
+                    "version": "5.1.134.000"
+                },
+                "VRTSvxfen-5.1.134.000-SP1RP4_RHEL6": {
+                    "pkgs": [
+                        "VRTSvxfen"
+                    ],
+                    "version": "5.1.134.000"
+                },
+                "VRTSvxfs-5.1.134.000-SP1RP4_RHEL6": {
+                    "pkgs": [
+                        "VRTSvxfs"
+                    ],
+                    "version": "5.1.134.000"
+                },
+                "VRTSvxvm-5.1.134.000-SP1RP4_RHEL6": {
+                    "pkgs": [
+                        "VRTSvxvm"
+                    ],
+                    "version": "5.1.134.000"
+                }
+            },
+            "patch_details_path_html": "https://sort.symantec.com/patch/detail/7891",
+            "patch_details_path_rest": "https://sort.symantec.com/vos_services/rest/patch_services/1.0/patchRelease/7891",
+            "pkg_version": "5.1.134",
+            "products": "svs",
+            "release_date": "2013-08-21",
+            "release_id": "7891",
+            "release_level": "MR",
+            "release_name": "sfha-rhel6_x86_64-5.1SP1PR3RP4",
+            "release_type": "RP",
+            "release_version": "5.1SP1PR3RP4",
+            "requires": "",
+            "upload_cksum": "66749366",
+            "upload_location": "ftp://ftp.veritas.com/pub/support/patchcentral/Linux/5.1/sfha/sfha-rhel6_x86_64-5.1SP1PR2RP4-patches.tar.gz",
+            "upload_size": "191344260",
+            "vers_level": "510-134"
+        },
+        "8508": {
+            "download_count": "564",
+            "filename": "sfha-rhel6_x86_64-6.0.5-patches.tar.gz",
+            "gunzip_cksum": "831210095",
+            "gunzip_size": "234700800",
+            "install_path": "rhel6_x86_64/installmr",
+            "installed_over": "6751,7053,6998",
+            "obsoleted_by": "",
+            "obsoletes": "6770,6848,6998,7103,7317,7387,7526,7531,7696,7795,7951,7965,8091,8145,8227,8261",
+            "obsoletes_all": "6766,6770,6842,6848,6998,7063,7103,7122,7126,7317,7340,7387,7408,7433,7512,7516,7526,7531,7536,7570,7595,7602,7603,7611,7614,7648,7660,7678,7696,7711,7717,7718,7732,7754,7785,7795,7798,7822,7855,7863,7879,7900,7926,7951,7958,7965,7967,7977,7999,8013,8038,8057,8058,8067,8078,8083,8091,8108,8133,8145,8180,8188,8200,8201,8206,8227,8244,8261,8277,8279,8289,8292,8301,8302,8314,8329,8331,8368,8372,8433,8438,8505,8561,8676,8747,8832,8845",
+            "padvs": "rhel6_x86_64",
+            "patch": {
+                "VRTSamf-6.0.500.000-GA_RHEL6": {
+                    "pkgs": [
+                        "VRTSamf"
+                    ],
+                    "version": "6.0.500.000"
+                },
+                "VRTSaslapm-6.0.500.000-GA_RHEL6": {
+                    "pkgs": [
+                        "VRTSaslapm"
+                    ],
+                    "version": "6.0.500.000"
+                },
+                "VRTScavf-6.0.500.000-RHEL6": {
+                    "pkgs": [
+                        "VRTScavf"
+                    ],
+                    "version": "6.0.500.000"
+                },
+                "VRTSdbac-6.0.500.000-GA_RHEL6": {
+                    "pkgs": [
+                        "VRTSdbac"
+                    ],
+                    "version": "6.0.500.000"
+                },
+                "VRTSdbed-6.0.500.000-GA_RHEL": {
+                    "pkgs": [
+                        "VRTSdbed"
+                    ],
+                    "version": "6.0.500.000"
+                },
+                "VRTSfsadv-6.0.500.000-RHEL6": {
+                    "pkgs": [
+                        "VRTSfsadv"
+                    ],
+                    "version": "6.0.500.000"
+                },
+                "VRTSgab-6.0.500.000-GA_RHEL6": {
+                    "pkgs": [
+                        "VRTSgab"
+                    ],
+                    "version": "6.0.500.000"
+                },
+                "VRTSglm-6.0.500.000-RHEL6": {
+                    "pkgs": [
+                        "VRTSglm"
+                    ],
+                    "version": "6.0.500.000"
+                },
+                "VRTSllt-6.0.500.000-GA_RHEL6": {
+                    "pkgs": [
+                        "VRTSllt"
+                    ],
+                    "version": "6.0.500.000"
+                },
+                "VRTSlvmconv-6.0.500.000-GA_RHEL6": {
+                    "pkgs": [
+                        "VRTSlvmconv"
+                    ],
+                    "version": "6.0.500.000"
+                },
+                "VRTSodm-6.0.500.000-RHEL6": {
+                    "pkgs": [
+                        "VRTSodm"
+                    ],
+                    "version": "6.0.500.000"
+                },
+                "VRTSperl-5.14.2.20-RHEL6": {
+                    "pkgs": [
+                        "VRTSperl"
+                    ],
+                    "version": "5.14.2.20"
+                },
+                "VRTSsfcpi601-6.0.500.000-GA_GENERIC": {
+                    "pkgs": [
+                        "VRTSsfcpi601"
+                    ],
+                    "version": "6.0.500.000"
+                },
+                "VRTSspt-6.0.500.000-GA_RHEL6": {
+                    "pkgs": [
+                        "VRTSspt"
+                    ],
+                    "version": "6.0.500.000"
+                },
+                "VRTSvcs-6.0.500.000-GA_RHEL6": {
+                    "pkgs": [
+                        "VRTSvcs"
+                    ],
+                    "version": "6.0.500.000"
+                },
+                "VRTSvcsag-6.0.500.000-GA_RHEL6": {
+                    "pkgs": [
+                        "VRTSvcsag"
+                    ],
+                    "version": "6.0.500.000"
+                },
+                "VRTSvcsdr-6.0.500.000-GA_RHEL6": {
+                    "pkgs": [
+                        "VRTSvcsdr"
+                    ],
+                    "version": "6.0.500.000"
+                },
+                "VRTSvcsea-6.0.500.000-GA_RHEL6": {
+                    "pkgs": [
+                        "VRTSvcsea"
+                    ],
+                    "version": "6.0.500.000"
+                },
+                "VRTSvcsvmw-6.0.500.000-GA_RHEL6": {
+                    "pkgs": [
+                        "VRTSvcsvmw"
+                    ],
+                    "version": "6.0.500.000"
+                },
+                "VRTSvxfen-6.0.500.000-GA_RHEL6": {
+                    "pkgs": [
+                        "VRTSvxfen"
+                    ],
+                    "version": "6.0.500.000"
+                },
+                "VRTSvxfs-6.0.500.000-RHEL6": {
+                    "pkgs": [
+                        "VRTSvxfs"
+                    ],
+                    "version": "6.0.500.000"
+                },
+                "VRTSvxvm-6.0.500.000-RHEL6": {
+                    "pkgs": [
+                        "VRTSvxvm"
+                    ],
+                    "version": "6.0.500.000"
+                }
+            },
+            "patch_details_path_html": "https://sort.symantec.com/patch/detail/8508",
+            "patch_details_path_rest": "https://sort.symantec.com/vos_services/rest/patch_services/1.0/patchRelease/8508",
+            "pkg_version": "6.0.500",
+            "products": "dmp,fs,sf,sfcfsha,sfha,sfrac,sfsybce,svs,vcs,vm",
+            "release_date": "2014-04-15",
+            "release_id": "8508",
+            "release_level": "MR",
+            "release_name": "sfha-rhel6_x86_64-6.0.5",
+            "release_type": "MR",
+            "release_version": "6.0.5",
+            "requires": "",
+            "upload_cksum": "3897222550",
+            "upload_location": "ftp://ftp.veritas.com/pub/support/patchcentral/Linux/6.0.1/sfha/sfha-rhel6_x86_64-6.0.5-patches.tar.gz",
+            "upload_size": "203922701",
+            "vers_level": "605-000"
+        }
+    }
+}

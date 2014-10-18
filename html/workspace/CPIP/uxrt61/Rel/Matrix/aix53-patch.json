@@ -1,0 +1,1642 @@
+{
+    "aix53": {
+        "1737": {
+            "download_count": "237",
+            "installed_over": "1325",
+            "obsoleted_by": "3061,3798,4907",
+            "obsoletes": "",
+            "obsoletes_all": "1300,1336,1428,1511,1635,5161",
+            "padvs": "aix53,aix61",
+            "patch": {
+                "VRTSaa-05.00.0028.0583": {
+                    "pkgs": [
+                        "VRTSaa"
+                    ],
+                    "version": "05.00.0028.0583"
+                },
+                "VRTSccg-05.00.0028.0584": {
+                    "pkgs": [
+                        "VRTSccg"
+                    ],
+                    "version": "05.00.0028.0584"
+                },
+                "VRTSd2gui-05.00.0003.0001": {
+                    "pkgs": [
+                        "VRTSd2gui"
+                    ],
+                    "version": "05.00.0003.0001"
+                },
+                "VRTSdb2ed-05.00.0003.0001": {
+                    "pkgs": [
+                        "VRTSdb2ed"
+                    ],
+                    "version": "05.00.0003.0001"
+                },
+                "VRTSdbcom-05.00.0003.0001": {
+                    "pkgs": [
+                        "VRTSdbcom"
+                    ],
+                    "version": "05.00.0003.0001"
+                },
+                "VRTSdbed-05.00.0003.0001": {
+                    "pkgs": [
+                        "VRTSdbed"
+                    ],
+                    "version": "05.00.0003.0001"
+                },
+                "VRTSdbms3-03.00.0083.0003": {
+                    "pkgs": [
+                        "VRTSdbms3"
+                    ],
+                    "version": "03.00.0083.0003"
+                },
+                "VRTSdcli-05.00.0003.0001": {
+                    "pkgs": [
+                        "VRTSdcli"
+                    ],
+                    "version": "05.00.0003.0001"
+                },
+                "VRTSgab.rte-05.00.0003.0100": {
+                    "pkgs": [
+                        "VRTSgab.rte"
+                    ],
+                    "version": "05.00.0003.0100"
+                },
+                "VRTSllt.rte-05.00.0003.0100": {
+                    "pkgs": [
+                        "VRTSllt.rte"
+                    ],
+                    "version": "05.00.0003.0100"
+                },
+                "VRTSob-03.03.0003.0487": {
+                    "pkgs": [
+                        "VRTSob"
+                    ],
+                    "version": "03.03.0003.0487"
+                },
+                "VRTSobc33-03.03.0003.0487": {
+                    "pkgs": [
+                        "VRTSobc33"
+                    ],
+                    "version": "03.03.0003.0487"
+                },
+                "VRTSorgui-05.00.0003.0001": {
+                    "pkgs": [
+                        "VRTSorgui"
+                    ],
+                    "version": "05.00.0003.0001"
+                },
+                "VRTSvcs.rte-05.00.0003.0100": {
+                    "pkgs": [
+                        "VRTSvcs.rte"
+                    ],
+                    "version": "05.00.0003.0100"
+                },
+                "VRTSvcsag.rte-05.00.0003.0100": {
+                    "pkgs": [
+                        "VRTSvcsag.rte"
+                    ],
+                    "version": "05.00.0003.0100"
+                },
+                "VRTSvmman-05.00.0003.0100": {
+                    "pkgs": [
+                        "VRTSvmman"
+                    ],
+                    "version": "05.00.0003.0100"
+                },
+                "VRTSvmpro-05.00.0003.0100": {
+                    "pkgs": [
+                        "VRTSvmpro"
+                    ],
+                    "version": "05.00.0003.0100"
+                },
+                "VRTSvxfen.rte-05.00.0003.0100": {
+                    "pkgs": [
+                        "VRTSvxfen.rte"
+                    ],
+                    "version": "05.00.0003.0100"
+                },
+                "VRTSvxfs-05.00.0003.0100": {
+                    "pkgs": [
+                        "VRTSvxfs"
+                    ],
+                    "version": "05.00.0003.0100"
+                },
+                "VRTSvxvm-05.00.0003.0100": {
+                    "pkgs": [
+                        "VRTSvxvm"
+                    ],
+                    "version": "05.00.0003.0100"
+                }
+            },
+            "patch_details_path_html": "https://sort.symantec.com/patch/detail/1737",
+            "patch_details_path_rest": "https://sort.symantec.com/vos_services/rest/patch_services/1.0/patchRelease/1737",
+            "pkg_version": "5.0.30.10",
+            "products": "fs,sf,sfcfs,sfdb2,sfha,sfora,sfrac,vcs,vm,vvr",
+            "release_date": "2009-02-12",
+            "release_id": "1737",
+            "release_level": "MR",
+            "release_name": "sfha-aix-5.0MP3RP1",
+            "release_type": "RP",
+            "release_version": "5.0MP3RP1",
+            "requires": "",
+            "upload_cksum": "504614478",
+            "upload_location": "ftp://ftp.veritas.com/pub/support/patchcentral/AIX/5.0_MP3/sfha/sfha-aix-5.0MP3RP1-patches.tar.gz",
+            "upload_size": "204150431",
+            "vers_level": "500-301"
+        },
+        "2422": {
+            "download_count": "312",
+            "installed_over": "1325,1737",
+            "obsoleted_by": "3061,3798,4907",
+            "obsoletes": "",
+            "obsoletes_all": "1300,1336,1428,1511,1635,1687,1691,1765,1792,1832,1853,1898,1899,1900,1937,1967,1968,1997,2042,2053,2110,2207,2225,2260,2263,2297,2341,2374,2650,5161",
+            "padvs": "aix53,aix61",
+            "patch": {
+                "VRTSaa-05.00.0028.0583": {
+                    "pkgs": [
+                        "VRTSaa"
+                    ],
+                    "version": "05.00.0028.0583"
+                },
+                "VRTScavf-05.00.0003.0200": {
+                    "pkgs": [
+                        "VRTScavf"
+                    ],
+                    "version": "05.00.0003.0200"
+                },
+                "VRTSccg-05.00.0028.0584": {
+                    "pkgs": [
+                        "VRTSccg"
+                    ],
+                    "version": "05.00.0028.0584"
+                },
+                "VRTSdbac.rte-05.00.0003.0200": {
+                    "pkgs": [
+                        "VRTSdbac.rte"
+                    ],
+                    "version": "05.00.0003.0200"
+                },
+                "VRTSdbcom-05.00.0003.0002": {
+                    "pkgs": [
+                        "VRTSdbcom"
+                    ],
+                    "version": "05.00.0003.0002"
+                },
+                "VRTSdbed-05.00.0003.0002": {
+                    "pkgs": [
+                        "VRTSdbed"
+                    ],
+                    "version": "05.00.0003.0002"
+                },
+                "VRTSdbms3-03.00.0083.0004": {
+                    "pkgs": [
+                        "VRTSdbms3-3"
+                    ],
+                    "version": "03.00.0083.0004"
+                },
+                "VRTSgab.rte-05.00.0003.0200": {
+                    "pkgs": [
+                        "VRTSgab.rte"
+                    ],
+                    "version": "05.00.0003.0200"
+                },
+                "VRTSllt.rte-05.00.0003.0200": {
+                    "pkgs": [
+                        "VRTSllt.rte"
+                    ],
+                    "version": "05.00.0003.0200"
+                },
+                "VRTSob-03.03.0721.0495": {
+                    "pkgs": [
+                        "VRTSob"
+                    ],
+                    "version": "03.03.0721.0495"
+                },
+                "VRTSobc33-03.03.0721.0495": {
+                    "pkgs": [
+                        "VRTSobc33"
+                    ],
+                    "version": "03.03.0721.0495"
+                },
+                "VRTSobgui-03.03.0721.0495": {
+                    "pkgs": [
+                        "VRTSobgui"
+                    ],
+                    "version": "03.03.0721.0495"
+                },
+                "VRTSorgui-05.00.0003.0002": {
+                    "pkgs": [
+                        "VRTSorgui"
+                    ],
+                    "version": "05.00.0003.0002"
+                },
+                "VRTSvcs.rte-05.00.0003.0200": {
+                    "pkgs": [
+                        "VRTSvcs.rte"
+                    ],
+                    "version": "05.00.0003.0200"
+                },
+                "VRTSvcsag.rte-05.00.0003.0200": {
+                    "pkgs": [
+                        "VRTSvcsag.rte"
+                    ],
+                    "version": "05.00.0003.0200"
+                },
+                "VRTSvcsdb.rte-05.00.0003.0200": {
+                    "pkgs": [
+                        "VRTSvcsdb.rte"
+                    ],
+                    "version": "05.00.0003.0200"
+                },
+                "VRTSvcsor.rte-05.00.0003.0200": {
+                    "pkgs": [
+                        "VRTSvcsor.rte"
+                    ],
+                    "version": "05.00.0003.0200"
+                },
+                "VRTSvcssy.rte-05.00.0003.0200": {
+                    "pkgs": [
+                        "VRTSvcssy.rte"
+                    ],
+                    "version": "05.00.0003.0200"
+                },
+                "VRTSvcsvr-05.00.0003.0000": {
+                    "pkgs": [
+                        "VRTSvcsvr"
+                    ],
+                    "version": "05.00.0003.0000"
+                },
+                "VRTSvmman-05.00.0003.0200": {
+                    "pkgs": [
+                        "VRTSvmman"
+                    ],
+                    "version": "05.00.0003.0200"
+                },
+                "VRTSvxfen.rte-05.00.0003.0200": {
+                    "pkgs": [
+                        "VRTSvxfen.rte"
+                    ],
+                    "version": "05.00.0003.0200"
+                },
+                "VRTSvxfs-05.00.0003.0200": {
+                    "pkgs": [
+                        "VRTSvxfs"
+                    ],
+                    "version": "05.00.0003.0200"
+                },
+                "VRTSvxvm-05.00.0003.0200": {
+                    "pkgs": [
+                        "VRTSvxvm"
+                    ],
+                    "version": "05.00.0003.0200"
+                }
+            },
+            "patch_details_path_html": "https://sort.symantec.com/patch/detail/2422",
+            "patch_details_path_rest": "https://sort.symantec.com/vos_services/rest/patch_services/1.0/patchRelease/2422",
+            "pkg_version": "5.0.30.20",
+            "products": "fs,sf,sfcfs,sfdb2,sfha,sfora,sfrac,vcs,vm,vvr",
+            "release_date": "2009-07-18",
+            "release_id": "2422",
+            "release_level": "MR",
+            "release_name": "sfha-aix-5.0MP3RP2",
+            "release_type": "RP",
+            "release_version": "5.0MP3RP2",
+            "requires": "",
+            "upload_cksum": "3261126164",
+            "upload_location": "ftp://ftp.veritas.com/pub/support/patchcentral/AIX/5.0_MP3/sfha/sfha-aix-5.0MP3RP2-patches.tar.gz",
+            "upload_size": "218800467",
+            "vers_level": "500-302"
+        },
+        "3061": {
+            "download_count": "280",
+            "installed_over": "1325,1737,2422",
+            "obsoleted_by": "3798,4907",
+            "obsoletes": "1737,2420,2421,2422",
+            "obsoletes_all": "1300,1336,1428,1511,1635,1687,1691,1737,1765,1792,1832,1853,1898,1899,1900,1937,1967,1968,1997,2042,2053,2110,2207,2225,2260,2263,2297,2309,2341,2374,2420,2421,2422,2490,2504,2650,2792,2916,2919,2925,2955,3005,3046,3818,3950,3971,3994,5161",
+            "padvs": "aix53,aix61",
+            "patch": {
+                "VRTSaa-05.00.0028.0583": {
+                    "pkgs": [
+                        "VRTSaa"
+                    ],
+                    "version": "05.00.0028.0583"
+                },
+                "VRTSalloc-05.00.0003.0300": {
+                    "pkgs": [
+                        "VRTSalloc"
+                    ],
+                    "version": "05.00.0003.0300"
+                },
+                "VRTScavf-05.00.0003.0300": {
+                    "pkgs": [
+                        "VRTScavf"
+                    ],
+                    "version": "05.00.0003.0300"
+                },
+                "VRTSccg-05.00.0028.0584": {
+                    "pkgs": [
+                        "VRTSccg"
+                    ],
+                    "version": "05.00.0028.0584"
+                },
+                "VRTScscm.rte-05.00.0003.0300": {
+                    "pkgs": [
+                        "VRTScscm.rte"
+                    ],
+                    "version": "05.00.0003.0300"
+                },
+                "VRTSd2gui-05.00.0003.0001": {
+                    "pkgs": [
+                        "VRTSd2gui"
+                    ],
+                    "version": "05.00.0003.0001"
+                },
+                "VRTSdb2ed-05.00.0003.0003": {
+                    "pkgs": [
+                        "VRTSdb2ed"
+                    ],
+                    "version": "05.00.0003.0003"
+                },
+                "VRTSdbac.rte-05.00.0003.0300": {
+                    "pkgs": [
+                        "VRTSdbac.rte"
+                    ],
+                    "version": "05.00.0003.0300"
+                },
+                "VRTSdbcom-05.00.0003.0003": {
+                    "pkgs": [
+                        "VRTSdbcom"
+                    ],
+                    "version": "05.00.0003.0003"
+                },
+                "VRTSdbed-05.00.0003.0003": {
+                    "pkgs": [
+                        "VRTSdbed"
+                    ],
+                    "version": "05.00.0003.0003"
+                },
+                "VRTSdbms3-03.00.0083.0004": {
+                    "pkgs": [
+                        "VRTSdbms3"
+                    ],
+                    "version": "03.00.0083.0004"
+                },
+                "VRTSdcli-05.00.0003.0001": {
+                    "pkgs": [
+                        "VRTSdcli"
+                    ],
+                    "version": "05.00.0003.0001"
+                },
+                "VRTSfspro-05.00.0003.0300": {
+                    "pkgs": [
+                        "VRTSfspro"
+                    ],
+                    "version": "05.00.0003.0300"
+                },
+                "VRTSgab.rte-05.00.0003.0300": {
+                    "pkgs": [
+                        "VRTSgab.rte"
+                    ],
+                    "version": "05.00.0003.0300"
+                },
+                "VRTSglm-05.00.0003.0300": {
+                    "pkgs": [
+                        "VRTSglm"
+                    ],
+                    "version": "05.00.0003.0300"
+                },
+                "VRTSllt.rte-05.00.0003.0300": {
+                    "pkgs": [
+                        "VRTSllt.rte"
+                    ],
+                    "version": "05.00.0003.0300"
+                },
+                "VRTSob-03.03.0721.0495": {
+                    "pkgs": [
+                        "VRTSob"
+                    ],
+                    "version": "03.03.0721.0495"
+                },
+                "VRTSobc33-03.03.0721.0495": {
+                    "pkgs": [
+                        "VRTSobc33"
+                    ],
+                    "version": "03.03.0721.0495"
+                },
+                "VRTSobgui-03.03.0721.0495": {
+                    "pkgs": [
+                        "VRTSobgui"
+                    ],
+                    "version": "03.03.0721.0495"
+                },
+                "VRTSorgui-05.00.0003.0003": {
+                    "pkgs": [
+                        "VRTSorgui"
+                    ],
+                    "version": "05.00.0003.0003"
+                },
+                "VRTSvcs.rte-05.00.0003.0300": {
+                    "pkgs": [
+                        "VRTSvcs.rte"
+                    ],
+                    "version": "05.00.0003.0300"
+                },
+                "VRTSvcsag.rte-05.00.0003.0300": {
+                    "pkgs": [
+                        "VRTSvcsag.rte"
+                    ],
+                    "version": "05.00.0003.0300"
+                },
+                "VRTSvcsdb.rte-05.00.0003.0300": {
+                    "pkgs": [
+                        "VRTSvcsdb.rte"
+                    ],
+                    "version": "05.00.0003.0300"
+                },
+                "VRTSvcsor.rte-05.00.0003.0300": {
+                    "pkgs": [
+                        "VRTSvcsor.rte"
+                    ],
+                    "version": "05.00.0003.0300"
+                },
+                "VRTSvcssy.rte-05.00.0003.0300": {
+                    "pkgs": [
+                        "VRTSvcssy.rte"
+                    ],
+                    "version": "05.00.0003.0300"
+                },
+                "VRTSvcsvr-05.00.0003.0000": {
+                    "pkgs": [
+                        "VRTSvcsvr"
+                    ],
+                    "version": "05.00.0003.0000"
+                },
+                "VRTSvmman-05.00.0003.0300": {
+                    "pkgs": [
+                        "VRTSvmman"
+                    ],
+                    "version": "05.00.0003.0300"
+                },
+                "VRTSvmpro-05.00.0003.0100": {
+                    "pkgs": [
+                        "VRTSvmpro"
+                    ],
+                    "version": "05.00.0003.0100"
+                },
+                "VRTSvxfen.rte-05.00.0003.0300": {
+                    "pkgs": [
+                        "VRTSvxfen.rte"
+                    ],
+                    "version": "05.00.0003.0300"
+                },
+                "VRTSvxfs-05.00.0003.0300": {
+                    "pkgs": [
+                        "VRTSvxfs"
+                    ],
+                    "version": "05.00.0003.0300"
+                },
+                "VRTSvxvm-05.00.0003.0300": {
+                    "pkgs": [
+                        "VRTSvxvm"
+                    ],
+                    "version": "05.00.0003.0300"
+                },
+                "VRTSweb.rte-05.00.0003.0000": {
+                    "pkgs": [
+                        "VRTSweb.rte"
+                    ],
+                    "version": "05.00.0003.0000"
+                }
+            },
+            "patch_details_path_html": "https://sort.symantec.com/patch/detail/3061",
+            "patch_details_path_rest": "https://sort.symantec.com/vos_services/rest/patch_services/1.0/patchRelease/3061",
+            "pkg_version": "5.0.30.30",
+            "products": "fs,sf,sfcfs,sfdb2,sfha,sfora,sfrac,vcs,vm,vvr",
+            "release_date": "2010-01-15",
+            "release_id": "3061",
+            "release_level": "MR",
+            "release_name": "sfha-aix-5.0MP3RP3",
+            "release_type": "RP",
+            "release_version": "5.0MP3RP3",
+            "requires": "",
+            "upload_cksum": "3870741795",
+            "upload_location": "ftp://ftp.veritas.com/pub/support/patchcentral/AIX/5.0_MP3/sfha/sfha-aix-5.0MP3RP3-patches.tar.gz",
+            "upload_size": "300338168",
+            "vers_level": "500-303"
+        },
+        "3302": {
+            "download_count": "215",
+            "installed_over": "7199",
+            "obsoleted_by": "4140,4540",
+            "obsoletes": "2956",
+            "obsoletes_all": "2956,3016,3253,3284,3576,4924,5509",
+            "padvs": "aix53,aix61",
+            "patch": {
+                "VRTScavf-05.01.0001.0000": {
+                    "pkgs": [
+                        "VRTScavf"
+                    ],
+                    "version": "05.01.0001.0000"
+                },
+                "VRTScps-05.01.0001.0000": {
+                    "pkgs": [
+                        "VRTScps"
+                    ],
+                    "version": "05.01.0001.0000"
+                },
+                "VRTSdbac-05.01.0001.0000": {
+                    "pkgs": [
+                        "VRTSdbac"
+                    ],
+                    "version": "05.01.0001.0000"
+                },
+                "VRTSdbed-05.01.0001.0000": {
+                    "pkgs": [
+                        "VRTSdbed"
+                    ],
+                    "version": "05.01.0001.0000"
+                },
+                "VRTSgab-05.01.0001.0000": {
+                    "pkgs": [
+                        "VRTSgab"
+                    ],
+                    "version": "05.01.0001.0000"
+                },
+                "VRTSllt-05.01.0001.0000": {
+                    "pkgs": [
+                        "VRTSllt"
+                    ],
+                    "version": "05.01.0001.0000"
+                },
+                "VRTSob-03.04.0235.0027": {
+                    "pkgs": [
+                        "VRTSob"
+                    ],
+                    "version": "03.04.0235.0027"
+                },
+                "VRTSodm-05.01.0001.0000": {
+                    "pkgs": [
+                        "VRTSodm"
+                    ],
+                    "version": "05.01.0001.0000"
+                },
+                "VRTSsfmh-02.01.0198.0031": {
+                    "pkgs": [
+                        "VRTSsfmh"
+                    ],
+                    "version": "02.01.0198.0031"
+                },
+                "VRTSvcs-05.01.0001.0000": {
+                    "pkgs": [
+                        "VRTSvcs"
+                    ],
+                    "version": "05.01.0001.0000"
+                },
+                "VRTSvcsag-05.01.0001.0000": {
+                    "pkgs": [
+                        "VRTSvcsag"
+                    ],
+                    "version": "05.01.0001.0000"
+                },
+                "VRTSvcsea-05.01.0001.0000": {
+                    "pkgs": [
+                        "VRTSvcsea"
+                    ],
+                    "version": "05.01.0001.0000"
+                },
+                "VRTSvxfen-05.01.0001.0000": {
+                    "pkgs": [
+                        "VRTSvxfen"
+                    ],
+                    "version": "05.01.0001.0000"
+                },
+                "VRTSvxfs-05.01.0001.0000": {
+                    "pkgs": [
+                        "VRTSvxfs"
+                    ],
+                    "version": "05.01.0001.0000"
+                },
+                "VRTSvxvm-05.01.0001.0000": {
+                    "pkgs": [
+                        "VRTSvxvm"
+                    ],
+                    "version": "05.01.0001.0000"
+                }
+            },
+            "patch_details_path_html": "https://sort.symantec.com/patch/detail/3302",
+            "patch_details_path_rest": "https://sort.symantec.com/vos_services/rest/patch_services/1.0/patchRelease/3302",
+            "pkg_version": "5.1.001",
+            "products": "fs,sf,sfcfs,sfcfsha,sfha,sfrac,vcs,vm",
+            "release_date": "2010-03-19",
+            "release_id": "3302",
+            "release_level": "MR",
+            "release_name": "sfha-aix-5.1RP1",
+            "release_type": "RP",
+            "release_version": "5.1RP1",
+            "requires": "",
+            "upload_cksum": "803726320",
+            "upload_location": "ftp://ftp.veritas.com/pub/support/patchcentral/AIX/5.1/sfha/sfha-aix-5.1RP1-patches.tar.gz",
+            "upload_size": "123331496",
+            "vers_level": "510-001"
+        },
+        "3798": {
+            "download_count": "345",
+            "installed_over": "1325,1737,2422,3061",
+            "obsoleted_by": "4907",
+            "obsoletes": "1737,2420,2421,2422,3061",
+            "obsoletes_all": "1300,1336,1428,1511,1635,1687,1691,1737,1765,1792,1832,1853,1898,1899,1900,1937,1967,1968,1997,2042,2053,2110,2207,2225,2260,2263,2297,2309,2341,2374,2420,2421,2422,2490,2504,2650,2792,2916,2919,2925,2955,3005,3046,3060,3061,3108,3128,3249,3251,3272,3358,3396,3466,3482,3483,3509,3529,3610,3788,3818,3819,3950,3970,3971,3994,3995,4718,5161,6062,6729",
+            "padvs": "aix53,aix61",
+            "patch": {
+                "VRTSaa-05.00.0028.0587": {
+                    "pkgs": [
+                        "VRTSaa"
+                    ],
+                    "version": "05.00.0028.0587"
+                },
+                "VRTSalloc-05.00.0003.0400": {
+                    "pkgs": [
+                        "VRTSalloc"
+                    ],
+                    "version": "05.00.0003.0400"
+                },
+                "VRTScavf-05.00.0003.0300": {
+                    "pkgs": [
+                        "VRTScavf"
+                    ],
+                    "version": "05.00.0003.0300"
+                },
+                "VRTSccg-05.00.0028.0584": {
+                    "pkgs": [
+                        "VRTSccg"
+                    ],
+                    "version": "05.00.0028.0584"
+                },
+                "VRTScscm.rte-05.00.0003.0300": {
+                    "pkgs": [
+                        "VRTScscm.rte"
+                    ],
+                    "version": "05.00.0003.0300"
+                },
+                "VRTSd2gui-05.00.0003.0001": {
+                    "pkgs": [
+                        "VRTSd2gui"
+                    ],
+                    "version": "05.00.0003.0001"
+                },
+                "VRTSdb2ed-05.00.0003.0003": {
+                    "pkgs": [
+                        "VRTSdb2ed"
+                    ],
+                    "version": "05.00.0003.0003"
+                },
+                "VRTSdbac.rte-05.00.0003.0400": {
+                    "pkgs": [
+                        "VRTSdbac.rte"
+                    ],
+                    "version": "05.00.0003.0400"
+                },
+                "VRTSdbcom-05.00.0003.0003": {
+                    "pkgs": [
+                        "VRTSdbcom"
+                    ],
+                    "version": "05.00.0003.0003"
+                },
+                "VRTSdbed-05.00.0003.0003": {
+                    "pkgs": [
+                        "VRTSdbed"
+                    ],
+                    "version": "05.00.0003.0003"
+                },
+                "VRTSdbms3-03.00.0083.0004": {
+                    "pkgs": [
+                        "VRTSdbms3"
+                    ],
+                    "version": "03.00.0083.0004"
+                },
+                "VRTSdcli-05.00.0003.0001": {
+                    "pkgs": [
+                        "VRTSdcli"
+                    ],
+                    "version": "05.00.0003.0001"
+                },
+                "VRTSdsa-05.00.0000.0400": {
+                    "pkgs": [
+                        "VRTSdsa"
+                    ],
+                    "version": "05.00.0000.0400"
+                },
+                "VRTSfspro-05.00.0003.0400": {
+                    "pkgs": [
+                        "VRTSfspro"
+                    ],
+                    "version": "05.00.0003.0400"
+                },
+                "VRTSgab.rte-05.00.0003.0400": {
+                    "pkgs": [
+                        "VRTSgab.rte"
+                    ],
+                    "version": "05.00.0003.0400"
+                },
+                "VRTSglm-05.00.0003.0300": {
+                    "pkgs": [
+                        "VRTSglm"
+                    ],
+                    "version": "05.00.0003.0300"
+                },
+                "VRTSllt.rte-05.00.0003.0400": {
+                    "pkgs": [
+                        "VRTSllt.rte"
+                    ],
+                    "version": "05.00.0003.0400"
+                },
+                "VRTSob-03.03.0721.0495": {
+                    "pkgs": [
+                        "VRTSob"
+                    ],
+                    "version": "03.03.0721.0495"
+                },
+                "VRTSobc33-03.03.0721.0495": {
+                    "pkgs": [
+                        "VRTSobc33"
+                    ],
+                    "version": "03.03.0721.0495"
+                },
+                "VRTSobgui-03.03.0721.0495": {
+                    "pkgs": [
+                        "VRTSobgui"
+                    ],
+                    "version": "03.03.0721.0495"
+                },
+                "VRTSodm-05.00.0003.0400": {
+                    "pkgs": [
+                        "VRTSodm"
+                    ],
+                    "version": "05.00.0003.0400"
+                },
+                "VRTSorgui-05.00.0003.0003": {
+                    "pkgs": [
+                        "VRTSorgui"
+                    ],
+                    "version": "05.00.0003.0003"
+                },
+                "VRTSvcs.rte-05.00.0003.0400": {
+                    "pkgs": [
+                        "VRTSvcs.rte"
+                    ],
+                    "version": "05.00.0003.0400"
+                },
+                "VRTSvcsag.rte-05.00.0003.0400": {
+                    "pkgs": [
+                        "VRTSvcsag.rte"
+                    ],
+                    "version": "05.00.0003.0400"
+                },
+                "VRTSvcsdb.rte-05.00.0003.0400": {
+                    "pkgs": [
+                        "VRTSvcsdb.rte"
+                    ],
+                    "version": "05.00.0003.0400"
+                },
+                "VRTSvcsor.rte-05.00.0003.0400": {
+                    "pkgs": [
+                        "VRTSvcsor.rte"
+                    ],
+                    "version": "05.00.0003.0400"
+                },
+                "VRTSvcssy.rte-05.00.0003.0400": {
+                    "pkgs": [
+                        "VRTSvcssy.rte"
+                    ],
+                    "version": "05.00.0003.0400"
+                },
+                "VRTSvcsvr-05.00.0003.0000": {
+                    "pkgs": [
+                        "VRTSvcsvr"
+                    ],
+                    "version": "05.00.0003.0000"
+                },
+                "VRTSvdid.rte-01.02.0313.0000": {
+                    "pkgs": [
+                        "VRTSvdid.rte"
+                    ],
+                    "version": "01.02.0313.0000"
+                },
+                "VRTSvmman-05.00.0003.0400": {
+                    "pkgs": [
+                        "VRTSvmman"
+                    ],
+                    "version": "05.00.0003.0400"
+                },
+                "VRTSvmpro-05.00.0003.0100": {
+                    "pkgs": [
+                        "VRTSvmpro"
+                    ],
+                    "version": "05.00.0003.0100"
+                },
+                "VRTSvxfen.rte-05.00.0003.0400": {
+                    "pkgs": [
+                        "VRTSvxfen.rte"
+                    ],
+                    "version": "05.00.0003.0400"
+                },
+                "VRTSvxfs-05.00.0003.0400": {
+                    "pkgs": [
+                        "VRTSvxfs"
+                    ],
+                    "version": "05.00.0003.0400"
+                },
+                "VRTSvxvm-05.00.0003.0400": {
+                    "pkgs": [
+                        "VRTSvxvm"
+                    ],
+                    "version": "05.00.0003.0400"
+                },
+                "VRTSweb.rte-05.00.0003.0000": {
+                    "pkgs": [
+                        "VRTSweb.rte"
+                    ],
+                    "version": "05.00.0003.0000"
+                }
+            },
+            "patch_details_path_html": "https://sort.symantec.com/patch/detail/3798",
+            "patch_details_path_rest": "https://sort.symantec.com/vos_services/rest/patch_services/1.0/patchRelease/3798",
+            "pkg_version": "5.0.30.40",
+            "products": "fs,sf,sfcfs,sfdb2,sfha,sfora,sfrac,vcs,vm,vvr",
+            "release_date": "2010-06-21",
+            "release_id": "3798",
+            "release_level": "MR",
+            "release_name": "sfha-aix-5.0MP3RP4",
+            "release_type": "RP",
+            "release_version": "5.0MP3RP4",
+            "requires": "",
+            "upload_cksum": "1075188360",
+            "upload_location": "ftp://ftp.veritas.com/pub/support/patchcentral/AIX/5.0_MP3/sfha/sfha-aix-5.0MP3RP4-patches.tar.gz",
+            "upload_size": "302120936",
+            "vers_level": "500-304"
+        },
+        "4140": {
+            "download_count": "150",
+            "installed_over": "7199,3302",
+            "obsoleted_by": "4540",
+            "obsoletes": "2956,3302",
+            "obsoletes_all": "2956,3016,3253,3284,3302,3429,3442,3576,3744,3753,3822,3948,3949,4022,4086,4092,4924,5261,5509,6515",
+            "padvs": "aix53,aix61",
+            "patch": {
+                "VRTScavf-05.01.0001.0000": {
+                    "pkgs": [
+                        "VRTScavf"
+                    ],
+                    "version": "05.01.0001.0000"
+                },
+                "VRTScps-05.01.0002.0000": {
+                    "pkgs": [
+                        "VRTScps"
+                    ],
+                    "version": "05.01.0002.0000"
+                },
+                "VRTSdbac-05.01.0001.0000": {
+                    "pkgs": [
+                        "VRTSdbac"
+                    ],
+                    "version": "05.01.0001.0000"
+                },
+                "VRTSdbed-05.01.0002.0000": {
+                    "pkgs": [
+                        "VRTSdbed"
+                    ],
+                    "version": "05.01.0002.0000"
+                },
+                "VRTSgab-05.01.0002.0000": {
+                    "pkgs": [
+                        "VRTSgab"
+                    ],
+                    "version": "05.01.0002.0000"
+                },
+                "VRTSllt-05.01.0002.0000": {
+                    "pkgs": [
+                        "VRTSllt"
+                    ],
+                    "version": "05.01.0002.0000"
+                },
+                "VRTSob-03.04.0235.0027": {
+                    "pkgs": [
+                        "VRTSob"
+                    ],
+                    "version": "03.04.0235.0027"
+                },
+                "VRTSodm-05.01.0001.0000": {
+                    "pkgs": [
+                        "VRTSodm"
+                    ],
+                    "version": "05.01.0001.0000"
+                },
+                "VRTSsfmh-02.01.0198.0031": {
+                    "pkgs": [
+                        "VRTSsfmh"
+                    ],
+                    "version": "02.01.0198.0031"
+                },
+                "VRTSvcs-05.01.0002.0000": {
+                    "pkgs": [
+                        "VRTSvcs"
+                    ],
+                    "version": "05.01.0002.0000"
+                },
+                "VRTSvcsag-05.01.0002.0000": {
+                    "pkgs": [
+                        "VRTSvcsag"
+                    ],
+                    "version": "05.01.0002.0000"
+                },
+                "VRTSvcsea-05.01.0002.0000": {
+                    "pkgs": [
+                        "VRTSvcsea"
+                    ],
+                    "version": "05.01.0002.0000"
+                },
+                "VRTSvxfen-05.01.0002.0000": {
+                    "pkgs": [
+                        "VRTSvxfen"
+                    ],
+                    "version": "05.01.0002.0000"
+                },
+                "VRTSvxfs-05.01.0002.0000": {
+                    "pkgs": [
+                        "VRTSvxfs"
+                    ],
+                    "version": "05.01.0002.0000"
+                },
+                "VRTSvxvm-05.01.0002.0000": {
+                    "pkgs": [
+                        "VRTSvxvm"
+                    ],
+                    "version": "05.01.0002.0000"
+                }
+            },
+            "patch_details_path_html": "https://sort.symantec.com/patch/detail/4140",
+            "patch_details_path_rest": "https://sort.symantec.com/vos_services/rest/patch_services/1.0/patchRelease/4140",
+            "pkg_version": "5.1.002",
+            "products": "fs,sf,sfcfs,sfcfsha,sfha,sfrac,vcs,vm",
+            "release_date": "2010-09-17",
+            "release_id": "4140",
+            "release_level": "MR",
+            "release_name": "sfha-aix-5.1RP2",
+            "release_type": "RP",
+            "release_version": "5.1RP2",
+            "requires": "",
+            "upload_cksum": "3539847286",
+            "upload_location": "ftp://ftp.veritas.com/pub/support/patchcentral/AIX/5.1/sfha/sfha-aix-5.1RP2-patches.tar.gz",
+            "upload_size": "233904823",
+            "vers_level": "510-002"
+        },
+        "4655": {
+            "download_count": "315",
+            "installed_over": "4540",
+            "obsoleted_by": "5502,6806",
+            "obsoletes": "4323,4414,4422,4565",
+            "obsoletes_all": "4323,4414,4422,4524,4565,5190,5191,6294,6323",
+            "padvs": "aix53,aix61",
+            "patch": {
+                "VRTSamf-05.01.0101.0000": {
+                    "pkgs": [
+                        "VRTSamf"
+                    ],
+                    "version": "05.01.0101.0000"
+                },
+                "VRTScavf-05.01.0101.0000": {
+                    "pkgs": [
+                        "VRTScavf"
+                    ],
+                    "version": "05.01.0101.0000"
+                },
+                "VRTScps-05.01.0101.0000": {
+                    "pkgs": [
+                        "VRTScps"
+                    ],
+                    "version": "05.01.0101.0000"
+                },
+                "VRTSglm-05.01.0101.0000": {
+                    "pkgs": [
+                        "VRTSglm"
+                    ],
+                    "version": "05.01.0101.0000"
+                },
+                "VRTSllt-05.01.0101.0000": {
+                    "pkgs": [
+                        "VRTSllt"
+                    ],
+                    "version": "05.01.0101.0000"
+                },
+                "VRTSodm-05.01.0101.0000": {
+                    "pkgs": [
+                        "VRTSodm"
+                    ],
+                    "version": "05.01.0101.0000"
+                },
+                "VRTSsfmh-03.01.0429.0401": {
+                    "pkgs": [
+                        "VRTSsfmh"
+                    ],
+                    "version": "03.01.0429.0401"
+                },
+                "VRTSvcs-05.01.0101.0000": {
+                    "pkgs": [
+                        "VRTSvcs"
+                    ],
+                    "version": "05.01.0101.0000"
+                },
+                "VRTSvcsag-05.01.0101.0000": {
+                    "pkgs": [
+                        "VRTSvcsag"
+                    ],
+                    "version": "05.01.0101.0000"
+                },
+                "VRTSvcsea-05.01.0101.0000": {
+                    "pkgs": [
+                        "VRTSvcsea"
+                    ],
+                    "version": "05.01.0101.0000"
+                },
+                "VRTSvxfen-05.01.0101.0000": {
+                    "pkgs": [
+                        "VRTSvxfen"
+                    ],
+                    "version": "05.01.0101.0000"
+                },
+                "VRTSvxfs-05.01.0101.0000": {
+                    "pkgs": [
+                        "VRTSvxfs"
+                    ],
+                    "version": "05.01.0101.0000"
+                },
+                "VRTSvxvm-05.01.0101.0000": {
+                    "pkgs": [
+                        "VRTSvxvm"
+                    ],
+                    "version": "05.01.0101.0000"
+                }
+            },
+            "patch_details_path_html": "https://sort.symantec.com/patch/detail/4655",
+            "patch_details_path_rest": "https://sort.symantec.com/vos_services/rest/patch_services/1.0/patchRelease/4655",
+            "pkg_version": "5.1.101",
+            "products": "dmp,fs,sf,sfcfs,sfcfsha,sfha,sfrac,vcs,vm",
+            "release_date": "2011-02-11",
+            "release_id": "4655",
+            "release_level": "MR",
+            "release_name": "sfha-aix-5.1SP1RP1",
+            "release_type": "RP",
+            "release_version": "5.1SP1RP1",
+            "requires": "",
+            "upload_cksum": "509376146",
+            "upload_location": "ftp://ftp.veritas.com/pub/support/patchcentral/AIX/5.1/sfha/sfha-aix-5.1SP1RP1-patches.tar.gz",
+            "upload_size": "201657281",
+            "vers_level": "510-101"
+        },
+        "4907": {
+            "download_count": "313",
+            "installed_over": "1325,1737,2422,3061,3798",
+            "obsoleted_by": "",
+            "obsoletes": "1737,2420,2421,2422,3061,3798",
+            "obsoletes_all": "1300,1336,1428,1511,1635,1687,1691,1737,1765,1792,1832,1853,1898,1899,1900,1937,1967,1968,1997,2042,2053,2110,2207,2225,2260,2263,2297,2309,2341,2374,2420,2421,2422,2490,2504,2650,2792,2916,2919,2925,2955,3005,3046,3060,3061,3108,3128,3249,3251,3272,3358,3396,3466,3482,3483,3509,3529,3610,3788,3798,3818,3819,3820,3950,3970,3971,3994,3995,4012,4093,4134,4167,4265,4357,4376,4521,4585,4718,5161,6059,6062,6122,6729",
+            "padvs": "aix53,aix61",
+            "patch": {
+                "VRTSaa-05.00.0028.0587": {
+                    "pkgs": [
+                        "VRTSaa"
+                    ],
+                    "version": "05.00.0028.0587"
+                },
+                "VRTSalloc-05.00.0003.0400": {
+                    "pkgs": [
+                        "VRTSalloc"
+                    ],
+                    "version": "05.00.0003.0400"
+                },
+                "VRTScavf-05.00.0003.0300": {
+                    "pkgs": [
+                        "VRTScavf"
+                    ],
+                    "version": "05.00.0003.0300"
+                },
+                "VRTSccg-05.00.0028.0584": {
+                    "pkgs": [
+                        "VRTSccg"
+                    ],
+                    "version": "05.00.0028.0584"
+                },
+                "VRTScscm.rte-05.00.0003.0300": {
+                    "pkgs": [
+                        "VRTScscm.rte"
+                    ],
+                    "version": "05.00.0003.0300"
+                },
+                "VRTSd2gui-05.00.0003.0001": {
+                    "pkgs": [
+                        "VRTSd2gui"
+                    ],
+                    "version": "05.00.0003.0001"
+                },
+                "VRTSdb2ed-05.00.0003.0003": {
+                    "pkgs": [
+                        "VRTSdb2ed"
+                    ],
+                    "version": "05.00.0003.0003"
+                },
+                "VRTSdbac.rte-05.00.0003.0500": {
+                    "pkgs": [
+                        "VRTSdbac.rte"
+                    ],
+                    "version": "05.00.0003.0500"
+                },
+                "VRTSdbcom-05.00.0003.0005": {
+                    "pkgs": [
+                        "VRTSdbcom"
+                    ],
+                    "version": "05.00.0003.0005"
+                },
+                "VRTSdbed-05.00.0003.0005": {
+                    "pkgs": [
+                        "VRTSdbed"
+                    ],
+                    "version": "05.00.0003.0005"
+                },
+                "VRTSdbms3-03.00.0083.0004": {
+                    "pkgs": [
+                        "VRTSdbms3"
+                    ],
+                    "version": "03.00.0083.0004"
+                },
+                "VRTSdcli-05.00.0003.0001": {
+                    "pkgs": [
+                        "VRTSdcli"
+                    ],
+                    "version": "05.00.0003.0001"
+                },
+                "VRTSdsa-05.00.0000.0500": {
+                    "pkgs": [
+                        "VRTSdsa"
+                    ],
+                    "version": "05.00.0000.0500"
+                },
+                "VRTSfspro-05.00.0003.0400": {
+                    "pkgs": [
+                        "VRTSfspro"
+                    ],
+                    "version": "05.00.0003.0400"
+                },
+                "VRTSgab.rte-05.00.0003.0500": {
+                    "pkgs": [
+                        "VRTSgab.rte"
+                    ],
+                    "version": "05.00.0003.0500"
+                },
+                "VRTSglm-05.00.0003.0500": {
+                    "pkgs": [
+                        "VRTSglm"
+                    ],
+                    "version": "05.00.0003.0500"
+                },
+                "VRTSllt.rte-05.00.0003.0500": {
+                    "pkgs": [
+                        "VRTSllt.rte"
+                    ],
+                    "version": "05.00.0003.0500"
+                },
+                "VRTSob-03.03.0721.0495": {
+                    "pkgs": [
+                        "VRTSob"
+                    ],
+                    "version": "03.03.0721.0495"
+                },
+                "VRTSobc33-03.03.0721.0495": {
+                    "pkgs": [
+                        "VRTSobc33"
+                    ],
+                    "version": "03.03.0721.0495"
+                },
+                "VRTSobgui-03.03.0721.0495": {
+                    "pkgs": [
+                        "VRTSobgui"
+                    ],
+                    "version": "03.03.0721.0495"
+                },
+                "VRTSodm-05.00.0003.0400": {
+                    "pkgs": [
+                        "VRTSodm"
+                    ],
+                    "version": "05.00.0003.0400"
+                },
+                "VRTSorgui-05.00.0003.0003": {
+                    "pkgs": [
+                        "VRTSorgui"
+                    ],
+                    "version": "05.00.0003.0003"
+                },
+                "VRTSvcs.rte-05.00.0003.0500": {
+                    "pkgs": [
+                        "VRTSvcs.rte"
+                    ],
+                    "version": "05.00.0003.0500"
+                },
+                "VRTSvcsag.rte-05.00.0003.0500": {
+                    "pkgs": [
+                        "VRTSvcsag.rte"
+                    ],
+                    "version": "05.00.0003.0500"
+                },
+                "VRTSvcsdb.rte-05.00.0003.0500": {
+                    "pkgs": [
+                        "VRTSvcsdb.rte"
+                    ],
+                    "version": "05.00.0003.0500"
+                },
+                "VRTSvcsor.rte-05.00.0003.0500": {
+                    "pkgs": [
+                        "VRTSvcsor.rte"
+                    ],
+                    "version": "05.00.0003.0500"
+                },
+                "VRTSvcssy.rte-05.00.0003.0500": {
+                    "pkgs": [
+                        "VRTSvcssy.rte"
+                    ],
+                    "version": "05.00.0003.0500"
+                },
+                "VRTSvcsvr-05.00.0003.0000": {
+                    "pkgs": [
+                        "VRTSvcsvr"
+                    ],
+                    "version": "05.00.0003.0000"
+                },
+                "VRTSvdid.rte-01.02.0313.0000": {
+                    "pkgs": [
+                        "VRTSvdid.rte"
+                    ],
+                    "version": "01.02.0313.0000"
+                },
+                "VRTSvmman-05.00.0003.0500": {
+                    "pkgs": [
+                        "VRTSvmman"
+                    ],
+                    "version": "05.00.0003.0500"
+                },
+                "VRTSvmpro-05.00.0003.0100": {
+                    "pkgs": [
+                        "VRTSvmpro"
+                    ],
+                    "version": "05.00.0003.0100"
+                },
+                "VRTSvxfen.rte-05.00.0003.0500": {
+                    "pkgs": [
+                        "VRTSvxfen.rte"
+                    ],
+                    "version": "05.00.0003.0500"
+                },
+                "VRTSvxfs-05.00.0003.0500": {
+                    "pkgs": [
+                        "VRTSvxfs"
+                    ],
+                    "version": "05.00.0003.0500"
+                },
+                "VRTSvxvm-05.00.0003.0500": {
+                    "pkgs": [
+                        "VRTSvxvm"
+                    ],
+                    "version": "05.00.0003.0500"
+                },
+                "VRTSweb.rte-05.00.0003.0000": {
+                    "pkgs": [
+                        "VRTSweb.rte"
+                    ],
+                    "version": "05.00.0003.0000"
+                }
+            },
+            "patch_details_path_html": "https://sort.symantec.com/patch/detail/4907",
+            "patch_details_path_rest": "https://sort.symantec.com/vos_services/rest/patch_services/1.0/patchRelease/4907",
+            "pkg_version": "5.0.30.50",
+            "products": "fs,sf,sfcfs,sfdb2,sfha,sfora,sfrac,vcs,vm,vvr",
+            "release_date": "2011-05-10",
+            "release_id": "4907",
+            "release_level": "MR",
+            "release_name": "sfha-aix-5.0MP3RP5",
+            "release_type": "RP",
+            "release_version": "5.0MP3RP5",
+            "requires": "",
+            "upload_cksum": "2595574363",
+            "upload_location": "ftp://ftp.veritas.com/pub/support/patchcentral/AIX/5.0_MP3/sfha/sfha-aix-5.0MP3RP5-patches.tar.gz",
+            "upload_size": "302593700",
+            "vers_level": "500-305"
+        },
+        "5502": {
+            "download_count": "455",
+            "installed_over": "4540,4655",
+            "obsoleted_by": "6806",
+            "obsoletes": "4323,4414,4422,4565,4655,4713,5401,5413",
+            "obsoletes_all": "4323,4414,4422,4524,4565,4655,4713,4720,4990,4995,5020,5027,5035,5160,5190,5191,5201,5267,5289,5300,5304,5308,5392,5399,5401,5413,5460,5536,5690,5756,5759,5879,6294,6323,6426",
+            "padvs": "aix53,aix61",
+            "patch": {
+                "VRTSamf-05.01.0112.0000": {
+                    "pkgs": [
+                        "VRTSamf"
+                    ],
+                    "version": "05.01.0112.0000"
+                },
+                "VRTScavf-05.01.0112.0000": {
+                    "pkgs": [
+                        "VRTScavf"
+                    ],
+                    "version": "05.01.0112.0000"
+                },
+                "VRTScps-05.01.0112.0000": {
+                    "pkgs": [
+                        "VRTScps"
+                    ],
+                    "version": "05.01.0112.0000"
+                },
+                "VRTSdbac-05.01.0112.0000": {
+                    "pkgs": [
+                        "VRTSdbac"
+                    ],
+                    "version": "05.01.0112.0000"
+                },
+                "VRTSdbed-05.01.0112.0000": {
+                    "pkgs": [
+                        "VRTSdbed"
+                    ],
+                    "version": "05.01.0112.0000"
+                },
+                "VRTSgab-05.01.0112.0000": {
+                    "pkgs": [
+                        "VRTSgab"
+                    ],
+                    "version": "05.01.0112.0000"
+                },
+                "VRTSglm-05.01.0112.0000": {
+                    "pkgs": [
+                        "VRTSglm"
+                    ],
+                    "version": "05.01.0112.0000"
+                },
+                "VRTSgms-05.01.0112.0000": {
+                    "pkgs": [
+                        "VRTSgms"
+                    ],
+                    "version": "05.01.0112.0000"
+                },
+                "VRTSllt-05.01.0112.0000": {
+                    "pkgs": [
+                        "VRTSllt"
+                    ],
+                    "version": "05.01.0112.0000"
+                },
+                "VRTSob-03.04.0312.0000": {
+                    "pkgs": [
+                        "VRTSob"
+                    ],
+                    "version": "03.04.0312.0000"
+                },
+                "VRTSodm-05.01.0112.0000": {
+                    "pkgs": [
+                        "VRTSodm"
+                    ],
+                    "version": "05.01.0112.0000"
+                },
+                "VRTSsfmh-03.01.0429.0401": {
+                    "pkgs": [
+                        "VRTSsfmh"
+                    ],
+                    "version": "03.01.0429.0401"
+                },
+                "VRTSvcs-05.01.0112.0000": {
+                    "pkgs": [
+                        "VRTSvcs"
+                    ],
+                    "version": "05.01.0112.0000"
+                },
+                "VRTSvcsag-05.01.0112.0000": {
+                    "pkgs": [
+                        "VRTSvcsag"
+                    ],
+                    "version": "05.01.0112.0000"
+                },
+                "VRTSvcsea-05.01.0112.0000": {
+                    "pkgs": [
+                        "VRTSvcsea"
+                    ],
+                    "version": "05.01.0112.0000"
+                },
+                "VRTSvxfen-05.01.0112.0000": {
+                    "pkgs": [
+                        "VRTSvxfen"
+                    ],
+                    "version": "05.01.0112.0000"
+                },
+                "VRTSvxfs-05.01.0112.0000": {
+                    "pkgs": [
+                        "VRTSvxfs"
+                    ],
+                    "version": "05.01.0112.0000"
+                },
+                "VRTSvxvm-05.01.0112.0000": {
+                    "pkgs": [
+                        "VRTSvxvm"
+                    ],
+                    "version": "05.01.0112.0000"
+                }
+            },
+            "patch_details_path_html": "https://sort.symantec.com/patch/detail/5502",
+            "patch_details_path_rest": "https://sort.symantec.com/vos_services/rest/patch_services/1.0/patchRelease/5502",
+            "pkg_version": "5.1.112",
+            "products": "dmp,fs,sf,sfcfs,sfcfsha,sfha,sfrac,vcs,vm",
+            "release_date": "2011-09-28",
+            "release_id": "5502",
+            "release_level": "MR",
+            "release_name": "sfha-aix-5.1SP1RP2",
+            "release_type": "RP",
+            "release_version": "5.1SP1RP2",
+            "requires": "",
+            "upload_cksum": "3246161265",
+            "upload_location": "ftp://ftp.veritas.com/pub/support/patchcentral/AIX/5.1/sfha/sfha-aix-5.1SP1RP2-patches.tar.gz",
+            "upload_size": "295690300",
+            "vers_level": "510-102"
+        },
+        "6806": {
+            "download_count": "134",
+            "installed_over": "4540,4655,5502",
+            "obsoleted_by": "",
+            "obsoletes": "4323,4414,4422,4565,4655,4713,5401,5413,5502,5571,5616,5962,5963,6371,6623",
+            "obsoletes_all": "4323,4414,4422,4524,4554,4565,4655,4713,4720,4990,4995,5020,5027,5035,5160,5190,5191,5267,5289,5300,5304,5308,5336,5392,5399,5401,5413,5460,5502,5536,5555,5571,5610,5616,5631,5634,5659,5670,5681,5685,5690,5691,5756,5759,5769,5806,5833,5879,5901,5914,5948,5960,5961,5962,5963,6035,6041,6071,6109,6110,6111,6143,6179,6189,6217,6294,6308,6323,6371,6392,6426,6427,6439,6442,6444,6527,6545,6553,6558,6598,6600,6603,6623,6639,6657,6680,6705,6707,6709,6719,6781",
+            "padvs": "aix53,aix61",
+            "patch": {
+                "VRTSamf-05.01.0113.0000": {
+                    "pkgs": [
+                        "VRTSamf"
+                    ],
+                    "version": "05.01.0113.0000"
+                },
+                "VRTScavf-05.01.0113.0000": {
+                    "pkgs": [
+                        "VRTScavf"
+                    ],
+                    "version": "05.01.0113.0000"
+                },
+                "VRTScps-05.01.0112.0000": {
+                    "pkgs": [
+                        "VRTScps"
+                    ],
+                    "version": "05.01.0112.0000"
+                },
+                "VRTSdbac-05.01.0113.0000": {
+                    "pkgs": [
+                        "VRTSdbac"
+                    ],
+                    "version": "05.01.0113.0000"
+                },
+                "VRTSdbed-05.01.0113.0000": {
+                    "pkgs": [
+                        "VRTSdbed"
+                    ],
+                    "version": "05.01.0113.0000"
+                },
+                "VRTSgab-05.01.0113.0000": {
+                    "pkgs": [
+                        "VRTSgab"
+                    ],
+                    "version": "05.01.0113.0000"
+                },
+                "VRTSglm-05.01.0113.0000": {
+                    "pkgs": [
+                        "VRTSglm"
+                    ],
+                    "version": "05.01.0113.0000"
+                },
+                "VRTSgms-05.01.0112.0000": {
+                    "pkgs": [
+                        "VRTSgms"
+                    ],
+                    "version": "05.01.0112.0000"
+                },
+                "VRTSllt-05.01.0113.0000": {
+                    "pkgs": [
+                        "VRTSllt"
+                    ],
+                    "version": "05.01.0113.0000"
+                },
+                "VRTSob-03.04.0312.0000": {
+                    "pkgs": [
+                        "VRTSob"
+                    ],
+                    "version": "03.04.0312.0000"
+                },
+                "VRTSodm-05.01.0113.0000": {
+                    "pkgs": [
+                        "VRTSodm"
+                    ],
+                    "version": "05.01.0113.0000"
+                },
+                "VRTSsfmh-03.01.0429.0401": {
+                    "pkgs": [
+                        "VRTSsfmh"
+                    ],
+                    "version": "03.01.0429.0401"
+                },
+                "VRTSvcs-05.01.0113.0000": {
+                    "pkgs": [
+                        "VRTSvcs"
+                    ],
+                    "version": "05.01.0113.0000"
+                },
+                "VRTSvcsag-05.01.0113.0000": {
+                    "pkgs": [
+                        "VRTSvcsag"
+                    ],
+                    "version": "05.01.0113.0000"
+                },
+                "VRTSvcsea-05.01.0113.0000": {
+                    "pkgs": [
+                        "VRTSvcsea"
+                    ],
+                    "version": "05.01.0113.0000"
+                },
+                "VRTSvxfen-05.01.0113.0000": {
+                    "pkgs": [
+                        "VRTSvxfen"
+                    ],
+                    "version": "05.01.0113.0000"
+                },
+                "VRTSvxfs-05.01.0113.0000": {
+                    "pkgs": [
+                        "VRTSvxfs"
+                    ],
+                    "version": "05.01.0113.0000"
+                },
+                "VRTSvxvm-05.01.0113.0000": {
+                    "pkgs": [
+                        "VRTSvxvm"
+                    ],
+                    "version": "05.01.0113.0000"
+                }
+            },
+            "patch_details_path_html": "https://sort.symantec.com/patch/detail/6806",
+            "patch_details_path_rest": "https://sort.symantec.com/vos_services/rest/patch_services/1.0/patchRelease/6806",
+            "pkg_version": "5.1.113",
+            "products": "dmp,fs,sf,sfcfs,sfcfsha,sfha,sfrac,vcs,vm",
+            "release_date": "2012-10-02",
+            "release_id": "6806",
+            "release_level": "MR",
+            "release_name": "sfha-aix-5.1SP1RP3",
+            "release_type": "RP",
+            "release_version": "5.1SP1RP3",
+            "requires": "4540",
+            "upload_cksum": "1075247514",
+            "upload_location": "ftp://ftp.veritas.com/pub/support/patchcentral/AIX/5.1/sfha/sfha-aix-5.1SP1RP3-patches.tar.gz",
+            "upload_size": "297288776",
+            "vers_level": "510-103"
+        },
+        "4428": {
+            "download_count": "18",
+            "installed_over": "7306",
+            "obsoleted_by": null,
+            "obsoletes": null,
+            "obsoletes_all": null,
+            "padvs": "aix",
+            "patch_details_path_html": "https://sort.symantec.com/patch/detail/4428",
+            "patch_details_path_rest": "https://sort.symantec.com/vos_services/rest/patch_services/1.0/patchRelease/4428",
+            "products": "vom",
+            "release_date": "2010-12-13",
+            "release_id": "4428",
+            "release_name": "vom-aix-3.1RP1-MH",
+            "release_type": "RP",
+            "release_version": "3.1RP1",
+            "requires": null,
+            "upload_cksum": "2263085412",
+            "upload_location": "ftp://ftp.veritas.com/pub/support/patchcentral/AIX/3.1RP1/vom/VRTSsfmh_3.1.429.401_AIX.bff.Z",
+            "upload_size": "16157596",
+            "vers_level": "310-001-000-vom",
+            "release_level": "MR"
+        },
+        "4065": {
+            "download_count": "21",
+            "installed_over": "7355",
+            "obsoleted_by": null,
+            "obsoletes": null,
+            "obsoletes_all": null,
+            "padvs": "aix",
+            "patch_details_path_html": "https://sort.symantec.com/patch/detail/4065",
+            "patch_details_path_rest": "https://sort.symantec.com/vos_services/rest/patch_services/1.0/patchRelease/4065",
+            "products": "vom",
+            "release_date": "2010-08-31",
+            "release_id": "4065",
+            "release_name": "vom-aix-MH-3.0RP1",
+            "release_type": "RP",
+            "release_version": "3.0RP1",
+            "requires": null,
+            "upload_cksum": "512239417",
+            "upload_location": "ftp://ftp.veritas.com/pub/support/patchcentral/AIX/3.0RP1/vom/VRTSsfmh_3.0.357.45_AIX.bff.Z",
+            "upload_size": "15739939",
+            "vers_level": "300-001-000-vom",
+            "release_level": "MR"
+        }
+    }
+}

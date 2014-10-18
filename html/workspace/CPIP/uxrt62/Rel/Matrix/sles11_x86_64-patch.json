@@ -1,0 +1,2373 @@
+{
+    "sles11_x86_64": {
+        "3309": {
+            "download_count": "64",
+            "filename": "sfha-sles11_x86_64-5.1RP1-patches.tar.gz",
+            "gunzip_cksum": "3557928496",
+            "gunzip_size": "181243392",
+            "install_path": "patches/installrp",
+            "installed_over": "7209",
+            "obsoleted_by": "4142,4543",
+            "obsoletes": "2959",
+            "obsoletes_all": "2959,3032,3385,3617",
+            "padvs": "sles11_x86_64",
+            "patch": {
+                "VRTSaslapm-5.1.001.000-RP1_SLES11": {
+                    "pkgs": [
+                        "VRTSaslapm"
+                    ],
+                    "version": "5.1.001.000"
+                },
+                "VRTScavf-5.1.001.000-RP1_GENERIC": {
+                    "pkgs": [
+                        "VRTScavf"
+                    ],
+                    "version": "5.1.001.000"
+                },
+                "VRTScps-5.1.001.000-RP1_SLES11": {
+                    "pkgs": [
+                        "VRTScps"
+                    ],
+                    "version": "5.1.001.000"
+                },
+                "VRTSfssdk-5.1.001.000-RP1_SLES11": {
+                    "pkgs": [
+                        "VRTSfssdk"
+                    ],
+                    "version": "5.1.001.000"
+                },
+                "VRTSgab-5.1.001.000-RP1_SLES11": {
+                    "pkgs": [
+                        "VRTSgab"
+                    ],
+                    "version": "5.1.001.000"
+                },
+                "VRTSglm-5.1.001.000-RP1_SLES11": {
+                    "pkgs": [
+                        "VRTSglm"
+                    ],
+                    "version": "5.1.001.000"
+                },
+                "VRTSgms-5.1.001.000-RP1_SLES11": {
+                    "pkgs": [
+                        "VRTSgms"
+                    ],
+                    "version": "5.1.001.000"
+                },
+                "VRTSllt-5.1.001.000-RP1_SLES11": {
+                    "pkgs": [
+                        "VRTSllt"
+                    ],
+                    "version": "5.1.001.000"
+                },
+                "VRTSlvmconv-5.1.001.000-RP1_SLES11": {
+                    "pkgs": [
+                        "VRTSlvmconv"
+                    ],
+                    "version": "5.1.001.000"
+                },
+                "VRTSob-3.4.258-0": {
+                    "pkgs": [
+                        "VRTSob"
+                    ],
+                    "version": "3.4.258"
+                },
+                "VRTSodm-5.1.001.000-RP1_SLES11": {
+                    "pkgs": [
+                        "VRTSodm"
+                    ],
+                    "version": "5.1.001.000"
+                },
+                "VRTSsfmh-2.1.229.0-0": {
+                    "pkgs": [
+                        "VRTSsfmh"
+                    ],
+                    "version": "2.1.229.0"
+                },
+                "VRTSvcs-5.1.001.000-RP1_SLES11": {
+                    "pkgs": [
+                        "VRTSvcs"
+                    ],
+                    "version": "5.1.001.000"
+                },
+                "VRTSvcsag-5.1.001.000-RP1_SLES11": {
+                    "pkgs": [
+                        "VRTSvcsag"
+                    ],
+                    "version": "5.1.001.000"
+                },
+                "VRTSvcsea-5.1.001.000-RP1_SLES11": {
+                    "pkgs": [
+                        "VRTSvcsea"
+                    ],
+                    "version": "5.1.001.000"
+                },
+                "VRTSvxfen-5.1.001.000-RP1_SLES11": {
+                    "pkgs": [
+                        "VRTSvxfen"
+                    ],
+                    "version": "5.1.001.000"
+                },
+                "VRTSvxfs-5.1.001.000-RP1_SLES11": {
+                    "pkgs": [
+                        "VRTSvxfs"
+                    ],
+                    "version": "5.1.001.000"
+                },
+                "VRTSvxvm-5.1.001.000-RP1_SLES11": {
+                    "pkgs": [
+                        "VRTSvxvm"
+                    ],
+                    "version": "5.1.001.000"
+                }
+            },
+            "patch_details_path_html": "https://sort.symantec.com/patch/detail/3309",
+            "patch_details_path_rest": "https://sort.symantec.com/vos_services/rest/patch_services/1.0/patchRelease/3309",
+            "pkg_version": "5.1.001",
+            "products": "fs,sf,sfcfs,sfcfsha,sfha,vcs,vm",
+            "release_date": "2010-03-26",
+            "release_id": "3309",
+            "release_level": "MR",
+            "release_name": "sfha-sles11_x86_64-5.1RP1",
+            "release_type": "RP",
+            "release_version": "5.1RP1",
+            "requires": "",
+            "upload_cksum": "1763530693",
+            "upload_location": "ftp://ftp.veritas.com/pub/support/patchcentral/Linux/5.1/sfha/sfha-sles11_x86_64-5.1RP1-patches.tar.gz",
+            "upload_size": "135522373",
+            "vers_level": "510-001"
+        },
+        "3424": {
+            "download_count": 0,
+            "installed_over": "",
+            "obsoleted_by": "",
+            "obsoletes": "",
+            "obsoletes_all": "2859",
+            "padvs": "sles11_x86_64",
+            "patch": {
+                "VRTSacclib-5.0.40.00-MP4_GENERIC": {
+                    "pkgs": [
+                        "VRTSacclib"
+                    ],
+                    "version": "5.0.40.00"
+                },
+                "VRTSalloc-5.0.40.00-MP4_SLES": {
+                    "pkgs": [
+                        "VRTSalloc"
+                    ],
+                    "version": "5.0.40.00"
+                },
+                "VRTSatClient-4.3.46.0-0": {
+                    "pkgs": [
+                        "VRTSatClient"
+                    ],
+                    "version": "4.3.46.0"
+                },
+                "VRTSatServer-4.3.46.0-0": {
+                    "pkgs": [
+                        "VRTSatServer"
+                    ],
+                    "version": "4.3.46.0"
+                },
+                "VRTScavf-5.0.40.00-MP4g_GENERIC": {
+                    "pkgs": [
+                        "VRTScavf"
+                    ],
+                    "version": "5.0.40.00"
+                },
+                "VRTScscm-5.0.40.00-MP4_GENERIC": {
+                    "pkgs": [
+                        "VRTScscm"
+                    ],
+                    "version": "5.0.40.00"
+                },
+                "VRTScscw-5.0.40.00-MP4_GENERIC": {
+                    "pkgs": [
+                        "VRTScscw"
+                    ],
+                    "version": "5.0.40.00"
+                },
+                "VRTScsocw-5.0.40.00-MP4_GENERIC": {
+                    "pkgs": [
+                        "VRTScsocw"
+                    ],
+                    "version": "5.0.40.00"
+                },
+                "VRTScssim-5.0.40.00-MP4_SLES11": {
+                    "pkgs": [
+                        "VRTScssim"
+                    ],
+                    "version": "5.0.40.00"
+                },
+                "VRTScutil-5.0.40.00-MP4_GENERIC": {
+                    "pkgs": [
+                        "VRTScutil"
+                    ],
+                    "version": "5.0.40.00"
+                },
+                "VRTSd2gui-common-5.0.40.00-MP4_SLES9": {
+                    "pkgs": [
+                        "VRTSd2gui-common"
+                    ],
+                    "version": "5.0.40.00"
+                },
+                "VRTSdb2ed-common-5.0.40.00-MP4_SLES9": {
+                    "pkgs": [
+                        "VRTSdb2ed-common"
+                    ],
+                    "version": "5.0.40.00"
+                },
+                "VRTSdbcom-common-5.0.40.00-MP4_SLES9": {
+                    "pkgs": [
+                        "VRTSdbcom-common"
+                    ],
+                    "version": "5.0.40.00"
+                },
+                "VRTSdbed-common-5.0.40.00-MP4_SLES9": {
+                    "pkgs": [
+                        "VRTSdbed-common"
+                    ],
+                    "version": "5.0.40.00"
+                },
+                "VRTSdbms3-3.0.119.0-MP4_GENERIC": {
+                    "pkgs": [
+                        "VRTSdbms3"
+                    ],
+                    "version": "3.0.119.0"
+                },
+                "VRTSddlpr-5.0.40.00-MP4_SLES": {
+                    "pkgs": [
+                        "VRTSddlpr"
+                    ],
+                    "version": "5.0.40.00"
+                },
+                "VRTSdsa-5.0.40.00-MP4_SLES": {
+                    "pkgs": [
+                        "VRTSdsa"
+                    ],
+                    "version": "5.0.40.00"
+                },
+                "VRTSfsman-5.0.40.00-MP4g_GENERIC": {
+                    "pkgs": [
+                        "VRTSfsman"
+                    ],
+                    "version": "5.0.40.00"
+                },
+                "VRTSfsmnd-5.0.40.00-MP4g_GENERIC": {
+                    "pkgs": [
+                        "VRTSfsmnd"
+                    ],
+                    "version": "5.0.40.00"
+                },
+                "VRTSfspro-5.0.40.00-MP4g_SLES11": {
+                    "pkgs": [
+                        "VRTSfspro"
+                    ],
+                    "version": "5.0.40.00"
+                },
+                "VRTSfssdk-5.0.40.00-MP4g_SLES11": {
+                    "pkgs": [
+                        "VRTSfssdk"
+                    ],
+                    "version": "5.0.40.00"
+                },
+                "VRTSgab-5.0.40.00-MP4_SLES11": {
+                    "pkgs": [
+                        "VRTSgab"
+                    ],
+                    "version": "5.0.40.00"
+                },
+                "VRTSglm-5.0.40.00-MP4g_SLES11": {
+                    "pkgs": [
+                        "VRTSglm"
+                    ],
+                    "version": "5.0.40.00"
+                },
+                "VRTSgms-5.0.40.00-MP4g_SLES11": {
+                    "pkgs": [
+                        "VRTSgms"
+                    ],
+                    "version": "5.0.40.00"
+                },
+                "VRTSicsco-1.3.29.4-4": {
+                    "pkgs": [
+                        "VRTSicsco"
+                    ],
+                    "version": "1.3.29.4"
+                },
+                "VRTSllt-5.0.40.00-MP4_SLES11": {
+                    "pkgs": [
+                        "VRTSllt"
+                    ],
+                    "version": "5.0.40.00"
+                },
+                "VRTSlvmconv-5.0.40.00-MP4_SLES11": {
+                    "pkgs": [
+                        "VRTSlvmconv"
+                    ],
+                    "version": "5.0.40.00"
+                },
+                "VRTSmapro-common-5.0.40.00-MP4_SLES9": {
+                    "pkgs": [
+                        "VRTSmapro-common"
+                    ],
+                    "version": "5.0.40.00"
+                },
+                "VRTSob-3.3.1224.0-0": {
+                    "pkgs": [
+                        "VRTSob"
+                    ],
+                    "version": "3.3.1224.0"
+                },
+                "VRTSobc33-3.3.1224.0-0": {
+                    "pkgs": [
+                        "VRTSobc33"
+                    ],
+                    "version": "3.3.1224.0"
+                },
+                "VRTSobgui-3.3.1224.0-0": {
+                    "pkgs": [
+                        "VRTSobgui"
+                    ],
+                    "version": "3.3.1224.0"
+                },
+                "VRTSodm-common-5.0.40.00-MP4g_SLES11": {
+                    "pkgs": [
+                        "VRTSodm-common"
+                    ],
+                    "version": "5.0.40.00"
+                },
+                "VRTSodm-platform-5.0.40.00-MP4g_SLES11": {
+                    "pkgs": [
+                        "VRTSodm-platform"
+                    ],
+                    "version": "5.0.40.00"
+                },
+                "VRTSorgui-common-5.0.40.00-MP4_SLES9": {
+                    "pkgs": [
+                        "VRTSorgui-common"
+                    ],
+                    "version": "5.0.40.00"
+                },
+                "VRTSpbx-1.3.29.4-4": {
+                    "pkgs": [
+                        "VRTSpbx"
+                    ],
+                    "version": "1.3.29.4"
+                },
+                "VRTSperl-5.10.0.5-SLES11": {
+                    "pkgs": [
+                        "VRTSperl"
+                    ],
+                    "version": "5.10.0.5"
+                },
+                "VRTSsfmh-2.1.229.0-0": {
+                    "pkgs": [
+                        "VRTSsfmh"
+                    ],
+                    "version": "2.1.229.0"
+                },
+                "VRTSspt-5.5.00.3-GA": {
+                    "pkgs": [
+                        "VRTSspt"
+                    ],
+                    "version": "5.5.00.3"
+                },
+                "VRTSvcs-5.0.40.00-MP4_SLES11": {
+                    "pkgs": [
+                        "VRTSvcs"
+                    ],
+                    "version": "5.0.40.00"
+                },
+                "VRTSvcsag-5.0.40.00-MP4_SLES11": {
+                    "pkgs": [
+                        "VRTSvcsag"
+                    ],
+                    "version": "5.0.40.00"
+                },
+                "VRTSvcsdb-5.0.40.00-MP4_GENERIC": {
+                    "pkgs": [
+                        "VRTSvcsdb"
+                    ],
+                    "version": "5.0.40.00"
+                },
+                "VRTSvcsdr-5.0.40.00-MP4_SLES11": {
+                    "pkgs": [
+                        "VRTSvcsdr"
+                    ],
+                    "version": "5.0.40.00"
+                },
+                "VRTSvcsmg-5.0.40.00-MP4_GENERIC": {
+                    "pkgs": [
+                        "VRTSvcsmg"
+                    ],
+                    "version": "5.0.40.00"
+                },
+                "VRTSvcsmn-5.0.40.00-MP4_GENERIC": {
+                    "pkgs": [
+                        "VRTSvcsmn"
+                    ],
+                    "version": "5.0.40.00"
+                },
+                "VRTSvcsor-5.0.40.00-MP4_SLES11": {
+                    "pkgs": [
+                        "VRTSvcsor"
+                    ],
+                    "version": "5.0.40.00"
+                },
+                "VRTSvcsvr-5.0.40.00-MP4_GENERIC": {
+                    "pkgs": [
+                        "VRTSvcsvr"
+                    ],
+                    "version": "5.0.40.00"
+                },
+                "VRTSvdid-1.2.313.0-313": {
+                    "pkgs": [
+                        "VRTSvdid"
+                    ],
+                    "version": "1.2.313.0"
+                },
+                "VRTSvlic-3.02.34.0-0": {
+                    "pkgs": [
+                        "VRTSvlic"
+                    ],
+                    "version": "3.02.34.0"
+                },
+                "VRTSvmman-5.0.40.00-MP4_GENERIC": {
+                    "pkgs": [
+                        "VRTSvmman"
+                    ],
+                    "version": "5.0.40.00"
+                },
+                "VRTSvmpro-5.0.40.00-MP4_SLES": {
+                    "pkgs": [
+                        "VRTSvmpro"
+                    ],
+                    "version": "5.0.40.00"
+                },
+                "VRTSvrpro-5.0.40.00-MP4_SLES": {
+                    "pkgs": [
+                        "VRTSvrpro"
+                    ],
+                    "version": "5.0.40.00"
+                },
+                "VRTSvxfen-5.0.40.00-MP4_SLES11": {
+                    "pkgs": [
+                        "VRTSvxfen"
+                    ],
+                    "version": "5.0.40.00"
+                },
+                "VRTSvxfs-common-5.0.40.00-MP4g_SLES11": {
+                    "pkgs": [
+                        "VRTSvxfs-common"
+                    ],
+                    "version": "5.0.40.00"
+                },
+                "VRTSvxfs-platform-5.0.40.00-MP4g_SLES11": {
+                    "pkgs": [
+                        "VRTSvxfs-platform"
+                    ],
+                    "version": "5.0.40.00"
+                },
+                "VRTSvxvm-common-5.0.40.00-MP4_SLES11": {
+                    "pkgs": [
+                        "VRTSvxvm-common"
+                    ],
+                    "version": "5.0.40.00"
+                },
+                "VRTSvxvm-platform-5.0.40.00-MP4_SLES11": {
+                    "pkgs": [
+                        "VRTSvxvm-platform"
+                    ],
+                    "version": "5.0.40.00"
+                }
+            },
+            "patch_details_path_html": "https://sort.symantec.com/patch/detail/3424",
+            "patch_details_path_rest": "https://sort.symantec.com/vos_services/rest/patch_services/1.0/patchRelease/3424",
+            "pkg_version": "5.0.40",
+            "prod": {
+                "fs": {
+                    "level": "1",
+                    "lic_names": "Veritas File System",
+                    "mainpkgs": "VRTSvxfs-common",
+                    "name": "Veritas File System",
+                    "opkgs": [
+                        "VRTSfsman",
+                        "VRTSobgui",
+                        "VRTSfsmnd"
+                    ],
+                    "rpkgs": [
+                        "VRTSvxfs-common",
+                        "VRTSpbx",
+                        "VRTSob",
+                        "VRTSatClient",
+                        "VRTSvlic",
+                        "VRTSobc33",
+                        "VRTSvxfs-platform",
+                        "VRTSatServer",
+                        "VRTSspt",
+                        "VRTSperl",
+                        "VRTSfspro",
+                        "VRTSicsco",
+                        "VRTSdsa",
+                        "VRTSfssdk",
+                        "VRTSsfmh"
+                    ]
+                },
+                "sf": {
+                    "level": "20",
+                    "lic_names": "Storage Foundation,Storage Foundation for Oracle,Storage Foundation for Sybase,Storage Foundation for DB2",
+                    "mainpkgs": "VRTSvxfs-common,VRTSvxvm-common",
+                    "name": "Veritas Storage Foundation",
+                    "opkgs": [
+                        "VRTSlvmconv",
+                        "VRTSfsman",
+                        "VRTSvmman",
+                        "VRTSobgui",
+                        "VRTSfsmnd"
+                    ],
+                    "rpkgs": [
+                        "VRTSvxmsa",
+                        "VRTSvxfs-common",
+                        "VRTSmapro-common",
+                        "VRTSvxvm-platform",
+                        "VRTSpbx",
+                        "VRTSob",
+                        "VRTSvlic",
+                        "VRTSvdid",
+                        "VRTSobc33",
+                        "VRTSspt",
+                        "VRTSicsco",
+                        "VRTSvcsvr",
+                        "VRTSdsa",
+                        "VRTSsfmh",
+                        "VRTSodm-common",
+                        "VRTSvrpro",
+                        "VRTSatClient",
+                        "VRTSvxvm-common",
+                        "VRTSvmpro",
+                        "VRTSddlpr",
+                        "VRTSvxfs-platform",
+                        "VRTSatServer",
+                        "VRTSalloc",
+                        "VRTSperl",
+                        "VRTSfspro",
+                        "VRTSfssdk",
+                        "VRTSodm-platform"
+                    ]
+                },
+                "sfcfs": {
+                    "level": "50",
+                    "lic_names": "Foundation Cluster File System,Storage Foundation for Cluster File System,SANPoint Foundation Suite",
+                    "mainpkgs": "VRTScavf,VRTSvxfs-common,VRTSvxvm-common,VRTSvcs",
+                    "name": "Veritas Storage Foundation Cluster File System",
+                    "opkgs": [
+                        "VRTSlvmconv",
+                        "VRTSfsman",
+                        "VRTScscm",
+                        "VRTSvmman",
+                        "VRTSvcsmn",
+                        "VRTScssim",
+                        "VRTSfsmnd"
+                    ],
+                    "rpkgs": [
+                        "VRTSglm",
+                        "VRTSvxvm-platform",
+                        "VRTSpbx",
+                        "VRTSgab",
+                        "VRTSvdid",
+                        "VRTSllt",
+                        "VRTSspt",
+                        "VRTSicsco",
+                        "VRTSsfmh",
+                        "VRTSvcsdr",
+                        "VRTSvxvm-common",
+                        "VRTSvmpro",
+                        "VRTSddlpr",
+                        "VRTSvxfs-platform",
+                        "VRTSalloc",
+                        "VRTSfssdk",
+                        "VRTSvcsag",
+                        "VRTSvxfs-common",
+                        "VRTScscw",
+                        "VRTScutil",
+                        "VRTSob",
+                        "VRTSvxfen",
+                        "VRTSobc33",
+                        "VRTSvlic",
+                        "VRTSdsa",
+                        "VRTSvcsvr",
+                        "VRTSgms",
+                        "VRTScavf",
+                        "VRTSodm-common",
+                        "VRTSvcsmg",
+                        "VRTSvrpro",
+                        "VRTSobgui",
+                        "VRTSatClient",
+                        "VRTSatServer",
+                        "VRTSperl",
+                        "VRTSfspro",
+                        "VRTSacclib",
+                        "VRTSodm-platform",
+                        "VRTSvcs"
+                    ]
+                },
+                "sfcfsrac": {
+                    "level": "40",
+                    "lic_names": "Storage Foundation Cluster File System for Oracle RAC",
+                    "mainpkgs": "VRTScavf,VRTSvxfs-common,VRTSvxvm-common,VRTSvcs",
+                    "name": "Veritas Storage Foundation Cluster File System for Oracle RAC",
+                    "opkgs": [
+                        "VRTSfsman",
+                        "VRTScscm",
+                        "VRTSobgui",
+                        "VRTSfsmnd",
+                        "VRTSlvmconv",
+                        "VRTScssim",
+                        "VRTSvcsmn",
+                        "VRTSvmman"
+                    ],
+                    "rpkgs": [
+                        "VRTSglm",
+                        "VRTSvxvm-platform",
+                        "VRTSpbx",
+                        "VRTSgab",
+                        "VRTSvdid",
+                        "VRTSllt",
+                        "VRTSspt",
+                        "VRTSicsco",
+                        "VRTSsfmh",
+                        "VRTSvcsdr",
+                        "VRTSvxvm-common",
+                        "VRTSvmpro",
+                        "VRTSddlpr",
+                        "VRTSvxfs-platform",
+                        "VRTSalloc",
+                        "VRTSfssdk",
+                        "VRTSvcsag",
+                        "VRTSvxfs-common",
+                        "VRTScscw",
+                        "VRTScutil",
+                        "VRTSob",
+                        "VRTSvxfen",
+                        "VRTSobc33",
+                        "VRTSvlic",
+                        "VRTSdsa",
+                        "VRTSvcsvr",
+                        "VRTSgms",
+                        "VRTScavf",
+                        "VRTSodm-common",
+                        "VRTSvcsmg",
+                        "VRTSvrpro",
+                        "VRTSatClient",
+                        "VRTSatServer",
+                        "VRTSperl",
+                        "VRTSfspro",
+                        "VRTSacclib",
+                        "VRTSodm-platform",
+                        "VRTSvcs"
+                    ]
+                },
+                "sfdb2": {
+                    "level": "26",
+                    "lic_names": "Storage Foundation for Sybase",
+                    "mainpkgs": "VRTSdb2ed,VRTSvxfs-common,VRTSvxvm-common",
+                    "name": "Veritas Storage Foundation for DB2",
+                    "opkgs": [
+                        "VRTSlvmconv",
+                        "VRTSfsman",
+                        "VRTSvmman",
+                        "VRTSobgui",
+                        "VRTSfsmnd"
+                    ],
+                    "rpkgs": [
+                        "VRTSvxmsa",
+                        "VRTSvxfs-common",
+                        "VRTSvxvm-platform",
+                        "VRTSpbx",
+                        "VRTSob",
+                        "VRTSvlic",
+                        "VRTSvdid",
+                        "VRTSobc33",
+                        "VRTSdb2ed-common",
+                        "VRTSspt",
+                        "VRTSicsco",
+                        "VRTSd2gui-common",
+                        "VRTSvcsvr",
+                        "VRTSdsa",
+                        "VRTSsfmh",
+                        "VRTSvrpro",
+                        "VRTSdbms3",
+                        "VRTSatClient",
+                        "VRTSvxvm-common",
+                        "VRTSvmpro",
+                        "VRTSddlpr",
+                        "VRTSvxfs-platform",
+                        "VRTSatServer",
+                        "VRTSalloc",
+                        "VRTSperl",
+                        "VRTSfspro",
+                        "VRTSfssdk",
+                        "VRTSdbcom-common"
+                    ]
+                },
+                "sfha": {
+                    "level": "30",
+                    "lic_names": "Storage Foundation Standard HA,Storage Foundation Enterprise HA,Storage Foundation for Oracle,Storage Foundation for Sybase,Storage Foundation for DB2",
+                    "mainpkgs": "VRTSvxfs-common,VRTSvxvm-common,VRTSvcs",
+                    "name": "Veritas Storage Foundation HA",
+                    "opkgs": [
+                        "VRTSfsman",
+                        "VRTScscm",
+                        "VRTSobgui",
+                        "VRTSfsmnd",
+                        "VRTSlvmconv",
+                        "VRTScssim",
+                        "VRTSvcsmn",
+                        "VRTSvmman"
+                    ],
+                    "rpkgs": [
+                        "VRTSvxmsa",
+                        "VRTSvxvm-platform",
+                        "VRTSpbx",
+                        "VRTSgab",
+                        "VRTSvdid",
+                        "VRTSllt",
+                        "VRTSspt",
+                        "VRTSicsco",
+                        "VRTSsfmh",
+                        "VRTSvcsdr",
+                        "VRTSvxvm-common",
+                        "VRTSvmpro",
+                        "VRTSddlpr",
+                        "VRTSvxfs-platform",
+                        "VRTSalloc",
+                        "VRTSfssdk",
+                        "VRTSvcsag",
+                        "VRTSvxfs-common",
+                        "VRTScscw",
+                        "VRTSmapro-common",
+                        "VRTScutil",
+                        "VRTSob",
+                        "VRTSobc33",
+                        "VRTSvlic",
+                        "VRTSvxfen",
+                        "VRTSdsa",
+                        "VRTSvcsvr",
+                        "VRTSodm-common",
+                        "VRTSvcsmg",
+                        "VRTSvrpro",
+                        "VRTSatClient",
+                        "VRTSatServer",
+                        "VRTSperl",
+                        "VRTSfspro",
+                        "VRTSacclib",
+                        "VRTSodm-platform",
+                        "VRTSvcs"
+                    ]
+                },
+                "sfora": {
+                    "level": "25",
+                    "lic_names": "Storage Foundation for Oracle",
+                    "mainpkgs": "VRTSorgui,VRTSvxfs-common,VRTSvxvm-common",
+                    "name": "Veritas Storage Foundation for Oracle",
+                    "opkgs": [
+                        "VRTSlvmconv",
+                        "VRTSfsman",
+                        "VRTSvmman",
+                        "VRTSfsmnd"
+                    ],
+                    "rpkgs": [
+                        "VRTSvxmsa",
+                        "VRTSvxfs-common",
+                        "VRTSvxvm-platform",
+                        "VRTSpbx",
+                        "VRTSob",
+                        "VRTSvlic",
+                        "VRTSvdid",
+                        "VRTSobc33",
+                        "VRTSspt",
+                        "VRTSorgui-common",
+                        "VRTSicsco",
+                        "VRTSvcsvr",
+                        "VRTSdsa",
+                        "VRTSsfmh",
+                        "VRTSodm-common",
+                        "VRTSvrpro",
+                        "VRTSdbms3",
+                        "VRTSobgui",
+                        "VRTSatClient",
+                        "VRTSdbed-common",
+                        "VRTSvxvm-common",
+                        "VRTSvmpro",
+                        "VRTSddlpr",
+                        "VRTSvxfs-platform",
+                        "VRTSatServer",
+                        "VRTSperl",
+                        "VRTSalloc",
+                        "VRTSfspro",
+                        "VRTSfssdk",
+                        "VRTSodm-platform",
+                        "VRTSdbcom-common"
+                    ]
+                },
+                "vcs": {
+                    "level": "10",
+                    "lic_names": "Veritas Cluster Server",
+                    "mainpkgs": "VRTSvcs",
+                    "name": "Veritas Cluster Server",
+                    "opkgs": [
+                        "VRTScscm",
+                        "VRTSvcsmn",
+                        "VRTScssim"
+                    ],
+                    "rpkgs": [
+                        "VRTScscw",
+                        "VRTScutil",
+                        "VRTSpbx",
+                        "VRTSgab",
+                        "VRTSvxfen",
+                        "VRTSvlic",
+                        "VRTSllt",
+                        "VRTSspt",
+                        "VRTSicsco",
+                        "VRTSvcsdr",
+                        "VRTSvcsmg",
+                        "VRTSatClient",
+                        "VRTSatServer",
+                        "VRTSperl",
+                        "VRTSacclib",
+                        "VRTSvcsag",
+                        "VRTSvcs"
+                    ]
+                },
+                "vm": {
+                    "level": "4",
+                    "lic_names": "Veritas Volume Manager",
+                    "mainpkgs": "VRTSvxvm-common",
+                    "name": "Veritas Volume Manager",
+                    "opkgs": [
+                        "VRTSlvmconv",
+                        "VRTSvmman",
+                        "VRTSobgui"
+                    ],
+                    "rpkgs": [
+                        "VRTSvxvm-platform",
+                        "VRTSpbx",
+                        "VRTSob",
+                        "VRTSvlic",
+                        "VRTSvdid",
+                        "VRTSobc33",
+                        "VRTSspt",
+                        "VRTSicsco",
+                        "VRTSvcsvr",
+                        "VRTSdsa",
+                        "VRTSsfmh",
+                        "VRTSvrpro",
+                        "VRTSatClient",
+                        "VRTSvxvm-common",
+                        "VRTSvmpro",
+                        "VRTSddlpr",
+                        "VRTSatServer",
+                        "VRTSalloc",
+                        "VRTSperl",
+                        "VRTSfspro"
+                    ]
+                },
+                "vvr": {
+                    "level": "6",
+                    "lic_names": "Veritas Volume Replicator",
+                    "mainpkgs": "VRTSvcsvr,VRTSvxvm-common",
+                    "name": "Veritas Volume Replicator",
+                    "opkgs": [
+                        "VRTSobgui"
+                    ],
+                    "rpkgs": [
+                        "VRTSvxvm-platform",
+                        "VRTSpbx",
+                        "VRTSob",
+                        "VRTSvlic",
+                        "VRTSvdid",
+                        "VRTSobc33",
+                        "VRTSspt",
+                        "VRTSicsco",
+                        "VRTSvcsvr",
+                        "VRTSdsa",
+                        "VRTSsfmh",
+                        "VRTSvrpro",
+                        "VRTSatClient",
+                        "VRTSvxvm-common",
+                        "VRTSvmpro",
+                        "VRTSddlpr",
+                        "VRTSatServer",
+                        "VRTSalloc",
+                        "VRTSperl",
+                        "VRTSlvmconv",
+                        "VRTSfspro",
+                        "VRTSvmman"
+                    ]
+                }
+            },
+            "products": "fs,sf,sfcfs,sfcfsrac,sfdb2,sfha,sfora,vcs,vm,vvr",
+            "release_date": "2010-04-11",
+            "release_id": "3424",
+            "release_level": "MR",
+            "release_name": "sfha-sles11_x86_64-5.0MP4",
+            "release_type": "MP",
+            "release_version": "5.0MP4",
+            "requires": "",
+            "upload_location": "https://fileconnect.symantec.com",
+            "upload_size": "1635233792",
+            "vers_level": "500-400"
+        },
+        "4142": {
+            "download_count": "49",
+            "filename": "sfha-sles11_x86_64-5.1RP2-rpms.tar.gz",
+            "gunzip_cksum": "4127171902",
+            "gunzip_size": "203948032",
+            "install_path": "sles11_x86_64/installrp",
+            "installed_over": "7209,3309",
+            "obsoleted_by": "4543",
+            "obsoletes": "2959,3309",
+            "obsoletes_all": "2959,3032,3309,3385,3462,3617,3635,6976",
+            "padvs": "sles11_x86_64",
+            "patch": {
+                "VRTSaslapm-5.1.001.000-RP1_SLES11": {
+                    "pkgs": [
+                        "VRTSaslapm"
+                    ],
+                    "version": "5.1.001.000"
+                },
+                "VRTScavf-5.1.001.000-RP1_GENERIC": {
+                    "pkgs": [
+                        "VRTScavf"
+                    ],
+                    "version": "5.1.001.000"
+                },
+                "VRTScps-5.1.002.000-RP2_SLES11": {
+                    "pkgs": [
+                        "VRTScps"
+                    ],
+                    "version": "5.1.002.000"
+                },
+                "VRTSfssdk-5.1.002.000-RP2_SLES11": {
+                    "pkgs": [
+                        "VRTSfssdk"
+                    ],
+                    "version": "5.1.002.000"
+                },
+                "VRTSgab-5.1.002.000-RP2_SLES11": {
+                    "pkgs": [
+                        "VRTSgab"
+                    ],
+                    "version": "5.1.002.000"
+                },
+                "VRTSglm-5.1.001.000-RP1_SLES11": {
+                    "pkgs": [
+                        "VRTSglm"
+                    ],
+                    "version": "5.1.001.000"
+                },
+                "VRTSgms-5.1.001.000-RP1_SLES11": {
+                    "pkgs": [
+                        "VRTSgms"
+                    ],
+                    "version": "5.1.001.000"
+                },
+                "VRTSllt-5.1.002.000-RP2_SLES11": {
+                    "pkgs": [
+                        "VRTSllt"
+                    ],
+                    "version": "5.1.002.000"
+                },
+                "VRTSlvmconv-5.1.002.000-RP2_SLES11": {
+                    "pkgs": [
+                        "VRTSlvmconv"
+                    ],
+                    "version": "5.1.002.000"
+                },
+                "VRTSob-3.4.258-0": {
+                    "pkgs": [
+                        "VRTSob"
+                    ],
+                    "version": "3.4.258"
+                },
+                "VRTSodm-5.1.002.000-RP2_SLES11": {
+                    "pkgs": [
+                        "VRTSodm"
+                    ],
+                    "version": "5.1.002.000"
+                },
+                "VRTSsfmh-2.1.229.0-0": {
+                    "pkgs": [
+                        "VRTSsfmh"
+                    ],
+                    "version": "2.1.229.0"
+                },
+                "VRTSspt-5.5.000.005-GA": {
+                    "pkgs": [
+                        "VRTSspt"
+                    ],
+                    "version": "5.5.000.005"
+                },
+                "VRTSvcs-5.1.002.000-RP2_SLES11": {
+                    "pkgs": [
+                        "VRTSvcs"
+                    ],
+                    "version": "5.1.002.000"
+                },
+                "VRTSvcsag-5.1.002.000-RP2_SLES11": {
+                    "pkgs": [
+                        "VRTSvcsag"
+                    ],
+                    "version": "5.1.002.000"
+                },
+                "VRTSvcsea-5.1.002.000-RP2_SLES11": {
+                    "pkgs": [
+                        "VRTSvcsea"
+                    ],
+                    "version": "5.1.002.000"
+                },
+                "VRTSvxfen-5.1.002.000-RP2_SLES11": {
+                    "pkgs": [
+                        "VRTSvxfen"
+                    ],
+                    "version": "5.1.002.000"
+                },
+                "VRTSvxfs-5.1.002.000-RP2_SLES11": {
+                    "pkgs": [
+                        "VRTSvxfs"
+                    ],
+                    "version": "5.1.002.000"
+                },
+                "VRTSvxvm-5.1.002.000-RP2_SLES11": {
+                    "pkgs": [
+                        "VRTSvxvm"
+                    ],
+                    "version": "5.1.002.000"
+                }
+            },
+            "patch_details_path_html": "https://sort.symantec.com/patch/detail/4142",
+            "patch_details_path_rest": "https://sort.symantec.com/vos_services/rest/patch_services/1.0/patchRelease/4142",
+            "pkg_version": "5.1.002",
+            "products": "fs,sf,sfcfs,sfcfsha,sfha,vcs,vm",
+            "release_date": "2010-09-17",
+            "release_id": "4142",
+            "release_level": "MR",
+            "release_name": "sfha-sles11_x86_64-5.1RP2",
+            "release_type": "RP",
+            "release_version": "5.1RP2",
+            "requires": "",
+            "upload_cksum": "2212242336",
+            "upload_location": "ftp://ftp.veritas.com/pub/support/patchcentral/Linux/5.1/sfha/sfha-sles11_x86_64-5.1RP2-rpms.tar.gz",
+            "upload_size": "157137701",
+            "vers_level": "510-002"
+        },
+        "4658": {
+            "download_count": "138",
+            "filename": "sfha-sles11_x86_64-5.1SP1RP1-rpms.tar.gz",
+            "gunzip_cksum": "123316804",
+            "gunzip_size": "171728384",
+            "install_path": "sles11_x86_64/installrp",
+            "installed_over": "4543",
+            "obsoleted_by": "5515,6813,7893",
+            "obsoletes": "4325,4421",
+            "obsoletes_all": "4325,4421,4430,4450,4532,4632,4760,4841,5082,5193,5531,6349,8172",
+            "padvs": "sles11_x86_64",
+            "patch": {
+                "VRTSamf-5.1.101.000-SP1RP1_SLES11": {
+                    "pkgs": [
+                        "VRTSamf"
+                    ],
+                    "version": "5.1.101.000"
+                },
+                "VRTScavf-5.1.101.000-RP1_SLES11": {
+                    "pkgs": [
+                        "VRTScavf"
+                    ],
+                    "version": "5.1.101.000"
+                },
+                "VRTScps-5.1.101.000-SP1RP1_SLES11": {
+                    "pkgs": [
+                        "VRTScps"
+                    ],
+                    "version": "5.1.101.000"
+                },
+                "VRTSdbed-5.1.101.000-SP1RP1_SLES10": {
+                    "pkgs": [
+                        "VRTSdbed"
+                    ],
+                    "version": "5.1.101.000"
+                },
+                "VRTSfssdk-5.1.101.000-RP1_SLES11": {
+                    "pkgs": [
+                        "VRTSfssdk"
+                    ],
+                    "version": "5.1.101.000"
+                },
+                "VRTSglm-5.1.101.000-RP1_SLES11": {
+                    "pkgs": [
+                        "VRTSglm"
+                    ],
+                    "version": "5.1.101.000"
+                },
+                "VRTSodm-5.1.101.000-RP1_SLES11": {
+                    "pkgs": [
+                        "VRTSodm"
+                    ],
+                    "version": "5.1.101.000"
+                },
+                "VRTSsfmh-3.1.830.0_Linux.rpm": {
+                    "pkgs": [
+                        "VRTSsfmh"
+                    ],
+                    "version": "3.1.830.0"
+                },
+                "VRTSvcs-5.1.101.000-SP1RP1_SLES11": {
+                    "pkgs": [
+                        "VRTSvcs"
+                    ],
+                    "version": "5.1.101.000"
+                },
+                "VRTSvcsag-5.1.101.000-SP1RP1_SLES11": {
+                    "pkgs": [
+                        "VRTSvcsag"
+                    ],
+                    "version": "5.1.101.000"
+                },
+                "VRTSvcsea-5.1.101.000-SP1RP1_SLES11": {
+                    "pkgs": [
+                        "VRTSvcsea"
+                    ],
+                    "version": "5.1.101.000"
+                },
+                "VRTSvxfen-5.1.101.000-SP1RP1_SLES11": {
+                    "pkgs": [
+                        "VRTSvxfen"
+                    ],
+                    "version": "5.1.101.000"
+                },
+                "VRTSvxfs-5.1.101.000-RP1_SLES11": {
+                    "pkgs": [
+                        "VRTSvxfs"
+                    ],
+                    "version": "5.1.101.000"
+                },
+                "VRTSvxvm-5.1.101.000-SP1RP1_SLES11": {
+                    "pkgs": [
+                        "VRTSvxvm"
+                    ],
+                    "version": "5.1.101.000"
+                }
+            },
+            "patch_details_path_html": "https://sort.symantec.com/patch/detail/4658",
+            "patch_details_path_rest": "https://sort.symantec.com/vos_services/rest/patch_services/1.0/patchRelease/4658",
+            "pkg_version": "5.1.101",
+            "products": "dmp,fs,sf,sfcfs,sfcfsha,sfcfsrac,sfha,sfrac,vcs,vm",
+            "release_date": "2011-02-11",
+            "release_id": "4658",
+            "release_level": "MR",
+            "release_name": "sfha-sles11_x86_64-5.1SP1RP1",
+            "release_type": "RP",
+            "release_version": "5.1SP1RP1",
+            "requires": "",
+            "upload_cksum": "833193763",
+            "upload_location": "ftp://ftp.veritas.com/pub/support/patchcentral/Linux/5.1/sfha/sfha-sles11_x86_64-5.1SP1RP1-rpms.tar.gz",
+            "upload_size": "124262276",
+            "vers_level": "510-101"
+        },
+        "4945": {
+            "download_count": "20",
+            "installed_over": "3424",
+            "obsoleted_by": "",
+            "obsoletes": "",
+            "obsoletes_all": "3551,3562,3931,3992,3998,4102,4227,4275,4330,4473,4509,4686,4894,5863",
+            "padvs": "sles11_x86_64",
+            "patch": {
+                "VRTScavf-5.0.40.10-MP4RP1_GENERIC": {
+                    "pkgs": [
+                        "VRTScavf"
+                    ],
+                    "version": "5.0.40.10"
+                },
+                "VRTScsocw-5.0.41.000-MP4RP1_GENERIC": {
+                    "pkgs": [
+                        "VRTScsocw"
+                    ],
+                    "version": "5.0.41.000"
+                },
+                "VRTSdbcom-common-5.0.40.100-MP4RP1_SLES9": {
+                    "pkgs": [
+                        "VRTSdbcom-common"
+                    ],
+                    "version": "5.0.40.100"
+                },
+                "VRTSdbed-common-5.0.40.100-MP4RP1_SLES9": {
+                    "pkgs": [
+                        "VRTSdbed-common"
+                    ],
+                    "version": "5.0.40.100"
+                },
+                "VRTSfspro-5.0.40.10-MP4RP1_SLES11": {
+                    "pkgs": [
+                        "VRTSfspro"
+                    ],
+                    "version": "5.0.40.10"
+                },
+                "VRTSfssdk-5.0.40.10-MP4RP1_SLES11": {
+                    "pkgs": [
+                        "VRTSfssdk"
+                    ],
+                    "version": "5.0.40.10"
+                },
+                "VRTSgab-5.0.41.000-MP4RP1_SLES11": {
+                    "pkgs": [
+                        "VRTSgab"
+                    ],
+                    "version": "5.0.41.000"
+                },
+                "VRTSglm-5.0.40.10-MP4RP1_SLES11": {
+                    "pkgs": [
+                        "VRTSglm"
+                    ],
+                    "version": "5.0.40.10"
+                },
+                "VRTSllt-5.0.41.000-MP4RP1_SLES11": {
+                    "pkgs": [
+                        "VRTSllt"
+                    ],
+                    "version": "5.0.41.000"
+                },
+                "VRTSlvmconv-5.0.40.10-MP4RP1_SLES11": {
+                    "pkgs": [
+                        "VRTSlvmconv"
+                    ],
+                    "version": "5.0.40.10"
+                },
+                "VRTSodm-common-5.0.40.10-MP4RP1_SLES11": {
+                    "pkgs": [
+                        "VRTSodm-common"
+                    ],
+                    "version": "5.0.40.10"
+                },
+                "VRTSodm-platform-5.0.40.10-MP4RP1_SLES11": {
+                    "pkgs": [
+                        "VRTSodm-platform"
+                    ],
+                    "version": "5.0.40.10"
+                },
+                "VRTSorgui-common-5.0.40.100-MP4RP1_SLES9": {
+                    "pkgs": [
+                        "VRTSorgui-common"
+                    ],
+                    "version": "5.0.40.100"
+                },
+                "VRTSperl-5.10.0.5-SLES11": {
+                    "pkgs": [
+                        "VRTSperl"
+                    ],
+                    "version": "5.10.0.5"
+                },
+                "VRTSspt-5.5.000.006-GA": {
+                    "pkgs": [
+                        "VRTSspt"
+                    ],
+                    "version": "5.5.000.006"
+                },
+                "VRTSvcs-5.0.41.000-MP4RP1_SLES11": {
+                    "pkgs": [
+                        "VRTSvcs"
+                    ],
+                    "version": "5.0.41.000"
+                },
+                "VRTSvcsag-5.0.41.000-MP4RP1_SLES11": {
+                    "pkgs": [
+                        "VRTSvcsag"
+                    ],
+                    "version": "5.0.41.000"
+                },
+                "VRTSvcsdb-5.0.41.000-MP4RP1_GENERIC": {
+                    "pkgs": [
+                        "VRTSvcsdb"
+                    ],
+                    "version": "5.0.41.000"
+                },
+                "VRTSvcsdr-5.0.41.000-MP4RP1_SLES11": {
+                    "pkgs": [
+                        "VRTSvcsdr"
+                    ],
+                    "version": "5.0.41.000"
+                },
+                "VRTSvcsor-5.0.41.000-MP4RP1_SLES11": {
+                    "pkgs": [
+                        "VRTSvcsor"
+                    ],
+                    "version": "5.0.41.000"
+                },
+                "VRTSvcssy-5.0.41.000-MP4RP1_SLES11": {
+                    "pkgs": [
+                        "VRTSvcssy"
+                    ],
+                    "version": "5.0.41.000"
+                },
+                "VRTSvmman-5.0.40.10-MP4RP1_GENERIC": {
+                    "pkgs": [
+                        "VRTSvmman"
+                    ],
+                    "version": "5.0.40.10"
+                },
+                "VRTSvxfen-5.0.41.000-MP4RP1_SLES11": {
+                    "pkgs": [
+                        "VRTSvxfen"
+                    ],
+                    "version": "5.0.41.000"
+                },
+                "VRTSvxfs-common-5.0.40.10-MP4RP1_SLES11": {
+                    "pkgs": [
+                        "VRTSvxfs-common"
+                    ],
+                    "version": "5.0.40.10"
+                },
+                "VRTSvxfs-platform-5.0.40.10-MP4RP1_SLES11": {
+                    "pkgs": [
+                        "VRTSvxfs-platform"
+                    ],
+                    "version": "5.0.40.10"
+                },
+                "VRTSvxvm-common-5.0.40.10-MP4RP1_SLES11": {
+                    "pkgs": [
+                        "VRTSvxvm-common"
+                    ],
+                    "version": "5.0.40.10"
+                },
+                "VRTSvxvm-platform-5.0.40.10-MP4RP1_SLES11": {
+                    "pkgs": [
+                        "VRTSvxvm-platform"
+                    ],
+                    "version": "5.0.40.10"
+                }
+            },
+            "patch_details_path_html": "https://sort.symantec.com/patch/detail/4945",
+            "patch_details_path_rest": "https://sort.symantec.com/vos_services/rest/patch_services/1.0/patchRelease/4945",
+            "pkg_version": "5.0.40.10",
+            "products": "fs,sf,sfcfs,sfcfsrac,sfdb2,sfha,sfora,vcs,vm,vvr",
+            "release_date": "2011-05-16",
+            "release_id": "4945",
+            "release_level": "MR",
+            "release_name": "sfha-sles11_x86_64-5.0MP4RP1",
+            "release_type": "RP",
+            "release_version": "5.0MP4RP1",
+            "requires": "",
+            "upload_cksum": "556965609",
+            "upload_location": "ftp://ftp.veritas.com/pub/support/patchcentral/Linux/5.0_MP4/sfha/sfha-sles11_x86_64-5.0MP4RP1-patches.tar.gz",
+            "upload_size": "150856300",
+            "vers_level": "500-401"
+        },
+        "5515": {
+            "download_count": "203",
+            "filename": "sfha-sles11_x86_64-5.1SP1RP2-patches.tar.gz",
+            "gunzip_cksum": "3478462779",
+            "gunzip_size": "198983680",
+            "install_path": "sles11_x86_64/installrp",
+            "installed_over": "4543,4658",
+            "obsoleted_by": "6813,7893",
+            "obsoletes": "4325,4421,4658,4712",
+            "obsoletes_all": "4325,4421,4430,4450,4532,4632,4658,4712,4747,4751,4760,4773,4802,4812,4832,4841,4873,4903,4933,4936,4948,4959,4969,4998,5082,5096,5148,5170,5183,5193,5212,5273,5280,5293,5297,5313,5375,5408,5462,5531,5545,5620,6349,6549,6552,6682,6697,6802,6832,6893,6962,8172",
+            "padvs": "sles11_x86_64",
+            "patch": {
+                "VRTSamf-5.1.132.000-SP1RP2_SLES11": {
+                    "pkgs": [
+                        "VRTSamf"
+                    ],
+                    "version": "5.1.132.000"
+                },
+                "VRTScavf-5.1.132.000-SP1RP2_SLES11": {
+                    "pkgs": [
+                        "VRTScavf"
+                    ],
+                    "version": "5.1.132.000"
+                },
+                "VRTScps-5.1.132.000-SP1RP2_SLES11": {
+                    "pkgs": [
+                        "VRTScps"
+                    ],
+                    "version": "5.1.132.000"
+                },
+                "VRTSdbac-5.1.132.000-SP1RP2_SLES11": {
+                    "pkgs": [
+                        "VRTSdbac"
+                    ],
+                    "version": "5.1.132.000"
+                },
+                "VRTSdbed-5.1.132.000-SP1RP2_SLES10": {
+                    "pkgs": [
+                        "VRTSdbed"
+                    ],
+                    "version": "5.1.132.000"
+                },
+                "VRTSfssdk-5.1.132.000-SP1RP2_SLES11": {
+                    "pkgs": [
+                        "VRTSfssdk"
+                    ],
+                    "version": "5.1.132.000"
+                },
+                "VRTSgab-5.1.132.000-SP1RP2_SLES11": {
+                    "pkgs": [
+                        "VRTSgab"
+                    ],
+                    "version": "5.1.132.000"
+                },
+                "VRTSglm-5.1.132.000-SP1RP2_SLES11": {
+                    "pkgs": [
+                        "VRTSglm"
+                    ],
+                    "version": "5.1.132.000"
+                },
+                "VRTSllt-5.1.132.000-SP1RP2_SLES11": {
+                    "pkgs": [
+                        "VRTSllt"
+                    ],
+                    "version": "5.1.132.000"
+                },
+                "VRTSlvmconv-5.1.132.000-SP1RP2_SLES11": {
+                    "pkgs": [
+                        "VRTSlvmconv"
+                    ],
+                    "version": "5.1.132.000"
+                },
+                "VRTSob-3.4.312-0": {
+                    "pkgs": [
+                        "VRTSob"
+                    ],
+                    "version": "3.4.312"
+                },
+                "VRTSodm-5.1.132.000-SP1RP2_SLES11": {
+                    "pkgs": [
+                        "VRTSodm"
+                    ],
+                    "version": "5.1.132.000"
+                },
+                "VRTSsfmh-3.1.830.0_Linux.rpm": {
+                    "pkgs": [
+                        "VRTSsfmh"
+                    ],
+                    "version": "3.1.830.0"
+                },
+                "VRTSvcs-5.1.132.000-SP1RP2_SLES11": {
+                    "pkgs": [
+                        "VRTSvcs"
+                    ],
+                    "version": "5.1.132.000"
+                },
+                "VRTSvcsag-5.1.132.000-SP1RP2_SLES11": {
+                    "pkgs": [
+                        "VRTSvcsag"
+                    ],
+                    "version": "5.1.132.000"
+                },
+                "VRTSvcsdr-5.1.132.000-SP1RP2_SLES11": {
+                    "pkgs": [
+                        "VRTSvcsdr"
+                    ],
+                    "version": "5.1.132.000"
+                },
+                "VRTSvcsea-5.1.132.000-SP1RP2_SLES11": {
+                    "pkgs": [
+                        "VRTSvcsea"
+                    ],
+                    "version": "5.1.132.000"
+                },
+                "VRTSvxfen-5.1.132.000-SP1RP2_SLES11": {
+                    "pkgs": [
+                        "VRTSvxfen"
+                    ],
+                    "version": "5.1.132.000"
+                },
+                "VRTSvxfs-5.1.132.000-SP1RP2_SLES11": {
+                    "pkgs": [
+                        "VRTSvxfs"
+                    ],
+                    "version": "5.1.132.000"
+                },
+                "VRTSvxvm-5.1.132.000-SP1RP2_SLES11": {
+                    "pkgs": [
+                        "VRTSvxvm"
+                    ],
+                    "version": "5.1.132.000"
+                }
+            },
+            "patch_details_path_html": "https://sort.symantec.com/patch/detail/5515",
+            "patch_details_path_rest": "https://sort.symantec.com/vos_services/rest/patch_services/1.0/patchRelease/5515",
+            "pkg_version": "5.1.132",
+            "products": "dmp,fs,sf,sfcfs,sfcfsha,sfcfsrac,sfha,sfrac,vcs,vm",
+            "release_date": "2011-09-28",
+            "release_id": "5515",
+            "release_level": "MR",
+            "release_name": "sfha-sles11_x86_64-5.1SP1RP2",
+            "release_type": "RP",
+            "release_version": "5.1SP1RP2",
+            "requires": "",
+            "upload_cksum": "1070528546",
+            "upload_location": "ftp://ftp.veritas.com/pub/support/patchcentral/Linux/5.1/sfha/sfha-sles11_x86_64-5.1SP1RP2-patches.tar.gz",
+            "upload_size": "157158894",
+            "vers_level": "510-102"
+        },
+        "6118": {
+            "download_count": "87",
+            "filename": "sfha-sles11_x86_64-6.0RP1-patches.tar.gz",
+            "gunzip_cksum": "943814217",
+            "gunzip_size": "274653696",
+            "install_path": "sles11_x86_64/installrp",
+            "installed_over": "7217",
+            "obsoleted_by": "",
+            "obsoletes": "5871",
+            "obsoletes_all": "5871",
+            "padvs": "sles11_x86_64",
+            "patch": {
+                "VRTSamf-6.0.001.000-RP1_SLES11": {
+                    "pkgs": [
+                        "VRTSamf"
+                    ],
+                    "version": "6.0.001.000"
+                },
+                "VRTScavf-6.0.001.000-RP1_SLES11": {
+                    "pkgs": [
+                        "VRTScavf"
+                    ],
+                    "version": "6.0.001.000"
+                },
+                "VRTSfsadv-6.0.001.000-RP1_SLES11": {
+                    "pkgs": [
+                        "VRTSfsadv"
+                    ],
+                    "version": "6.0.001.000"
+                },
+                "VRTSfssdk-6.0.001.000-RP1_SLES11": {
+                    "pkgs": [
+                        "VRTSfssdk"
+                    ],
+                    "version": "6.0.001.000"
+                },
+                "VRTSlvmconv-6.0.001.000-RP1_SLES11": {
+                    "pkgs": [
+                        "VRTSlvmconv"
+                    ],
+                    "version": "6.0.001.000"
+                },
+                "VRTSob-3.4.530-0": {
+                    "pkgs": [
+                        "VRTSob"
+                    ],
+                    "version": "3.4.530"
+                },
+                "VRTSsfcpi60-6.0.001.000-RP1_GENERIC": {
+                    "pkgs": [
+                        "VRTSsfcpi60"
+                    ],
+                    "version": "6.0.001.000"
+                },
+                "VRTSsvs-6.0.001.000-RP1_GENERIC": {
+                    "pkgs": [
+                        "VRTSsvs"
+                    ],
+                    "version": "6.0.001.000"
+                },
+                "VRTSvbs-6.0.001.000-RP1_SLES11.i686.rpm": {
+                    "pkgs": [
+                        "VRTSvbs"
+                    ],
+                    "version": "6.0.001.000"
+                },
+                "VRTSvcs-6.0.001.000-RP1_SLES11": {
+                    "pkgs": [
+                        "VRTSvcs"
+                    ],
+                    "version": "6.0.001.000"
+                },
+                "VRTSvxfs-6.0.001.000-RP1_SLES11": {
+                    "pkgs": [
+                        "VRTSvxfs"
+                    ],
+                    "version": "6.0.001.000"
+                },
+                "VRTSvxvm-6.0.001.000-RP1_SLES11": {
+                    "pkgs": [
+                        "VRTSvxvm"
+                    ],
+                    "version": "6.0.001.000"
+                }
+            },
+            "patch_details_path_html": "https://sort.symantec.com/patch/detail/6118",
+            "patch_details_path_rest": "https://sort.symantec.com/vos_services/rest/patch_services/1.0/patchRelease/6118",
+            "pkg_version": "6.0.001",
+            "products": "dmp,fs,sf,sfcfsha,sfha,sfrac,sfsybce,svs,vcs,vm",
+            "release_date": "2012-03-22",
+            "release_id": "6118",
+            "release_level": "MR",
+            "release_name": "sfha-sles11_x86_64-6.0RP1",
+            "release_type": "RP",
+            "release_version": "6.0RP1",
+            "requires": "",
+            "upload_cksum": "45997365",
+            "upload_location": "ftp://ftp.veritas.com/pub/support/patchcentral/Linux/6.0/sfha/sfha-sles11_x86_64-6.0RP1-patches.tar.gz",
+            "upload_size": "214457776",
+            "vers_level": "600-001"
+        },
+        "6813": {
+            "download_count": "120",
+            "filename": "sfha-sles11_x86_64-5.1SP1RP3-patches.tar.gz",
+            "gunzip_cksum": "3092922376",
+            "gunzip_size": "199493120",
+            "install_path": "sles11_x86_64/installrp",
+            "installed_over": "4543,4658,5515",
+            "obsoleted_by": "7893",
+            "obsoletes": "4325,4421,4658,4712,5515,5577,5614,5952,5956,6375,6466",
+            "obsoletes_all": "4325,4421,4430,4450,4532,4632,4658,4712,4747,4751,4760,4773,4802,4812,4832,4841,4873,4903,4933,4936,4948,4959,4969,4998,5082,5096,5148,5170,5183,5193,5212,5273,5280,5293,5297,5313,5375,5408,5462,5515,5531,5545,5554,5577,5607,5614,5620,5638,5665,5699,5708,5717,5721,5732,5747,5767,5796,5805,5829,5842,5848,5858,5952,5956,5997,6028,6034,6072,6081,6103,6108,6148,6150,6152,6153,6194,6204,6215,6224,6230,6273,6305,6317,6349,6375,6397,6452,6456,6466,6468,6473,6479,6480,6484,6498,6507,6534,6549,6552,6561,6562,6579,6593,6656,6666,6682,6686,6691,6692,6697,6702,6724,6737,6738,6777,6789,6802,6825,6832,6840,6888,6893,6896,6951,6962,6972,7020,7040,7047,7056,7065,7068,7152,7375,7385,7400,7467,7480,7490,7553,7557,7558,7560,7579,7580,7663,7676,7937,7962,8022,8048,8149,8165,8172,8267,8403,8426,8428,8439,8440,8444,8446,8598,8599,8605,8678,8710,8808,8851",
+            "padvs": "sles11_x86_64",
+            "patch": {
+                "VRTSamf-5.1.133.000-SP1RP3_SLES11": {
+                    "pkgs": [
+                        "VRTSamf"
+                    ],
+                    "version": "5.1.133.000"
+                },
+                "VRTScavf-5.1.133.000-SP1RP3_SLES11": {
+                    "pkgs": [
+                        "VRTScavf"
+                    ],
+                    "version": "5.1.133.000"
+                },
+                "VRTScps-5.1.132.000-SP1RP2_SLES11": {
+                    "pkgs": [
+                        "VRTScps"
+                    ],
+                    "version": "5.1.132.000"
+                },
+                "VRTSdbac-5.1.133.000-SP1RP3_SLES11": {
+                    "pkgs": [
+                        "VRTSdbac"
+                    ],
+                    "version": "5.1.133.000"
+                },
+                "VRTSdbed-5.1.133.000-SP1RP3_SLES10": {
+                    "pkgs": [
+                        "VRTSdbed"
+                    ],
+                    "version": "5.1.133.000"
+                },
+                "VRTSfssdk-5.1.133.000-SP1RP3_SLES11": {
+                    "pkgs": [
+                        "VRTSfssdk"
+                    ],
+                    "version": "5.1.133.000"
+                },
+                "VRTSgab-5.1.133.000-SP1RP3_SLES11": {
+                    "pkgs": [
+                        "VRTSgab"
+                    ],
+                    "version": "5.1.133.000"
+                },
+                "VRTSglm-5.1.132.100-SP1RP2P1_SLES11": {
+                    "pkgs": [
+                        "VRTSglm"
+                    ],
+                    "version": "5.1.132.100"
+                },
+                "VRTSllt-5.1.133.000-SP1RP3_SLES11": {
+                    "pkgs": [
+                        "VRTSllt"
+                    ],
+                    "version": "5.1.133.000"
+                },
+                "VRTSlvmconv-5.1.133.000-SP1RP3_SLES11": {
+                    "pkgs": [
+                        "VRTSlvmconv"
+                    ],
+                    "version": "5.1.133.000"
+                },
+                "VRTSob-3.4.312-0": {
+                    "pkgs": [
+                        "VRTSob"
+                    ],
+                    "version": "3.4.312"
+                },
+                "VRTSodm-5.1.133.000-SP1RP3_SLES11": {
+                    "pkgs": [
+                        "VRTSodm"
+                    ],
+                    "version": "5.1.133.000"
+                },
+                "VRTSsfmh-3.1.830.0_Linux.rpm": {
+                    "pkgs": [
+                        "VRTSsfmh"
+                    ],
+                    "version": "3.1.830.0"
+                },
+                "VRTSvcs-5.1.133.000-SP1RP3_SLES11": {
+                    "pkgs": [
+                        "VRTSvcs"
+                    ],
+                    "version": "5.1.133.000"
+                },
+                "VRTSvcsag-5.1.133.000-SP1RP3_SLES11": {
+                    "pkgs": [
+                        "VRTSvcsag"
+                    ],
+                    "version": "5.1.133.000"
+                },
+                "VRTSvcsdr-5.1.133.000-SP1RP3_SLES11": {
+                    "pkgs": [
+                        "VRTSvcsdr"
+                    ],
+                    "version": "5.1.133.000"
+                },
+                "VRTSvcsea-5.1.133.000-SP1RP3_SLES11": {
+                    "pkgs": [
+                        "VRTSvcsea"
+                    ],
+                    "version": "5.1.133.000"
+                },
+                "VRTSvxfen-5.1.133.000-SP1RP3_SLES11": {
+                    "pkgs": [
+                        "VRTSvxfen"
+                    ],
+                    "version": "5.1.133.000"
+                },
+                "VRTSvxfs-5.1.133.000-SP1RP3_SLES11": {
+                    "pkgs": [
+                        "VRTSvxfs"
+                    ],
+                    "version": "5.1.133.000"
+                },
+                "VRTSvxvm-5.1.133.000-SP1RP3_SLES11": {
+                    "pkgs": [
+                        "VRTSvxvm"
+                    ],
+                    "version": "5.1.133.000"
+                }
+            },
+            "patch_details_path_html": "https://sort.symantec.com/patch/detail/6813",
+            "patch_details_path_rest": "https://sort.symantec.com/vos_services/rest/patch_services/1.0/patchRelease/6813",
+            "pkg_version": "5.1.133",
+            "products": "dmp,fs,sf,sfcfs,sfcfsha,sfcfsrac,sfha,sfrac,vcs,vm",
+            "release_date": "2012-10-02",
+            "release_id": "6813",
+            "release_level": "MR",
+            "release_name": "sfha-sles11_x86_64-5.1SP1RP3",
+            "release_type": "RP",
+            "release_version": "5.1SP1RP3",
+            "requires": "",
+            "upload_cksum": "740403412",
+            "upload_location": "ftp://ftp.veritas.com/pub/support/patchcentral/Linux/5.1/sfha/sfha-sles11_x86_64-5.1SP1RP3-patches.tar.gz",
+            "upload_size": "157264074",
+            "vers_level": "510-103"
+        },
+        "7000": {
+            "download_count": "280",
+            "filename": "sfha-sles11_x86_64-6.0.3-patches.tar.gz",
+            "gunzip_cksum": "89520802",
+            "gunzip_size": "248913920",
+            "install_path": "sles11_x86_64/installmr",
+            "installed_over": "6753,7055",
+            "obsoleted_by": "8510",
+            "obsoletes": "6732,6768,6850,7086",
+            "obsoletes_all": "6732,6768,6843,6850,7086,7124,7125,7435,7459,7756,7865",
+            "padvs": "sles11_x86_64",
+            "patch": {
+                "VRTSamf-6.0.300.000-GA_SLES11": {
+                    "pkgs": [
+                        "VRTSamf"
+                    ],
+                    "version": "6.0.300.000"
+                },
+                "VRTScavf-6.0.300.000-SLES11": {
+                    "pkgs": [
+                        "VRTScavf"
+                    ],
+                    "version": "6.0.300.000"
+                },
+                "VRTSdbed-6.0.300.000-GA_SLES": {
+                    "pkgs": [
+                        "VRTSdbed"
+                    ],
+                    "version": "6.0.300.000"
+                },
+                "VRTSglm-6.0.100.100-SLES11": {
+                    "pkgs": [
+                        "VRTSglm"
+                    ],
+                    "version": "6.0.100.100"
+                },
+                "VRTSgms-6.0.100.100-SLES11": {
+                    "pkgs": [
+                        "VRTSgms"
+                    ],
+                    "version": "6.0.100.100"
+                },
+                "VRTSodm-6.0.100.100-SLES11": {
+                    "pkgs": [
+                        "VRTSodm"
+                    ],
+                    "version": "6.0.100.100"
+                },
+                "VRTSperl-5.14.2.8-SLES11": {
+                    "pkgs": [
+                        "VRTSperl"
+                    ],
+                    "version": "5.14.2.8"
+                },
+                "VRTSsfcpi601-6.0.300.000-GA_GENERIC": {
+                    "pkgs": [
+                        "VRTSsfcpi601"
+                    ],
+                    "version": "6.0.300.000"
+                },
+                "VRTSspt-6.0.300.000-GA": {
+                    "pkgs": [
+                        "VRTSspt"
+                    ],
+                    "version": "6.0.300.000"
+                },
+                "VRTSvcs-6.0.300.000-GA_SLES11": {
+                    "pkgs": [
+                        "VRTSvcs"
+                    ],
+                    "version": "6.0.300.000"
+                },
+                "VRTSvcsag-6.0.300.000-GA_SLES11": {
+                    "pkgs": [
+                        "VRTSvcsag"
+                    ],
+                    "version": "6.0.300.000"
+                },
+                "VRTSvcsea-6.0.300.000-GA_SLES11": {
+                    "pkgs": [
+                        "VRTSvcsea"
+                    ],
+                    "version": "6.0.300.000"
+                },
+                "VRTSvcsvmw-6.0.300.000-GA_SLES11": {
+                    "pkgs": [
+                        "VRTSvcsvmw"
+                    ],
+                    "version": "6.0.300.000"
+                },
+                "VRTSvradv.msi": {
+                    "pkgs": [
+                        "Unknown"
+                    ]
+                },
+                "VRTSvxfen-6.0.300.000-GA_SLES11": {
+                    "pkgs": [
+                        "VRTSvxfen"
+                    ],
+                    "version": "6.0.300.000"
+                },
+                "VRTSvxfs-6.0.300.000-SLES11": {
+                    "pkgs": [
+                        "VRTSvxfs"
+                    ],
+                    "version": "6.0.300.000"
+                },
+                "VRTSvxvm-6.0.300.000-SLES11": {
+                    "pkgs": [
+                        "VRTSvxvm"
+                    ],
+                    "version": "6.0.300.000"
+                }
+            },
+            "patch_details_path_html": "https://sort.symantec.com/patch/detail/7000",
+            "patch_details_path_rest": "https://sort.symantec.com/vos_services/rest/patch_services/1.0/patchRelease/7000",
+            "pkg_version": "6.0.300",
+            "products": "dmp,fs,sf,sfcfsha,sfha,sfrac,sfsybce,svs,vcs,vm",
+            "release_date": "2013-02-01",
+            "release_id": "7000",
+            "release_level": "MR",
+            "release_name": "sfha-sles11_x86_64-6.0.3",
+            "release_type": "MR",
+            "release_version": "6.0.3",
+            "requires": "",
+            "upload_cksum": "2654049598",
+            "upload_location": "ftp://ftp.veritas.com/pub/support/patchcentral/Linux/6.0.3/sfha/sfha-sles11_x86_64-6.0.3-patches.tar.gz",
+            "upload_size": "216362053",
+            "vers_level": "603-000"
+        },
+        "7893": {
+            "download_count": "90",
+            "filename": "sfha-sles11_x86_64-5.1SP1RP4-patches.tar.gz",
+            "gunzip_cksum": "3450820295",
+            "gunzip_size": "232377856",
+            "install_path": "sles11_x86_64/installrp",
+            "installed_over": "4543,4658,5515,6813",
+            "obsoleted_by": "",
+            "obsoletes": "4325,4421,4658,4712,5515,5577,5614,5952,5956,6375,6466,6813,6987,7008,7016,7160,7544",
+            "obsoletes_all": "4325,4421,4430,4450,4532,4632,4658,4712,4747,4751,4760,4773,4802,4812,4832,4841,4873,4903,4933,4936,4948,4959,4969,4998,5082,5096,5148,5170,5183,5193,5212,5273,5280,5293,5297,5313,5375,5408,5462,5515,5531,5545,5554,5577,5607,5614,5620,5638,5665,5699,5708,5717,5721,5732,5747,5767,5796,5805,5829,5842,5848,5858,5952,5956,5997,6028,6034,6072,6081,6103,6108,6148,6150,6152,6153,6194,6204,6215,6224,6230,6273,6305,6317,6349,6375,6397,6452,6456,6466,6468,6473,6479,6480,6484,6498,6507,6534,6549,6552,6561,6562,6579,6593,6656,6666,6682,6686,6691,6692,6697,6702,6724,6737,6738,6777,6789,6802,6813,6825,6832,6840,6871,6884,6888,6893,6896,6951,6962,6971,6972,6987,7008,7016,7020,7040,7047,7056,7065,7068,7152,7160,7176,7250,7353,7375,7385,7400,7439,7467,7480,7490,7544,7553,7557,7558,7560,7564,7579,7580,7608,7663,7676,7687,7707,7730,7733,7791,7937,7962,8022,8048,8149,8165,8172,8267,8403,8426,8428,8439,8440,8444,8446,8550,8598,8599,8605,8678,8710,8808,8851",
+            "padvs": "sles11_x86_64",
+            "patch": {
+                "VRTSamf-5.1.134.000-SP1RP4_SLES11": {
+                    "pkgs": [
+                        "VRTSamf"
+                    ],
+                    "version": "5.1.134.000"
+                },
+                "VRTSaslapm-5.1.134.000-SP1_SLES11": {
+                    "pkgs": [
+                        "VRTSaslapm"
+                    ],
+                    "version": "5.1.134.000"
+                },
+                "VRTScavf-5.1.134.000-SP1RP4_SLES11": {
+                    "pkgs": [
+                        "VRTScavf"
+                    ],
+                    "version": "5.1.134.000"
+                },
+                "VRTScps-5.1.132.000-SP1RP2_SLES11": {
+                    "pkgs": [
+                        "VRTScps"
+                    ],
+                    "version": "5.1.132.000"
+                },
+                "VRTSdbac-5.1.134.000-SP1RP4_SLES11": {
+                    "pkgs": [
+                        "VRTSdbac"
+                    ],
+                    "version": "5.1.134.000"
+                },
+                "VRTSdbed-5.1.134.000-SP1RP4_SLES10": {
+                    "pkgs": [
+                        "VRTSdbed"
+                    ],
+                    "version": "5.1.134.000"
+                },
+                "VRTSfssdk-5.1.133.000-SP1RP3_SLES11": {
+                    "pkgs": [
+                        "VRTSfssdk"
+                    ],
+                    "version": "5.1.133.000"
+                },
+                "VRTSgab-5.1.133.000-SP1RP3_SLES11": {
+                    "pkgs": [
+                        "VRTSgab"
+                    ],
+                    "version": "5.1.133.000"
+                },
+                "VRTSglm-5.1.132.100-SP1RP2P1_SLES11": {
+                    "pkgs": [
+                        "VRTSglm"
+                    ],
+                    "version": "5.1.132.100"
+                },
+                "VRTSllt-5.1.134.000-SP1RP4_SLES11": {
+                    "pkgs": [
+                        "VRTSllt"
+                    ],
+                    "version": "5.1.134.000"
+                },
+                "VRTSlvmconv-5.1.134.000-SP1RP4_SLES11": {
+                    "pkgs": [
+                        "VRTSlvmconv"
+                    ],
+                    "version": "5.1.134.000"
+                },
+                "VRTSob-3.4.314-0": {
+                    "pkgs": [
+                        "VRTSob"
+                    ],
+                    "version": "3.4.314"
+                },
+                "VRTSodm-5.1.134.000-SP1RP4_SLES11": {
+                    "pkgs": [
+                        "VRTSodm"
+                    ],
+                    "version": "5.1.134.000"
+                },
+                "VRTSperl-5.10.0.17-SLES11": {
+                    "pkgs": [
+                        "VRTSperl"
+                    ],
+                    "version": "5.10.0.17"
+                },
+                "VRTSsfmh-3.1.830.0_Linux.rpm": {
+                    "pkgs": [
+                        "VRTSsfmh"
+                    ],
+                    "version": "3.1.830.0"
+                },
+                "VRTSspt-5.5.104.000-SP1RP4": {
+                    "pkgs": [
+                        "VRTSspt"
+                    ],
+                    "version": "5.5.104.000"
+                },
+                "VRTSvcs-5.1.134.000-SP1RP4_SLES11": {
+                    "pkgs": [
+                        "VRTSvcs"
+                    ],
+                    "version": "5.1.134.000"
+                },
+                "VRTSvcsag-5.1.134.000-SP1RP4_SLES11": {
+                    "pkgs": [
+                        "VRTSvcsag"
+                    ],
+                    "version": "5.1.134.000"
+                },
+                "VRTSvcsdr-5.1.133.000-SP1RP3_SLES11": {
+                    "pkgs": [
+                        "VRTSvcsdr"
+                    ],
+                    "version": "5.1.133.000"
+                },
+                "VRTSvcsea-5.1.134.000-SP1RP4_SLES11": {
+                    "pkgs": [
+                        "VRTSvcsea"
+                    ],
+                    "version": "5.1.134.000"
+                },
+                "VRTSvxfen-5.1.134.000-SP1RP4_SLES11": {
+                    "pkgs": [
+                        "VRTSvxfen"
+                    ],
+                    "version": "5.1.134.000"
+                },
+                "VRTSvxfs-5.1.134.000-SP1RP4_SLES11": {
+                    "pkgs": [
+                        "VRTSvxfs"
+                    ],
+                    "version": "5.1.134.000"
+                },
+                "VRTSvxvm-5.1.134.000-SP1RP4_SLES11": {
+                    "pkgs": [
+                        "VRTSvxvm"
+                    ],
+                    "version": "5.1.134.000"
+                }
+            },
+            "patch_details_path_html": "https://sort.symantec.com/patch/detail/7893",
+            "patch_details_path_rest": "https://sort.symantec.com/vos_services/rest/patch_services/1.0/patchRelease/7893",
+            "pkg_version": "5.1.134",
+            "products": "dmp,fs,sf,sfcfs,sfcfsha,sfcfsrac,sfha,sfrac,vcs,vm",
+            "release_date": "2013-08-21",
+            "release_id": "7893",
+            "release_level": "MR",
+            "release_name": "sfha-sles11_x86_64-5.1SP1RP4",
+            "release_type": "RP",
+            "release_version": "5.1SP1RP4",
+            "requires": "",
+            "upload_cksum": "3276509033",
+            "upload_location": "ftp://ftp.veritas.com/pub/support/patchcentral/Linux/5.1/sfha/sfha-sles11_x86_64-5.1SP1RP4-patches.tar.gz",
+            "upload_size": "189544790",
+            "vers_level": "510-104"
+        },
+        "8510": {
+            "download_count": "137",
+            "filename": "sfha-sles11_x86_64-6.0.5-patches.tar.gz",
+            "gunzip_cksum": "421128686",
+            "gunzip_size": "258734080",
+            "install_path": "sles11_x86_64/installmr",
+            "installed_over": "6753,7055,7000,8102",
+            "obsoleted_by": "",
+            "obsoletes": "6732,6768,6850,7000,7086,7319,7528,7533,7698,7797,7952,7963,8093,8147,8263",
+            "obsoletes_all": "6732,6768,6843,6850,7000,7086,7124,7125,7261,7319,7341,7410,7435,7459,7518,7528,7533,7538,7572,7597,7613,7617,7650,7662,7680,7698,7701,7712,7756,7783,7787,7797,7824,7832,7865,7881,7952,7959,7963,7968,7998,8015,8066,8080,8085,8093,8102,8110,8128,8131,8147,8182,8202,8208,8243,8263,8281,8294,8311,8333,8367,8432,8491,8533,8677,8734,8749,8752",
+            "padvs": "sles11_x86_64",
+            "patch": {
+                "VRTSamf-6.0.500.000-GA_SLES11": {
+                    "pkgs": [
+                        "VRTSamf"
+                    ],
+                    "version": "6.0.500.000"
+                },
+                "VRTSaslapm-6.0.500.000-GA_SLES11": {
+                    "pkgs": [
+                        "VRTSaslapm"
+                    ],
+                    "version": "6.0.500.000"
+                },
+                "VRTScavf-6.0.500.000-SLES11": {
+                    "pkgs": [
+                        "VRTScavf"
+                    ],
+                    "version": "6.0.500.000"
+                },
+                "VRTSdbac-6.0.500.000-GA_SLES11": {
+                    "pkgs": [
+                        "VRTSdbac"
+                    ],
+                    "version": "6.0.500.000"
+                },
+                "VRTSdbed-6.0.500.000-GA_SLES": {
+                    "pkgs": [
+                        "VRTSdbed"
+                    ],
+                    "version": "6.0.500.000"
+                },
+                "VRTSfsadv-6.0.500.000-SLES11": {
+                    "pkgs": [
+                        "VRTSfsadv"
+                    ],
+                    "version": "6.0.500.000"
+                },
+                "VRTSgab-6.0.500.000-GA_SLES11": {
+                    "pkgs": [
+                        "VRTSgab"
+                    ],
+                    "version": "6.0.500.000"
+                },
+                "VRTSglm-6.0.500.000-SLES11": {
+                    "pkgs": [
+                        "VRTSglm"
+                    ],
+                    "version": "6.0.500.000"
+                },
+                "VRTSgms-6.0.400.000-SLES11": {
+                    "pkgs": [
+                        "VRTSgms"
+                    ],
+                    "version": "6.0.400.000"
+                },
+                "VRTSllt-6.0.500.000-GA_SLES11": {
+                    "pkgs": [
+                        "VRTSllt"
+                    ],
+                    "version": "6.0.500.000"
+                },
+                "VRTSlvmconv-6.0.500.000-GA_SLES11": {
+                    "pkgs": [
+                        "VRTSlvmconv"
+                    ],
+                    "version": "6.0.500.000"
+                },
+                "VRTSodm-6.0.500.000-SLES11": {
+                    "pkgs": [
+                        "VRTSodm"
+                    ],
+                    "version": "6.0.500.000"
+                },
+                "VRTSperl-5.14.2.20-SLES11": {
+                    "pkgs": [
+                        "VRTSperl"
+                    ],
+                    "version": "5.14.2.20"
+                },
+                "VRTSsfcpi601-6.0.500.000-GA_GENERIC": {
+                    "pkgs": [
+                        "VRTSsfcpi601"
+                    ],
+                    "version": "6.0.500.000"
+                },
+                "VRTSspt-6.0.500.000-GA_SLES11": {
+                    "pkgs": [
+                        "VRTSspt"
+                    ],
+                    "version": "6.0.500.000"
+                },
+                "VRTSvcs-6.0.500.000-GA_SLES11": {
+                    "pkgs": [
+                        "VRTSvcs"
+                    ],
+                    "version": "6.0.500.000"
+                },
+                "VRTSvcsag-6.0.500.000-GA_SLES11": {
+                    "pkgs": [
+                        "VRTSvcsag"
+                    ],
+                    "version": "6.0.500.000"
+                },
+                "VRTSvcsdr-6.0.500.000-GA_SLES11": {
+                    "pkgs": [
+                        "VRTSvcsdr"
+                    ],
+                    "version": "6.0.500.000"
+                },
+                "VRTSvcsea-6.0.500.000-GA_SLES11": {
+                    "pkgs": [
+                        "VRTSvcsea"
+                    ],
+                    "version": "6.0.500.000"
+                },
+                "VRTSvcsvmw-6.0.500.000-GA_SLES11": {
+                    "pkgs": [
+                        "VRTSvcsvmw"
+                    ],
+                    "version": "6.0.500.000"
+                },
+                "VRTSvxfen-6.0.500.000-GA_SLES11": {
+                    "pkgs": [
+                        "VRTSvxfen"
+                    ],
+                    "version": "6.0.500.000"
+                },
+                "VRTSvxfs-6.0.500.000-SLES11": {
+                    "pkgs": [
+                        "VRTSvxfs"
+                    ],
+                    "version": "6.0.500.000"
+                },
+                "VRTSvxvm-6.0.500.000-SLES11": {
+                    "pkgs": [
+                        "VRTSvxvm"
+                    ],
+                    "version": "6.0.500.000"
+                }
+            },
+            "patch_details_path_html": "https://sort.symantec.com/patch/detail/8510",
+            "patch_details_path_rest": "https://sort.symantec.com/vos_services/rest/patch_services/1.0/patchRelease/8510",
+            "pkg_version": "6.0.500",
+            "products": "dmp,fs,sf,sfcfsha,sfha,sfrac,sfsybce,svs,vcs,vm",
+            "release_date": "2014-04-15",
+            "release_id": "8510",
+            "release_level": "MR",
+            "release_name": "sfha-sles11_x86_64-6.0.5",
+            "release_type": "MR",
+            "release_version": "6.0.5",
+            "requires": "",
+            "upload_cksum": "2546734653",
+            "upload_location": "ftp://ftp.veritas.com/pub/support/patchcentral/Linux/6.0.1/sfha/sfha-sles11_x86_64-6.0.5-patches.tar.gz",
+            "upload_size": "228322860",
+            "vers_level": "605-000"
+        },
+        "8573": {
+            "download_count": "106",
+            "filename": "sfha-sles11_x86_64-6.1.1.tar.gz",
+            "gunzip_cksum": "3324100201",
+            "gunzip_size": "319457280",
+            "install_path": "sles11_x86_64/installmr",
+            "installed_over": "7224",
+            "obsoleted_by": "",
+            "obsoletes": "8381,8527,8592,8604,8727",
+            "obsoletes_all": "7655,8339,8340,8378,8381,8384,8436,8527,8576,8592,8604,8727,8777",
+            "padvs": "sles11_x86_64",
+            "patch": {
+                "VRTSamf-6.1.1.000-SLES11": {
+                    "pkgs": [
+                        "VRTSamf"
+                    ],
+                    "version": "6.1.1.000"
+                },
+                "VRTSaslapm-6.1.1.000-SLES11": {
+                    "pkgs": [
+                        "VRTSaslapm"
+                    ],
+                    "version": "6.1.1.000"
+                },
+                "VRTScavf-6.1.1.000-SLES11": {
+                    "pkgs": [
+                        "VRTScavf"
+                    ],
+                    "version": "6.1.1.000"
+                },
+                "VRTScps-6.1.1.000-SLES11": {
+                    "pkgs": [
+                        "VRTScps"
+                    ],
+                    "version": "6.1.1.000"
+                },
+                "VRTSdbac-6.1.1.000-SLES11": {
+                    "pkgs": [
+                        "VRTSdbac"
+                    ],
+                    "version": "6.1.1.000"
+                },
+                "VRTSdbed-6.1.1.000-SLES": {
+                    "pkgs": [
+                        "VRTSdbed"
+                    ],
+                    "version": "6.1.1.000"
+                },
+                "VRTSfsadv-6.1.1.000-SLES11": {
+                    "pkgs": [
+                        "VRTSfsadv"
+                    ],
+                    "version": "6.1.1.000"
+                },
+                "VRTSllt-6.1.1.000-SLES11": {
+                    "pkgs": [
+                        "VRTSllt"
+                    ],
+                    "version": "6.1.1.000"
+                },
+                "VRTSlvmconv-6.1.1.000-SLES11": {
+                    "pkgs": [
+                        "VRTSlvmconv"
+                    ],
+                    "version": "6.1.1.000"
+                },
+                "VRTSodm-6.1.1.000-SLES11": {
+                    "pkgs": [
+                        "VRTSodm"
+                    ],
+                    "version": "6.1.1.000"
+                },
+                "VRTSsfcpi61-6.1.1.000-GENERIC": {
+                    "pkgs": [
+                        "VRTSsfcpi61"
+                    ],
+                    "version": "6.1.1.000"
+                },
+                "VRTSvcs-6.1.1.000-SLES11": {
+                    "pkgs": [
+                        "VRTSvcs"
+                    ],
+                    "version": "6.1.1.000"
+                },
+                "VRTSvcsag-6.1.1.000-SLES11": {
+                    "pkgs": [
+                        "VRTSvcsag"
+                    ],
+                    "version": "6.1.1.000"
+                },
+                "VRTSvcsea-6.1.1.000-SLES11": {
+                    "pkgs": [
+                        "VRTSvcsea"
+                    ],
+                    "version": "6.1.1.000"
+                },
+                "VRTSvcsvmw-6.1.1.000-SLES11": {
+                    "pkgs": [
+                        "VRTSvcsvmw"
+                    ],
+                    "version": "6.1.1.000"
+                },
+                "VRTSvcswiz-6.1.1.000-SLES11": {
+                    "pkgs": [
+                        "VRTSvcswiz"
+                    ],
+                    "version": "6.1.1.000"
+                },
+                "VRTSvxfen-6.1.1.000-SLES11": {
+                    "pkgs": [
+                        "VRTSvxfen"
+                    ],
+                    "version": "6.1.1.000"
+                },
+                "VRTSvxfs-6.1.1.000-SLES11": {
+                    "pkgs": [
+                        "VRTSvxfs"
+                    ],
+                    "version": "6.1.1.000"
+                },
+                "VRTSvxvm-6.1.1.000-SLES11": {
+                    "pkgs": [
+                        "VRTSvxvm"
+                    ],
+                    "version": "6.1.1.000"
+                }
+            },
+            "patch_details_path_html": "https://sort.symantec.com/patch/detail/8573",
+            "patch_details_path_rest": "https://sort.symantec.com/vos_services/rest/patch_services/1.0/patchRelease/8573",
+            "pkg_version": "6.1.1",
+            "products": "appha,dmp,fs,sf,sfcfsha,sfha,sfrac,vcs,vm",
+            "release_date": "2014-07-24",
+            "release_id": "8573",
+            "release_level": "MR",
+            "release_name": "sfha-sles11_x86_64-6.1.1",
+            "release_type": "MR",
+            "release_version": "6.1.1",
+            "requires": "",
+            "upload_cksum": "1008769466",
+            "upload_location": "ftp://ftp.veritas.com/pub/support/patchcentral/Linux/6.1/sfha/sfha-sles11_x86_64-6.1.1.tar.gz",
+            "upload_size": "226012968",
+            "vers_level": "611-000"
+        }
+    }
+}

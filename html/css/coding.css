@@ -1,0 +1,77 @@
+.codearea {width:500px;height:600px}
+header .heading-wrap {float: middle; display: inline-block; width: 900px;}
+h1,h1 a, h1a:visited {
+    color: #EB3AED;
+  }
+  header {
+      border-bottom: 3px solid #EB3AED;
+      height: 100px;
+      min-width: 1700px;
+  }
+  header, footer {
+      background: #82D2C5;
+      padding: 10px 10px;
+  }
+  header p { 
+      margin-top: 0;
+      width: 900px;
+      font-family: "League-Gothic",Courier;
+  }
+  .footer {
+      border-top: 3px solid #EB3AED;
+      display: inline-block;
+      width: 100%;
+      font-family: "League-Gothic",Courier;
+      position: fixed;
+      bottom:0;
+      height:50px;
+      background: none repeat scroll 0 0 #82d2c5;
+      display: none;
+  }
+  .left-side {
+      -webkit-box-sizing: boder-box;
+        -moz-box-sizing: boder-box;
+          box-sizing: boder-box;
+      width: 800px;
+      height: 700px;
+      position:relative;
+}
+.right-side {
+    -webkit-box-sizing: boder-box;
+    -moz-box-sizing: boder-box;
+    box-sizing: boder-box;
+    margin-left: 920px;
+    position: absolute;
+    top  :110px;
+    width:600px;
+  }
+  #result {
+      background-color: #ccc;
+      height: 600px;
+      padding: 2px;
+  }
+  .CodeMirror {
+      border-top: 1px 
+      solid #eee; 
+      border-bottom: 1px solid #eee; 
+      line-height: 1.3; 
+      position: absolute;
+      height: 600px;
+      margin-left:200px;
+      width:700px;
+      top:50px;
+  }
+  .CodeMirror-linenumbers { 
+      padding: 0 8px; 
+  }
+  .nav {
+      position:relative;
+      left:0px;
+      width:180px;
+      height: 500px;
+  }
+  #run_button {
+      position:absolute;
+      left:200px;
+      bottom:20px;
+  }

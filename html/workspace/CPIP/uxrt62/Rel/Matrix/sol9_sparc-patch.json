@@ -1,0 +1,2203 @@
+{
+    "sol9_sparc": {
+        "1558": {
+            "download_count": "602",
+            "installed_over": "1326",
+            "obsoleted_by": "2520,3036,3781,4893",
+            "obsoletes": "1257,1335",
+            "obsoletes_all": "1257,1335",
+            "padvs": "sol9_sparc,sol10_sparc,sol8_sparc",
+            "patch": {
+                "123722-02": {
+                    "obsoletes": [
+                        "123678-04"
+                    ],
+                    "pkgs": [
+                        "VRTSat"
+                    ]
+                },
+                "139346-02": {
+                    "pkgs": [
+                        "VRTSvxfs"
+                    ]
+                },
+                "139352-02": {
+                    "pkgs": [
+                        "VRTSvxvm"
+                    ]
+                },
+                "139354-01": {
+                    "pkgs": [
+                        "VRTSvmman"
+                    ]
+                },
+                "139357-01": {
+                    "obsoletes": [
+                        "139350-01",
+                        "139152-01",
+                        "139149-01",
+                        "139148-01",
+                        "139380-01",
+                        "139156-01",
+                        "139350-01",
+                        "139152-01",
+                        "139149-01",
+                        "139148-01",
+                        "139380-01",
+                        "139156-01",
+                        "139350-01",
+                        "139152-01",
+                        "139149-01",
+                        "139148-01",
+                        "139380-01",
+                        "139156-01",
+                        "139350-01",
+                        "139152-01",
+                        "139149-01",
+                        "139148-01",
+                        "139380-01",
+                        "139156-01",
+                        "139350-01",
+                        "139152-01",
+                        "139149-01",
+                        "139148-01",
+                        "139380-01",
+                        "139156-01"
+                    ],
+                    "pkgs": [
+                        "VRTSgab",
+                        "VRTSllt",
+                        "VRTSvcs",
+                        "VRTSvcsag",
+                        "VRTSvxfen"
+                    ]
+                },
+                "139362-01": {
+                    "pkgs": [
+                        "VRTSdbms3"
+                    ]
+                },
+                "139366-01": {
+                    "pkgs": [
+                        "VRTSdbcom"
+                    ]
+                },
+                "139367-01": {
+                    "pkgs": [
+                        "VRTSdbed"
+                    ]
+                },
+                "139368-01": {
+                    "pkgs": [
+                        "VRTSorgui"
+                    ]
+                },
+                "139369-01": {
+                    "pkgs": [
+                        "VRTSdb2ed"
+                    ]
+                },
+                "139370-01": {
+                    "pkgs": [
+                        "VRTSd2gui"
+                    ]
+                },
+                "139737-01": {
+                    "pkgs": [
+                        "VRTSdcli"
+                    ]
+                },
+                "139739-01": {
+                    "pkgs": [
+                        "VRTSvmpro"
+                    ]
+                },
+                "139741-01": {
+                    "pkgs": [
+                        "VRTSob"
+                    ]
+                },
+                "139742-01": {
+                    "pkgs": [
+                        "VRTSobc33"
+                    ]
+                },
+                "139743-01": {
+                    "pkgs": [
+                        "VRTSaa"
+                    ]
+                },
+                "139744-01": {
+                    "pkgs": [
+                        "VRTSccg"
+                    ]
+                },
+                "139754-01": {
+                    "pkgs": [
+                        "VRTScavf"
+                    ]
+                }
+            },
+            "patch_details_path_html": "https://sort.symantec.com/patch/detail/1558",
+            "patch_details_path_rest": "https://sort.symantec.com/vos_services/rest/patch_services/1.0/patchRelease/1558",
+            "pkg_version": "5.0",
+            "products": "fs,sf,sfcfs,sfdb2,sfha,sfora,sfrac,sfsyb,vcs,vm,vvr",
+            "release_date": "2008-12-17",
+            "release_id": "1558",
+            "release_level": "MR",
+            "release_name": "sfha-sol_sparc-5.0MP3RP1",
+            "release_type": "RP",
+            "release_version": "5.0MP3RP1",
+            "requires": "1326",
+            "upload_cksum": "1062279354",
+            "upload_location": "ftp://ftp.veritas.com/pub/support/patchcentral/Solaris/5.0_MP3/sfha/sfha-sol_sparc-5.0MP3RP1-patches.tar.gz",
+            "upload_size": "275953930",
+            "vers_level": "500-301"
+        },
+        "2520": {
+            "download_count": "1391",
+            "installed_over": "1326,1558",
+            "obsoleted_by": "3036,3781,4893",
+            "obsoletes": "1257,1335,1558,1584,1897",
+            "obsoletes_all": "1257,1335,1558,1584,1794,1830,1838,1870,1883,1884,1891,1897,1974,2178,2414",
+            "padvs": "sol9_sparc,sol10_sparc,sol8_sparc",
+            "patch": {
+                "122058-12": {
+                    "obsoletes": [
+                        "124361-06",
+                        "139352-02"
+                    ],
+                    "pkgs": [
+                        "VRTSvxvm"
+                    ]
+                },
+                "123089-03": {
+                    "obsoletes": [
+                        "125767-02"
+                    ],
+                    "pkgs": [
+                        "VRTSgms"
+                    ]
+                },
+                "123201-05": {
+                    "obsoletes": [
+                        "125761-05",
+                        "139346-02"
+                    ],
+                    "pkgs": [
+                        "VRTSvxfs"
+                    ]
+                },
+                "123722-02": {
+                    "obsoletes": [
+                        "123678-04"
+                    ],
+                    "pkgs": [
+                        "VRTSat"
+                    ]
+                },
+                "123823-05": {
+                    "pkgs": [
+                        "VRTSddlpr"
+                    ]
+                },
+                "139354-01": {
+                    "pkgs": [
+                        "VRTSvmman"
+                    ]
+                },
+                "139357-02": {
+                    "obsoletes": [
+                        "139350-01",
+                        "139152-01",
+                        "139149-01",
+                        "139148-01",
+                        "139156-01",
+                        "139380-02",
+                        "139350-01",
+                        "139152-01",
+                        "139149-01",
+                        "139148-01",
+                        "139156-01",
+                        "139380-02",
+                        "139350-01",
+                        "139152-01",
+                        "139149-01",
+                        "139148-01",
+                        "139156-01",
+                        "139380-02",
+                        "139350-01",
+                        "139152-01",
+                        "139149-01",
+                        "139148-01",
+                        "139156-01",
+                        "139380-02",
+                        "139350-01",
+                        "139152-01",
+                        "139149-01",
+                        "139148-01",
+                        "139156-01",
+                        "139380-02"
+                    ],
+                    "pkgs": [
+                        "VRTSgab",
+                        "VRTSllt",
+                        "VRTSvcs",
+                        "VRTSvcsag",
+                        "VRTSvxfen"
+                    ]
+                },
+                "139362-02": {
+                    "pkgs": [
+                        "VRTSdbms3"
+                    ]
+                },
+                "139366-03": {
+                    "pkgs": [
+                        "VRTSdbcom"
+                    ]
+                },
+                "139367-02": {
+                    "pkgs": [
+                        "VRTSdbed"
+                    ]
+                },
+                "139368-02": {
+                    "pkgs": [
+                        "VRTSorgui"
+                    ]
+                },
+                "139369-02": {
+                    "pkgs": [
+                        "VRTSdb2ed"
+                    ]
+                },
+                "139370-02": {
+                    "pkgs": [
+                        "VRTSd2gui"
+                    ]
+                },
+                "139737-01": {
+                    "pkgs": [
+                        "VRTSdcli"
+                    ]
+                },
+                "139739-01": {
+                    "pkgs": [
+                        "VRTSvmpro"
+                    ]
+                },
+                "139741-02": {
+                    "pkgs": [
+                        "VRTSob"
+                    ]
+                },
+                "139742-02": {
+                    "pkgs": [
+                        "VRTSobc33"
+                    ]
+                },
+                "139743-01": {
+                    "pkgs": [
+                        "VRTSaa"
+                    ]
+                },
+                "139744-01": {
+                    "pkgs": [
+                        "VRTSccg"
+                    ]
+                },
+                "139754-02": {
+                    "pkgs": [
+                        "VRTScavf"
+                    ]
+                },
+                "140657-01": {
+                    "pkgs": [
+                        "VRTSdsa"
+                    ]
+                },
+                "140661-01": {
+                    "pkgs": [
+                        "VRTSobgui"
+                    ]
+                },
+                "141272-01": {
+                    "pkgs": [
+                        "VRTSsybed"
+                    ]
+                },
+                "141279-01": {
+                    "pkgs": [
+                        "VRTSmapro"
+                    ]
+                },
+                "141284-02": {
+                    "obsoletes": [
+                        "140660-01",
+                        "140660-01"
+                    ],
+                    "pkgs": [
+                        "VRTScsocw",
+                        "VRTSvcsor"
+                    ]
+                },
+                "141285-02": {
+                    "pkgs": [
+                        "VRTSvcsdb"
+                    ]
+                },
+                "141286-02": {
+                    "pkgs": [
+                        "VRTSvcssy"
+                    ]
+                },
+                "141745-01": {
+                    "pkgs": [
+                        "VRTSvcsvr"
+                    ]
+                }
+            },
+            "patch_details_path_html": "https://sort.symantec.com/patch/detail/2520",
+            "patch_details_path_rest": "https://sort.symantec.com/vos_services/rest/patch_services/1.0/patchRelease/2520",
+            "pkg_version": "5.0",
+            "products": "fs,sf,sfcfs,sfdb2,sfha,sfora,sfrac,sfsyb,vcs,vm,vvr",
+            "release_date": "2009-08-21",
+            "release_id": "2520",
+            "release_level": "MR",
+            "release_name": "sfha-sol_sparc-5.0MP3RP2a",
+            "release_type": "RP",
+            "release_version": "5.0MP3RP2",
+            "requires": "758,1326",
+            "upload_cksum": "223654966",
+            "upload_location": "ftp://ftp.veritas.com/pub/support/patchcentral/Solaris/5.0_MP3/sfha/sfha-sol_sparc-5.0MP3RP2a-patches.tar.gz",
+            "upload_size": "323585538",
+            "vers_level": "500-302"
+        },
+        "3036": {
+            "download_count": "1886",
+            "installed_over": "1326,1558,2520",
+            "obsoleted_by": "3781,4893",
+            "obsoletes": "1257,1335,1558,1584,1794,2308,2413,2506,2518,2520,2770",
+            "obsoletes_all": "1257,1335,1558,1584,1794,1830,1838,1870,1883,1884,1891,1897,1974,2178,2308,2365,2366,2412,2413,2414,2506,2512,2518,2520,2545,2770",
+            "padvs": "sol9_sparc,sol10_sparc,sol8_sparc",
+            "patch": {
+                "121714-04": {
+                    "pkgs": [
+                        "VRTSfspro"
+                    ]
+                },
+                "122058-13": {
+                    "obsoletes": [
+                        "124361-06",
+                        "139352-02"
+                    ],
+                    "pkgs": [
+                        "VRTSvxvm"
+                    ]
+                },
+                "123086-05": {
+                    "obsoletes": [
+                        "125764-01"
+                    ],
+                    "pkgs": [
+                        "VRTSglm"
+                    ]
+                },
+                "123089-03": {
+                    "obsoletes": [
+                        "125767-02"
+                    ],
+                    "pkgs": [
+                        "VRTSgms"
+                    ]
+                },
+                "123201-06": {
+                    "obsoletes": [
+                        "125761-05",
+                        "139346-02"
+                    ],
+                    "pkgs": [
+                        "VRTSvxfs"
+                    ]
+                },
+                "123722-02": {
+                    "obsoletes": [
+                        "123678-04"
+                    ],
+                    "pkgs": [
+                        "VRTSat"
+                    ]
+                },
+                "123740-06": {
+                    "obsoletes": [
+                        "139739-01",
+                        "127344-02"
+                    ],
+                    "pkgs": [
+                        "VRTSvmpro"
+                    ]
+                },
+                "123821-05": {
+                    "pkgs": [
+                        "VRTSalloc"
+                    ]
+                },
+                "123823-05": {
+                    "pkgs": [
+                        "VRTSddlpr"
+                    ]
+                },
+                "128078-02": {
+                    "pkgs": [
+                        "VRTSfsman"
+                    ]
+                },
+                "139354-01": {
+                    "pkgs": [
+                        "VRTSvmman"
+                    ]
+                },
+                "139357-03": {
+                    "obsoletes": [
+                        "139350-01",
+                        "139152-01",
+                        "139149-01",
+                        "139148-01",
+                        "139156-01",
+                        "139380-02",
+                        "141763-01",
+                        "142594-01",
+                        "142613-01",
+                        "139350-01",
+                        "139152-01",
+                        "139149-01",
+                        "139148-01",
+                        "139156-01",
+                        "139380-02",
+                        "141763-01",
+                        "142594-01",
+                        "142613-01",
+                        "139350-01",
+                        "139152-01",
+                        "139149-01",
+                        "139148-01",
+                        "139156-01",
+                        "139380-02",
+                        "141763-01",
+                        "142594-01",
+                        "142613-01",
+                        "139350-01",
+                        "139152-01",
+                        "139149-01",
+                        "139148-01",
+                        "139156-01",
+                        "139380-02",
+                        "141763-01",
+                        "142594-01",
+                        "142613-01",
+                        "139350-01",
+                        "139152-01",
+                        "139149-01",
+                        "139148-01",
+                        "139156-01",
+                        "139380-02",
+                        "141763-01",
+                        "142594-01",
+                        "142613-01",
+                        "139350-01",
+                        "139152-01",
+                        "139149-01",
+                        "139148-01",
+                        "139156-01",
+                        "139380-02",
+                        "141763-01",
+                        "142594-01",
+                        "142613-01"
+                    ],
+                    "pkgs": [
+                        "VRTScscm",
+                        "VRTSgab",
+                        "VRTSllt",
+                        "VRTSvcs",
+                        "VRTSvcsag",
+                        "VRTSvxfen"
+                    ]
+                },
+                "139362-03": {
+                    "pkgs": [
+                        "VRTSdbms3"
+                    ]
+                },
+                "139366-04": {
+                    "pkgs": [
+                        "VRTSdbcom"
+                    ]
+                },
+                "139367-03": {
+                    "pkgs": [
+                        "VRTSdbed"
+                    ]
+                },
+                "139368-03": {
+                    "pkgs": [
+                        "VRTSorgui"
+                    ]
+                },
+                "139369-03": {
+                    "pkgs": [
+                        "VRTSdb2ed"
+                    ]
+                },
+                "139370-02": {
+                    "pkgs": [
+                        "VRTSd2gui"
+                    ]
+                },
+                "139737-02": {
+                    "pkgs": [
+                        "VRTSdcli"
+                    ]
+                },
+                "139741-02": {
+                    "pkgs": [
+                        "VRTSob"
+                    ]
+                },
+                "139742-02": {
+                    "pkgs": [
+                        "VRTSobc33"
+                    ]
+                },
+                "139743-01": {
+                    "pkgs": [
+                        "VRTSaa"
+                    ]
+                },
+                "139744-01": {
+                    "pkgs": [
+                        "VRTSccg"
+                    ]
+                },
+                "139754-03": {
+                    "pkgs": [
+                        "VRTScavf"
+                    ]
+                },
+                "140657-01": {
+                    "pkgs": [
+                        "VRTSdsa"
+                    ]
+                },
+                "140661-01": {
+                    "pkgs": [
+                        "VRTSobgui"
+                    ]
+                },
+                "141272-01": {
+                    "pkgs": [
+                        "VRTSsybed"
+                    ]
+                },
+                "141279-01": {
+                    "pkgs": [
+                        "VRTSmapro"
+                    ]
+                },
+                "141284-03": {
+                    "obsoletes": [
+                        "140660-02",
+                        "140660-02"
+                    ],
+                    "pkgs": [
+                        "VRTScsocw",
+                        "VRTSvcsor"
+                    ]
+                },
+                "141285-03": {
+                    "pkgs": [
+                        "VRTSvcsdb"
+                    ]
+                },
+                "141286-03": {
+                    "pkgs": [
+                        "VRTSvcssy"
+                    ]
+                },
+                "141745-01": {
+                    "pkgs": [
+                        "VRTSvcsvr"
+                    ]
+                },
+                "142616-03": {
+                    "pkgs": [
+                        "VRTSdbac"
+                    ]
+                }
+            },
+            "patch_details_path_html": "https://sort.symantec.com/patch/detail/3036",
+            "patch_details_path_rest": "https://sort.symantec.com/vos_services/rest/patch_services/1.0/patchRelease/3036",
+            "pkg_version": "5.0",
+            "products": "fs,sf,sfcfs,sfdb2,sfha,sfora,sfrac,sfsyb,vcs,vm,vvr",
+            "release_date": "2009-12-18",
+            "release_id": "3036",
+            "release_level": "MR",
+            "release_name": "sfha-sol_sparc-5.0MP3RP3",
+            "release_type": "RP",
+            "release_version": "5.0MP3RP3",
+            "requires": "758,1326",
+            "upload_cksum": "4105510670",
+            "upload_location": "ftp://ftp.veritas.com/pub/support/patchcentral/Solaris/5.0_MP3/sfha/sfha-sol_sparc-5.0MP3RP3-patches.tar.gz",
+            "upload_size": "365364743",
+            "vers_level": "500-303"
+        },
+        "3321": {
+            "download_count": "1034",
+            "gunzip_cksum": "1294922815",
+            "gunzip_size": "194148352",
+            "installed_over": "7210",
+            "obsoleted_by": "4135",
+            "obsoletes": "2960",
+            "obsoletes_all": "2960,3017,3310",
+            "padvs": "sol9_sparc,sol10_sparc",
+            "patch": {
+                "141270-02": {
+                    "pkgs": [
+                        "VRTSsfmh"
+                    ]
+                },
+                "142629-02": {
+                    "pkgs": [
+                        "VRTSvxvm"
+                    ]
+                },
+                "142631-02": {
+                    "pkgs": [
+                        "VRTSdbed"
+                    ]
+                },
+                "142633-02": {
+                    "pkgs": [
+                        "VRTSvxfs"
+                    ]
+                },
+                "143260-02": {
+                    "pkgs": [
+                        "VRTSllt"
+                    ]
+                },
+                "143262-02": {
+                    "pkgs": [
+                        "VRTSgab"
+                    ]
+                },
+                "143264-02": {
+                    "pkgs": [
+                        "VRTSvcs"
+                    ]
+                },
+                "143265-02": {
+                    "pkgs": [
+                        "VRTSvcsag"
+                    ]
+                },
+                "143270-02": {
+                    "pkgs": [
+                        "VRTSodm"
+                    ]
+                },
+                "143273-02": {
+                    "pkgs": [
+                        "VRTScavf"
+                    ]
+                },
+                "143276-02": {
+                    "pkgs": [
+                        "VRTSvcsea"
+                    ]
+                },
+                "143279-02": {
+                    "pkgs": [
+                        "VRTScps"
+                    ]
+                },
+                "143687-01": {
+                    "pkgs": [
+                        "VRTSob"
+                    ]
+                },
+                "143696-01": {
+                    "pkgs": [
+                        "VRTSdbac"
+                    ]
+                },
+                "143706-02": {
+                    "pkgs": [
+                        "VRTSvxfen"
+                    ]
+                }
+            },
+            "patch_details_path_html": "https://sort.symantec.com/patch/detail/3321",
+            "patch_details_path_rest": "https://sort.symantec.com/vos_services/rest/patch_services/1.0/patchRelease/3321",
+            "pkg_version": "5.1",
+            "products": "fs,sf,sfcfs,sfcfsha,sfha,sfrac,vcs,vm",
+            "release_date": "2010-03-24",
+            "release_id": "3321",
+            "release_level": "MR",
+            "release_name": "sfha-sol_sparc-5.1RP1",
+            "release_type": "RP",
+            "release_version": "5.1RP1",
+            "requires": "",
+            "upload_cksum": "1967718547",
+            "upload_location": "ftp://ftp.veritas.com/pub/support/patchcentral/Solaris/5.1/sfha/sfha-sol_sparc-5.1RP1-patches.tar.gz",
+            "upload_size": "144839736",
+            "vers_level": "510-001"
+        },
+        "3781": {
+            "download_count": "2321",
+            "installed_over": "1326,1558,2520,3036",
+            "obsoleted_by": "4893",
+            "obsoletes": "1257,1335,1558,1584,1794,2308,2413,2506,2518,2520,2770,3036",
+            "obsoletes_all": "1257,1335,1558,1584,1794,1830,1838,1870,1883,1884,1891,1897,1974,2178,2308,2365,2366,2412,2413,2414,2506,2512,2518,2520,2545,2770,3036",
+            "padvs": "sol9_sparc,sol10_sparc,sol8_sparc",
+            "patch": {
+                "121714-05": {
+                    "pkgs": [
+                        "VRTSfspro"
+                    ]
+                },
+                "122058-14": {
+                    "obsoletes": [
+                        "124361-06",
+                        "139352-02"
+                    ],
+                    "pkgs": [
+                        "VRTSvxvm"
+                    ]
+                },
+                "123086-05": {
+                    "obsoletes": [
+                        "125764-01"
+                    ],
+                    "pkgs": [
+                        "VRTSglm"
+                    ]
+                },
+                "123089-03": {
+                    "obsoletes": [
+                        "125767-02"
+                    ],
+                    "pkgs": [
+                        "VRTSgms"
+                    ]
+                },
+                "123201-07": {
+                    "obsoletes": [
+                        "125761-05",
+                        "139346-02"
+                    ],
+                    "pkgs": [
+                        "VRTSvxfs"
+                    ]
+                },
+                "123722-02": {
+                    "obsoletes": [
+                        "123678-04"
+                    ],
+                    "pkgs": [
+                        "VRTSat"
+                    ]
+                },
+                "123740-07": {
+                    "obsoletes": [
+                        "139739-01",
+                        "127344-02"
+                    ],
+                    "pkgs": [
+                        "VRTSvmpro"
+                    ]
+                },
+                "123821-06": {
+                    "pkgs": [
+                        "VRTSalloc"
+                    ]
+                },
+                "123823-06": {
+                    "pkgs": [
+                        "VRTSddlpr"
+                    ]
+                },
+                "128078-02": {
+                    "pkgs": [
+                        "VRTSfsman"
+                    ]
+                },
+                "139354-01": {
+                    "pkgs": [
+                        "VRTSvmman"
+                    ]
+                },
+                "139357-04": {
+                    "obsoletes": [
+                        "139350-01",
+                        "139152-01",
+                        "139149-01",
+                        "139148-01",
+                        "139156-01",
+                        "139380-02",
+                        "141763-01",
+                        "142594-01",
+                        "142613-01",
+                        "139350-01",
+                        "139152-01",
+                        "139149-01",
+                        "139148-01",
+                        "139156-01",
+                        "139380-02",
+                        "141763-01",
+                        "142594-01",
+                        "142613-01",
+                        "139350-01",
+                        "139152-01",
+                        "139149-01",
+                        "139148-01",
+                        "139156-01",
+                        "139380-02",
+                        "141763-01",
+                        "142594-01",
+                        "142613-01",
+                        "139350-01",
+                        "139152-01",
+                        "139149-01",
+                        "139148-01",
+                        "139156-01",
+                        "139380-02",
+                        "141763-01",
+                        "142594-01",
+                        "142613-01",
+                        "139350-01",
+                        "139152-01",
+                        "139149-01",
+                        "139148-01",
+                        "139156-01",
+                        "139380-02",
+                        "141763-01",
+                        "142594-01",
+                        "142613-01",
+                        "139350-01",
+                        "139152-01",
+                        "139149-01",
+                        "139148-01",
+                        "139156-01",
+                        "139380-02",
+                        "141763-01",
+                        "142594-01",
+                        "142613-01"
+                    ],
+                    "pkgs": [
+                        "VRTScscm",
+                        "VRTSgab",
+                        "VRTSllt",
+                        "VRTSvcs",
+                        "VRTSvcsag",
+                        "VRTSvxfen"
+                    ]
+                },
+                "139362-03": {
+                    "pkgs": [
+                        "VRTSdbms3"
+                    ]
+                },
+                "139366-04": {
+                    "pkgs": [
+                        "VRTSdbcom"
+                    ]
+                },
+                "139367-03": {
+                    "pkgs": [
+                        "VRTSdbed"
+                    ]
+                },
+                "139368-03": {
+                    "pkgs": [
+                        "VRTSorgui"
+                    ]
+                },
+                "139369-03": {
+                    "pkgs": [
+                        "VRTSdb2ed"
+                    ]
+                },
+                "139370-02": {
+                    "pkgs": [
+                        "VRTSd2gui"
+                    ]
+                },
+                "139737-02": {
+                    "pkgs": [
+                        "VRTSdcli"
+                    ]
+                },
+                "139741-03": {
+                    "pkgs": [
+                        "VRTSob"
+                    ]
+                },
+                "139742-03": {
+                    "pkgs": [
+                        "VRTSobc33"
+                    ]
+                },
+                "139743-01": {
+                    "pkgs": [
+                        "VRTSaa"
+                    ]
+                },
+                "139744-01": {
+                    "pkgs": [
+                        "VRTSccg"
+                    ]
+                },
+                "139754-04": {
+                    "pkgs": [
+                        "VRTScavf"
+                    ]
+                },
+                "140657-01": {
+                    "pkgs": [
+                        "VRTSdsa"
+                    ]
+                },
+                "140661-01": {
+                    "pkgs": [
+                        "VRTSobgui"
+                    ]
+                },
+                "141272-01": {
+                    "pkgs": [
+                        "VRTSsybed"
+                    ]
+                },
+                "141279-01": {
+                    "pkgs": [
+                        "VRTSmapro"
+                    ]
+                },
+                "141284-04": {
+                    "obsoletes": [
+                        "140660-02",
+                        "140660-02"
+                    ],
+                    "pkgs": [
+                        "VRTScsocw",
+                        "VRTSvcsor"
+                    ]
+                },
+                "141285-04": {
+                    "pkgs": [
+                        "VRTSvcsdb"
+                    ]
+                },
+                "141286-04": {
+                    "pkgs": [
+                        "VRTSvcssy"
+                    ]
+                },
+                "141745-01": {
+                    "pkgs": [
+                        "VRTSvcsvr"
+                    ]
+                },
+                "142616-04": {
+                    "pkgs": [
+                        "VRTSdbac"
+                    ]
+                }
+            },
+            "patch_details_path_html": "https://sort.symantec.com/patch/detail/3781",
+            "patch_details_path_rest": "https://sort.symantec.com/vos_services/rest/patch_services/1.0/patchRelease/3781",
+            "pkg_version": "5.0",
+            "products": "fs,sf,sfcfs,sfdb2,sfha,sfora,sfrac,sfsyb,vcs,vm,vvr",
+            "release_date": "2010-06-10",
+            "release_id": "3781",
+            "release_level": "MR",
+            "release_name": "sfha-sol_sparc-5.0MP3RP4",
+            "release_type": "RP",
+            "release_version": "5.0MP3RP4",
+            "requires": "758,1326",
+            "upload_cksum": "135316489",
+            "upload_location": "ftp://ftp.veritas.com/pub/support/patchcentral/Solaris/5.0_MP3/sfha/sfha-sol_sparc-5.0MP3RP4-patches.tar.gz",
+            "upload_size": "365541673",
+            "vers_level": "500-304"
+        },
+        "4135": {
+            "download_count": "1261",
+            "gunzip_cksum": "2734362446",
+            "gunzip_size": "242031104",
+            "installed_over": "7210,3321",
+            "obsoleted_by": "",
+            "obsoletes": "2960,3321",
+            "obsoletes_all": "2960,3310,3321,3501,3604,3636,3778,3832,4002,4088",
+            "padvs": "sol9_sparc,sol10_sparc",
+            "patch": {
+                "141270-02": {
+                    "pkgs": [
+                        "VRTSsfmh"
+                    ]
+                },
+                "142629-05": {
+                    "pkgs": [
+                        "VRTSvxvm"
+                    ]
+                },
+                "142631-03": {
+                    "pkgs": [
+                        "VRTSdbed"
+                    ]
+                },
+                "142633-03": {
+                    "pkgs": [
+                        "VRTSvxfs"
+                    ]
+                },
+                "143260-03": {
+                    "pkgs": [
+                        "VRTSllt"
+                    ]
+                },
+                "143262-03": {
+                    "pkgs": [
+                        "VRTSgab"
+                    ]
+                },
+                "143264-07": {
+                    "pkgs": [
+                        "VRTSvcs"
+                    ]
+                },
+                "143265-07": {
+                    "pkgs": [
+                        "VRTSvcsag"
+                    ]
+                },
+                "143270-03": {
+                    "pkgs": [
+                        "VRTSodm"
+                    ]
+                },
+                "143273-02": {
+                    "pkgs": [
+                        "VRTScavf"
+                    ]
+                },
+                "143276-04": {
+                    "pkgs": [
+                        "VRTSvcsea"
+                    ]
+                },
+                "143279-03": {
+                    "pkgs": [
+                        "VRTScps"
+                    ]
+                },
+                "143687-01": {
+                    "pkgs": [
+                        "VRTSob"
+                    ]
+                },
+                "143696-01": {
+                    "pkgs": [
+                        "VRTSdbac"
+                    ]
+                },
+                "143706-03": {
+                    "pkgs": [
+                        "VRTSvxfen"
+                    ]
+                }
+            },
+            "patch_details_path_html": "https://sort.symantec.com/patch/detail/4135",
+            "patch_details_path_rest": "https://sort.symantec.com/vos_services/rest/patch_services/1.0/patchRelease/4135",
+            "pkg_version": "5.1",
+            "products": "fs,sf,sfcfs,sfcfsha,sfha,sfrac,vcs,vm",
+            "release_date": "2010-09-17",
+            "release_id": "4135",
+            "release_level": "MR",
+            "release_name": "sfha-sol_sparc-5.1RP2",
+            "release_type": "RP",
+            "release_version": "5.1RP2",
+            "requires": "",
+            "upload_cksum": "1670862393",
+            "upload_location": "ftp://ftp.veritas.com/pub/support/patchcentral/Solaris/5.1/sfha/sfha-sol_sparc-5.1RP2-patches.tar.gz",
+            "upload_size": "191168596",
+            "vers_level": "510-002"
+        },
+        "4669": {
+            "download_count": "1354",
+            "filename": "sfha-sol_sparc-5.1SP1RP1-patches.tar.gz",
+            "gunzip_cksum": "2467015775",
+            "gunzip_size": "178511360",
+            "install_path": "sol_sparc/installrp",
+            "installed_over": "4544",
+            "obsoleted_by": "5516,6816",
+            "obsoletes": "4329,4453",
+            "obsoletes_all": "4329,4424,4453,4464,4476,4576",
+            "padvs": "sol9_sparc,sol10_sparc",
+            "patch": {
+                "142629-09": {
+                    "pkgs": [
+                        "VRTSvxvm"
+                    ]
+                },
+                "142633-07": {
+                    "pkgs": [
+                        "VRTSvxfs"
+                    ]
+                },
+                "143270-06": {
+                    "pkgs": [
+                        "VRTSodm"
+                    ]
+                },
+                "143273-06": {
+                    "pkgs": [
+                        "VRTScavf"
+                    ]
+                },
+                "143287-03": {
+                    "pkgs": [
+                        "VRTSvcs"
+                    ]
+                },
+                "143288-04": {
+                    "pkgs": [
+                        "VRTSvcsag"
+                    ]
+                },
+                "143289-02": {
+                    "pkgs": [
+                        "VRTScps"
+                    ]
+                },
+                "143290-03": {
+                    "pkgs": [
+                        "VRTSvcsea"
+                    ]
+                },
+                "143680-02": {
+                    "pkgs": [
+                        "VRTSglm"
+                    ]
+                },
+                "144159-01": {
+                    "pkgs": [
+                        "VRTSsfmh"
+                    ]
+                },
+                "145454-02": {
+                    "pkgs": [
+                        "VRTSvxfen"
+                    ]
+                },
+                "145471-01": {
+                    "pkgs": [
+                        "VRTSamf"
+                    ]
+                }
+            },
+            "patch_details_path_html": "https://sort.symantec.com/patch/detail/4669",
+            "patch_details_path_rest": "https://sort.symantec.com/vos_services/rest/patch_services/1.0/patchRelease/4669",
+            "pkg_version": "5.1",
+            "products": "dmp,fs,sf,sfcfs,sfcfsha,sfha,sfrac,svs,vcs,vm",
+            "release_date": "2011-02-14",
+            "release_id": "4669",
+            "release_level": "MR",
+            "release_name": "sfha-sol_sparc-5.1SP1RP1",
+            "release_type": "RP",
+            "release_version": "5.1SP1RP1",
+            "requires": "",
+            "upload_cksum": "430147682",
+            "upload_location": "ftp://ftp.veritas.com/pub/support/patchcentral/Solaris/5.1/sfha/sfha-sol_sparc-5.1SP1RP1-patches.tar.gz",
+            "upload_size": "127208371",
+            "vers_level": "510-101"
+        },
+        "4893": {
+            "download_count": "2869",
+            "installed_over": "1326,1558,2520,3036,3781",
+            "obsoleted_by": "",
+            "obsoletes": "1257,1335,1558,1584,1794,2308,2413,2506,2518,2520,2770,3036,3781,4087,4201",
+            "obsoletes_all": "1257,1335,1558,1584,1794,1830,1838,1870,1883,1884,1891,1897,1974,2178,2308,2365,2366,2412,2413,2414,2506,2512,2518,2520,2545,2770,3036,3781,4087,4201",
+            "padvs": "sol9_sparc,sol10_sparc,sol8_sparc",
+            "patch": {
+                "121714-05": {
+                    "pkgs": [
+                        "VRTSfspro"
+                    ]
+                },
+                "122058-15": {
+                    "obsoletes": [
+                        "124361-06",
+                        "139352-02"
+                    ],
+                    "pkgs": [
+                        "VRTSvxvm"
+                    ]
+                },
+                "123086-05": {
+                    "obsoletes": [
+                        "125764-01"
+                    ],
+                    "pkgs": [
+                        "VRTSglm"
+                    ]
+                },
+                "123089-03": {
+                    "obsoletes": [
+                        "125767-02"
+                    ],
+                    "pkgs": [
+                        "VRTSgms"
+                    ]
+                },
+                "123201-08": {
+                    "obsoletes": [
+                        "125761-05",
+                        "139346-02"
+                    ],
+                    "pkgs": [
+                        "VRTSvxfs"
+                    ]
+                },
+                "123722-02": {
+                    "obsoletes": [
+                        "123678-04"
+                    ],
+                    "pkgs": [
+                        "VRTSat"
+                    ]
+                },
+                "123740-07": {
+                    "obsoletes": [
+                        "139739-01",
+                        "127344-02"
+                    ],
+                    "pkgs": [
+                        "VRTSvmpro"
+                    ]
+                },
+                "123821-06": {
+                    "pkgs": [
+                        "VRTSalloc"
+                    ]
+                },
+                "123823-06": {
+                    "pkgs": [
+                        "VRTSddlpr"
+                    ]
+                },
+                "128078-02": {
+                    "pkgs": [
+                        "VRTSfsman"
+                    ]
+                },
+                "139354-01": {
+                    "pkgs": [
+                        "VRTSvmman"
+                    ]
+                },
+                "139357-05": {
+                    "obsoletes": [
+                        "139350-01",
+                        "139152-01",
+                        "139149-01",
+                        "139148-01",
+                        "139156-01",
+                        "139380-02",
+                        "141763-01",
+                        "142594-01",
+                        "142613-01",
+                        "139350-01",
+                        "139152-01",
+                        "139149-01",
+                        "139148-01",
+                        "139156-01",
+                        "139380-02",
+                        "141763-01",
+                        "142594-01",
+                        "142613-01",
+                        "139350-01",
+                        "139152-01",
+                        "139149-01",
+                        "139148-01",
+                        "139156-01",
+                        "139380-02",
+                        "141763-01",
+                        "142594-01",
+                        "142613-01",
+                        "139350-01",
+                        "139152-01",
+                        "139149-01",
+                        "139148-01",
+                        "139156-01",
+                        "139380-02",
+                        "141763-01",
+                        "142594-01",
+                        "142613-01",
+                        "139350-01",
+                        "139152-01",
+                        "139149-01",
+                        "139148-01",
+                        "139156-01",
+                        "139380-02",
+                        "141763-01",
+                        "142594-01",
+                        "142613-01",
+                        "139350-01",
+                        "139152-01",
+                        "139149-01",
+                        "139148-01",
+                        "139156-01",
+                        "139380-02",
+                        "141763-01",
+                        "142594-01",
+                        "142613-01"
+                    ],
+                    "pkgs": [
+                        "VRTScscm",
+                        "VRTSgab",
+                        "VRTSllt",
+                        "VRTSvcs",
+                        "VRTSvcsag",
+                        "VRTSvxfen"
+                    ]
+                },
+                "139362-03": {
+                    "pkgs": [
+                        "VRTSdbms3"
+                    ]
+                },
+                "139366-05": {
+                    "pkgs": [
+                        "VRTSdbcom"
+                    ]
+                },
+                "139367-04": {
+                    "pkgs": [
+                        "VRTSdbed"
+                    ]
+                },
+                "139368-04": {
+                    "pkgs": [
+                        "VRTSorgui"
+                    ]
+                },
+                "139369-03": {
+                    "pkgs": [
+                        "VRTSdb2ed"
+                    ]
+                },
+                "139370-02": {
+                    "pkgs": [
+                        "VRTSd2gui"
+                    ]
+                },
+                "139737-02": {
+                    "pkgs": [
+                        "VRTSdcli"
+                    ]
+                },
+                "139741-03": {
+                    "pkgs": [
+                        "VRTSob"
+                    ]
+                },
+                "139742-03": {
+                    "pkgs": [
+                        "VRTSobc33"
+                    ]
+                },
+                "139743-01": {
+                    "pkgs": [
+                        "VRTSaa"
+                    ]
+                },
+                "139744-01": {
+                    "pkgs": [
+                        "VRTSccg"
+                    ]
+                },
+                "139754-05": {
+                    "pkgs": [
+                        "VRTScavf"
+                    ]
+                },
+                "140657-01": {
+                    "pkgs": [
+                        "VRTSdsa"
+                    ]
+                },
+                "140661-01": {
+                    "pkgs": [
+                        "VRTSobgui"
+                    ]
+                },
+                "141272-01": {
+                    "pkgs": [
+                        "VRTSsybed"
+                    ]
+                },
+                "141279-01": {
+                    "pkgs": [
+                        "VRTSmapro"
+                    ]
+                },
+                "141284-06": {
+                    "obsoletes": [
+                        "140660-02",
+                        "140660-02"
+                    ],
+                    "pkgs": [
+                        "VRTScsocw",
+                        "VRTSvcsor"
+                    ]
+                },
+                "141285-07": {
+                    "pkgs": [
+                        "VRTSvcsdb"
+                    ]
+                },
+                "141286-06": {
+                    "pkgs": [
+                        "VRTSvcssy"
+                    ]
+                },
+                "141745-01": {
+                    "pkgs": [
+                        "VRTSvcsvr"
+                    ]
+                },
+                "142616-05": {
+                    "pkgs": [
+                        "VRTSdbac"
+                    ]
+                }
+            },
+            "patch_details_path_html": "https://sort.symantec.com/patch/detail/4893",
+            "patch_details_path_rest": "https://sort.symantec.com/vos_services/rest/patch_services/1.0/patchRelease/4893",
+            "pkg_version": "5.0",
+            "products": "fs,sf,sfcfs,sfdb2,sfha,sfora,sfrac,sfsyb,vcs,vm,vvr",
+            "release_date": "2011-05-06",
+            "release_id": "4893",
+            "release_level": "MR",
+            "release_name": "sfha-sol_sparc-5.0MP3RP5",
+            "release_type": "RP",
+            "release_version": "5.0MP3RP5",
+            "requires": "758,1326",
+            "upload_cksum": "2297198737",
+            "upload_location": "ftp://ftp.veritas.com/pub/support/patchcentral/Solaris/5.0_MP3/sfha/sfha-sol_sparc-5.0MP3RP5-patches.tar.gz",
+            "upload_size": "367633578",
+            "vers_level": "500-305"
+        },
+        "5516": {
+            "download_count": "1977",
+            "filename": "sfha-sol_sparc-5.1SP1RP2-patches.tar.gz",
+            "gunzip_cksum": "1852511542",
+            "gunzip_size": "242983424",
+            "install_path": "sol_sparc/installrp",
+            "installed_over": "4544,4669",
+            "obsoleted_by": "6816",
+            "obsoletes": "4329,4453,4669,4731,4973,5243",
+            "obsoletes_all": "4329,4424,4453,4464,4476,4576,4669,4721,4731,4805,4869,4887,4925,4973,4987,5010,5141,5146,5188,5201,5204,5243,5249,5255,5294,5301,5308",
+            "padvs": "sol9_sparc,sol10_sparc",
+            "patch": {
+                "142629-12": {
+                    "pkgs": [
+                        "VRTSvxvm"
+                    ]
+                },
+                "142631-05": {
+                    "pkgs": [
+                        "VRTSdbed"
+                    ]
+                },
+                "142633-09": {
+                    "pkgs": [
+                        "VRTSvxfs"
+                    ]
+                },
+                "143270-07": {
+                    "pkgs": [
+                        "VRTSodm"
+                    ]
+                },
+                "143273-07": {
+                    "pkgs": [
+                        "VRTScavf"
+                    ]
+                },
+                "143281-03": {
+                    "pkgs": [
+                        "VRTSllt"
+                    ]
+                },
+                "143283-02": {
+                    "pkgs": [
+                        "VRTSgab"
+                    ]
+                },
+                "143287-07": {
+                    "obsoletes": [
+                        "146896-01"
+                    ],
+                    "pkgs": [
+                        "VRTSvcs"
+                    ]
+                },
+                "143288-12": {
+                    "obsoletes": [
+                        "146898-01"
+                    ],
+                    "pkgs": [
+                        "VRTSvcsag"
+                    ]
+                },
+                "143289-03": {
+                    "pkgs": [
+                        "VRTScps"
+                    ]
+                },
+                "143290-04": {
+                    "pkgs": [
+                        "VRTSvcsea"
+                    ]
+                },
+                "143680-03": {
+                    "pkgs": [
+                        "VRTSglm"
+                    ]
+                },
+                "143687-03": {
+                    "pkgs": [
+                        "VRTSob"
+                    ]
+                },
+                "144159-01": {
+                    "pkgs": [
+                        "VRTSsfmh"
+                    ]
+                },
+                "145450-03": {
+                    "pkgs": [
+                        "VRTSdbac"
+                    ]
+                },
+                "145454-03": {
+                    "pkgs": [
+                        "VRTSvxfen"
+                    ]
+                },
+                "145471-02": {
+                    "pkgs": [
+                        "VRTSamf"
+                    ]
+                }
+            },
+            "patch_details_path_html": "https://sort.symantec.com/patch/detail/5516",
+            "patch_details_path_rest": "https://sort.symantec.com/vos_services/rest/patch_services/1.0/patchRelease/5516",
+            "pkg_version": "5.1",
+            "products": "dmp,fs,sf,sfcfs,sfcfsha,sfha,sfrac,svs,vcs,vm",
+            "release_date": "2011-09-28",
+            "release_id": "5516",
+            "release_level": "MR",
+            "release_name": "sfha-sol_sparc-5.1SP1RP2",
+            "release_type": "RP",
+            "release_version": "5.1SP1RP2",
+            "requires": "",
+            "upload_cksum": "3890762100",
+            "upload_location": "ftp://ftp.veritas.com/pub/support/patchcentral/Solaris/5.1/sfha/sfha-sol_sparc-5.1SP1RP2-patches.tar.gz",
+            "upload_size": "200455302",
+            "vers_level": "510-102"
+        },
+        "5517": {
+            "download_count": "123",
+            "filename": "sfha-sol_sparc-5.1SP1RP2-patches.tar.gz",
+            "gunzip_cksum": "1852511542",
+            "gunzip_size": "242983424",
+            "install_path": "sol_sparc/installrp",
+            "installed_over": "5014",
+            "obsoleted_by": "6817",
+            "obsoletes": "",
+            "obsoletes_all": "",
+            "padvs": "sol9_sparc,sol10_sparc",
+            "patch": {
+                "142629-12": {
+                    "pkgs": [
+                        "VRTSvxvm"
+                    ]
+                },
+                "142631-05": {
+                    "pkgs": [
+                        "VRTSdbed"
+                    ]
+                },
+                "142633-09": {
+                    "pkgs": [
+                        "VRTSvxfs"
+                    ]
+                },
+                "143270-07": {
+                    "pkgs": [
+                        "VRTSodm"
+                    ]
+                },
+                "143273-07": {
+                    "pkgs": [
+                        "VRTScavf"
+                    ]
+                },
+                "143281-03": {
+                    "pkgs": [
+                        "VRTSllt"
+                    ]
+                },
+                "143283-02": {
+                    "pkgs": [
+                        "VRTSgab"
+                    ]
+                },
+                "143287-07": {
+                    "obsoletes": [
+                        "146896-01"
+                    ],
+                    "pkgs": [
+                        "VRTSvcs"
+                    ]
+                },
+                "143288-12": {
+                    "obsoletes": [
+                        "146898-01"
+                    ],
+                    "pkgs": [
+                        "VRTSvcsag"
+                    ]
+                },
+                "143289-03": {
+                    "pkgs": [
+                        "VRTScps"
+                    ]
+                },
+                "143290-04": {
+                    "pkgs": [
+                        "VRTSvcsea"
+                    ]
+                },
+                "143680-03": {
+                    "pkgs": [
+                        "VRTSglm"
+                    ]
+                },
+                "143687-03": {
+                    "pkgs": [
+                        "VRTSob"
+                    ]
+                },
+                "144159-01": {
+                    "pkgs": [
+                        "VRTSsfmh"
+                    ]
+                },
+                "145450-03": {
+                    "pkgs": [
+                        "VRTSdbac"
+                    ]
+                },
+                "145454-03": {
+                    "pkgs": [
+                        "VRTSvxfen"
+                    ]
+                },
+                "145471-02": {
+                    "pkgs": [
+                        "VRTSamf"
+                    ]
+                }
+            },
+            "patch_details_path_html": "https://sort.symantec.com/patch/detail/5517",
+            "patch_details_path_rest": "https://sort.symantec.com/vos_services/rest/patch_services/1.0/patchRelease/5517",
+            "pkg_version": "5.1",
+            "products": "svs",
+            "release_date": "2011-09-28",
+            "release_id": "5517",
+            "release_level": "MR",
+            "release_name": "sfha-sol_sparc-5.1SP1PR3RP2",
+            "release_type": "RP",
+            "release_version": "5.1SP1PR3RP2",
+            "requires": "",
+            "upload_cksum": "3890762100",
+            "upload_location": "ftp://ftp.veritas.com/pub/support/patchcentral/Solaris/5.1/sfha/sfha-sol_sparc-5.1SP1RP2-patches.tar.gz",
+            "upload_size": "200455302",
+            "vers_level": "510-132"
+        },
+        "6816": {
+            "download_count": "1724",
+            "filename": "sfha-sol_sparc-5.1SP1RP3-patches.tar.gz",
+            "gunzip_cksum": "3944673845",
+            "gunzip_size": "244528128",
+            "install_path": "sol_sparc/installrp",
+            "installed_over": "4544,4669,5516",
+            "obsoleted_by": "",
+            "obsoletes": "4329,4453,4669,4731,4973,5243,5516,5573,5618,5958,5959,6376,6438",
+            "obsoletes_all": "4329,4424,4453,4464,4476,4576,4669,4721,4731,4805,4869,4887,4925,4973,5010,5141,5146,5188,5204,5243,5249,5255,5294,5301,5308,5516,5573,5618,5958,5959,6376,6436,6438",
+            "padvs": "sol9_sparc,sol10_sparc",
+            "patch": {
+                "142629-16": {
+                    "pkgs": [
+                        "VRTSvxvm"
+                    ]
+                },
+                "142631-06": {
+                    "pkgs": [
+                        "VRTSdbed"
+                    ]
+                },
+                "142633-12": {
+                    "pkgs": [
+                        "VRTSvxfs"
+                    ]
+                },
+                "143270-09": {
+                    "pkgs": [
+                        "VRTSodm"
+                    ]
+                },
+                "143273-08": {
+                    "pkgs": [
+                        "VRTScavf"
+                    ]
+                },
+                "143281-04": {
+                    "pkgs": [
+                        "VRTSllt"
+                    ]
+                },
+                "143283-03": {
+                    "pkgs": [
+                        "VRTSgab"
+                    ]
+                },
+                "143287-08": {
+                    "pkgs": [
+                        "VRTSvcs"
+                    ]
+                },
+                "143288-13": {
+                    "pkgs": [
+                        "VRTSvcsag"
+                    ]
+                },
+                "143289-03": {
+                    "pkgs": [
+                        "VRTScps"
+                    ]
+                },
+                "143290-05": {
+                    "pkgs": [
+                        "VRTSvcsea"
+                    ]
+                },
+                "143680-04": {
+                    "pkgs": [
+                        "VRTSglm"
+                    ]
+                },
+                "143687-03": {
+                    "pkgs": [
+                        "VRTSob"
+                    ]
+                },
+                "144159-01": {
+                    "pkgs": [
+                        "VRTSsfmh"
+                    ]
+                },
+                "145450-04": {
+                    "pkgs": [
+                        "VRTSdbac"
+                    ]
+                },
+                "145454-04": {
+                    "pkgs": [
+                        "VRTSvxfen"
+                    ]
+                },
+                "145471-03": {
+                    "pkgs": [
+                        "VRTSamf"
+                    ]
+                }
+            },
+            "patch_details_path_html": "https://sort.symantec.com/patch/detail/6816",
+            "patch_details_path_rest": "https://sort.symantec.com/vos_services/rest/patch_services/1.0/patchRelease/6816",
+            "pkg_version": "5.1",
+            "products": "dmp,fs,sf,sfcfs,sfcfsha,sfha,sfrac,svs,vcs,vm",
+            "release_date": "2012-10-02",
+            "release_id": "6816",
+            "release_level": "MR",
+            "release_name": "sfha-sol_sparc-5.1SP1RP3",
+            "release_type": "RP",
+            "release_version": "5.1SP1RP3",
+            "requires": "",
+            "upload_cksum": "2596622792",
+            "upload_location": "ftp://ftp.veritas.com/pub/support/patchcentral/Solaris/5.1/sfha/sfha-sol_sparc-5.1SP1RP3-patches.tar.gz",
+            "upload_size": "201185156",
+            "vers_level": "510-103"
+        },
+        "6817": {
+            "download_count": "113",
+            "filename": "sfha-sol_sparc-5.1SP1RP3-patches.tar.gz",
+            "gunzip_cksum": "3944673845",
+            "gunzip_size": "244528128",
+            "install_path": "sol_sparc/installrp",
+            "installed_over": "5014,5517",
+            "obsoleted_by": "",
+            "obsoletes": "5517,5573,5618,5958,5959",
+            "obsoletes_all": "4329,4424,4453,4731,4973,5243,5517,5573,5618,5958,5959",
+            "padvs": "sol9_sparc,sol10_sparc",
+            "patch": {
+                "142629-16": {
+                    "pkgs": [
+                        "VRTSvxvm"
+                    ]
+                },
+                "142631-06": {
+                    "pkgs": [
+                        "VRTSdbed"
+                    ]
+                },
+                "142633-12": {
+                    "pkgs": [
+                        "VRTSvxfs"
+                    ]
+                },
+                "143270-09": {
+                    "pkgs": [
+                        "VRTSodm"
+                    ]
+                },
+                "143273-08": {
+                    "pkgs": [
+                        "VRTScavf"
+                    ]
+                },
+                "143281-04": {
+                    "pkgs": [
+                        "VRTSllt"
+                    ]
+                },
+                "143283-03": {
+                    "pkgs": [
+                        "VRTSgab"
+                    ]
+                },
+                "143287-08": {
+                    "pkgs": [
+                        "VRTSvcs"
+                    ]
+                },
+                "143288-13": {
+                    "pkgs": [
+                        "VRTSvcsag"
+                    ]
+                },
+                "143289-03": {
+                    "pkgs": [
+                        "VRTScps"
+                    ]
+                },
+                "143290-05": {
+                    "pkgs": [
+                        "VRTSvcsea"
+                    ]
+                },
+                "143680-04": {
+                    "pkgs": [
+                        "VRTSglm"
+                    ]
+                },
+                "143687-03": {
+                    "pkgs": [
+                        "VRTSob"
+                    ]
+                },
+                "144159-01": {
+                    "pkgs": [
+                        "VRTSsfmh"
+                    ]
+                },
+                "145450-04": {
+                    "pkgs": [
+                        "VRTSdbac"
+                    ]
+                },
+                "145454-04": {
+                    "pkgs": [
+                        "VRTSvxfen"
+                    ]
+                },
+                "145471-03": {
+                    "pkgs": [
+                        "VRTSamf"
+                    ]
+                }
+            },
+            "patch_details_path_html": "https://sort.symantec.com/patch/detail/6817",
+            "patch_details_path_rest": "https://sort.symantec.com/vos_services/rest/patch_services/1.0/patchRelease/6817",
+            "pkg_version": "5.1",
+            "products": "svs",
+            "release_date": "2012-10-02",
+            "release_id": "6817",
+            "release_level": "MR",
+            "release_name": "sfha-sol_sparc-5.1SP1PR3RP3",
+            "release_type": "RP",
+            "release_version": "5.1SP1PR3RP3",
+            "requires": "",
+            "upload_cksum": "2596622792",
+            "upload_location": "ftp://ftp.veritas.com/pub/support/patchcentral/Solaris/5.1/sfha/sfha-sol_sparc-5.1SP1RP3-patches.tar.gz",
+            "upload_size": "201185156",
+            "vers_level": "510-133"
+        },
+        "758": {
+            "download_count": "563",
+            "installed_over": "7197",
+            "obsoleted_by": "",
+            "obsoletes": "420",
+            "obsoletes_all": "420",
+            "padvs": "sol9_sparc,sol10_sparc,sol8_sparc",
+            "patch": {
+                "121709-03": {
+                    "pkgs": [
+                        "VRTSodm"
+                    ]
+                },
+                "121714-01": {
+                    "pkgs": [
+                        "VRTSfspro"
+                    ]
+                },
+                "121715-02": {
+                    "pkgs": [
+                        "VRTSfsweb"
+                    ]
+                },
+                "122058-09": {
+                    "pkgs": [
+                        "VRTSvxvm"
+                    ]
+                },
+                "122631-02": {
+                    "pkgs": [
+                        "VRTSob"
+                    ]
+                },
+                "122632-02": {
+                    "pkgs": [
+                        "VRTSobc33"
+                    ]
+                },
+                "122633-02": {
+                    "pkgs": [
+                        "VRTSobgui"
+                    ]
+                },
+                "122634-02": {
+                    "pkgs": [
+                        "VRTSobweb"
+                    ]
+                },
+                "123075-02": {
+                    "pkgs": [
+                        "VRTSaa"
+                    ]
+                },
+                "123076-02": {
+                    "pkgs": [
+                        "VRTSccg"
+                    ]
+                },
+                "123077-02": {
+                    "pkgs": [
+                        "VRTScs"
+                    ]
+                },
+                "123078-02": {
+                    "pkgs": [
+                        "VRTScweb"
+                    ]
+                },
+                "123079-02": {
+                    "pkgs": [
+                        "VRTSmh"
+                    ]
+                },
+                "123086-02": {
+                    "pkgs": [
+                        "VRTSglm"
+                    ]
+                },
+                "123201-02": {
+                    "pkgs": [
+                        "VRTSfsman",
+                        "VRTSvxfs"
+                    ]
+                },
+                "123208-01": {
+                    "pkgs": [
+                        "VRTScscm",
+                        "VRTScssim",
+                        "VRTSgab",
+                        "VRTSllt",
+                        "VRTSvcs",
+                        "VRTSvcsag",
+                        "VRTSvxfen"
+                    ]
+                },
+                "123214-01": {
+                    "pkgs": [
+                        "VRTSdbed"
+                    ]
+                },
+                "123215-02": {
+                    "pkgs": [
+                        "VRTSorgui"
+                    ]
+                },
+                "123216-02": {
+                    "pkgs": [
+                        "VRTSdbcom"
+                    ]
+                },
+                "123217-02": {
+                    "pkgs": [
+                        "VRTSd2gui"
+                    ]
+                },
+                "123218-01": {
+                    "pkgs": [
+                        "VRTSdb2ed"
+                    ]
+                },
+                "123219-01": {
+                    "pkgs": [
+                        "VRTSsybed"
+                    ]
+                },
+                "123220-03": {
+                    "pkgs": [
+                        "VRTSmapro"
+                    ]
+                },
+                "123670-01": {
+                    "pkgs": [
+                        "VRTScsocw",
+                        "VRTSvcsor"
+                    ]
+                },
+                "123671-01": {
+                    "pkgs": [
+                        "VRTSvcssy"
+                    ]
+                },
+                "123672-01": {
+                    "pkgs": [
+                        "VRTSvcsdb"
+                    ]
+                },
+                "123678-04": {
+                    "pkgs": [
+                        "VRTSat"
+                    ]
+                },
+                "123738-02": {
+                    "pkgs": [
+                        "VRTSvmweb"
+                    ]
+                },
+                "123740-02": {
+                    "pkgs": [
+                        "VRTSvmpro"
+                    ]
+                },
+                "123742-02": {
+                    "pkgs": [
+                        "VRTSdcli"
+                    ]
+                },
+                "123743-02": {
+                    "pkgs": [
+                        "VRTSvrpro"
+                    ]
+                },
+                "123744-03": {
+                    "pkgs": [
+                        "VRTSvrw"
+                    ]
+                },
+                "123818-01": {
+                    "pkgs": [
+                        "VRTSvmman"
+                    ]
+                },
+                "123819-02": {
+                    "pkgs": [
+                        "VRTScsdoc"
+                    ]
+                },
+                "123821-02": {
+                    "pkgs": [
+                        "VRTSalloc"
+                    ]
+                },
+                "123823-01": {
+                    "pkgs": [
+                        "VRTSddlpr"
+                    ]
+                },
+                "123995-05": {
+                    "pkgs": [
+                        "SYMClma"
+                    ]
+                },
+                "123996-06": {
+                    "pkgs": [
+                        "VRTSsmf"
+                    ]
+                },
+                "124002-02": {
+                    "pkgs": [
+                        "VRTSvsvc"
+                    ]
+                },
+                "124004-02": {
+                    "pkgs": [
+                        "VRTSvail"
+                    ]
+                }
+            },
+            "patch_details_path_html": "https://sort.symantec.com/patch/detail/758",
+            "patch_details_path_rest": "https://sort.symantec.com/vos_services/rest/patch_services/1.0/patchRelease/758",
+            "pkg_version": "5.0",
+            "products": "fs,sf,sfcfs,sfdb2,sfha,sfora,sfrac,sfsyb,vcs,vm,vvr",
+            "release_date": "2007-03-17",
+            "release_id": "758",
+            "release_level": "MR",
+            "release_name": "5.0 MP1b",
+            "release_type": "MP",
+            "release_version": "5.0MP1",
+            "requires": "",
+            "upload_cksum": "1160303430",
+            "upload_location": "ftp://ftp.veritas.com/pub/support/patchcentral/Solaris/5.0_MP1/vcs/sxrt5.0MP1_sol_5.0MP1.dvd1.tar_288505.gz",
+            "upload_size": "983030958",
+            "vers_level": "500-100"
+        }
+    }
+}

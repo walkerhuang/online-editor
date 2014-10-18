@@ -1,0 +1,1656 @@
+{
+    "sol11_sparc": {
+        "6779": {
+            "download_count": "120",
+            "extended_prop": {
+                "criticality": "critical",
+                "have_kernel_component": "1",
+                "manifest": "",
+                "require_application_downtime": "0",
+                "require_system_reboot": "1",
+                "vom_deployment": "0",
+                "vom_id": "",
+                "vom_installer_id": ""
+            },
+            "filename": "fs-sol11_sparc-6.0.1.200-patches.tar.gz",
+            "gunzip_cksum": "562842451",
+            "gunzip_size": "14897664",
+            "hotfix_core_prod": "fs",
+            "hotfix_prod": "fs",
+            "install_path": "installFS601P2",
+            "installed_over": "6757",
+            "obsoleted_by": "",
+            "obsoletes": "",
+            "padvs": "sol11_sparc",
+            "patch": {
+                "VRTSvxfs-6.0.100.200": {
+                    "pkgs": [
+                        "VRTSvxfs"
+                    ],
+                    "version": "6.0.100.200"
+                }
+            },
+            "patch_details_path_html": "https://sort.symantec.com/patch/detail/6779",
+            "patch_details_path_rest": "https://sort.symantec.com/vos_services/rest/patch_services/1.0/patchRelease/6779",
+            "products": "sf,svs,fs,sfha,sfrac,sfcfsha",
+            "release_date": "2012-09-20",
+            "release_id": "6779",
+            "release_level": "HF",
+            "release_name": "fs-sol11_sparc-6.0.1.200",
+            "release_type": "pHF",
+            "release_version": "6.0.1.200-fs",
+            "requires": "",
+            "upload_cksum": "3409270026",
+            "upload_location": "ftp://ftp.veritas.com/pub/support/patchcentral/Solaris/6.0.1/fs/fs-sol11_sparc-6.0.1.200-patches.tar.gz",
+            "upload_size": "14273189",
+            "vers_level": "601-000-200-fs"
+        },
+        "7418": {
+            "download_count": "106",
+            "extended_prop": {
+                "criticality": "optional",
+                "have_kernel_component": "0",
+                "manifest": "",
+                "require_application_downtime": "0",
+                "require_system_reboot": "0",
+                "vom_deployment": "0",
+                "vom_id": "",
+                "vom_installer_id": ""
+            },
+            "filename": "vcs-sol11_sparc-VRTSvcsea-6.0.300.100-patches.tar.gz",
+            "gunzip_cksum": "3812890020",
+            "gunzip_size": "962560",
+            "hotfix_core_prod": "vcs",
+            "hotfix_prod": "vcs-VRTSvcsea",
+            "install_path": "installVCSEA603P1",
+            "installed_over": "7030",
+            "obsoleted_by": "",
+            "obsoletes": "",
+            "padvs": "sol11_sparc",
+            "patch": {
+                "VRTSvcsea-6.0.300.100": {
+                    "pkgs": [
+                        "VRTSvcsea"
+                    ],
+                    "version": "6.0.300.100"
+                }
+            },
+            "patch_details_path_html": "https://sort.symantec.com/patch/detail/7418",
+            "patch_details_path_rest": "https://sort.symantec.com/vos_services/rest/patch_services/1.0/patchRelease/7418",
+            "products": "svs,sfha,vcs,sfrac,sfcfsha",
+            "release_date": "2013-03-12",
+            "release_id": "7418",
+            "release_level": "HF",
+            "release_name": "vcs-sol11_sparc-VRTSvcsea-6.0.3.100",
+            "release_type": "pHF",
+            "release_version": "6.0.3.100-vcs-VRTSvcsea",
+            "requires": "7030",
+            "upload_cksum": "1967694482",
+            "upload_location": "ftp://ftp.veritas.com/pub/support/patchcentral/Solaris/6.0.300/vcs/vcs-sol11_sparc-VRTSvcsea-6.0.300.100-patches.tar.gz",
+            "upload_size": "544426",
+            "vers_level": "603-000-100-vcs"
+        },
+        "7629": {
+            "download_count": 0,
+            "extended_prop": {
+                "criticality": "optional",
+                "have_kernel_component": "0",
+                "manifest": "",
+                "require_application_downtime": "0",
+                "require_system_reboot": "0",
+                "vom_deployment": "0",
+                "vom_id": "",
+                "vom_installer_id": ""
+            },
+            "hotfix_core_prod": "vm",
+            "hotfix_prod": "vm",
+            "installed_over": "7030",
+            "obsoleted_by": "",
+            "obsoletes": "",
+            "padvs": "sol11_sparc",
+            "patch": {
+                "VRTSvxvm-6.0.300.72": {
+                    "pkgs": [
+                        "VRTSvxvm"
+                    ],
+                    "version": "6.0.300.72"
+                }
+            },
+            "products": "sf,vm,svs,sfha,dmp,sfrac,sfcfsha",
+            "release_date": "2013-04-29",
+            "release_id": "7629",
+            "release_level": "HF",
+            "release_name": "vm-sol11_sparc-6.0.3.072",
+            "release_type": "HF",
+            "release_version": "6.0.3.072-vm",
+            "requires": "7030",
+            "vers_level": "603-000-072-vm"
+        },
+        "7634": {
+            "download_count": "57",
+            "extended_prop": {
+                "criticality": "critical",
+                "have_kernel_component": "1",
+                "manifest": "",
+                "require_application_downtime": "0",
+                "require_system_reboot": "0",
+                "vom_deployment": "0",
+                "vom_id": "",
+                "vom_installer_id": ""
+            },
+            "filename": "vcs-sol11_sparc-VRTSamf-6.0.3.100-patches.tar.gz",
+            "gunzip_cksum": "664812675",
+            "gunzip_size": "1423360",
+            "hotfix_core_prod": "vcs",
+            "hotfix_prod": "vcs-VRTSamf",
+            "install_path": "installAMF603P1",
+            "installed_over": "7030",
+            "obsoleted_by": "8117",
+            "obsoletes": "",
+            "padvs": "sol11_sparc",
+            "patch": {
+                "VRTSamf-6.0.300.100": {
+                    "pkgs": [
+                        "VRTSamf"
+                    ],
+                    "version": "6.0.300.100"
+                }
+            },
+            "patch_details_path_html": "https://sort.symantec.com/patch/detail/7634",
+            "patch_details_path_rest": "https://sort.symantec.com/vos_services/rest/patch_services/1.0/patchRelease/7634",
+            "products": "svs,sfha,vcs,sfrac,sfcfsha",
+            "release_date": "2013-05-02",
+            "release_id": "7634",
+            "release_level": "HF",
+            "release_name": "vcs-sol11_sparc-VRTSamf-6.0.3.100",
+            "release_type": "pHF",
+            "release_version": "6.0.3.100-vcs-VRTSamf",
+            "requires": "7030",
+            "upload_cksum": "753357362",
+            "upload_location": "ftp://ftp.veritas.com/pub/support/patchcentral/Solaris/6.0.3/vcs/vcs-sol11_sparc-VRTSamf-6.0.3.100-patches.tar.gz",
+            "upload_size": "1209696",
+            "vers_level": "603-000-100-vcs"
+        },
+        "7636": {
+            "download_count": "94",
+            "extended_prop": {
+                "criticality": "critical",
+                "have_kernel_component": "0",
+                "manifest": "",
+                "require_application_downtime": "0",
+                "require_system_reboot": "0",
+                "vom_deployment": "0",
+                "vom_id": "",
+                "vom_installer_id": ""
+            },
+            "filename": "vcs-sol11_sparc-VRTSvcsag-6.0.3.100-patches.tar.gz",
+            "gunzip_cksum": "965645104",
+            "gunzip_size": "2916352",
+            "hotfix_core_prod": "vcs",
+            "hotfix_prod": "vcs-VRTSvcsag",
+            "install_path": "installVCSAG603P1",
+            "installed_over": "7030",
+            "obsoleted_by": "",
+            "obsoletes": "",
+            "padvs": "sol11_sparc",
+            "patch": {
+                "VRTSvcsag-6.0.300.100": {
+                    "pkgs": [
+                        "VRTSvcsag"
+                    ],
+                    "version": "6.0.300.100"
+                }
+            },
+            "patch_details_path_html": "https://sort.symantec.com/patch/detail/7636",
+            "patch_details_path_rest": "https://sort.symantec.com/vos_services/rest/patch_services/1.0/patchRelease/7636",
+            "products": "svs,sfha,vcs,sfrac,sfcfsha",
+            "release_date": "2013-05-02",
+            "release_id": "7636",
+            "release_level": "HF",
+            "release_name": "vcs-sol11_sparc-VRTSvcsag-6.0.3.100",
+            "release_type": "pHF",
+            "release_version": "6.0.3.100-vcs-VRTSvcsag",
+            "requires": "7030",
+            "upload_cksum": "2370846318",
+            "upload_location": "ftp://ftp.veritas.com/pub/support/patchcentral/Solaris/6.0.3/vcs/vcs-sol11_sparc-VRTSvcsag-6.0.3.100-patches.tar.gz",
+            "upload_size": "2001975",
+            "vers_level": "603-000-100-vcs"
+        },
+        "7643": {
+            "download_count": 0,
+            "extended_prop": {
+                "criticality": "optional",
+                "have_kernel_component": "0",
+                "manifest": "",
+                "require_application_downtime": "0",
+                "require_system_reboot": "0",
+                "vom_deployment": "0",
+                "vom_id": "",
+                "vom_installer_id": ""
+            },
+            "hotfix_core_prod": "vcs",
+            "hotfix_prod": "vcs-VRTSvcs",
+            "installed_over": "7030",
+            "obsoleted_by": "",
+            "obsoletes": "",
+            "padvs": "sol11_sparc",
+            "patch": {
+                "VRTSvcs-6.0.300.1": {
+                    "pkgs": [
+                        "VRTSvcs"
+                    ],
+                    "version": "6.0.300.1"
+                }
+            },
+            "products": "svs,sfha,vcs,sfrac,sfcfsha",
+            "release_date": "2013-05-02",
+            "release_id": "7643",
+            "release_level": "HF",
+            "release_name": "vcs-sol11_sparc-VRTSvcs-6.0.3.1a",
+            "release_type": "HF",
+            "release_version": "6.0.3.001-vcs-VRTSvcs",
+            "requires": "7030",
+            "upload_cksum": "2474178322",
+            "upload_location": "ftp://ftpvault.veritas.com/release_train/sol/6.0.1/patch_central/HF/vcs/sol11_sparc/VRTSvcs-6.0.300.1a/TEST_TARBALLS/vcs-sol11_sparc-VRTSvcs-6.0.300.1a-patches.tar.gz",
+            "upload_size": "84105488",
+            "vers_level": "603-000-001-vcs-VRTSvcs"
+        },
+        "7653": {
+            "download_count": "45",
+            "extended_prop": {
+                "criticality": "recommended",
+                "have_kernel_component": "1",
+                "manifest": "",
+                "require_application_downtime": "1",
+                "require_system_reboot": "0",
+                "vom_deployment": "0",
+                "vom_id": "",
+                "vom_installer_id": ""
+            },
+            "filename": "vcs-sol11_sparc-VRTSgab-6.0.3.100-patches.tar.gz",
+            "gunzip_cksum": "1258810494",
+            "gunzip_size": "759808",
+            "hotfix_core_prod": "vcs",
+            "hotfix_prod": "vcs-VRTSgab",
+            "install_path": "installGAB603P1",
+            "installed_over": "7030",
+            "obsoleted_by": "7939",
+            "obsoletes": "",
+            "padvs": "sol11_sparc",
+            "patch": {
+                "VRTSgab-6.0.300.100": {
+                    "pkgs": [
+                        "VRTSgab"
+                    ],
+                    "version": "6.0.300.100"
+                }
+            },
+            "patch_details_path_html": "https://sort.symantec.com/patch/detail/7653",
+            "patch_details_path_rest": "https://sort.symantec.com/vos_services/rest/patch_services/1.0/patchRelease/7653",
+            "products": "svs,sfha,vcs,sfrac,sfcfsha",
+            "release_date": "2013-05-07",
+            "release_id": "7653",
+            "release_level": "HF",
+            "release_name": "vcs-sol11_sparc-VRTSgab-6.0.3.100",
+            "release_type": "pHF",
+            "release_version": "6.0.3.100-vcs-VRTSgab",
+            "requires": "7030",
+            "upload_cksum": "66110349",
+            "upload_location": "ftp://ftp.veritas.com/pub/support/patchcentral/Solaris/6.0.3/vcs/vcs-sol11_sparc-VRTSgab-6.0.3.100-patches.tar.gz",
+            "upload_size": "435840",
+            "vers_level": "603-000-100-vcs"
+        },
+        "7857": {
+            "download_count": 0,
+            "extended_prop": {
+                "criticality": "critical",
+                "have_kernel_component": "1",
+                "manifest": "",
+                "require_application_downtime": "1",
+                "require_system_reboot": "1",
+                "vom_deployment": "0",
+                "vom_id": "",
+                "vom_installer_id": ""
+            },
+            "hotfix_core_prod": "vm",
+            "hotfix_prod": "vm",
+            "installed_over": "7030",
+            "obsoleted_by": "",
+            "obsoletes": "",
+            "padvs": "sol11_sparc",
+            "patch": {
+                "VRTSvxvm-6.0.300.9": {
+                    "pkgs": [
+                        "VRTSvxvm"
+                    ],
+                    "version": "6.0.300.9"
+                }
+            },
+            "products": "sf,vm,svs,sfha,dmp,sfrac,sfcfsha",
+            "release_date": "2013-08-13",
+            "release_id": "7857",
+            "release_level": "HF",
+            "release_name": "vm-sol11_sparc-6.0.3.009",
+            "release_type": "HF",
+            "release_version": "6.0.3.009-vm",
+            "requires": "7030",
+            "upload_cksum": "1511731461",
+            "upload_location": "ftp://ftpvault.veritas.com/release_train/sol/6.0.1/patch_central/HF/vm/sol11_sparc/6.0.3.009/TEST_TARBALLS/vm-sol11_sparc-6.0.3.009-pkgs.tar.gz",
+            "upload_size": "51839267",
+            "vers_level": "603-000-009-vm"
+        },
+        "7884": {
+            "download_count": "69",
+            "extended_prop": {
+                "criticality": "optional",
+                "have_kernel_component": "1",
+                "manifest": "",
+                "require_application_downtime": "0",
+                "require_system_reboot": "1",
+                "vom_deployment": "0",
+                "vom_id": "",
+                "vom_installer_id": ""
+            },
+            "gunzip_cksum": "1235372360",
+            "gunzip_size": "598528",
+            "hotfix_core_prod": "sf",
+            "hotfix_prod": "odm",
+            "installed_over": "7030",
+            "obsoleted_by": "",
+            "obsoletes": "",
+            "padvs": "sol11_sparc",
+            "patch": {
+                "VRTSodm-6.0.300.100": {
+                    "pkgs": [
+                        "VRTSodm"
+                    ],
+                    "version": "6.0.300.100"
+                }
+            },
+            "patch_details_path_html": "https://sort.symantec.com/patch/detail/7884",
+            "patch_details_path_rest": "https://sort.symantec.com/vos_services/rest/patch_services/1.0/patchRelease/7884",
+            "products": "sf,svs,sfha,sfrac,sfcfsha",
+            "release_date": "2013-09-19",
+            "release_id": "7884",
+            "release_level": "HF",
+            "release_name": "odm-sol11_sparc-6.0.3.100",
+            "release_type": "pHF",
+            "release_version": "6.0.3.100-odm",
+            "requires": "7030",
+            "upload_cksum": "2200177649",
+            "upload_location": "ftp://ftp.veritas.com/pub/support/patchcentral/Solaris/6.0.3/odm/odm-sol11_sparc-6.0.3.100-patches.tar.gz",
+            "upload_size": "491033",
+            "vers_level": "603-000-100-odm"
+        },
+        "7934": {
+            "download_count": "61",
+            "extended_prop": {
+                "criticality": "optional",
+                "have_kernel_component": "0",
+                "manifest": "",
+                "require_application_downtime": "0",
+                "require_system_reboot": "0",
+                "vom_deployment": "0",
+                "vom_id": "",
+                "vom_installer_id": ""
+            },
+            "gunzip_cksum": "938608765",
+            "gunzip_size": "36352000",
+            "hotfix_core_prod": "sf",
+            "hotfix_prod": "dbed-VRTSdbed",
+            "installed_over": "7030",
+            "obsoleted_by": "",
+            "obsoletes": "",
+            "padvs": "sol11_sparc",
+            "patch": {
+                "VRTSdbed-6.0.300.100": {
+                    "pkgs": [
+                        "VRTSdbed"
+                    ],
+                    "version": "6.0.300.100"
+                }
+            },
+            "patch_details_path_html": "https://sort.symantec.com/patch/detail/7934",
+            "patch_details_path_rest": "https://sort.symantec.com/vos_services/rest/patch_services/1.0/patchRelease/7934",
+            "products": "sf,svs,sfha,sfrac,sfcfsha",
+            "release_date": "2013-09-19",
+            "release_id": "7934",
+            "release_level": "HF",
+            "release_name": "dbed-sol11_sparc-VRTSdbed-6.0.3.100",
+            "release_type": "pHF",
+            "release_version": "6.0.3.100-dbed-VRTSdbed",
+            "requires": "7030",
+            "upload_cksum": "2325210296",
+            "upload_location": "ftp://ftp.veritas.com/pub/support/patchcentral/Solaris/6.0.3/dbed/dbed-sol11_sparc-VRTSdbed-6.0.3.100-patches.tar.gz",
+            "upload_size": "34968692",
+            "vers_level": "603-000-100-dbed"
+        },
+        "7939": {
+            "download_count": "70",
+            "extended_prop": {
+                "criticality": "recommended",
+                "have_kernel_component": "1",
+                "manifest": "",
+                "require_application_downtime": "0",
+                "require_system_reboot": "0",
+                "vom_deployment": "0",
+                "vom_id": "",
+                "vom_installer_id": ""
+            },
+            "gunzip_cksum": "4279812376",
+            "gunzip_size": "706560",
+            "hotfix_core_prod": "vcs",
+            "hotfix_prod": "vcs-VRTSgab",
+            "installed_over": "7030",
+            "obsoleted_by": "",
+            "obsoletes": "7653",
+            "padvs": "sol11_sparc",
+            "patch": {
+                "VRTSgab-6.0.300.200": {
+                    "pkgs": [
+                        "VRTSgab"
+                    ],
+                    "version": "6.0.300.200"
+                }
+            },
+            "patch_details_path_html": "https://sort.symantec.com/patch/detail/7939",
+            "patch_details_path_rest": "https://sort.symantec.com/vos_services/rest/patch_services/1.0/patchRelease/7939",
+            "products": "svs,sfha,vcs,sfrac,sfcfsha",
+            "release_date": "2013-09-13",
+            "release_id": "7939",
+            "release_level": "HF",
+            "release_name": "vcs-sol11_sparc-VRTSgab-6.0.3.200",
+            "release_type": "pHF",
+            "release_version": "6.0.3.200-vcs-VRTSgab",
+            "requires": "7030",
+            "upload_cksum": "940972290",
+            "upload_location": "ftp://ftp.veritas.com/pub/support/patchcentral/Solaris/6.0.3/vcs/vcs-sol11_sparc-VRTSgab-6.0.3.200-patches.tar.gz",
+            "upload_size": "421763",
+            "vers_level": "603-000-200-vcs"
+        },
+        "7940": {
+            "download_count": "61",
+            "extended_prop": {
+                "criticality": "recommended",
+                "have_kernel_component": "1",
+                "manifest": "",
+                "require_application_downtime": "0",
+                "require_system_reboot": "0",
+                "vom_deployment": "0",
+                "vom_id": "",
+                "vom_installer_id": ""
+            },
+            "gunzip_cksum": "383445160",
+            "gunzip_size": "757760",
+            "hotfix_core_prod": "vcs",
+            "hotfix_prod": "vcs-VRTSllt",
+            "installed_over": "7030",
+            "obsoleted_by": "",
+            "obsoletes": "",
+            "padvs": "sol11_sparc",
+            "patch": {
+                "VRTSllt-6.0.300.100": {
+                    "pkgs": [
+                        "VRTSllt"
+                    ],
+                    "version": "6.0.300.100"
+                }
+            },
+            "patch_details_path_html": "https://sort.symantec.com/patch/detail/7940",
+            "patch_details_path_rest": "https://sort.symantec.com/vos_services/rest/patch_services/1.0/patchRelease/7940",
+            "products": "svs,sfha,vcs,sfrac,sfcfsha",
+            "release_date": "2013-09-13",
+            "release_id": "7940",
+            "release_level": "HF",
+            "release_name": "vcs-sol11_sparc-VRTSllt-6.0.3.100",
+            "release_type": "pHF",
+            "release_version": "6.0.3.100-vcs-VRTSllt",
+            "requires": "7030",
+            "upload_cksum": "284608121",
+            "upload_location": "ftp://ftp.veritas.com/pub/support/patchcentral/Solaris/6.0.3/vcs/vcs-sol11_sparc-VRTSllt-6.0.3.100-patches.tar.gz",
+            "upload_size": "508600",
+            "vers_level": "603-000-100-vcs"
+        },
+        "7941": {
+            "download_count": "68",
+            "extended_prop": {
+                "criticality": "recommended",
+                "have_kernel_component": "1",
+                "manifest": "",
+                "require_application_downtime": "0",
+                "require_system_reboot": "0",
+                "vom_deployment": "0",
+                "vom_id": "",
+                "vom_installer_id": ""
+            },
+            "gunzip_cksum": "1239612289",
+            "gunzip_size": "880640",
+            "hotfix_core_prod": "vcs",
+            "hotfix_prod": "vcs-VRTSvxfen",
+            "installed_over": "7030",
+            "obsoleted_by": "",
+            "obsoletes": "",
+            "padvs": "sol11_sparc",
+            "patch": {
+                "VRTSvxfen-6.0.300.100": {
+                    "pkgs": [
+                        "VRTSvxfen"
+                    ],
+                    "version": "6.0.300.100"
+                }
+            },
+            "patch_details_path_html": "https://sort.symantec.com/patch/detail/7941",
+            "patch_details_path_rest": "https://sort.symantec.com/vos_services/rest/patch_services/1.0/patchRelease/7941",
+            "products": "svs,sfha,vcs,sfrac,sfcfsha",
+            "release_date": "2013-09-13",
+            "release_id": "7941",
+            "release_level": "HF",
+            "release_name": "vcs-sol11_sparc-VRTSvxfen-6.0.3.100",
+            "release_type": "pHF",
+            "release_version": "6.0.3.100-vcs-VRTSvxfen",
+            "requires": "7030",
+            "upload_cksum": "2493298390",
+            "upload_location": "ftp://ftp.veritas.com/pub/support/patchcentral/Solaris/6.0.3/vcs/vcs-sol11_sparc-VRTSvxfen-6.0.3.100-patches.tar.gz",
+            "upload_size": "649332",
+            "vers_level": "603-000-100-vcs"
+        },
+        "7942": {
+            "download_count": "9",
+            "extended_prop": {
+                "criticality": "recommended",
+                "have_kernel_component": "1",
+                "manifest": "",
+                "require_application_downtime": "1",
+                "require_system_reboot": "0",
+                "vom_deployment": "0",
+                "vom_id": "",
+                "vom_installer_id": ""
+            },
+            "gunzip_cksum": "2486768097",
+            "gunzip_size": "1519104",
+            "hotfix_core_prod": "sfrac",
+            "hotfix_prod": "sfrac-VRTSdbac",
+            "installed_over": "6757",
+            "obsoleted_by": "",
+            "obsoletes": "",
+            "padvs": "sol11_sparc",
+            "patch": {
+                "VRTSdbac-6.0.100.100": {
+                    "pkgs": [
+                        "VRTSdbac"
+                    ],
+                    "version": "6.0.100.100"
+                }
+            },
+            "patch_details_path_html": "https://sort.symantec.com/patch/detail/7942",
+            "patch_details_path_rest": "https://sort.symantec.com/vos_services/rest/patch_services/1.0/patchRelease/7942",
+            "products": "sfrac",
+            "release_date": "2013-09-13",
+            "release_id": "7942",
+            "release_level": "HF",
+            "release_name": "sfrac-sol11_sparc-VRTSdbac-6.0.1.100",
+            "release_type": "pHF",
+            "release_version": "6.0.1.100-sfrac-VRTSdbac",
+            "requires": "",
+            "upload_cksum": "3507438400",
+            "upload_location": "ftp://ftp.veritas.com/pub/support/patchcentral/Solaris/6.0.1/sfrac/sfrac-sol11_sparc-VRTSdbac-6.0.1.100-patches.tar.gz",
+            "upload_size": "1207932",
+            "vers_level": "601-000-100-sfrac"
+        },
+        "7949": {
+            "download_count": "77",
+            "extended_prop": {
+                "criticality": "critical",
+                "have_kernel_component": "1",
+                "manifest": "",
+                "require_application_downtime": "1",
+                "require_system_reboot": "1",
+                "vom_deployment": "0",
+                "vom_id": "",
+                "vom_installer_id": ""
+            },
+            "filename": "vm-sol11_sparc-6.0.3.100-pkgs.tar.gz",
+            "gunzip_cksum": "2009102048",
+            "gunzip_size": "53841920",
+            "hotfix_core_prod": "vm",
+            "hotfix_prod": "vm",
+            "install_path": "installVM603P1",
+            "installed_over": "7030",
+            "obsoleted_by": "8256",
+            "obsoletes": "",
+            "padvs": "sol11_sparc",
+            "patch": {
+                "VRTSvxvm-6.0.300.100": {
+                    "pkgs": [
+                        "VRTSvxvm"
+                    ],
+                    "version": "6.0.300.100"
+                }
+            },
+            "patch_details_path_html": "https://sort.symantec.com/patch/detail/7949",
+            "patch_details_path_rest": "https://sort.symantec.com/vos_services/rest/patch_services/1.0/patchRelease/7949",
+            "products": "sf,vm,svs,sfha,dmp,sfrac,sfcfsha",
+            "release_date": "2013-09-13",
+            "release_id": "7949",
+            "release_level": "HF",
+            "release_name": "vm-sol11_sparc-6.0.3.100",
+            "release_type": "pHF",
+            "release_version": "6.0.3.100-vm",
+            "requires": "7030",
+            "upload_cksum": "1551453074",
+            "upload_location": "ftp://ftp.veritas.com/pub/support/patchcentral/Solaris/6.0.3/vm/vm-sol11_sparc-6.0.3.100-pkgs.tar.gz",
+            "upload_size": "51902017",
+            "vers_level": "603-000-100-vm"
+        },
+        "7988": {
+            "download_count": 0,
+            "extended_prop": {
+                "criticality": "optional",
+                "have_kernel_component": "1",
+                "manifest": "",
+                "require_application_downtime": "0",
+                "require_system_reboot": "0",
+                "vom_deployment": "0",
+                "vom_id": "",
+                "vom_installer_id": ""
+            },
+            "hotfix_core_prod": "vcs",
+            "hotfix_prod": "vcs-VRTSvxfen",
+            "installed_over": "7030",
+            "obsoleted_by": "",
+            "obsoletes": "",
+            "padvs": "sol11_sparc",
+            "patch": {
+                "VRTSvxfen-6.0.300.1": {
+                    "pkgs": [
+                        "VRTSvxfen"
+                    ],
+                    "version": "6.0.300.1"
+                }
+            },
+            "products": "svs,sfha,vcs,sfrac,sfcfsha",
+            "release_date": "2013-09-24",
+            "release_id": "7988",
+            "release_level": "HF",
+            "release_name": "vcs-sol11_sparc-VRTSvxfen-6.0.3.1",
+            "release_type": "HF",
+            "release_version": "6.0.3.001-vcs-VRTSvxfen",
+            "requires": "7030",
+            "upload_cksum": "4068080321",
+            "upload_location": "ftp://ftpvault.veritas.com/release_train/sol/6.0.1/patch_central/HF/vcs/sol11_sparc/VRTSvxfen-6.0.300.1/TEST_TARBALLS/vcs-sol11_sparc-VRTSvxfen-6.0.300.1-patches.tar.gz",
+            "upload_size": "645458",
+            "vers_level": "603-000-001-vcs-VRTSvxfen"
+        },
+        "8074": {
+            "download_count": 0,
+            "extended_prop": {
+                "criticality": "recommended",
+                "have_kernel_component": "1",
+                "manifest": "",
+                "require_application_downtime": "1",
+                "require_system_reboot": "1",
+                "vom_deployment": "0",
+                "vom_id": "",
+                "vom_installer_id": ""
+            },
+            "hotfix_core_prod": "vm",
+            "hotfix_prod": "vm",
+            "installed_over": "7030",
+            "obsoleted_by": "",
+            "obsoletes": "",
+            "padvs": "sol11_sparc",
+            "patch": {
+                "VRTSvxvm-6.0.300.103": {
+                    "pkgs": [
+                        "VRTSvxvm"
+                    ],
+                    "version": "6.0.300.103"
+                }
+            },
+            "products": "sf,vm,svs,sfha,dmp,sfrac,sfcfsha",
+            "release_date": "2013-10-17",
+            "release_id": "8074",
+            "release_level": "HF",
+            "release_name": "vm-sol11_sparc-6.0.3.103",
+            "release_type": "HF",
+            "release_version": "6.0.3.103-vm",
+            "requires": "",
+            "upload_cksum": "1032279445",
+            "upload_location": "ftp://ftpvault.veritas.com/release_train/sol/6.0.1/patch_central/HF/vm/sol11_sparc/6.0.300.103/TEST_TARBALLS/vm-sol11_sparc-6.0.3.103-pkgs.tar.gz",
+            "upload_size": "51851546",
+            "vers_level": "603-000-103-vm"
+        },
+        "8117": {
+            "download_count": "57",
+            "extended_prop": {
+                "criticality": "optional",
+                "have_kernel_component": "1",
+                "manifest": "",
+                "require_application_downtime": "0",
+                "require_system_reboot": "0",
+                "vom_deployment": "0",
+                "vom_id": "",
+                "vom_installer_id": ""
+            },
+            "filename": "vcs-sol11_sparc-VRTSamf_6.0.3.200-patches.tar.gz",
+            "gunzip_cksum": "2346232009",
+            "gunzip_size": "1355776",
+            "hotfix_core_prod": "vcs",
+            "hotfix_prod": "vcs-VRTSamf",
+            "install_path": "installAMF603P2",
+            "installed_over": "7030",
+            "obsoleted_by": "",
+            "obsoletes": "7634",
+            "padvs": "sol11_sparc",
+            "patch": {
+                "VRTSamf-6.0.300.200": {
+                    "pkgs": [
+                        "VRTSamf"
+                    ],
+                    "version": "6.0.300.200"
+                }
+            },
+            "patch_details_path_html": "https://sort.symantec.com/patch/detail/8117",
+            "patch_details_path_rest": "https://sort.symantec.com/vos_services/rest/patch_services/1.0/patchRelease/8117",
+            "products": "svs,sfha,vcs,sfrac,sfcfsha",
+            "release_date": "2013-10-25",
+            "release_id": "8117",
+            "release_level": "HF",
+            "release_name": "vcs-sol11_sparc-VRTSamf_6.0.3.200",
+            "release_type": "pHF",
+            "release_version": "6.0.3.200-vcs-VRTSamf",
+            "requires": "7030",
+            "upload_cksum": "2525132134",
+            "upload_location": "ftp://ftp.veritas.com/pub/support/patchcentral/Solaris/6.0.3/vcs/vcs-sol11_sparc-VRTSamf_6.0.3.200-patches.tar.gz",
+            "upload_size": "1191827",
+            "vers_level": "603-000-200-vcs"
+        },
+        "8256": {
+            "download_count": "105",
+            "extended_prop": {
+                "criticality": "critical",
+                "have_kernel_component": "1",
+                "manifest": "",
+                "require_application_downtime": "1",
+                "require_system_reboot": "1",
+                "vom_deployment": "0",
+                "vom_id": "",
+                "vom_installer_id": ""
+            },
+            "filename": "vm-sol11_sparc-6.0.3.200-pkgs.tar.gz",
+            "gunzip_cksum": "771514437",
+            "gunzip_size": "53937664",
+            "hotfix_core_prod": "vm",
+            "hotfix_prod": "vm",
+            "install_path": "installVM603P2",
+            "installed_over": "7030",
+            "obsoleted_by": "",
+            "obsoletes": "7949",
+            "padvs": "sol11_sparc",
+            "patch": {
+                "VRTSvxvm-6.0.300.200": {
+                    "pkgs": [
+                        "VRTSvxvm"
+                    ],
+                    "version": "6.0.300.200"
+                }
+            },
+            "patch_details_path_html": "https://sort.symantec.com/patch/detail/8256",
+            "patch_details_path_rest": "https://sort.symantec.com/vos_services/rest/patch_services/1.0/patchRelease/8256",
+            "products": "sf,vm,svs,sfha,dmp,sfrac,sfcfsha",
+            "release_date": "2013-12-18",
+            "release_id": "8256",
+            "release_level": "HF",
+            "release_name": "vm-sol11_sparc-6.0.3.200",
+            "release_type": "pHF",
+            "release_version": "6.0.3.200-vm",
+            "requires": "7030",
+            "upload_cksum": "2468193910",
+            "upload_location": "ftp://ftp.veritas.com/pub/support/patchcentral/Solaris/6.0.3/vm/vm-sol11_sparc-6.0.3.200-pkgs.tar.gz",
+            "upload_size": "51941266",
+            "vers_level": "603-000-200-vm"
+        },
+        "8316": {
+            "download_count": 0,
+            "extended_prop": {
+                "criticality": "optional",
+                "have_kernel_component": "0",
+                "manifest": "",
+                "require_application_downtime": "0",
+                "require_system_reboot": "0",
+                "vom_deployment": "0",
+                "vom_id": "",
+                "vom_installer_id": ""
+            },
+            "hotfix_core_prod": "vcs",
+            "hotfix_prod": "vcs-VRTSvcs",
+            "installed_over": "7030",
+            "obsoleted_by": "",
+            "obsoletes": "",
+            "padvs": "sol11_sparc",
+            "patch": {
+                "VRTSvcs-6.0.300.2": {
+                    "pkgs": [
+                        "VRTSvcs"
+                    ],
+                    "version": "6.0.300.2"
+                }
+            },
+            "products": "svs,sfha,vcs,sfrac,sfcfsha",
+            "release_date": "2014-01-10",
+            "release_id": "8316",
+            "release_level": "HF",
+            "release_name": "vcs-sol11_sparc-VRTSvcs-6.0.3.2",
+            "release_type": "HF",
+            "release_version": "6.0.3.002-vcs-VRTSvcs",
+            "requires": "7030",
+            "vers_level": "603-000-002-vcs-VRTSvcs"
+        },
+        "8350": {
+            "download_count": 0,
+            "extended_prop": {
+                "criticality": "critical",
+                "have_kernel_component": "0",
+                "manifest": "",
+                "require_application_downtime": "1",
+                "require_system_reboot": "0",
+                "vom_deployment": "0",
+                "vom_id": "",
+                "vom_installer_id": ""
+            },
+            "hotfix_core_prod": "vm",
+            "hotfix_prod": "vm",
+            "installed_over": "7030",
+            "obsoleted_by": "",
+            "obsoletes": "",
+            "padvs": "sol11_sparc",
+            "patch": {
+                "VRTSvxvm-6.0.300.202": {
+                    "pkgs": [
+                        "VRTSvxvm"
+                    ],
+                    "version": "6.0.300.202"
+                }
+            },
+            "products": "sf,vm,svs,sfha,dmp,sfrac,sfcfsha",
+            "release_date": "2014-01-28",
+            "release_id": "8350",
+            "release_level": "HF",
+            "release_name": "vm-sol11_sparc-6.0.3.202",
+            "release_type": "HF",
+            "release_version": "6.0.3.202-vm",
+            "requires": "7030",
+            "vers_level": "603-000-202-vm"
+        },
+        "8356": {
+            "download_count": 0,
+            "extended_prop": {
+                "criticality": "critical",
+                "have_kernel_component": "1",
+                "manifest": "",
+                "require_application_downtime": "1",
+                "require_system_reboot": "1",
+                "vom_deployment": "0",
+                "vom_id": "",
+                "vom_installer_id": ""
+            },
+            "hotfix_core_prod": "vm",
+            "hotfix_prod": "vm",
+            "installed_over": "7226",
+            "obsoleted_by": "8575",
+            "obsoletes": "",
+            "padvs": "sol11_sparc",
+            "patch": {
+                "VRTSvxvm-6.1.0.1": {
+                    "pkgs": [
+                        "VRTSvxvm"
+                    ],
+                    "version": "6.1.0.1"
+                }
+            },
+            "products": "dmp,sfha,sfrac,sf,vm,sfcfsha",
+            "release_date": "2014-01-31",
+            "release_id": "8356",
+            "release_level": "HF",
+            "release_name": "vm-sol11_sparc-6.1.0.001",
+            "release_type": "HF",
+            "release_version": "6.1.0.001-vm",
+            "requires": "",
+            "vers_level": "610-000-001-vm"
+        },
+        "8363": {
+            "download_count": 0,
+            "extended_prop": {
+                "criticality": "optional",
+                "have_kernel_component": "0",
+                "manifest": "",
+                "require_application_downtime": "0",
+                "require_system_reboot": "0",
+                "vom_deployment": "0",
+                "vom_id": "",
+                "vom_installer_id": ""
+            },
+            "hotfix_core_prod": "vcs",
+            "hotfix_prod": "vcs-VRTSvcsag",
+            "installed_over": "7226",
+            "obsoleted_by": "8575",
+            "obsoletes": "",
+            "padvs": "sol11_sparc",
+            "patch": {
+                "VRTSvcsag-6.1.0.1": {
+                    "pkgs": [
+                        "VRTSvcsag"
+                    ],
+                    "version": "6.1.0.1"
+                }
+            },
+            "products": "sfha,sfrac,vcs,sfcfsha",
+            "release_date": "2014-02-02",
+            "release_id": "8363",
+            "release_level": "HF",
+            "release_name": "vcs-sol11_sparc-VRTSvcsag-6.1.0.1",
+            "release_type": "HF",
+            "release_version": "6.1.0.001-vcs-VRTSvcsag",
+            "requires": "",
+            "vers_level": "610-000-001-vcs-VRTSvcsag"
+        },
+        "8421": {
+            "download_count": 0,
+            "extended_prop": {
+                "criticality": "recommended",
+                "have_kernel_component": "1",
+                "manifest": "",
+                "require_application_downtime": "1",
+                "require_system_reboot": "0",
+                "vom_deployment": "0",
+                "vom_id": "",
+                "vom_installer_id": ""
+            },
+            "hotfix_core_prod": "vm",
+            "hotfix_prod": "vm",
+            "installed_over": "7226",
+            "obsoleted_by": "8575",
+            "obsoletes": "",
+            "padvs": "sol11_sparc",
+            "patch": {
+                "VRTSvxvm-6.1.0.2": {
+                    "pkgs": [
+                        "VRTSvxvm"
+                    ],
+                    "version": "6.1.0.2"
+                }
+            },
+            "products": "dmp,sfha,sfrac,sf,vm,sfcfsha",
+            "release_date": "2014-03-06",
+            "release_id": "8421",
+            "release_level": "HF",
+            "release_name": "vm-sol11_sparc-6.1.0.002",
+            "release_type": "HF",
+            "release_version": "6.1.0.002-vm",
+            "requires": "",
+            "vers_level": "610-000-002-vm"
+        },
+        "8453": {
+            "download_count": 0,
+            "extended_prop": {
+                "criticality": "critical",
+                "have_kernel_component": "1",
+                "manifest": "",
+                "require_application_downtime": "1",
+                "require_system_reboot": "1",
+                "vom_deployment": "0",
+                "vom_id": "",
+                "vom_installer_id": ""
+            },
+            "hotfix_core_prod": "vm",
+            "hotfix_prod": "vm",
+            "installed_over": "7030",
+            "obsoleted_by": "",
+            "obsoletes": "",
+            "padvs": "sol11_sparc",
+            "patch": {
+                "VRTSvxvm-6.0.300.204": {
+                    "pkgs": [
+                        "VRTSvxvm"
+                    ],
+                    "version": "6.0.300.204"
+                }
+            },
+            "products": "sf,vm,svs,sfha,dmp,sfrac,sfcfsha",
+            "release_date": "2014-04-04",
+            "release_id": "8453",
+            "release_level": "HF",
+            "release_name": "vm-sol11_sparc-6.0.3.204",
+            "release_type": "HF",
+            "release_version": "6.0.3.204-vm",
+            "requires": "7030",
+            "vers_level": "603-000-204-vm"
+        },
+        "8518": {
+            "download_count": "11",
+            "extended_prop": {
+                "criticality": "optional",
+                "have_kernel_component": "1",
+                "manifest": "",
+                "require_application_downtime": "1",
+                "require_system_reboot": "1",
+                "vom_deployment": "0",
+                "vom_id": "",
+                "vom_installer_id": ""
+            },
+            "gunzip_cksum": "2131643507",
+            "gunzip_size": "194048",
+            "hotfix_core_prod": "sfcfs",
+            "hotfix_prod": "glm",
+            "installed_over": "6757",
+            "obsoleted_by": "",
+            "obsoletes": "",
+            "padvs": "sol11_sparc",
+            "patch": {
+                "VRTSglm-6.0.100.100": {
+                    "pkgs": [
+                        "VRTSglm"
+                    ],
+                    "version": "6.0.100.100"
+                }
+            },
+            "patch_details_path_html": "https://sort.symantec.com/patch/detail/8518",
+            "patch_details_path_rest": "https://sort.symantec.com/vos_services/rest/patch_services/1.0/patchRelease/8518",
+            "products": "svs,sfrac,sfcfsha",
+            "release_date": "2014-04-16",
+            "release_id": "8518",
+            "release_level": "HF",
+            "release_name": "glm-sol11_sparc-6.0.1.100",
+            "release_type": "pHF",
+            "release_version": "6.0.1.100-glm",
+            "requires": "",
+            "upload_cksum": "2436314096",
+            "upload_location": "ftp://ftp.veritas.com/pub/support/patchcentral/Solaris/6.0/glm/glm-sol11_sparc-6.0.1.100-patches.tar.gz",
+            "upload_size": "136798",
+            "vers_level": "601-000-100-glm"
+        },
+        "8535": {
+            "download_count": "40",
+            "extended_prop": {
+                "criticality": "optional",
+                "have_kernel_component": "0",
+                "manifest": "",
+                "require_application_downtime": "0",
+                "require_system_reboot": "0",
+                "vom_deployment": "0",
+                "vom_id": "",
+                "vom_installer_id": ""
+            },
+            "gunzip_cksum": "2047272119",
+            "gunzip_size": "15557120",
+            "hotfix_core_prod": "cps",
+            "hotfix_prod": "cps",
+            "installed_over": "7226",
+            "obsoleted_by": "8575",
+            "obsoletes": "",
+            "padvs": "sol11_sparc",
+            "patch": {
+                "VRTScps-6.1.0.100": {
+                    "pkgs": [
+                        "VRTScps"
+                    ],
+                    "version": "6.1.0.100"
+                }
+            },
+            "patch_details_path_html": "https://sort.symantec.com/patch/detail/8535",
+            "patch_details_path_rest": "https://sort.symantec.com/vos_services/rest/patch_services/1.0/patchRelease/8535",
+            "products": "sfha,sfrac,vcs,sfcfsha",
+            "release_date": "2014-04-17",
+            "release_id": "8535",
+            "release_level": "HF",
+            "release_name": "cps-sol11_sparc-6.1.0.100",
+            "release_type": "pHF",
+            "release_version": "6.1.0.100-cps",
+            "requires": "",
+            "upload_cksum": "40923161",
+            "upload_location": "ftp://ftp.veritas.com/pub/support/patchcentral/Solaris/6.1/cps/cps-sol11_sparc-6.1.0.100-patches.tar.gz",
+            "upload_size": "15218762",
+            "vers_level": "610-000-100-cps"
+        },
+        "8546": {
+            "download_count": 0,
+            "extended_prop": {
+                "criticality": "recommended",
+                "have_kernel_component": "1",
+                "manifest": "",
+                "require_application_downtime": "1",
+                "require_system_reboot": "1",
+                "vom_deployment": "0",
+                "vom_id": "",
+                "vom_installer_id": ""
+            },
+            "hotfix_core_prod": "sf",
+            "hotfix_prod": "odm",
+            "installed_over": "8513",
+            "obsoleted_by": "",
+            "obsoletes": "",
+            "padvs": "sol11_sparc",
+            "patch": {
+                "VRTSodm-6.0.500.1": {
+                    "pkgs": [
+                        "VRTSodm"
+                    ],
+                    "version": "6.0.500.1"
+                }
+            },
+            "products": "sf,svs,sfha,sfrac,sfcfsha",
+            "release_date": "2014-04-23",
+            "release_id": "8546",
+            "release_level": "HF",
+            "release_name": "odm-sol11_sparc-6.0.5.001",
+            "release_type": "HF",
+            "release_version": "6.0.5.001-odm",
+            "requires": "8513",
+            "vers_level": "605-000-001-odm"
+        },
+        "8680": {
+            "download_count": 0,
+            "extended_prop": {
+                "criticality": "critical",
+                "have_kernel_component": "1",
+                "manifest": "",
+                "require_application_downtime": "1",
+                "require_system_reboot": "1",
+                "vom_deployment": "0",
+                "vom_id": "",
+                "vom_installer_id": ""
+            },
+            "hotfix_core_prod": "vm",
+            "hotfix_prod": "vm",
+            "installed_over": "8513",
+            "obsoleted_by": "",
+            "obsoletes": "",
+            "padvs": "sol11_sparc",
+            "patch": {
+                "VRTSvxvm-6.0.500.1": {
+                    "pkgs": [
+                        "VRTSvxvm"
+                    ],
+                    "version": "6.0.500.1"
+                }
+            },
+            "products": "sf,vm,svs,sfha,dmp,sfrac,sfcfsha",
+            "release_date": "2014-05-27",
+            "release_id": "8680",
+            "release_level": "HF",
+            "release_name": "vm-sol11_sparc-6.0.5.001",
+            "release_type": "HF",
+            "release_version": "6.0.5.001-vm",
+            "requires": "8513",
+            "vers_level": "605-000-001-vm"
+        },
+        "8692": {
+            "download_count": "57",
+            "extended_prop": {
+                "criticality": "critical",
+                "have_kernel_component": "1",
+                "manifest": "",
+                "require_application_downtime": "1",
+                "require_system_reboot": "1",
+                "vom_deployment": "0",
+                "vom_id": "",
+                "vom_installer_id": ""
+            },
+            "filename": "vm-sol11_sparc-6.1.0.100-patches.tar.gz",
+            "gunzip_cksum": "2998749899",
+            "gunzip_size": "71251968",
+            "hotfix_core_prod": "vm",
+            "hotfix_prod": "vm",
+            "install_path": "installVRTSvxvm610HF100",
+            "installed_over": "7226",
+            "obsoleted_by": "8575",
+            "obsoletes": "",
+            "padvs": "sol11_sparc",
+            "patch": {
+                "VRTSvxvm-6.1.0.100": {
+                    "pkgs": [
+                        "VRTSvxvm"
+                    ],
+                    "version": "6.1.0.100"
+                }
+            },
+            "patch_details_path_html": "https://sort.symantec.com/patch/detail/8692",
+            "patch_details_path_rest": "https://sort.symantec.com/vos_services/rest/patch_services/1.0/patchRelease/8692",
+            "products": "dmp,sfha,sfrac,sf,vm,sfcfsha",
+            "release_date": "2014-05-29",
+            "release_id": "8692",
+            "release_level": "HF",
+            "release_name": "vm-sol11_sparc-6.1.0.100",
+            "release_type": "pHF",
+            "release_version": "6.1.0.100-vm",
+            "requires": "",
+            "upload_cksum": "1163854338",
+            "upload_location": "ftp://ftp.veritas.com/pub/support/patchcentral/Solaris/6.1/vm/vm-sol11_sparc-6.1.0.100-patches.tar.gz",
+            "upload_size": "57320311",
+            "vers_level": "610-000-100-vm"
+        },
+        "8730": {
+            "download_count": 0,
+            "extended_prop": {
+                "criticality": "optional",
+                "have_kernel_component": "0",
+                "manifest": "",
+                "require_application_downtime": "0",
+                "require_system_reboot": "0",
+                "vom_deployment": "0",
+                "vom_id": "",
+                "vom_installer_id": ""
+            },
+            "hotfix_core_prod": "vcsag",
+            "hotfix_prod": "vcsag",
+            "installed_over": "8513",
+            "obsoleted_by": "",
+            "obsoletes": "",
+            "padvs": "sol11_sparc",
+            "patch": {
+                "VRTSvcsag-6.0.500.1": {
+                    "pkgs": [
+                        "VRTSvcsag"
+                    ],
+                    "version": "6.0.500.1"
+                }
+            },
+            "products": "svs,sfha,vcs,sfrac,sfcfsha",
+            "release_date": "2014-06-02",
+            "release_id": "8730",
+            "release_level": "HF",
+            "release_name": "vcsag-sol11_sparc-6.0.5.001",
+            "release_type": "HF",
+            "release_version": "6.0.5.001-vcsag",
+            "requires": "8513",
+            "vers_level": "605-000-001-vcsag"
+        },
+        "8807": {
+            "download_count": 0,
+            "extended_prop": {
+                "criticality": "optional",
+                "have_kernel_component": "0",
+                "manifest": "",
+                "require_application_downtime": "0",
+                "require_system_reboot": "0",
+                "vom_deployment": "0",
+                "vom_id": "",
+                "vom_installer_id": ""
+            },
+            "hotfix_core_prod": "vcsag",
+            "hotfix_prod": "vcsag",
+            "installed_over": "7226",
+            "obsoleted_by": "8575",
+            "obsoletes": "",
+            "padvs": "sol11_sparc",
+            "patch": {
+                "VRTSvcsag-6.1.0.1": {
+                    "pkgs": [
+                        "VRTSvcsag"
+                    ],
+                    "version": "6.1.0.1"
+                }
+            },
+            "products": "sfha,sfrac,vcs,sfcfsha",
+            "release_date": "2014-07-02",
+            "release_id": "8807",
+            "release_level": "HF",
+            "release_name": "vcsag-sol11_sparc-6.1.0.001",
+            "release_type": "HF",
+            "release_version": "6.1.0.001-vcsag",
+            "requires": "",
+            "vers_level": "610-000-001-vcsag"
+        },
+        "8844": {
+            "download_count": 0,
+            "extended_prop": {
+                "criticality": "recommended",
+                "have_kernel_component": "1",
+                "manifest": "",
+                "require_application_downtime": "1",
+                "require_system_reboot": "1",
+                "vom_deployment": "0",
+                "vom_id": "",
+                "vom_installer_id": ""
+            },
+            "hotfix_core_prod": "sf",
+            "hotfix_prod": "odm",
+            "installed_over": "7226",
+            "obsoleted_by": "8575",
+            "obsoletes": "",
+            "padvs": "sol11_sparc",
+            "patch": {
+                "VRTSodm-6.1.0.1": {
+                    "pkgs": [
+                        "VRTSodm"
+                    ],
+                    "version": "6.1.0.1"
+                }
+            },
+            "products": "sfha,sfrac,sf,sfcfsha",
+            "release_date": "2014-07-16",
+            "release_id": "8844",
+            "release_level": "HF",
+            "release_name": "odm-sol11_sparc-6.1.0.001",
+            "release_type": "HF",
+            "release_version": "6.1.0.001-odm",
+            "requires": "",
+            "vers_level": "610-000-001-odm"
+        },
+        "8881": {
+            "download_count": 0,
+            "extended_prop": {
+                "criticality": "optional",
+                "have_kernel_component": "0",
+                "manifest": "",
+                "require_application_downtime": "0",
+                "require_system_reboot": "0",
+                "vom_deployment": "0",
+                "vom_id": "",
+                "vom_installer_id": ""
+            },
+            "hotfix_core_prod": "vcsag",
+            "hotfix_prod": "vcsag",
+            "installed_over": "7226",
+            "obsoleted_by": "",
+            "obsoletes": "",
+            "padvs": "sol11_sparc",
+            "patch": {
+                "VRTSvcsag-6.1.0.2": {
+                    "pkgs": [
+                        "VRTSvcsag"
+                    ],
+                    "version": "6.1.0.2"
+                }
+            },
+            "products": "sfha,sfrac,vcs,sfcfsha",
+            "release_date": "2014-08-03",
+            "release_id": "8881",
+            "release_level": "HF",
+            "release_name": "vcsag-sol11_sparc-6.1.0.002",
+            "release_type": "HF",
+            "release_version": "6.1.0.002-vcsag",
+            "requires": "",
+            "vers_level": "610-000-002-vcsag"
+        },
+        "8900": {
+            "download_count": 0,
+            "extended_prop": {
+                "criticality": "optional",
+                "have_kernel_component": "0",
+                "manifest": "",
+                "require_application_downtime": "0",
+                "require_system_reboot": "0",
+                "vom_deployment": "0",
+                "vom_id": "",
+                "vom_installer_id": ""
+            },
+            "hotfix_core_prod": "vcsag",
+            "hotfix_prod": "vcsag",
+            "installed_over": "8513",
+            "obsoleted_by": "",
+            "obsoletes": "",
+            "padvs": "sol11_sparc",
+            "patch": {
+                "VRTSvcsag-6.0.500.2": {
+                    "pkgs": [
+                        "VRTSvcsag"
+                    ],
+                    "version": "6.0.500.2"
+                }
+            },
+            "products": "svs,sfha,vcs,sfrac,sfcfsha",
+            "release_date": "2014-08-08",
+            "release_id": "8900",
+            "release_level": "HF",
+            "release_name": "vcsag-sol11_sparc-6.0.5.002",
+            "release_type": "HF",
+            "release_version": "6.0.5.002-vcsag",
+            "requires": "8513",
+            "vers_level": "605-000-002-vcsag"
+        },
+        "8940": {
+            "download_count": 0,
+            "extended_prop": {
+                "criticality": "optional",
+                "have_kernel_component": "0",
+                "manifest": "",
+                "require_application_downtime": "0",
+                "require_system_reboot": "0",
+                "vom_deployment": "0",
+                "vom_id": "",
+                "vom_installer_id": ""
+            },
+            "hotfix_core_prod": "vcsag",
+            "hotfix_prod": "vcsag",
+            "installed_over": "8513",
+            "obsoleted_by": "",
+            "obsoletes": "",
+            "padvs": "sol11_sparc",
+            "patch": {
+                "VRTSvcsag-6.0.500.3": {
+                    "pkgs": [
+                        "VRTSvcsag"
+                    ],
+                    "version": "6.0.500.3"
+                }
+            },
+            "products": "svs,sfha,vcs,sfrac,sfcfsha",
+            "release_date": "2014-08-26",
+            "release_id": "8940",
+            "release_level": "HF",
+            "release_name": "vcsag-sol11_sparc-6.0.5.003",
+            "release_type": "HF",
+            "release_version": "6.0.5.003-vcsag",
+            "requires": "8513",
+            "vers_level": "605-000-003-vcsag"
+        },
+        "8990": {
+            "download_count": "18",
+            "extended_prop": {
+                "criticality": "critical",
+                "have_kernel_component": "1",
+                "manifest": "",
+                "require_application_downtime": "0",
+                "require_system_reboot": "0",
+                "vom_deployment": "0",
+                "vom_id": "",
+                "vom_installer_id": ""
+            },
+            "filename": "amf-sol11_sparc-6.1.1.100-patches.tar.gz",
+            "gunzip_cksum": "2813478978",
+            "gunzip_size": "13655552",
+            "hotfix_core_prod": "amf",
+            "hotfix_prod": "amf",
+            "install_path": "installVRTSamf611HF100",
+            "installed_over": "8575",
+            "obsoleted_by": "",
+            "obsoletes": "",
+            "padvs": "sol11_sparc",
+            "patch": {
+                "VRTSamf-6.1.1.100": {
+                    "pkgs": [
+                        "VRTSamf"
+                    ],
+                    "version": "6.1.1.100"
+                }
+            },
+            "patch_details_path_html": "https://sort.symantec.com/patch/detail/8990",
+            "patch_details_path_rest": "https://sort.symantec.com/vos_services/rest/patch_services/1.0/patchRelease/8990",
+            "products": "sfha,sfrac,vcs,sfcfsha",
+            "release_date": "2014-09-12",
+            "release_id": "8990",
+            "release_level": "HF",
+            "release_name": "amf-sol11_sparc-6.1.1.100",
+            "release_type": "pHF",
+            "release_version": "6.1.1.100-amf",
+            "requires": "8575",
+            "upload_cksum": "565506033",
+            "upload_location": "ftp://ftp.veritas.com/pub/support/patchcentral/Solaris/6.1/amf/amf-sol11_sparc-6.1.1.100-patches.tar.gz",
+            "upload_size": "2561219",
+            "vers_level": "611-000-100-amf"
+        },
+        "8997": {
+            "download_count": "11",
+            "extended_prop": {
+                "criticality": "critical",
+                "have_kernel_component": "1",
+                "manifest": "",
+                "require_application_downtime": "1",
+                "require_system_reboot": "0",
+                "vom_deployment": "0",
+                "vom_id": "",
+                "vom_installer_id": ""
+            },
+            "filename": "fs-sol11_sparc-6.0.5.100-patches.tar.gz",
+            "gunzip_cksum": "2583492",
+            "gunzip_size": "15120384",
+            "hotfix_core_prod": "fs",
+            "hotfix_prod": "fs",
+            "install_path": "installFS605P1",
+            "installed_over": "8513",
+            "obsoleted_by": "",
+            "obsoletes": "",
+            "padvs": "sol11_sparc",
+            "patch": {
+                "VRTSvxfs-6.0.500.100": {
+                    "pkgs": [
+                        "VRTSvxfs"
+                    ],
+                    "version": "6.0.500.100"
+                }
+            },
+            "patch_details_path_html": "https://sort.symantec.com/patch/detail/8997",
+            "patch_details_path_rest": "https://sort.symantec.com/vos_services/rest/patch_services/1.0/patchRelease/8997",
+            "products": "sf,svs,fs,sfha,sfrac,sfcfsha",
+            "release_date": "2014-09-10",
+            "release_id": "8997",
+            "release_level": "HF",
+            "release_name": "fs-sol11_sparc-6.0.5.100",
+            "release_type": "pHF",
+            "release_version": "6.0.5.100-fs",
+            "requires": "",
+            "upload_cksum": "258960502",
+            "upload_location": "ftp://ftp.veritas.com/pub/support/patchcentral/Solaris/6.0/fs/fs-sol11_sparc-6.0.5.100-patches.tar.gz",
+            "upload_size": "14368550",
+            "vers_level": "605-000-100-fs"
+        },
+        "9001": {
+            "download_count": "8",
+            "extended_prop": {
+                "criticality": "critical",
+                "have_kernel_component": "1",
+                "manifest": "",
+                "require_application_downtime": "1",
+                "require_system_reboot": "0",
+                "vom_deployment": "0",
+                "vom_id": "",
+                "vom_installer_id": ""
+            },
+            "filename": "odm-sol11_sparc-6.0.5.100-patches.tar.gz",
+            "gunzip_cksum": "1417025773",
+            "gunzip_size": "686080",
+            "hotfix_core_prod": "sf",
+            "hotfix_prod": "odm",
+            "install_path": "installODM605P1",
+            "installed_over": "8513",
+            "obsoleted_by": "",
+            "obsoletes": "",
+            "padvs": "sol11_sparc",
+            "patch": {
+                "VRTSodm-6.0.500.100": {
+                    "pkgs": [
+                        "VRTSodm"
+                    ],
+                    "version": "6.0.500.100"
+                }
+            },
+            "patch_details_path_html": "https://sort.symantec.com/patch/detail/9001",
+            "patch_details_path_rest": "https://sort.symantec.com/vos_services/rest/patch_services/1.0/patchRelease/9001",
+            "products": "sf,svs,sfha,sfrac,sfcfsha",
+            "release_date": "2014-09-10",
+            "release_id": "9001",
+            "release_level": "HF",
+            "release_name": "odm-sol11_sparc-6.0.5.100",
+            "release_type": "pHF",
+            "release_version": "6.0.5.100-odm",
+            "requires": "8513",
+            "upload_cksum": "2796194047",
+            "upload_location": "ftp://ftp.veritas.com/pub/support/patchcentral/Solaris/6.0/odm/odm-sol11_sparc-6.0.5.100-patches.tar.gz",
+            "upload_size": "514885",
+            "vers_level": "605-000-100-odm"
+        },
+        "9025": {
+            "download_count": 0,
+            "extended_prop": {
+                "criticality": "optional",
+                "have_kernel_component": "1",
+                "manifest": "",
+                "require_application_downtime": "1",
+                "require_system_reboot": "1",
+                "vom_deployment": "0",
+                "vom_id": "",
+                "vom_installer_id": ""
+            },
+            "hotfix_core_prod": "vm",
+            "hotfix_prod": "vm",
+            "installed_over": "7030",
+            "obsoleted_by": "",
+            "obsoletes": "",
+            "padvs": "sol11_sparc",
+            "patch": {
+                "VRTSvxvm-6.0.300.205": {
+                    "pkgs": [
+                        "VRTSvxvm"
+                    ],
+                    "version": "6.0.300.205"
+                }
+            },
+            "products": "sf,vm,svs,sfha,dmp,sfrac,sfcfsha",
+            "release_date": "2014-09-16",
+            "release_id": "9025",
+            "release_level": "HF",
+            "release_name": "vm-sol11_sparc-6.0.3.205",
+            "release_type": "HF",
+            "release_version": "6.0.3.205-vm",
+            "requires": "7030",
+            "vers_level": "603-000-205-vm"
+        },
+        "9039": {
+            "download_count": 0,
+            "extended_prop": {
+                "criticality": "critical",
+                "have_kernel_component": "1",
+                "manifest": "",
+                "require_application_downtime": "1",
+                "require_system_reboot": "1",
+                "vom_deployment": "0",
+                "vom_id": "",
+                "vom_installer_id": ""
+            },
+            "hotfix_core_prod": "vm",
+            "hotfix_prod": "vm",
+            "installed_over": "8513",
+            "obsoleted_by": "",
+            "obsoletes": "",
+            "padvs": "sol11_sparc",
+            "patch": {
+                "VRTSvxvm-6.0.500.5": {
+                    "pkgs": [
+                        "VRTSvxvm"
+                    ],
+                    "version": "6.0.500.5"
+                }
+            },
+            "products": "sf,vm,svs,sfha,dmp,sfrac,sfcfsha",
+            "release_date": "2014-09-19",
+            "release_id": "9039",
+            "release_level": "HF",
+            "release_name": "vm-sol11_sparc-6.0.5.005",
+            "release_type": "HF",
+            "release_version": "6.0.5.005-vm",
+            "requires": "8513",
+            "vers_level": "605-000-005-vm"
+        }
+    }
+}
