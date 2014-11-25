@@ -8,6 +8,7 @@ use JSON qw/encode_json decode_json/;
 
 my $currentID = 0;
 my @arr;
+my %tree;
 
 sub cmd {
     my $cmd = shift;
@@ -218,27 +219,40 @@ sub ssh_setup {
 }
 
 sub build_tree {
-    my ($system, $dir,$parentID) = @_;
-    my $subpath;
-    my $handle;
+    my ($system, $dir) = @_;
     my $sys = Sys->new($system);
-    #opendir($handle, $dir);
-    my @files = split('\n', $sys->cmd("ls $dir/"));
-    for my $subpath (@files) {
-        if (!($subpath =~ m/^\.$/) and !($subpath =~ m/^(\.\.)$/)) {
-            my $fullpath = "$dir/$subpath";
-            my %hash;
-            $currentID += 1;
-            $hash{"id"} = $currentID;
-            $hash{"pId"} = $parentID;
-            $hash{"name"} = $subpath;
-            if (!-d $fullpath) {
-            } else {
-                $hash{"isParent"} = "true";
-                build_tree($system, $fullpath,$currentID);
-            }
-            push(@arr,\%hash);
+    my @parents = split('\n', $sys->cmd("_cmd_find $dir -type d"));
+    for my $parent (@parents) {
+        my $dirname = EDRu::dirname($parent);
+        if ($dir ne $parent) {
+            $tree{$parent}{"pId"} = $tree{$dirname}{"id"};
         }
+        $tree{$parent}{"name"} = EDRu::basename($parent);
+        $tree{$parent}{"isParent"} = "true";
+        $tree{$parent}{"id"} = $currentID;
+        
+        $currentID += 1;
+    }
+
+    my @children = split('\n', $sys->cmd("_cmd_find $dir -type f"));
+    for my $child (@children) {
+        $tree{$child}{"name"} = EDRu::basename($child);
+        $tree{$child}{"id"} = $currentID;
+        my $dirname = EDRu::dirname($child);
+        $tree{$child}{"pId"} = $tree{$dirname}{"id"};
+        $currentID += 1;
+    }
+
+    for my $filename (keys %tree) {
+        my %hash;
+        $hash{"id"} = $tree{$filename}{"id"};
+        $hash{"pId"} = $tree{"$filename"}{"pId"};          
+        $hash{"name"} = $tree{"$filename"}{"name"};          
+        $hash{"fullpath"} = $filename; 
+        if ($tree{"$filename"}{"isParent"}) {
+            $hash{"isParent"} = "true";
+        }
+        push(@arr,\%hash);
     }
     return;
 }
@@ -283,7 +297,9 @@ if ($system && $password) {
 EDR::init_sys_objs($system);
 copy_files($system, $path, "../workspace");
 
-build_tree($system, $path, 0);
+build_tree($system, $path);
 
+$sys->{tree} = \%tree;
+EDR::store_sys($system);
 print encode_json({'val'=>\@arr, 'success'=>1});
 
