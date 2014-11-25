@@ -954,4 +954,75 @@ sub cli_display_copyright {
     return '';
 }
 
+
+sub init_edr_objs {
+    my $edr = EDR->new('UXRT62', 'RHEL6x8664');
+    $edr->create_edr_objects();
+    $edr->set_localsys();
+    $edr->{tmpdir} = "/tmp/tmpdir";
+}
+
+sub init_sys_objs {
+    my ($system,$reload) = @_;
+    my $sys = Sys->new($system);
+    my $edr = Obj::edr();
+    if ($reload) {
+        my $tmpdir ||= "/tmp/serialized_obj";
+        EDR::cmd_local("_cmd_rmr $tmpdir");
+    }
+    if (EDR::load_sys($system)) {
+        return;
+    }   
+    $sys->{padv}=$edr->{localsys}{padv};
+    $sys->{plat}=$^O;
+    $sys->set_value('padv', $sys->{padv});
+    $sys->set_value('plat', $sys->{plat});
+    my $tmppadv = $sys->{padv};
+    my $islocal="Padv\::$tmppadv"->islocal_sys($sys);
+    if ($islocal) {
+        $sys->set_value('islocal', $islocal);
+    }   
+    my $ret = ($sys->{islocal}) ? $edr->local_unix_transport_sys($sys) :
+    $edr->remote_unix_transport_sys($sys);
+}
+
+sub store_sys {
+    my $sysname = shift;
+    my $tmpdir ||= "/tmp/serialized_obj";
+    if (-d $tmpdir) {
+        EDRu::rmdir_local_nosys($tmpdir);
+    }   
+    EDRu::mkdir_local_nosys($tmpdir);
+    my $class = "Sys::$sysname";
+    if (!Obj->store($Obj::pool{$class}, "$tmpdir/$class")){
+        print "failed to store $class in $tmpdir/$class\n";
+        return;
+    }   
+}
+
+sub load_sys {
+    my $sysname = shift;
+    my $tmpdir ||= "/tmp/serialized_obj";
+    if (!-d $tmpdir) {
+        return 0;
+    }   
+
+    if (!-f "$tmpdir/Sys::$sysname") {
+        return 0;
+    }
+
+    for my $file (glob("$tmpdir/*")) {
+        my $basename = EDRu::basename($file);
+        if ($basename eq "Sys::$sysname") {
+            my $var = Obj->load($file);
+            if (!$var) {
+                return 0;
+            }   
+            $Obj::pool{$basename} = $var;
+            return 1;
+        }
+    }
+    return 0;
+}
+
 1;

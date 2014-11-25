@@ -1,15 +1,20 @@
 #! /usr/bin/perl -w
+use lib './EDR';
+use EDR;
 use CGI qw/:standard/;
 use JSON qw/encode_json decode_json/;
 
 my $cgi= new CGI;
 my $id = param("id");
+my $system = param("ip");
+my $path = param("path");
 my $content;
 my $currentID = 0;
 my @arr;
 
 sub readfile {
     my ($file,$lock) = @_; 
+    my $sys = Sys->new($system);
     my ($line,$msg,$rf,$fd);
     if(!open($fd, '<', $file)) {
         print("\nreadfile cannot open $file");
@@ -27,39 +32,23 @@ sub readfile {
     return $rf;
 }
  
-sub getfiles {
-    my ($dir,$parentID) = @_;
-    my $subpath;
-    my $handle;
-   opendir($handle, $dir);
-    while ($subpath = readdir($handle)) {
-        if (!($subpath =~ m/^\.$/) and !($subpath =~ m/^(\.\.)$/)) {
-            my $fullpath = "$dir/$subpath";
-            my %hash;
-            $currentID += 1;
-            if ($currentID == $id) {
-                $content = readfile($fullpath);
-                return $content;
-
-            }
-            $hash{"id"} = $currentID;
-            $hash{"pId"} = $parentID;
-            $hash{"name"} = $subpath;
-            if (!-d $fullpath) {
-            } else {
-                $hash{"isParent"} = "true";
-                getfiles($fullpath,$currentID);
-            }
-            push(@arr,\%hash);
-        }
-    }
-    return;
-}
-
 print $cgi->header(-type => "application/json", -charset => "utf-8");
 my $worksapce = "../workspace";
 
-getfiles("/opt/coding/html/workspace",0);
+EDR::init_edr_objs();
+
+my $sys = Sys->new($system);
+EDR::init_sys_objs($system);
+$sys = Sys->new($system);
+
+for my $files (keys %{$sys->{tree}}) {
+    if ($sys->{tree}{$files}{'id'} eq $id) {
+        $content = $sys->readfile($files);
+        last;
+    }
+}
+
+#getfiles($system, $path,0);
 
 print encode_json({'val'=>$content});
 

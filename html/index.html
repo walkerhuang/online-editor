@@ -3,6 +3,7 @@
 <title>Online Coding Editor</title>
 <meta charset="utf-8"/>
 <link rel="stylesheet" href="lib/codemirror.css">
+<link rel="stylesheet" href="css/togetherjs.css">
 <link rel="stylesheet" href="addon/fold/foldgutter.css">
 <link rel="stylesheet" href="addon/dialog/dialog.css">
 <link rel="stylesheet" href="theme/monokai.css">
@@ -21,30 +22,28 @@
 <script src="addon/fold/brace-foldpasswordless.js"></script>
 <script src="mode/perl/perl.js"></script>
 <script src="js/togetherjs-min.js"></script>
+<script src="js/togetherjsPackage.js"></script>
 <script src="js/jquery-1.11.1.js"></script>
 <script type="text/javascript" src="js/zTree/jquery.ztree.core-3.5.js"></script>
 </head>
 <h2>Online Coding Editor</h2>
 <body>
-<button onclick="TogetherJS(this);return false;">Coding Together</button>
-<input id="codepath"></input>
+<button id="together" onclick="TogetherJS(this);return false;">Coding Together</button>
+<input id="system" placeholder="system address"></input>
+<input id="codepath" placeholder="workspace path"></input>
+<input type="password" id="passwd" placeholder="Password"></input>
 <button id="getcode">Load Code</button>
 <br/>
 <div id="background" class="background" style="display:none"></div>
 <div id="loading" style="display:none"></div>
 <div class="container">
 <div class="left-side">
-    <p>Editor</p>
     <div class="nav ztree">
     </div>
     <form id="code_form">
         <textarea id="code" name="code" placeholder="Paste your Code here"></textarea>
-        <button type="submit" id = "run_button">Run</button>
+        <button type="submit" id = "save_button">Save</button>
     </form>
-</div>
-<div class="right-side">
-    <p>Result</p>
-    <div id="result"></div>
 </div>
 <div class="footer">
     <article>
@@ -53,6 +52,7 @@
 </div>
 </div>
 <script>
+    TogetherJSConfig_hubBase = "https://10.198.92.201";
     var ajaxbg = $("#background");
     var loading = $("#loading");
     $(document).ajaxStart(function() {
@@ -63,6 +63,17 @@
         ajaxbg.hide();
         $("#loading").hide();
     })
+    $("#pathselect").bind('change', function(){
+        var path = $('#pathselect').val();
+        alert(path);
+        if (path == 'locale') {
+            $("#passwd").empty();
+            $("#passwd").hide();
+        }
+        if (path == 'remote') {
+            $("#passwd").show();
+        }
+    });
     var editor = CodeMirror.fromTextArea(document.getElementById("code"), {
     lineNumbers: true,
     mode: "perl",
@@ -77,10 +88,14 @@
       $('#result').append("<p>Executing the program...");
       $('#result').append("$perl main.pl</p>");
       
-      var code = $('textarea').serialize();
-      var test;
-      $.post("/cgi-bin/passwordless.pl", code, function(response){
-          $("#result").append("<font color=green>" + response.val + "</font>");
+      var code = $('textarea').val();
+      var ip = $('#system').val();
+      $.post("/cgi-bin/save.pl", {code:code,id:current_node,system:ip}, function(response){
+          if (response.success) {
+              var file = response.file;
+              var msg = "save to " + file + " successfully!";
+              alert(msg);
+          }
       });
   });
 
@@ -98,26 +113,66 @@
       }
   };
 
+  var current_node;
+
   function beforeClick(treeID, treeNode, clickFlag) {
       return (treeNode.click != false);
   }
   function onClick(event, treeID, treeNode, clickFlag) {
       if (!treeNode.isParent) {
-          var id = "id=" + treeNode.id;
-          $.get("/cgi-bin/show.pl", id, function(response) {
+          var id = treeNode.id;
+          current_node = id;
+          var path = $('#codepath').val();
+          var ip = $('#system').val();
+          $.get("/cgi-bin/show.pl", {ip:ip,path:path,id:id}, function(response) {
               editor.setValue(response.val);
           });
       }
   }
 
-  $("#getcode").bind("click", function(){
+  function checkIP(value){
+      var exp=/^(\d{1,2}|1\d\d|2[0-4]\d|25[0-5])\.(\d{1,2}|1\d\d|2[0-4]\d|25[0-5])\.(\d{1,2}|1\d\d|2[0-4]\d|25[0-5])\.(\d{1,2}|1\d\d|2[0-4]\d|25[0-5])$/;
+      var reg = value.match(exp);
+      if(reg==null)
+      {
+          return false;
+      }
+      return true;
+  }
+
+  function ValidateFilePath(path) {
+      var arr = path.split(":");
+      if (arr.length > 1) {
+          //remote machine
+          var ipAddress = arr[0];
+          if(!checkIP(ipAddress)) {
+              alert("Wrong");
+              } else {
+              alert("Right");
+          }
+      }
+  }
+
+  function LoadCode() {
       var path = $('#codepath').val();
-      path= "path=" + $('#codepath').val();
-      $.post("/cgi-bin/copy_code.pl",path, function(response) {
-          var zNodes = response.val;
-          $.fn.zTree.init($(".nav"), setting, zNodes);
-      })
-  });
+      var ip = $('#system').val();
+      var passwd = $('#passwd').val();
+      $.post("/cgi-bin/load.pl",{ip:ip,path:path,password:passwd}, function(response) {
+          if (response.success) {
+              var zNodes = response.val;
+              $.fn.zTree.init($(".nav"), setting, zNodes);
+          } else {
+          alert(response.message);
+      }
+
+      });
+  }
+
+  if ($('#system').val()) {
+      LoadCode();
+  }
+
+  $("#getcode").bind("click", LoadCode);
 
   </script>
 

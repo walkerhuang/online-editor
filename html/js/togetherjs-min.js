@@ -174,6 +174,7 @@
       link.id = "togetherjs-stylesheet";
       link.setAttribute("rel", "stylesheet");
       link.href = baseUrl + styleSheet + "?bust=" + cacheBust;
+      //link.href = styleSheet;
       document.head.appendChild(link);
     }
   }
@@ -274,7 +275,7 @@
     // FIXME: maybe I should just test for TogetherJS.require:
     if (TogetherJS._loaded) {
       var session = TogetherJS.require("session");
-      addStyle();
+      //addStyle();
       session.start();
       return;
     }
@@ -282,7 +283,7 @@
     // start itself (i.e., put up a UI and try to activate)
     TogetherJS.startup._launch = true;
 
-    addStyle();
+    //addStyle();
     var minSetting = TogetherJS.config.get("useMinimizedCode");
     TogetherJS.config.close("useMinimizedCode");
     if (minSetting !== undefined) {
@@ -317,9 +318,9 @@
       }
     }
     if (min) {
-      addScript("/togetherjs/togetherjsPackage.js");
+      //addScript("/togetherjs/togetherjsPackage.js");
     } else {
-      addScript("/togetherjs/libs/require.js");
+      //addScript("/togetherjs/libs/require.js");
     }
   };
 

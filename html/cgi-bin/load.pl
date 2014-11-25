@@ -236,6 +236,7 @@ sub build_tree {
 
     my @children = split('\n', $sys->cmd("_cmd_find $dir -type f"));
     for my $child (@children) {
+        next if ($child =~ /\.sw[a-z]$/);
         $tree{$child}{"name"} = EDRu::basename($child);
         $tree{$child}{"id"} = $currentID;
         my $dirname = EDRu::dirname($child);
@@ -272,11 +273,11 @@ sub copy_files {
 }
 
 my $cgi= new CGI;
-print $cgi->header(-type => "application/json", -charset => "utf-8");
-my $workspace = "../workspace";
 my $path = param("path");
 my $system = param("ip");
 my $password = param("passwd");
+
+print $cgi->header(-type => "application/json", -charset => "utf-8");
 
 EDR::init_edr_objs();
 my $edr = Obj::edr();
@@ -294,8 +295,7 @@ if ($system && $password) {
     }
 }
 
-EDR::init_sys_objs($system);
-copy_files($system, $path, "../workspace");
+EDR::init_sys_objs($system, 1);
 
 build_tree($system, $path);
 
